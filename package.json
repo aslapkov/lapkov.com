@@ -22,9 +22,7 @@
     "gatsby-cli": "^2.6.4",
     "prettier": "^1.17.1"
   },
-  "keywords": [
-    "gatsby"
-  ],
+  "homepage": "https://lapkov.com",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
@@ -34,11 +32,7 @@
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/aslapkov/lapkov.com/issues"
   }
 }
