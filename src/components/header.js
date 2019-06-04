@@ -5,38 +5,45 @@ import React from 'react'
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `rebeccapurple`,
+      background: `#61dafb`,
       marginBottom: `1.45rem`,
+      right: `0`,
+      top: `0`,
+      width: `100%`,
+      zIndex: `1`,
+      height: `70px`,
+      transition: `transform 0.6s ease 0s`,
     }}
   >
     <div
       style={{
+        fontFamily: `"Poppins", sans-serif`,
         margin: `0 auto`,
         maxWidth: 960,
         padding: `1.45rem 1.0875rem`,
       }}
     >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
+      <Link
+        to="/"
+        style={{
+          color: `white`,
+          textDecoration: `none`,
+          fontWeight: `bold`,
+          textTransform: `uppercase`,
+        }}
+      >
+        {siteTitle}
+      </Link>
     </div>
   </header>
 )
 
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
 Header.defaultProps = {
   siteTitle: ``,
+}
+
+Header.propTypes = {
+  siteTitle: PropTypes.string,
 }
 
 export default Header

@@ -7,44 +7,57 @@
 
 import React from 'react'
 import PropTypes from 'prop-types'
-import { StaticQuery, graphql } from 'gatsby'
+import { useStaticQuery, graphql } from 'gatsby'
 
+import NavBar from './navBar'
 import Header from './header'
-import './layout.css'
+import layoutStyle from './layout.module.css'
 
-const Layout = ({ children }) => (
-  <StaticQuery
-    query={graphql`
-      query SiteTitleQuery {
+const Layout = ({ children }) => {
+  const data = useStaticQuery(
+    graphql`
+      query {
         site {
           siteMetadata {
-            title
+            title,
+            siteLinks {
+              id,
+              name,
+              slug
+            }
           }
         }
       }
-    `}
-    render={data => (
-      <>
-        <Header siteTitle={data.site.siteMetadata.title} />
-        <div
-          style={{
-            margin: `0 auto`,
-            maxWidth: 960,
-            padding: `0px 1.0875rem 1.45rem`,
-            paddingTop: 0,
-          }}
-        >
-          <main>{children}</main>
-          <footer>
-            © {new Date().getFullYear()}, Built with
-            {` `}
-            <a href="https://www.gatsbyjs.org">Gatsby</a>
-          </footer>
+    `
+  )
+
+  return (
+    <div style={{ padding: `0 15px`, margin: `0 auto` }}>
+      <div style={{ margin: `0 -15px` }}>
+        <div className={layoutStyle.col4}>
+          <NavBar siteLinks={data.site.siteMetadata.siteLinks} />
         </div>
-      </>
-    )}
-  />
-)
+        <div className={layoutStyle.col8}>
+          <Header siteTitle={data.site.siteMetadata.title} />
+          <div className={layoutStyle.contentBlock}>
+            <main>{children}</main>
+            <footer>
+              © {new Date().getFullYear()}, Built with
+              {` `}
+              <a
+                href="https://github.com/aslapkov/lapkov.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Gatsby
+              </a>
+            </footer>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,

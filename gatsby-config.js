@@ -1,9 +1,21 @@
 module.exports = {
   siteMetadata: {
-    title: `Lapkov`,
+    title: `Aleksandr Lapkov`,
     description: `My personal site built with Gatsby. Here you can find my works and projects that I lead.`,
     author: `A. Lapkov`,
     siteUrl: 'https://lapkov.com',
+    siteLinks: [
+      {
+        id: 1,
+        name: `About`,
+        slug: `about`,
+      },
+      {
+        id: 2,
+        name: `Works`,
+        slug: `works`,
+      },
+    ]
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
