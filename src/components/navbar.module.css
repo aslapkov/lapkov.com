@@ -1,0 +1,55 @@
+.navDef {
+  position: fixed;
+  -moz-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  top: 50%;
+  left: 129px;
+  min-height: 50px;
+  margin-bottom: 20px;
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  -moz-transition: all 2s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+  -o-transition: all 2s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+  -webkit-transition: all 2s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+  transition: all 2s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+}
+.navCollapse {
+  border-color: #e7e7e7;
+  padding-right: 15px;
+  padding-left: 15px;
+
+}
+.ulColl {
+  padding-left: 0;
+  list-style: none;
+  margin: 7.5px -15px;
+}
+@media (min-width: 768px) {
+  .navHeader {
+    float: left;
+  }
+  .navCollapse {
+    display: block!important;
+    height: auto!important;
+    padding-bottom: 0;
+    overflow: visible!important;
+    width: auto;
+    border-top: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  .ulColl {
+    float: left;
+    margin: 0;
+  }
+}
