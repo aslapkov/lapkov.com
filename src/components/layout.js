@@ -11,6 +11,7 @@ import { useStaticQuery, graphql } from 'gatsby'
 
 import NavBar from './navBar'
 import Header from './header'
+import Footer from './footer'
 import layoutStyle from './layout.module.css'
 
 const Layout = ({ children }) => {
@@ -32,30 +33,26 @@ const Layout = ({ children }) => {
   )
 
   return (
-    <div style={{ padding: `0 15px`, margin: `0 auto` }}>
-      <div style={{ margin: `0 -15px` }}>
-        <div className={layoutStyle.col4}>
-          <NavBar siteLinks={data.site.siteMetadata.siteLinks} />
-        </div>
-        <div className={layoutStyle.col8}>
-          <Header siteTitle={data.site.siteMetadata.title} />
-          <div className={layoutStyle.contentBlock}>
-            <main>{children}</main>
-            <footer>
-              © {new Date().getFullYear()}, Built with
-              {` `}
-              <a
-                href="https://github.com/aslapkov/lapkov.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Gatsby
-              </a>
-            </footer>
+    <React.Fragment>
+      <div className={layoutStyle.backImg}></div>
+      <div style={{ padding: `0 15px`, margin: `0 auto` }}>
+        <div style={{ margin: `0 -15px` }}>
+          <div className={layoutStyle.col4}>
+            <NavBar siteLinks={data.site.siteMetadata.siteLinks} />
+          </div>
+          <div className={layoutStyle.col8}>
+            <Header siteTitle={data.site.siteMetadata.title} />
+            <div className={layoutStyle.contentBlock}>
+              <main className={layoutStyle.contentCss}>
+                {children}
+              </main>
+              <hr />
+              <Footer />
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </React.Fragment>
   )
 }
 

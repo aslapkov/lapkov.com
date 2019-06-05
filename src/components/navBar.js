@@ -7,13 +7,13 @@ import navbar from './navbar.module.css'
 const NavBar = ({ siteLinks }) => (
   <nav className={navbar.navDef}>
     <div className={navbar.navHeader}>
-      Button
+      {' '}
     </div>
     <div className={navbar.navCollapse}>
       <ul className={navbar.ulColl}>
       {siteLinks.map(data => (
         <li key={data.id}>
-          <Link to={`/${data.slug}`}>
+          <Link to={data.slug}>
             <span>{data.name}</span>
           </Link>
         </li>

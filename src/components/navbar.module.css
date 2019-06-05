@@ -34,6 +34,18 @@
   list-style: none;
   margin: 7.5px -15px;
 }
+.ulColl li {
+  /*display: block;*/
+  position: relative;
+  float: none;
+  height: 7px;
+  margin-bottom: 29px;
+  /*width: 50px;*/
+}
+.ulColl a {
+  text-transform: uppercase;
+  font-weight: 700;
+}
 @media (min-width: 768px) {
   .navHeader {
     float: left;

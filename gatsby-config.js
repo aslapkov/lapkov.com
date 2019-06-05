@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Aleksandr Lapkov`,
+    title: `A. Lapkov`,
     description: `My personal site built with Gatsby. Here you can find my works and projects that I lead.`,
     author: `A. Lapkov`,
     siteUrl: 'https://lapkov.com',
@@ -8,13 +8,28 @@ module.exports = {
       {
         id: 1,
         name: `About`,
-        slug: `about`,
+        slug: `/`,
       },
       {
         id: 2,
-        name: `Works`,
-        slug: `works`,
+        name: `Skills`,
+        slug: `/skills/`,
       },
+      {
+        id: 3,
+        name: `Works`,
+        slug: `/works/`,
+      },
+      {
+        id: 4,
+        name: `Experience`,
+        slug: `/experience/`,
+      },
+      {
+        id: 5,
+        name: `Contact`,
+        slug: `/contact/`,
+      }
     ]
   },
   plugins: [

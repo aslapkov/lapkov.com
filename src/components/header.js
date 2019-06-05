@@ -2,37 +2,17 @@ import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
 
+import headerStyle from './header.module.css'
+
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `#61dafb`,
-      marginBottom: `1.45rem`,
-      right: `0`,
-      top: `0`,
-      width: `100%`,
-      zIndex: `1`,
-      height: `70px`,
-      transition: `transform 0.6s ease 0s`,
-    }}
-  >
-    <div
-      style={{
-        fontFamily: `"Poppins", sans-serif`,
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <Link
-        to="/"
-        style={{
-          color: `white`,
-          textDecoration: `none`,
-          fontWeight: `bold`,
-          textTransform: `uppercase`,
-        }}
-      >
-        {siteTitle}
+  <header className={headerStyle.headerFix}>
+    <div className={headerStyle.headerWrap}>
+      <Link className={headerStyle.headerLogo} to="/">
+        <span>{siteTitle}</span>
+      </Link>
+      <Link className={headerStyle.headerTouch} to="/contact/">
+        <span className={headerStyle.mask}></span>
+        <span className={headerStyle.label}>Find me!</span>
       </Link>
     </div>
   </header>

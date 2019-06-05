@@ -40,6 +40,8 @@ template {
   display: none;
 }
 a {
+  color: #e91e63;
+  text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
@@ -185,8 +187,7 @@ textarea {
   font: inherit;
 }
 html {
-  font: 112.5%/1.45em "SFMono-Regular", Consolas, "Roboto Mono", "Droid Sans Mono",
-    "Liberation Mono", Menlo, Courier, monospace;
+  font: 112.5%/1.45em "Poppins", sans-serif;
   box-sizing: border-box;
   overflow-y: scroll;
 }
@@ -200,9 +201,8 @@ html {
   box-sizing: inherit;
 }
 body {
-  color: hsla(0, 0%, 0%, 0.8);
-  font-family: "SFMono-Regular", Consolas, "Roboto Mono", "Droid Sans Mono",
-    "Liberation Mono", Menlo, Courier, monospace;
+  color: hsla(255, 255%, 255%, 0.9);
+  font-family: "Poppins", sans-serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -230,14 +230,13 @@ h1 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
-  color: inherit;
-  font-family: "SFMono-Regular", Consolas, "Roboto Mono", "Droid Sans Mono",
-    "Liberation Mono", Menlo, Courier, monospace;
-  font-weight: bold;
+  margin-bottom: 2.45rem;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
   text-rendering: optimizeLegibility;
-  font-size: 2.25rem;
+  font-size: 2.5rem;
   line-height: 1.1;
+  letter-spacing: -.5px;
 }
 h2 {
   margin-left: 0;
@@ -248,9 +247,8 @@ h2 {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-  color: inherit;
-  font-family: "SFMono-Regular", Consolas, "Roboto Mono", "Droid Sans Mono",
-    "Liberation Mono", Menlo, Courier, monospace;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1.62671rem;
@@ -265,9 +263,9 @@ h3 {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-  color: inherit;
-  font-family: "SFMono-Regular", Consolas, "Roboto Mono", "Droid Sans Mono",
-    "Liberation Mono", Menlo, Courier, monospace;
+  text-transform: uppercase;
+  color: #e91e63;
+  font-family: "Poppins", sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1.38316rem;
@@ -282,9 +280,8 @@ h4 {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-  color: inherit;
-  font-family: "SFMono-Regular", Consolas, "Roboto Mono", "Droid Sans Mono",
-    "Liberation Mono", Menlo, Courier, monospace;
+  color: #e91e63;
+  font-family: "Poppins", sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1rem;
@@ -300,8 +297,7 @@ h5 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: "SFMono-Regular", Consolas, "Roboto Mono", "Droid Sans Mono",
-    "Liberation Mono", Menlo, Courier, monospace;
+  font-family: "Poppins", sans-serif;
   text-rendering: optimizeLegibility;
   font-size: 0.85028rem;
   line-height: 1.1;
@@ -316,8 +312,7 @@ h6 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: "SFMono-Regular", Consolas, "Roboto Mono", "Droid Sans Mono",
-    "Liberation Mono", Menlo, Courier, monospace;
+  font-family: "Poppins", sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 0.78405rem;
@@ -386,6 +381,7 @@ p {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
+  font-family: "Poppins", sans-serif;
 }
 figure {
   margin-left: 0;
@@ -616,10 +612,28 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
+.backImg {
+  background: transparent url(../images/back.jpg) no-repeat;
+  image-rendering: optimizeQuality;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  position: fixed;
+  background-position: center;
+  background-size: cover;
+  -moz-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
 .col8  {
   width: 100%;
 }
 .contentBlock {
+  background: #141414;
   margin-top: 150px;
   border-top-left-radius: 10px;
   -moz-transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1) 0s;
@@ -627,9 +641,29 @@ pre tt:after {
   -webkit-transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1) 0s;
   transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1) 0s;
 }
-@media only screen and (max-width: 1199px) {
-  .col4 {
-    display: none;
+.contentCss, .footerLayout {
+  margin: 0 auto;
+  overflow: hidden;
+  float: none;
+  clear: both;
+  padding: 80px 20px;
+}
+.imageDiv {
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 30px;
+}
+hr {
+  margin: 0;
+  /*border-color: #e91e63;*/
+  border-color: #454648;
+  border: 0;
+  border-top: 1px solid #eee;
+}
+@media (min-width: 768px) {
+  .contentCss, .footerLayout {
+    width: 91.66666667%;
   }
 }
 @media (min-width: 1200px) {
@@ -642,6 +676,14 @@ pre tt:after {
     width: 66.66666667%;
     float: right;
     position: relative;
+  }
+  .contentCss, .footerLayout {
+    width: 83.33333333%;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .col4 {
+    display: none;
   }
 }
 @media only screen and (max-width: 480px) {
