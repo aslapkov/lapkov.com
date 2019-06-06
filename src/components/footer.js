@@ -7,10 +7,12 @@ const Footer = () => (
   <footer className={layoutStyle.footerLayout}>
     <div style={{ float: `left`, weight: `50%`}}>
       <span className={footerStyle.availablePoint}></span>
-      <span className={footerStyle.availableTag}>Available for Freelance Projects.</span>
+      <span className={footerStyle.availableTag}>
+        Available for Freelance Projects
+      </span>
     </div>
     <div style={{ float: `right`, weight: `50%`}}>
-      <div style={{ fontSize: `.8em`, }}>
+      <div style={{ fontSize: `.7em`, }}>
         © {new Date().getFullYear()}, Built with
         {` `}
         <a

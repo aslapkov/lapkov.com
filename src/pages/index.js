@@ -13,7 +13,7 @@ const IndexPage = () => (
     <Image />
     <h1>Hey! I am Alex.<br />
     Web developer, designer, SEO.<br />
-    Here is something about me.</h1>
+    Here is something about me</h1>
     <h4>ABOUT</h4>
     <p>About me or <Link to="/contact/">contact</Link>.</p>
   </Layout>

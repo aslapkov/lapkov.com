@@ -232,11 +232,11 @@ h1 {
   padding-top: 0;
   margin-bottom: 2.45rem;
   color: #fff;
-  font-family: "Poppins", sans-serif;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
   text-rendering: optimizeLegibility;
   font-size: 2.5rem;
   line-height: 1.1;
-  letter-spacing: -.5px;
 }
 h2 {
   margin-left: 0;
@@ -248,7 +248,6 @@ h2 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: #fff;
-  font-family: "Poppins", sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1.62671rem;
@@ -265,7 +264,6 @@ h3 {
   margin-bottom: 1.45rem;
   text-transform: uppercase;
   color: #e91e63;
-  font-family: "Poppins", sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1.38316rem;
@@ -281,7 +279,6 @@ h4 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: #e91e63;
-  font-family: "Poppins", sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1rem;
@@ -297,7 +294,6 @@ h5 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: "Poppins", sans-serif;
   text-rendering: optimizeLegibility;
   font-size: 0.85028rem;
   line-height: 1.1;
@@ -312,7 +308,6 @@ h6 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: "Poppins", sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 0.78405rem;
@@ -381,7 +376,7 @@ p {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-  font-family: "Poppins", sans-serif;
+  font-family: "Hind", sans-serif;
 }
 figure {
   margin-left: 0;
@@ -684,6 +679,10 @@ hr {
 @media only screen and (max-width: 1199px) {
   .col4 {
     display: none;
+  }
+  .contentBlock {
+    margin-top: 70px;
+    border-radius: 0;
   }
 }
 @media only screen and (max-width: 480px) {

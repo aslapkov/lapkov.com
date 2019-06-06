@@ -1,3 +1,39 @@
+@-webkit-keyframes blinking {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes blinking {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes blinking {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 .availablePoint {
   background: #e91e63 none repeat scroll 0 0;
   position: relative;
@@ -10,8 +46,8 @@
   margin-top: 7px;
   border-radius: 50%;
   float: left;
-  -webkit-animation-name: flash;
-  animation-name: flash;
+  -webkit-animation-name: blinking;
+  animation-name: blinking;
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-iteration-count: infinite;
@@ -31,10 +67,9 @@
   border-radius: 50%;
 }
 .availableTag {
-  font-size: 16px;
+  font-size: .9em;
   line-height: 30px;
   font-weight: 500;
-  letter-spacing: -0.5;
   color: #fff;
   display: block;
   float: left;
