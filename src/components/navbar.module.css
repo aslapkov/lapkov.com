@@ -29,23 +29,125 @@
   padding-left: 15px;
 
 }
-.ulColl {
+.navCollapse ul {
   padding-left: 0;
   list-style: none;
   margin: 7.5px -15px;
 }
-.ulColl li {
-  /*display: block;*/
+.navCollapse ul li {
+  display: block;
   position: relative;
   float: none;
   height: 7px;
   margin-bottom: 29px;
-  /*width: 50px;*/
+  width: 50px;
 }
-.ulColl a {
+.navCollapse li a span {
+  font-size: .85em;
+  font-weight: 500;
+  left: 60px;
+  line-height: 1;
+  color: #fff;
+  position: absolute;
+  opacity: .5;
   text-transform: uppercase;
+  -moz-transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+  -o-transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+  -webkit-transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+  transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+}
+.navCollapse li a {
+  background: none;
+  border: none;
+  padding: 0;
+}
+.navCollapse li a span.hide {
+  display: none;
+}
+.navCollapse li a:hover, .navCollapse li a:active, .navCollapse li a:focus {
+  background: none;
+  border: none;
+}
+.navCollapse li a:before {
+  background-color: #fff;
+  border-radius: 50%;
+  height: 50px;
+  top: -21px !important;
+  opacity: 1;
+  -moz-transform: scale(0);
+  -o-transform: scale(0);
+  -ms-transform: scale(0);
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  width: 50px;
+}
+.navCollapse li a:before, .navCollapse li a:after {
+  content: "";
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  left: 0;
+}
+.navCollapse li a:after {
+  background: #fff none repeat scroll 0 0;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  height: 12px;
+  width: 12px;
+  -moz-transition: all 0.1s ease-out 0s;
+  -o-transition: all 0.1s ease-out 0s;
+  -webkit-transition: all 0.1s ease-out 0s;
+  transition: all 0.1s ease-out 0s;
+}
+.navCollapse li:hover a:after {
+  background: transparent none repeat scroll 0 0;
+  border-width: 3px;
+  height: 15px;
+  width: 15px;
+}
+.navCollapse li a[aria-current="page"]:before {
+  opacity: 0;
+  -moz-transform: scale(1);
+  -o-transform: scale(1);
+  -ms-transform: scale(1);
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -moz-transition: all 0.5s ease-out 0s;
+  -o-transition: all 0.5s ease-out 0s;
+  -webkit-transition: all 0.5s ease-out 0s;
+  transition: all 0.5s ease-out 0s;
+}
+.navCollapse li a[aria-current="page"]:after {
+  background: transparent none repeat scroll 0 0;
+  border-width: 2px;
+  height: 15px;
+  width: 15px;
+}
+.navCollapse li a[aria-current="page"] span.show {
+  left: 50px;
+  opacity: 1;
+  color: #fff;
   font-weight: 700;
 }
+.navCollapse li:hover span.show {
+  left: 50px;
+  opacity: 1;
+  color: #fff;
+  font-weight: 700;
+}
+/*@media only screen and (max-width: 1199px) {
+  .navToggle {
+    position: absolute;
+    display: block;
+    right: 15px;
+    top: 0;
+    margin: 0;
+    padding: 7px 8px;
+    background: #141414 !important;
+    color: #fff;   
+    
+  }
+}*/
 @media (min-width: 768px) {
   .navHeader {
     float: left;
@@ -59,9 +161,5 @@
     border-top: 0;
     -webkit-box-shadow: none;
     box-shadow: none;
-  }
-  .ulColl {
-    float: left;
-    margin: 0;
   }
 }

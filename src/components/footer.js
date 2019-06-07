@@ -1,13 +1,13 @@
 import React from 'react'
 
-import footerStyle from './footer.module.css'
-import layoutStyle from './layout.module.css'
+import footer from './footer.module.css'
+import layout from './layout.module.css'
 
 const Footer = () => (
-  <footer className={layoutStyle.footerLayout}>
+  <footer className={layout.footerLayout}>
     <div style={{ float: `left`, weight: `50%`}}>
-      <span className={footerStyle.availablePoint}></span>
-      <span className={footerStyle.availableTag}>
+      <span className={footer.availablePoint}></span>
+      <span className={footer.availableTag}>
         Available for Freelance Projects
       </span>
     </div>

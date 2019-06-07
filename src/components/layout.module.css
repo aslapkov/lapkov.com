@@ -62,10 +62,6 @@ strong {
 dfn {
   font-style: italic;
 }
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
-}
 mark {
   background-color: #ff0;
   color: #000;
@@ -187,7 +183,7 @@ textarea {
   font: inherit;
 }
 html {
-  font: 112.5%/1.45em "Poppins", sans-serif;
+  font: 112.5%/1.45em "Lato", sans-serif;
   box-sizing: border-box;
   overflow-y: scroll;
 }
@@ -202,7 +198,7 @@ html {
 }
 body {
   color: hsla(255, 255%, 255%, 0.9);
-  font-family: "Poppins", sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -376,7 +372,6 @@ p {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-  font-family: "Hind", sans-serif;
 }
 figure {
   margin-left: 0;
@@ -608,8 +603,6 @@ pre tt:after {
   content: "";
 }
 .backImg {
-  background: transparent url(../images/back.jpg) no-repeat;
-  image-rendering: optimizeQuality;
   height: 100%;
   width: 100%;
   z-index: -1;
@@ -650,9 +643,7 @@ pre tt:after {
   margin-bottom: 30px;
 }
 hr {
-  margin: 0;
-  /*border-color: #e91e63;*/
-  border-color: #454648;
+  border-color: #e91e63;
   border: 0;
   border-top: 1px solid #eee;
 }
@@ -683,10 +674,5 @@ hr {
   .contentBlock {
     margin-top: 70px;
     border-radius: 0;
-  }
-}
-@media only screen and (max-width: 480px) {
-  html {
-    font-size: 100%;
   }
 }
