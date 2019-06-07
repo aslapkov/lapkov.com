@@ -27,12 +27,11 @@
 .headerLogo {
   float: left;
   display: block;
-  font-size: .9em;
   color: #fff;
   padding-top: 7px;
 }
 .headerTouch {
-  font-size: .75em;
+  font-size: .8em;
   float: right;
   color: #fff;
   overflow: hidden;
@@ -70,14 +69,14 @@
   z-index: 2;
   display: inline-block;
 }
-@media only screen and (max-width: 1199px) {
+@media only screen and (max-width: 950px) {
   .headerFix {
     top: 0px;
     margin-top: 70px;
     width: 100%;
     position: fixed;
     z-index: 99;
-    background: #fff;
+    background: url("/static/e5fe2d9698897287eaffdc686286a0d2/14dee/background.jpg");
     -moz-transform: translateY(-70px) translateZ(0);
     -o-transform: translateY(-70px) translateZ(0);
     -ms-transform: translateY(-70px) translateZ(0);

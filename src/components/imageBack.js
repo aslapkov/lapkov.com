@@ -10,7 +10,7 @@ const ImageBack = () => (
       query {
         placeholderImage: file(relativePath: { eq: "background.jpg" }) {
           childImageSharp {
-            fluid(maxWidth: 1920) {
+            fluid(maxWidth: 2560) {
               ...GatsbyImageSharpFluid
             }
           }

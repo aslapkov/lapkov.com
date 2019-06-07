@@ -5,10 +5,10 @@
   </a>
 </p>
 <h1 align="center">
-  Lapkov's starter
+  I Am Starter based on Gatsby
 </h1>
 
-My personal tiny [Gatsby](https://www.gatsbyjs.org) site.
+My personal tiny [Gatsby](https://lapkov.com) site.
 
 ## 💫 Deploy
 

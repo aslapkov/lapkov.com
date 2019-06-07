@@ -366,6 +366,7 @@ p {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
+  line-height: 1.5;
 }
 figure {
   margin-left: 0;
@@ -598,7 +599,7 @@ pre tt:after {
 }
 .backImg {
   height: 100%;
-  width: 100%;
+  width: 120%;
   z-index: -1;
   position: fixed;
   background-position: center;
@@ -628,13 +629,16 @@ pre tt:after {
   overflow: hidden;
   float: none;
   clear: both;
-  padding: 80px 20px;
+  padding: 70px 20px;
 }
 .imageDiv {
-  border-radius: 50% !important;
+  border-radius: 50%;
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 30px;
+}
+.imageDiv img {
+  border-radius: 50% !important;
 }
 hr {
   border-color: #e91e63;
@@ -646,7 +650,7 @@ hr {
     width: 91.66666667%;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 950px) {
   .col4 {
     width: 33.33333333%;
     float: left;
@@ -661,12 +665,12 @@ hr {
     width: 83.33333333%;
   }
 }
-@media only screen and (max-width: 1199px) {
+@media only screen and (max-width: 950px) {
   .col4 {
     display: none;
   }
   .contentBlock {
-    margin-top: 70px;
+    margin-top: 30px;
     border-radius: 0;
   }
 }

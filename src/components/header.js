@@ -12,7 +12,7 @@ const Header = ({ siteTitle }) => (
       </Link>
       <Link to="/contact/" className={header.headerTouch}>
         <span className={header.mask}></span>
-        <span className={header.label}>Find me!</span>
+        <span className={header.label}>Contact me!</span>
       </Link>
     </div>
   </header>
