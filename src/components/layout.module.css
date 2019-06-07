@@ -1,5 +1,4 @@
 html {
-  font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -183,7 +182,9 @@ textarea {
   font: inherit;
 }
 html {
-  font: 112.5%/1.45em "Lato", sans-serif;
+  font-family: "Lato", sans-serif;
+  color: hsla(255, 255%, 255%, 0.9);
+  font-weight: 400;
   box-sizing: border-box;
   overflow-y: scroll;
 }
@@ -197,15 +198,8 @@ html {
   box-sizing: inherit;
 }
 body {
-  color: hsla(255, 255%, 255%, 0.9);
-  font-family: "Lato", sans-serif;
-  font-weight: normal;
-  word-wrap: break-word;
-  font-kerning: normal;
-  -moz-font-feature-settings: "kern", "liga", "clig", "calt";
-  -ms-font-feature-settings: "kern", "liga", "clig", "calt";
-  -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
-  font-feature-settings: "kern", "liga", "clig", "calt";
+  overflow-x: hidden;
+  position: relative; 
 }
 img {
   max-width: 100%;
@@ -637,7 +631,7 @@ pre tt:after {
   padding: 80px 20px;
 }
 .imageDiv {
-  border-radius: 50%;
+  border-radius: 50% !important;
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 30px;

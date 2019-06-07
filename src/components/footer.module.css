@@ -1,3 +1,13 @@
+.left {
+  float: left;
+}
+.left a {
+  border-bottom: 1px solid #e91e63;
+}
+.right {
+  float: right;
+  text-align: right;
+}
 @-webkit-keyframes blinking {
   0% {
     opacity: 0;
@@ -67,7 +77,6 @@
   border-radius: 50%;
 }
 .availableTag {
-  font-size: .9em;
   line-height: 30px;
   font-weight: 500;
   color: #fff;

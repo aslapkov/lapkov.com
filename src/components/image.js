@@ -2,7 +2,7 @@ import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
 
-import layoutStyle from './layout.module.css'
+import layout from './layout.module.css'
 
 /*
  * This component is built using `gatsby-image` to automatically serve optimized
@@ -31,7 +31,7 @@ const Image = () => (
     render={data =>
       <Img
         fixed={data.placeholderImage.childImageSharp.fixed}
-        className={layoutStyle.imageDiv}
+        className={layout.imageDiv}
       />
     }
   />

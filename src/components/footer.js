@@ -5,14 +5,17 @@ import layout from './layout.module.css'
 
 const Footer = () => (
   <footer className={layout.footerLayout}>
-    <div style={{ float: `left`, weight: `50%`}}>
+    <div className={footer.left}>
       <span className={footer.availablePoint}></span>
       <span className={footer.availableTag}>
-        Available for Freelance Projects
+        Available for freelance projects<br/>
+        Please contact me by
+        {` `}
+        <a href="mailto:email@lapkov.com">email@lapkov.com</a>
       </span>
     </div>
-    <div style={{ float: `right`, weight: `50%`}}>
-      <div style={{ fontSize: `.7em`, }}>
+    <div className={footer.right}>
+      <div style={{ fontSize: `.75em`, }}>
         © {new Date().getFullYear()}, Built with
         {` `}
         <a
@@ -21,7 +24,16 @@ const Footer = () => (
           rel="noopener noreferrer"
         >
           Gatsby
-        </a>
+        </a>.<br />
+        Deploy to
+        {` `}
+        <a
+          href="https://www.netlify.com/docs/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Netlify
+        </a>.
       </div>
     </div>
   </footer>

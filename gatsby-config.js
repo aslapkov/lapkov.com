@@ -52,32 +52,20 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-web-font-loader`,
       options: {
-        fonts: [
-          {
-            family: `Poppins`,
-            variants: [
-              `300`, `300i`,
-              `500`, `500i`,
-              `700`, `700i`,
-            ],
-          },
-          {
-            family: `Lato`,
-            variants: [
-              `300`, `300i`,
-              `400`, `400i`,
-              `700`, `700i`,
-            ],
-          },
-        ],
+        google: {
+          families: [
+            `Lato`,
+            `Poppins`,
+          ]
+        }
       }
-    },
+    }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
