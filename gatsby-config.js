@@ -29,8 +29,8 @@ module.exports = {
         id: 5,
         name: `Contact`,
         slug: `/contact/`,
-      }
-    ]
+      },
+    ],
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -56,18 +56,22 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-web-font-loader`,
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {
-        google: {
-          families: [
-            `Lato`,
-            `Poppins`,
-          ]
-        }
-      }
-    }
+        fonts: [
+          {
+            family: `Lato`,
+            variants: [`300`, `300i`, `400`, `400i`, `700`, `700i`],
+          },
+          {
+            family: `Poppins`,
+            variants: [`400`, `400i`, `500`, `500i`, `700`, `700i`],
+          },
+        ],
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
-}
+};
