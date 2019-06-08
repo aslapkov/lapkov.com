@@ -1,8 +1,8 @@
-import React from 'react'
-import { StaticQuery, graphql } from 'gatsby'
-import Img from 'gatsby-image'
+import React from 'react';
+import { useStaticQuery, graphql } from 'gatsby';
+import Img from 'gatsby-image';
 
-import layout from './layout.module.css'
+import layout from './layout.module.css';
 
 /*
  * This component is built using `gatsby-image` to automatically serve optimized
@@ -15,9 +15,9 @@ import layout from './layout.module.css'
  * - `StaticQuery`: https://gatsby.dev/staticquery
  */
 
-const Image = () => (
-  <StaticQuery
-    query={graphql`
+const Image = () => {
+  const data = useStaticQuery(
+    graphql`
       query {
         placeholderImage: file(relativePath: { eq: "iAm.jpg" }) {
           childImageSharp {
@@ -27,14 +27,37 @@ const Image = () => (
           }
         }
       }
-    `}
-    render={data =>
-      <Img
-        fixed={data.placeholderImage.childImageSharp.fixed}
-        className={layout.imageDiv}
-      />
-    }
-  />
-)
+    `
+  );
 
-export default Image
+  return (
+    <Img
+      fixed={data.placeholderImage.childImageSharp.fixed}
+      className={layout.imageDiv}
+    />
+  );
+};
+
+// const Image = () => (
+//   <StaticQuery
+//     query={graphql`
+//       query {
+//         placeholderImage: file(relativePath: { eq: "iAm.jpg" }) {
+//           childImageSharp {
+//             fixed(width: 150, height: 150) {
+//               ...GatsbyImageSharpFixed
+//             }
+//           }
+//         }
+//       }
+//     `}
+//     render={data =>
+//       <Img
+//         fixed={data.placeholderImage.childImageSharp.fixed}
+//         className={layout.imageDiv}
+//       />
+//     }
+//   />
+// )
+
+export default Image;

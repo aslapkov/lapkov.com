@@ -2,10 +2,10 @@
   "name": "lapkov",
   "private": true,
   "description": "My personal site built with Gatsby",
-  "version": "0.1.0",
+  "version": "0.0.2",
   "author": "A. Lapkov <a.s.lapkov@gmail.com>",
   "dependencies": {
-    "gatsby": "^2.8.2",
+    "gatsby": "2.8.3",
     "gatsby-image": "^2.1.2",
     "gatsby-plugin-manifest": "^2.1.1",
     "gatsby-plugin-offline": "^2.1.1",
@@ -15,13 +15,16 @@
     "gatsby-source-filesystem": "^2.0.38",
     "gatsby-transformer-sharp": "^2.1.21",
     "prop-types": "^15.7.2",
+    "querystringify": "^2.1.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1"
   },
   "devDependencies": {
-    "gatsby-cli": "^2.6.4",
-    "prettier": "^1.17.1"
+    "gatsby-cli": "2.6.4",
+    "husky": "^2.4.0",
+    "lint-staged": "^8.2.0",
+    "prettier": "^1.18.2"
   },
   "homepage": "https://lapkov.com",
   "license": "MIT",
@@ -35,5 +38,16 @@
   },
   "bugs": {
     "url": "https://github.com/aslapkov/lapkov.com/issues"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "{gatsby-*.js,src/**/*.{js,jsx,json,css}}": [
+      "yarn format",
+      "git add"
+    ]
   }
 }

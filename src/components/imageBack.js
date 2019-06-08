@@ -1,12 +1,12 @@
-import React from 'react'
-import { StaticQuery, graphql } from 'gatsby'
-import Img from 'gatsby-image'
+import React from 'react';
+import { useStaticQuery, graphql } from 'gatsby';
+import Img from 'gatsby-image';
 
 // import layoutStyle from './layout.module.css'
 
-const ImageBack = () => (
-  <StaticQuery
-    query={graphql`
+const ImageBack = () => {
+  const data = useStaticQuery(
+    graphql`
       query {
         placeholderImage: file(relativePath: { eq: "background.jpg" }) {
           childImageSharp {
@@ -16,11 +16,10 @@ const ImageBack = () => (
           }
         }
       }
-    `}
-    render={data =>
-      <Img fluid={data.placeholderImage.childImageSharp.fluid} />
-    }
-  />
-)
+    `
+  );
 
-export default ImageBack
+  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />;
+};
+
+export default ImageBack;
