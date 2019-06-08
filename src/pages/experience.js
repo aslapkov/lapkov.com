@@ -1,8 +1,8 @@
-import React from 'react'
-import { Link } from 'gatsby'
+import React from 'react';
+import { Link } from 'gatsby';
 
-import Layout from '../components/layout'
-import SEO from '../components/seo'
+import Layout from '../components/layout';
+import SEO from '../components/seo';
 
 const ExperiencePage = () => (
   <Layout>
@@ -11,6 +11,6 @@ const ExperiencePage = () => (
     <p>Welcome to page 3</p>
     <Link to="/">Homepage</Link>
   </Layout>
-)
+);
 
-export default ExperiencePage
+export default ExperiencePage;

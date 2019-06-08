@@ -15,7 +15,6 @@
     "gatsby-source-filesystem": "^2.0.38",
     "gatsby-transformer-sharp": "^2.1.21",
     "prop-types": "^15.7.2",
-    "querystringify": "^2.1.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1"
@@ -24,7 +23,8 @@
     "gatsby-cli": "2.6.4",
     "husky": "^2.4.0",
     "lint-staged": "^8.2.0",
-    "prettier": "^1.18.2"
+    "prettier": "^1.18.2",
+    "querystringify": "^2.1.1"
   },
   "homepage": "https://lapkov.com",
   "license": "MIT",

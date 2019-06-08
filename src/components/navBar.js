@@ -1,8 +1,8 @@
-import { Link } from 'gatsby'
-import PropTypes from 'prop-types'
-import React from 'react'
+import { Link } from 'gatsby';
+import PropTypes from 'prop-types';
+import React from 'react';
 
-import navbar from './navbar.module.css'
+import navbar from './navbar.module.css';
 
 const NavBar = ({ siteLinks }) => (
   <nav className={navbar.navDef}>
@@ -17,26 +17,22 @@ const NavBar = ({ siteLinks }) => (
         {siteLinks.map(data => (
           <li key={data.id}>
             <Link to={data.slug}>
-              <span className={navbar.hide}>
-                {data.name}
-              </span>
-              <span className={navbar.show}>
-                {data.name}
-              </span>
+              <span className={navbar.hide}>{data.name}</span>
+              <span className={navbar.show}>{data.name}</span>
             </Link>
           </li>
         ))}
       </ul>
     </div>
   </nav>
-)
+);
 
 NavBar.defaultProps = {
   siteLinks: [],
-}
+};
 
 NavBar.propTypes = {
   siteLinks: PropTypes.arrayOf(PropTypes.object),
-}
+};
 
-export default NavBar
+export default NavBar;

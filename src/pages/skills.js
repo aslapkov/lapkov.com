@@ -1,8 +1,8 @@
-import React from 'react'
-import { Link } from 'gatsby'
+import React from 'react';
+import { Link } from 'gatsby';
 
-import Layout from '../components/layout'
-import SEO from '../components/seo'
+import Layout from '../components/layout';
+import SEO from '../components/seo';
 
 const SkillsPage = () => (
   <Layout>
@@ -11,6 +11,6 @@ const SkillsPage = () => (
     <p>Welcome to Skills Page</p>
     <Link to="/">To the homepage</Link>
   </Layout>
-)
+);
 
-export default SkillsPage
+export default SkillsPage;

@@ -1,8 +1,8 @@
-import { Link } from 'gatsby'
-import PropTypes from 'prop-types'
-import React from 'react'
+import { Link } from 'gatsby';
+import PropTypes from 'prop-types';
+import React from 'react';
 
-import header from './header.module.css'
+import header from './header.module.css';
 
 const Header = ({ siteTitle }) => (
   <header className={header.headerFix}>
@@ -16,14 +16,14 @@ const Header = ({ siteTitle }) => (
       </Link>
     </div>
   </header>
-)
+);
 
 Header.defaultProps = {
   siteTitle: ``,
-}
+};
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
-}
+};
 
-export default Header
+export default Header;

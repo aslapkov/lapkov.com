@@ -5,15 +5,15 @@
  * See: https://www.gatsbyjs.org/docs/static-query/
  */
 
-import React from 'react'
-import PropTypes from 'prop-types'
-import { useStaticQuery, graphql } from 'gatsby'
+import React from 'react';
+import PropTypes from 'prop-types';
+import { useStaticQuery, graphql } from 'gatsby';
 
-import ImageBack from './imageBack'
-import NavBar from './navBar'
-import Header from './header'
-import Footer from './footer'
-import layout from './layout.module.css'
+import ImageBack from './imageBack';
+import NavBar from './navBar';
+import Header from './header';
+import Footer from './footer';
+import layout from './layout.module.css';
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(
@@ -21,17 +21,17 @@ const Layout = ({ children }) => {
       query {
         site {
           siteMetadata {
-            title,
+            title
             siteLinks {
-              id,
-              name,
+              id
+              name
               slug
             }
           }
         }
       }
     `
-  )
+  );
 
   return (
     <React.Fragment>
@@ -46,9 +46,7 @@ const Layout = ({ children }) => {
           <div className={layout.col8}>
             <Header siteTitle={data.site.siteMetadata.title} />
             <div className={layout.contentBlock}>
-              <main className={layout.contentCss}>
-                {children}
-              </main>
+              <main className={layout.contentCss}>{children}</main>
               <hr />
               <Footer />
             </div>
@@ -56,11 +54,11 @@ const Layout = ({ children }) => {
         </div>
       </div>
     </React.Fragment>
-  )
-}
+  );
+};
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
-}
+};
 
-export default Layout
+export default Layout;

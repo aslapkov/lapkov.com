@@ -1,21 +1,22 @@
-import React from 'react'
+import React from 'react';
 
-import footer from './footer.module.css'
-import layout from './layout.module.css'
+import footer from './footer.module.css';
+import layout from './layout.module.css';
 
 const Footer = () => (
   <footer className={layout.footerLayout}>
     <div className={footer.left}>
       <span className={footer.availablePoint}></span>
       <span className={footer.availableTag}>
-        Available for freelance projects<br/>
+        Available for freelance projects
+        <br />
         Please contact me by
         {` `}
         <a href="mailto:email@lapkov.com">email@lapkov.com</a>
       </span>
     </div>
     <div className={footer.right}>
-      <div style={{ fontSize: `.75em`, }}>
+      <div style={{ fontSize: `.75em` }}>
         © {new Date().getFullYear()}, Built with
         {` `}
         <a
@@ -24,7 +25,8 @@ const Footer = () => (
           rel="noopener noreferrer"
         >
           Gatsby
-        </a>.<br />
+        </a>
+        .<br />
         Deploy to
         {` `}
         <a
@@ -33,11 +35,11 @@ const Footer = () => (
           rel="noopener noreferrer"
         >
           Netlify
-        </a>.
+        </a>
+        .
       </div>
     </div>
   </footer>
-)
+);
 
-export default Footer
-
+export default Footer;
