@@ -24,7 +24,7 @@
     "husky": "^2.4.0",
     "lint-staged": "^8.2.0",
     "prettier": "^1.18.2",
-    "querystringify": "^2.1.1"
+    "querystringify": ">=2.0.0"
   },
   "homepage": "https://lapkov.com",
   "license": "MIT",

@@ -38,26 +38,4 @@ const Image = () => {
   );
 };
 
-// const Image = () => (
-//   <StaticQuery
-//     query={graphql`
-//       query {
-//         placeholderImage: file(relativePath: { eq: "iAm.jpg" }) {
-//           childImageSharp {
-//             fixed(width: 150, height: 150) {
-//               ...GatsbyImageSharpFixed
-//             }
-//           }
-//         }
-//       }
-//     `}
-//     render={data =>
-//       <Img
-//         fixed={data.placeholderImage.childImageSharp.fixed}
-//         className={layout.imageDiv}
-//       />
-//     }
-//   />
-// )
-
 export default Image;
