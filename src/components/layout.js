@@ -13,7 +13,9 @@ import ImageBack from './imageBack';
 import NavBar from './navBar';
 import Header from './header';
 import Footer from './footer';
-import layout from './layout.module.css';
+
+import './layout.css';
+import { ImgDiv, Col4, Col8, Content, Main } from './layout.style';
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(
@@ -35,22 +37,22 @@ const Layout = ({ children }) => {
 
   return (
     <React.Fragment>
-      <div className={layout.backImg}>
+      <ImgDiv>
         <ImageBack />
-      </div>
+      </ImgDiv>
       <div style={{ padding: `0 15px`, margin: `0 auto` }}>
         <div style={{ margin: `0 -15px` }}>
-          <div className={layout.col4}>
+          <Col4>
             <NavBar siteLinks={data.site.siteMetadata.siteLinks} />
-          </div>
-          <div className={layout.col8}>
+          </Col4>
+          <Col8>
             <Header siteTitle={data.site.siteMetadata.title} />
-            <div className={layout.contentBlock}>
-              <main className={layout.contentCss}>{children}</main>
+            <Content>
+              <Main>{children}</Main>
               <hr />
               <Footer />
-            </div>
-          </div>
+            </Content>
+          </Col8>
         </div>
       </div>
     </React.Fragment>

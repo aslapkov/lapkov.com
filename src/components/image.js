@@ -2,8 +2,6 @@ import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 
-import layout from './layout.module.css';
-
 /*
  * This component is built using `gatsby-image` to automatically serve optimized
  * images with lazy loading and reduced file sizes. The image is loaded using a
@@ -33,7 +31,7 @@ const Image = () => {
   return (
     <Img
       fixed={data.placeholderImage.childImageSharp.fixed}
-      className={layout.imageDiv}
+      className="imageDiv"
     />
   );
 };

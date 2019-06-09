@@ -1,21 +1,20 @@
 import React from 'react';
 
-import footer from './footer.module.css';
-import layout from './layout.module.css';
+import { FooterWrap, AvailPoint, AvailTag } from './footer.style';
 
 const Footer = () => (
-  <footer className={layout.footerLayout}>
-    <div className={footer.left}>
-      <span className={footer.availablePoint}></span>
-      <span className={footer.availableTag}>
+  <FooterWrap>
+    <div style={{ float: `left` }}>
+      <AvailPoint />
+      <AvailTag>
         Available for freelance projects
         <br />
         Please contact me by
         {` `}
         <a href="mailto:email@lapkov.com">email@lapkov.com</a>
-      </span>
+      </AvailTag>
     </div>
-    <div className={footer.right}>
+    <div style={{ float: `right`, textAlign: `right` }}>
       <div style={{ fontSize: `.75em` }}>
         © {new Date().getFullYear()}, Built with
         {` `}
@@ -39,7 +38,7 @@ const Footer = () => (
         .
       </div>
     </div>
-  </footer>
+  </FooterWrap>
 );
 
 export default Footer;

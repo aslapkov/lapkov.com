@@ -2,20 +2,24 @@ import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import React from 'react';
 
-import header from './header.module.css';
+import { HeaderWrap, HeaderCol, HeaderLogo, HeaderTouch } from './header.style';
 
 const Header = ({ siteTitle }) => (
-  <header className={header.headerFix}>
-    <div className={header.headerWrap}>
-      <Link to="/" className={header.headerLogo}>
-        <span>{siteTitle}</span>
-      </Link>
-      <Link to="/contact/" className={header.headerTouch}>
-        <span className={header.mask}></span>
-        <span className={header.label}>Contact me!</span>
-      </Link>
-    </div>
-  </header>
+  <HeaderWrap>
+    <HeaderCol>
+      <HeaderLogo>
+        <Link to="/">
+          <span>{siteTitle}</span>
+        </Link>
+      </HeaderLogo>
+      <HeaderTouch>
+        <Link to="/contact/">
+          <span className="mask"></span>
+          <span className="label">Contact me!</span>
+        </Link>
+      </HeaderTouch>
+    </HeaderCol>
+  </HeaderWrap>
 );
 
 Header.defaultProps = {
