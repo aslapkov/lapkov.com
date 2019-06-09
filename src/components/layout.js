@@ -14,7 +14,8 @@ import NavBar from './navBar';
 import Header from './header';
 import Footer from './footer';
 
-import './layout.css';
+// import './layout.css';
+import GlobalStyle from './global.style';
 import { ImgDiv, Col4, Col8, Content, Main } from './layout.style';
 
 const Layout = ({ children }) => {
@@ -37,6 +38,7 @@ const Layout = ({ children }) => {
 
   return (
     <React.Fragment>
+      <GlobalStyle />
       <ImgDiv>
         <ImageBack />
       </ImgDiv>
