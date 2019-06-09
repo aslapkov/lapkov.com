@@ -18,7 +18,7 @@ const HeaderWrap = styled.header`
     width: 100%;
     position: fixed;
     z-index: 99;
-    background: #555;
+    background: rgba(255, 255, 255, 0.9);
     -moz-transform: translateY(-70px) translateZ(0);
     -o-transform: translateY(-70px) translateZ(0);
     -ms-transform: translateY(-70px) translateZ(0);
@@ -50,11 +50,17 @@ const HeaderCol = styled.div`
 `;
 
 const HeaderLogo = styled.div`
+  margin-top: 5px;
+
   a {
     float: left;
     display: block;
     color: #fff;
     padding-top: 7px;
+
+    @media only screen and (max-width: 950px) {
+      color: #000;
+    }
   }
 `;
 

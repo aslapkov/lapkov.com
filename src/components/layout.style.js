@@ -14,6 +14,17 @@ const ImgDiv = styled.div`
   transform: translateZ(0);
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
+
+  @media only screen and (max-width: 950px) {
+    display: none;
+  }
+`;
+
+const Container = styled.div`
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 `;
 
 const Col4 = styled.div`
@@ -54,7 +65,7 @@ const Content = styled.div`
   transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1) 0s;
 
   @media only screen and (max-width: 950px) {
-    margin-top: 30px;
+    margin-top: 70px;
     border-radius: 0;
   }
 `;
@@ -86,4 +97,4 @@ const Main = styled.main`
   }
 `;
 
-export { ImgDiv, Col4, Col8, Content, Main };
+export { ImgDiv, Container, Col4, Col8, Content, Main };

@@ -5,7 +5,7 @@
   </a>
 </p>
 <h1 align="center">
-  I Am Starter based on Gatsby
+  I am Starter based on Gatsby
 </h1>
 
 My personal tiny [Gatsby](https://lapkov.com) site.

@@ -369,7 +369,7 @@ const GlobalStyle = createGlobalStyle`
     padding-right: 0;
     padding-top: 0;
     margin-bottom: 1.45rem;
-    /*line-height: 1.5;*/
+    line-height: 1.5;
   }
   figure {
     margin-left: 0;

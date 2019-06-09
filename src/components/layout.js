@@ -14,9 +14,8 @@ import NavBar from './navBar';
 import Header from './header';
 import Footer from './footer';
 
-// import './layout.css';
 import GlobalStyle from './global.style';
-import { ImgDiv, Col4, Col8, Content, Main } from './layout.style';
+import { ImgDiv, Container, Col4, Col8, Content, Main } from './layout.style';
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(
@@ -42,7 +41,7 @@ const Layout = ({ children }) => {
       <ImgDiv>
         <ImageBack />
       </ImgDiv>
-      <div style={{ padding: `0 15px`, margin: `0 auto` }}>
+      <Container>
         <div style={{ margin: `0 -15px` }}>
           <Col4>
             <NavBar siteLinks={data.site.siteMetadata.siteLinks} />
@@ -56,7 +55,7 @@ const Layout = ({ children }) => {
             </Content>
           </Col8>
         </div>
-      </div>
+      </Container>
     </React.Fragment>
   );
 };
