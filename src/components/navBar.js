@@ -1,6 +1,7 @@
-import { Link } from 'gatsby';
+// import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import React from 'react';
+import AniLink from 'gatsby-plugin-transition-link/AniLink';
 
 import { NavStyle, NavHeader, NavCollapse } from './navbar.style';
 
@@ -16,10 +17,10 @@ const NavBar = ({ siteLinks }) => (
       <ul>
         {siteLinks.map(data => (
           <li key={data.id}>
-            <Link to={data.slug}>
+            <AniLink fade to={data.slug}>
               <span className="hide">{data.name}</span>
               <span className="show">{data.name}</span>
-            </Link>
+            </AniLink>
           </li>
         ))}
       </ul>

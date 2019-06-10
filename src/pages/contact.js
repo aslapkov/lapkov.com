@@ -6,7 +6,7 @@ import SEO from '../components/seo';
 
 const ContactPage = () => (
   <Layout>
-    <SEO title="Contact Page" />
+    <SEO title="Contact" />
     <h1>Hey from the Contact Page</h1>
     <p>
       <a href="mailto:email@lapkov.com"> email@lapkov.com</a> – my contact email

@@ -17,7 +17,7 @@ import Footer from './footer';
 import GlobalStyle from './global.style';
 import { ImgDiv, Container, Col4, Col8, Content, Main } from './layout.style';
 
-const Layout = ({ children }) => {
+const Layout = ({ children, location }) => {
   const data = useStaticQuery(
     graphql`
       query {

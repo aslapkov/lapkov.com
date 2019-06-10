@@ -1,6 +1,7 @@
-import { Link } from 'gatsby';
+// import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import React from 'react';
+import AniLink from 'gatsby-plugin-transition-link/AniLink';
 
 import { HeaderWrap, HeaderCol, HeaderLogo, HeaderTouch } from './header.style';
 
@@ -8,15 +9,15 @@ const Header = ({ siteTitle }) => (
   <HeaderWrap>
     <HeaderCol>
       <HeaderLogo>
-        <Link to="/">
+        <AniLink fade to="/">
           <span>{siteTitle}</span>
-        </Link>
+        </AniLink>
       </HeaderLogo>
       <HeaderTouch>
-        <Link to="/contact/">
+        <AniLink fade to="/contact/">
           <span className="mask"></span>
           <span className="label">Contact me!</span>
-        </Link>
+        </AniLink>
       </HeaderTouch>
     </HeaderCol>
   </HeaderWrap>

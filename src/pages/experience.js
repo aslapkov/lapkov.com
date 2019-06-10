@@ -6,7 +6,7 @@ import SEO from '../components/seo';
 
 const ExperiencePage = () => (
   <Layout>
-    <SEO title="Experience Page" />
+    <SEO title="Experience" />
     <h1>Hi from the Experienc Page</h1>
     <p>Welcome to page 3</p>
     <Link to="/">Homepage</Link>
