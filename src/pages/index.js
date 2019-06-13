@@ -11,11 +11,11 @@ const IndexPage = () => (
     <Image />
     <h1>
       <span style={{ display: `none` }}>
-        Hey! I am Alex. Web developer, designer, SEO.
+        Hey! I am Alex. Web developer, designer, SEO specialist.
       </span>
       <TypedReact
         strings={[
-          `Hey! I am Alex.<br /> Web developer, designer, SEO.<br /> Here is something about me`,
+          `Hey! I am Alex.<br /> Web developer,<br /> designer and SEO.<br /> Welcome!`,
         ]}
       />
     </h1>

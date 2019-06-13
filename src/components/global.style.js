@@ -600,6 +600,11 @@ const GlobalStyle = createGlobalStyle`
   pre tt:after {
     content: '';
   }
+  @media (max-width: 769px) {
+    h1 {
+      font-size: 2.25em;
+    }
+  }
   @media only screen and (max-width: 480px) {
     html {
       font-size: 100%;
