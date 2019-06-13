@@ -1,34 +1,26 @@
-import React from 'react';
+import React, { useRef, useEffect } from 'react';
 import Typed from 'typed.js';
 
-class TypedReact extends React.Component {
-  componentDidMount() {
-    const { strings } = this.props;
-    // You can pass other options here
-    const options = {
-      strings: strings,
-      typeSpeed: 40,
-      backSpeed: 40,
+const TypedReact = props => {
+  const { strings } = props;
+  const spanEl = useRef(null);
+  // You can pass other options here
+  const options = {
+    strings: strings,
+    typeSpeed: 30,
+    backSpeed: 30,
+  };
+
+  useEffect(() => {
+    const typed = new Typed(spanEl.current, options);
+
+    return () => {
+      // to prevent memory leaks
+      typed.destroy();
     };
+  });
 
-    this.typed = new Typed(this.el, options);
-  }
-
-  componentWillUnmount() {
-    // to prevent memory leaks
-    this.typed.destroy();
-  }
-
-  render() {
-    return (
-      <span
-        style={{ whiteSpace: `pre` }}
-        ref={el => {
-          this.el = el;
-        }}
-      />
-    );
-  }
-}
+  return <span style={{ whiteSpace: 'pre' }} ref={spanEl} />;
+};
 
 export default TypedReact;
