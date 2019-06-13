@@ -16,7 +16,7 @@ const ContactPage = () => (
       <a href="mailto:email@lapkov.com">email@lapkov.com</a> – my contact email
       address
       <br />
-      <a href="#" target="_blank" rel="noopener noreferrer">
+      <a href="https://t.me/aslapkov" target="_blank" rel="noopener noreferrer">
         @aslapkov
       </a>{' '}
       – how you can find me on the telegram
