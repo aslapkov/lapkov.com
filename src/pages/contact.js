@@ -10,7 +10,7 @@ const ContactPage = () => (
     <SEO title="Contacts" />
     <h1>
       <span style={{ display: `none` }}>Contact page</span>
-      <TypedReact strings={[`Hey from my<br /> Contact page!`]} />
+      <TypedReact strings={[`Hi from my<br /> Contact page!`]} />
     </h1>
     <p>
       <a href="mailto:email@lapkov.com">email@lapkov.com</a> – my contact email
@@ -19,7 +19,7 @@ const ContactPage = () => (
       <a href="https://t.me/aslapkov" target="_blank" rel="noopener noreferrer">
         @aslapkov
       </a>{' '}
-      – how you can find me on the telegram
+      – find me on the telegram
     </p>
   </Layout>
 );

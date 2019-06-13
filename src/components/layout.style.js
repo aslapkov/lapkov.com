@@ -88,12 +88,12 @@ const Main = styled.main`
     margin-bottom: 30px;
   }
 
-  @media (min-width: 950px) {
-    width: 83.33333333%;
-  }
-
   @media (min-width: 768px) {
     width: 91.66666667%;
+  }
+
+  @media (min-width: 950px) {
+    width: 83.33333333%;
   }
 `;
 

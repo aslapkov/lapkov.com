@@ -95,4 +95,13 @@ const AvailTag = styled.span`
   }
 `;
 
-export { FooterWrap, AvailPoint, AvailTag };
+const FooterRigth = styled.div`
+  float: right;
+  text-align: right;
+
+  @media (max-width: 769px) {
+    padding-top: 30px;
+  }
+`;
+
+export { FooterWrap, AvailPoint, AvailTag, FooterRigth };

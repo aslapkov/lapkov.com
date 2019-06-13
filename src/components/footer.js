@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { FooterWrap, AvailPoint, AvailTag } from './footer.style';
+import { FooterWrap, AvailPoint, AvailTag, FooterRigth } from './footer.style';
 
 const Footer = () => (
   <FooterWrap>
@@ -14,7 +14,7 @@ const Footer = () => (
         <a href="mailto:email@lapkov.com">email@lapkov.com</a>
       </AvailTag>
     </div>
-    <div style={{ float: `right`, textAlign: `right` }}>
+    <FooterRigth>
       <div style={{ fontSize: `.75em` }}>
         © {new Date().getFullYear()}, Built with
         {` `}
@@ -37,7 +37,7 @@ const Footer = () => (
         </a>
         .
       </div>
-    </div>
+    </FooterRigth>
   </FooterWrap>
 );
 

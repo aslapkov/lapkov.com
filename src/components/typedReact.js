@@ -7,8 +7,8 @@ const TypedReact = props => {
   // You can pass other options here
   const options = {
     strings: strings,
-    typeSpeed: 30,
-    backSpeed: 30,
+    typeSpeed: 40,
+    backSpeed: 40,
   };
 
   useEffect(() => {
