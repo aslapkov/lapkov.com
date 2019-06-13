@@ -11,7 +11,7 @@ const IndexPage = () => (
     <Image />
     <h1>
       <span style={{ display: `none` }}>
-        Hey! I am Alex. Web developer, designer, SEO specialist.
+        Hey! I am Alex. Web developer, designer and SEO specialist.
       </span>
       <TypedReact
         strings={[

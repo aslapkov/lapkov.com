@@ -22,7 +22,7 @@ class TypedReact extends React.Component {
   render() {
     return (
       <span
-        style={{ whiteSpace: 'pre' }}
+        style={{ whiteSpace: `pre` }}
         ref={el => {
           this.el = el;
         }}
