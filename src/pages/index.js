@@ -3,17 +3,21 @@ import { Link } from 'gatsby';
 import Layout from '../components/layout';
 import Image from '../components/image';
 import SEO from '../components/seo';
+import TypedReact from '../components/typedReact';
 
 const IndexPage = () => (
   <Layout>
     <SEO title="I am a web developer" />
     <Image />
     <h1>
-      Hey! I am Alex.
-      <br />
-      Web developer, designer, SEO.
-      <br />
-      Here is something about me
+      <span style={{ display: `none` }}>
+        Hey! I am Alex. Web developer, designer, SEO.
+      </span>
+      <TypedReact
+        strings={[
+          `Hey! I am Alex.<br /> Web developer, designer, SEO.<br /> Here is something about me`,
+        ]}
+      />
     </h1>
     <h4>ABOUT</h4>
     <p>

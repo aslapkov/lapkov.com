@@ -21,7 +21,8 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1",
-    "styled-components": "^4.3.1"
+    "styled-components": "^4.3.1",
+    "typed.js": "^2.0.10"
   },
   "devDependencies": {
     "gatsby-cli": "2.6.4",
