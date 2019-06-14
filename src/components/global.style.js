@@ -419,14 +419,17 @@ const GlobalStyle = createGlobalStyle`
     margin-bottom: 1.45rem;
   }
   blockquote {
-    margin-left: 1.45rem;
-    margin-right: 1.45rem;
+    margin-left: 1.65rem;
+    margin-right: 1.25rem;
     margin-top: 0;
     padding-bottom: 0;
-    padding-left: 0;
+    padding-left: 1.45em;
     padding-right: 0;
     padding-top: 0;
     margin-bottom: 1.45rem;
+    border-left-color: #e91e63;
+    border-left-width: 2px;
+    border-left-style: solid;
   }
   form {
     margin-left: 0;

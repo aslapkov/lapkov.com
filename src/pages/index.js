@@ -15,14 +15,22 @@ const IndexPage = () => (
       </span>
       <TypedReact
         strings={[
-          `Hey! I am Alex.<br /> Web developer,<br /> designer and SEO.<br /> Welcome!`,
+          `Hey! I am Alex.<br /> Web developer,<br /> designer and SEO.`,
         ]}
       />
     </h1>
     <h4>ABOUT</h4>
-    <p>
-      About me or <Link to="/contact/">contact</Link>.
-    </p>
+    <blockquote>
+      <p>
+        My name is Aleksandr. I like <strong>javascript</strong>, to build the
+        websites, to design beautiful apps and to see how these projects getting
+        the high marks from search engines. For the past 5 years I've helped
+        small companies, organizations and start-ups reach business goals using
+        modern and progressive web sites and to get a lot of new clients with{' '}
+        search Google, Yandex etc. If you want to aks me something, please{' '}
+        <Link to="/contact/">contact me</Link>!
+      </p>
+    </blockquote>
   </Layout>
 );
 
