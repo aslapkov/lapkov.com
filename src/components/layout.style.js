@@ -77,6 +77,10 @@ const Main = styled.main`
   clear: both;
   padding: 60px 20px;
 
+  a {
+    border-bottom: 1px solid #e91e63;
+  }
+
   img {
     border-radius: 50% !important;
   }

@@ -223,7 +223,7 @@ const GlobalStyle = createGlobalStyle`
     padding-left: 0;
     padding-right: 0;
     padding-top: 0;
-    margin-bottom: 2.45rem;
+    margin-bottom: 3rem;
     color: #fff;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
@@ -270,12 +270,13 @@ const GlobalStyle = createGlobalStyle`
     padding-left: 0;
     padding-right: 0;
     padding-top: 0;
-    margin-bottom: 1.45rem;
+    margin-bottom: 2.45rem;
     color: #e91e63;
     font-weight: bold;
     text-rendering: optimizeLegibility;
     font-size: 1rem;
     line-height: 1.1;
+    text-transform: uppercase;
   }
   h5 {
     margin-left: 0;
@@ -419,14 +420,14 @@ const GlobalStyle = createGlobalStyle`
     margin-bottom: 1.45rem;
   }
   blockquote {
-    margin-left: 1.65rem;
+    margin-left: 0;
     margin-right: 1.25rem;
     margin-top: 0;
     padding-bottom: 0;
     padding-left: 1.45em;
     padding-right: 0;
     padding-top: 0;
-    margin-bottom: 1.45rem;
+    margin-bottom: 2.45rem;
     border-left-color: #e91e63;
     border-left-width: 2px;
     border-left-style: solid;

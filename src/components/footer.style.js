@@ -7,6 +7,11 @@ const FooterWrap = styled.footer`
   clear: both;
   padding: 60px 20px;
 
+  a {
+    color: #fff;
+    font-weight: 700;
+  }
+
   @media (min-width: 768px) {
     width: 91.66666667%;
   }
@@ -93,10 +98,6 @@ const AvailTag = styled.span`
   color: #fff;
   display: block;
   float: left;
-
-  a {
-    border-bottom: 1px solid #e91e63;
-  }
 `;
 
 const FooterRigth = styled.div`

@@ -15,11 +15,21 @@ const Footer = () => (
       </AvailTag>
     </div>
     <FooterRigth>
-      <div style={{ fontSize: `.75em` }}>
-        © {new Date().getFullYear()}, Built with
+      <div style={{ fontSize: `.8em` }}>
+        © {new Date().getFullYear()}, Open
         {` `}
         <a
           href="https://github.com/aslapkov/lapkov.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Source
+        </a>
+        .<br />
+        Built with
+        {` `}
+        <a
+          href="https://github.com/gatsbyjs/gatsby"
           target="_blank"
           rel="noopener noreferrer"
         >

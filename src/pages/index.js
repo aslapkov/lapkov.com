@@ -19,18 +19,21 @@ const IndexPage = () => (
         ]}
       />
     </h1>
-    <h4>ABOUT</h4>
+    <h4>About</h4>
     <blockquote>
       <p>
         My name is Aleksandr. I like <strong>javascript</strong>, to build the
         websites, to design beautiful apps and to see how these projects getting
         the high marks from search engines. For the past 5 years I've helped
         small companies, organizations and start-ups reach business goals using
-        modern and progressive web sites and to get a lot of new clients with{' '}
-        search Google, Yandex etc. If you want to aks me something, please{' '}
+        modern and progressive web sites and to get a lot of new clients with
+        search Google, Yandex etc. I love to read new things around javascript
+        and I am always ready to learn! If you want to ask me something, please{' '}
         <Link to="/contact/">contact me</Link>!
       </p>
     </blockquote>
+    <h4>What can I do?</h4>
+    <div></div>
   </Layout>
 );
 
