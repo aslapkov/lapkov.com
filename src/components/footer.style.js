@@ -7,17 +7,17 @@ const FooterWrap = styled.footer`
   clear: both;
   padding: 60px 20px;
 
-  a {
-    color: #fff;
-    font-weight: 700;
-  }
-
   @media (min-width: 768px) {
     width: 91.66666667%;
   }
 
   @media (min-width: 950px) {
     width: 83.33333333%;
+  }
+
+  a {
+    color: #fff;
+    font-weight: 700;
   }
 `;
 
@@ -98,6 +98,14 @@ const AvailTag = styled.span`
   color: #fff;
   display: block;
   float: left;
+
+  @media (max-width: 769px) {
+    font-size: 0.85em;
+  }
+
+  @media (max-width: 576px) {
+    font-size: 0.8em;
+  }
 `;
 
 const FooterRigth = styled.div`

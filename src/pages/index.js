@@ -32,7 +32,7 @@ const IndexPage = () => (
         <Link to="/contact/">contact me</Link>!
       </p>
     </blockquote>
-    <h4>What can I do?</h4>
+    <h4>What I do?</h4>
     <div></div>
   </Layout>
 );

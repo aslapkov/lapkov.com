@@ -223,7 +223,7 @@ const GlobalStyle = createGlobalStyle`
     padding-left: 0;
     padding-right: 0;
     padding-top: 0;
-    margin-bottom: 3rem;
+    margin-bottom: 50px;
     color: #fff;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
@@ -270,7 +270,7 @@ const GlobalStyle = createGlobalStyle`
     padding-left: 0;
     padding-right: 0;
     padding-top: 0;
-    margin-bottom: 2.45rem;
+    margin-bottom: 50px;
     color: #e91e63;
     font-weight: bold;
     text-rendering: optimizeLegibility;
@@ -427,7 +427,7 @@ const GlobalStyle = createGlobalStyle`
     padding-left: 1.45em;
     padding-right: 0;
     padding-top: 0;
-    margin-bottom: 2.45rem;
+    margin-bottom: 50px;
     border-left-color: #e91e63;
     border-left-width: 2px;
     border-left-style: solid;
