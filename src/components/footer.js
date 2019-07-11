@@ -15,7 +15,7 @@ const Footer = () => (
       </AvailTag>
     </div>
     <FooterRigth>
-      <div style={{ fontSize: `.8em` }}>
+      <div style={{ fontSize: `.77em` }}>
         © {new Date().getFullYear()}, Open
         {` `}
         <a
