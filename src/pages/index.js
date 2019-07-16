@@ -3,7 +3,13 @@ import { Link } from 'gatsby';
 import Layout from '../components/layout';
 import Image from '../components/image';
 import SEO from '../components/seo';
+import WhatDo from '../components/whatDo';
 import TypedReact from '../components/typedReact';
+
+import IconCode from '../images/code.svg';
+import IconDesign from '../images/design.svg';
+import IconSeo from '../images/seo.svg';
+import IconSupport from '../images/support.svg';
 
 const IndexPage = () => (
   <Layout>
@@ -33,7 +39,15 @@ const IndexPage = () => (
       </p>
     </blockquote>
     <h4>What I do?</h4>
-    <div></div>
+    <div>
+      <WhatDo iconName={IconCode} label="Programming websites and apps" />
+      <WhatDo iconName={IconDesign} label="Creating a clean UX/UI design" />
+      <WhatDo iconName={IconSeo} label="SEO – search engine optimization" />
+      <WhatDo
+        iconName={IconSupport}
+        label="Support and revision your site, apps"
+      />
+    </div>
   </Layout>
 );
 
