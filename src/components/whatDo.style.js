@@ -33,7 +33,6 @@ const BlockDiv = styled.div`
     letter-spacing: 0.5px;
     text-transform: uppercase;
     margin-top: 36px;
-    text-align: center;
   }
 `;
 
