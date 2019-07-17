@@ -6,7 +6,7 @@ const WhatDo = ({ iconName, label }) => {
 
   return (
     <BlockDiv>
-      <IconName height="120" width="120" className="iconStyle" fill="#777" />
+      <IconName height="100" width="100" className="iconStyle" fill="#777" />
       <span className="lab">{label}</span>
     </BlockDiv>
   );

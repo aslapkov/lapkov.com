@@ -42,11 +42,11 @@ const IndexPage = () => (
     <div>
       <WhatDo iconName={IconCode} label="Programming websites and web apps" />
       <WhatDo iconName={IconDesign} label="Development a clean UI/UX design" />
-      <WhatDo iconName={IconSeo} label="SEO – search engine optimization" />
       <WhatDo
         iconName={IconSupport}
         label="Support and revision your site, apps"
       />
+      <WhatDo iconName={IconSeo} label="SEO – search engine optimization" />
     </div>
   </Layout>
 );
