@@ -93,8 +93,7 @@ const AvailPoint = styled.span`
 `;
 
 const AvailTag = styled.span`
-  line-height: 30px;
-  font-weight: 500;
+  font-size: 0.9em;
   color: #fff;
   display: block;
   float: left;

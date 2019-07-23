@@ -18,7 +18,7 @@ const BlockSkills = styled.div`
 `;
 
 const SpanProgress = styled.span`
-  font-size: 12px;
+  font-size: 13px;
   font-family: 'Hind', sans-serif;
   font-weight: 600;
   color: #fff;
@@ -35,7 +35,7 @@ const BarWrap = styled.div`
 
   span {
     background-color: #e91e63;
-    height: 3px;
+    height: 2px;
     width: 0px;
     display: block;
     float: left;
@@ -43,8 +43,7 @@ const BarWrap = styled.div`
     overflow: visible !important;
 
     strong {
-      font-size: 12px;
-      font-weight: 500;
+      font-size: 13px;
       font-family: 'Hind', sans-serif;
       color: #fff;
       opacity: 0;
@@ -59,7 +58,7 @@ const BarWrap = styled.div`
     }
 
     &:after {
-      border: 3px solid #e91e63;
+      border: 2px solid #e91e63;
       border-radius: 50%;
       content: '';
       height: 15px;

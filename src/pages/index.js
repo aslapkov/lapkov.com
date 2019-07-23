@@ -34,7 +34,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="I am a web developer" />
     <Image />
-    <h1>
+    <h1 style={{ height: `132px` }}>
       <span style={{ display: `none` }}>
         Hey! I am Alex. Web developer, designer and SEO specialist.
       </span>

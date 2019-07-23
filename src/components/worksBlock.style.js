@@ -1,0 +1,66 @@
+import styled from 'styled-components';
+
+const BlockWorks = styled.div`
+  margin-top: 40px;
+`;
+
+const DivWorks = styled.div`
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  float: left;
+  padding: 30px 10px;
+  width: 100%;
+
+  &.first {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  &:nth-child(even) {
+    background: rgba(255, 255, 255, 0.04);
+  }
+
+  span {
+    font-family: 'Hind', sans-serif;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 600;
+  }
+
+  span.count {
+    height: 35px;
+    width: 35px;
+    display: table;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    text-align: center;
+    font-size: 11px;
+
+    span {
+      padding-top: 0;
+      display: table-cell;
+      vertical-align: middle;
+    }
+  }
+
+  span.year {
+    font-size: 13px;
+    letter-spacing: 0.5px;
+  }
+`;
+
+const Col2 = styled.div`
+  width: 16.66666667%;
+  float: left;
+`;
+
+const Col3 = styled.div`
+  width: 25%;
+  float: left;
+`;
+
+const Col5 = styled.div`
+  width: 41.66666667%;
+  float: left;
+`;
+
+export { BlockWorks, DivWorks, Col2, Col3, Col5 };

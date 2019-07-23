@@ -428,7 +428,7 @@ const GlobalStyle = createGlobalStyle`
     padding-top: 0;
     margin-bottom: 50px;
     border-left-color: #e91e63;
-    border-left-width: 2px;
+    border-left-width: 1px;
     border-left-style: solid;
   }
   form {

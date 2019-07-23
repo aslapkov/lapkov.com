@@ -13,8 +13,7 @@ const ContactPage = () => (
       <TypedReact strings={[`Contacts`]} />
     </h1>
     <p>
-      <a href="mailto:email@lapkov.com">email@lapkov.com</a> – my contact email
-      address
+      <a href="mailto:email@lapkov.com">email@lapkov.com</a> – my email address
       <br />
       <a href="https://t.me/aslapkov" target="_blank" rel="noopener noreferrer">
         @aslapkov

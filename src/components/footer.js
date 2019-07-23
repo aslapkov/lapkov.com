@@ -7,15 +7,13 @@ const Footer = () => (
     <div style={{ float: `left` }}>
       <AvailPoint />
       <AvailTag>
-        Available for freelance projects
+        Available for freelance and remote work
         <br />
-        Please contact me by
-        {` `}
         <a href="mailto:email@lapkov.com">email@lapkov.com</a>
       </AvailTag>
     </div>
     <FooterRigth>
-      <div style={{ fontSize: `.7em` }}>
+      <div style={{ fontSize: `.6em` }}>
         © {new Date().getFullYear()}, Open
         {` `}
         <a
