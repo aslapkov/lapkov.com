@@ -11,6 +11,25 @@ import IconDesign from '../images/design.svg';
 import IconSeo from '../images/seo.svg';
 import IconSupport from '../images/support.svg';
 
+const dataIcon = [
+  {
+    iconName: IconCode,
+    label: `Programming websites and web apps`,
+  },
+  {
+    iconName: IconDesign,
+    label: `Development a clean UI/UX design`,
+  },
+  {
+    iconName: IconSeo,
+    label: `Support and revision your site, apps`,
+  },
+  {
+    iconName: IconSupport,
+    label: `SEO – search engine optimization`,
+  },
+];
+
 const IndexPage = () => (
   <Layout>
     <SEO title="I am a web developer" />
@@ -40,13 +59,7 @@ const IndexPage = () => (
     </blockquote>
     <h4>What I do?</h4>
     <div>
-      <WhatDo iconName={IconCode} label="Programming websites and web apps" />
-      <WhatDo iconName={IconDesign} label="Development a clean UI/UX design" />
-      <WhatDo
-        iconName={IconSupport}
-        label="Support and revision your site, apps"
-      />
-      <WhatDo iconName={IconSeo} label="SEO – search engine optimization" />
+      <WhatDo data={dataIcon} />
     </div>
   </Layout>
 );

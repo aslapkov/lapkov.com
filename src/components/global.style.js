@@ -42,7 +42,6 @@ const GlobalStyle = createGlobalStyle`
     display: none;
   }
   a {
-    color: #e91e63;
     text-decoration: none;
     background-color: transparent;
     -webkit-text-decoration-skip: objects;

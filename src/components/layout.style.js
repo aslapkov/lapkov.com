@@ -27,6 +27,11 @@ const Container = styled.div`
   margin-left: auto;
 `;
 
+const Row = styled.div`
+  margin-right: -15px;
+  margin-left: -15px;
+`;
+
 const Col4 = styled.div`
   @media (min-width: 950px) {
     width: 33.33333333%;
@@ -78,7 +83,14 @@ const Main = styled.main`
   padding: 60px 20px;
 
   a {
-    border-bottom: 1px solid #e91e63;
+    color: #e91e63;
+    font-weight: 700;
+    opacity: 0.8;
+    border-bottom: 1px dotted #e91e63;
+
+    &:hover {
+      opacity: 1;
+    }
   }
 
   img {
@@ -101,4 +113,4 @@ const Main = styled.main`
   }
 `;
 
-export { ImgDiv, Container, Col4, Col8, Content, Main };
+export { ImgDiv, Container, Row, Col4, Col8, Content, Main };
