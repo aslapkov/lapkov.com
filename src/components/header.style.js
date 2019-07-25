@@ -161,72 +161,6 @@ const HeaderTouch = styled.div`
     }
   }
 
-  nav {
-    display: none;
-    backface-visibility: hidden;
-    -webkit-backface-visibility: hidden;
-    -moz-transition: margin 0.6s ease 0s, transform 0.6s ease 0s;
-    -o-transition: margin 0.6s ease 0s, transform 0.6s ease 0s;
-    -webkit-transition: margin 0.6s ease 0s, transform 0.6s ease 0s;
-    transition: margin 0.6s ease 0s, transform 0.6s ease 0s;
-
-    @media only screen and (max-width: 950px) {
-      &.collapse {
-        display: block;
-        margin-bottom: 0;
-        background: rgba(255, 255, 255, 0.9);
-        border: none;
-
-        .navbarNav {
-          display: block !important;
-          padding-top: 50px;
-          box-shadow: none;
-          overflow-y: auto;
-          overflow-x: visible;
-          -webkit-overflow-scrolling: touch;
-          border-top: 1px solid transparent;
-          -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
-          box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
-
-          ul {
-            margin-top: 0;
-            margin-left: 0;
-            margin-right: 0;
-            float: none !important;
-
-            li {
-              float: none;
-              position: relative;
-              display: block;
-
-              a {
-                color: #000;
-                line-height: 20px;
-                position: relative;
-                display: block;
-                padding: 20px 15px;
-
-                span {
-                  display: block;
-                  color: #141414;
-                  font-size: 16px;
-                  font-weight: 500;
-                  letter-spacing: 1.5px;
-                  line-height: 1;
-                  text-transform: uppercase;
-                  -moz-transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1) 0s;
-                  -o-transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1) 0s;
-                  -webkit-transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1) 0s;
-                  transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1) 0s;
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-
   @media only screen and (max-width: 950px) {
     position: relative;
     z-index: 1;
@@ -238,4 +172,72 @@ const HeaderTouch = styled.div`
   }
 `;
 
-export { HeaderWrap, HeaderCol, HeaderLogo, HeaderTouch };
+const HeaderNav = styled.nav`
+  display: none;
+  -moz-transition: transform 0.6s ease 0s;
+  -o-transition: transform 0.6s ease 0s;
+  -webkit-transition: transform 0.6s ease 0s;
+  transition: transform 0.6s ease 0s;
+
+  @media only screen and (max-width: 950px) {
+    &.collapse {
+      display: block;
+      position: relative;
+      z-index: 1;
+      margin-bottom: 0;
+      margin-top: 50px;
+      background: rgba(255, 255, 255, 0.9);
+      border: none;
+
+      .navbarNav {
+        display: block !important;
+        padding: 50px;
+        box-shadow: none;
+        overflow-x: visible;
+        -webkit-overflow-scrolling: touch;
+        border-top: 1px solid transparent;
+        -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+
+        ul {
+          float: none !important;
+
+          li {
+            float: none;
+            position: relative;
+            display: block;
+
+            a {
+              color: #000;
+              line-height: 20px;
+              position: relative;
+              display: block;
+              padding: 20px 15px;
+
+              &.contact,
+              button {
+                border: none;
+              }
+
+              span {
+                display: block;
+                font-family: 'Hind', sans-serif;
+                color: #141414;
+                font-size: 16px;
+                letter-spacing: 1.5px;
+                line-height: 1;
+                text-transform: uppercase;
+                -moz-transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+                -o-transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+                -webkit-transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+                transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+`;
+
+export { HeaderWrap, HeaderCol, HeaderLogo, HeaderTouch, HeaderNav };

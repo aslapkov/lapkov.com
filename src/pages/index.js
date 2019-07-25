@@ -53,7 +53,11 @@ const IndexPage = () => (
         small companies, organizations and start-ups reach business goals using
         modern and progressive web sites and to get a lot of new clients with
         search Google, Yandex etc. I love to read new things around javascript
-        and I am always ready to learn! If you want to ask me something, please{' '}
+        and I am always ready to learn!
+      </p>
+      <p>
+        At the moment I'm looking for new interesting web projects! If you want
+        to offer me something or ask about me, please{' '}
         <Link to="/contact/">contact me</Link>!
       </p>
     </blockquote>

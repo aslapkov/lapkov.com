@@ -27,7 +27,7 @@ module.exports = {
       },
       {
         id: 5,
-        name: `Contact`,
+        name: `Contacts`,
         slug: `/contact/`,
       },
     ],

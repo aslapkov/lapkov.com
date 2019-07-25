@@ -6,7 +6,13 @@ import IconMenu from '../images/menu.svg';
 import IconMobCont from '../images/plane.svg';
 import IconCont from '../images/paper-plane.svg';
 
-import { HeaderWrap, HeaderCol, HeaderLogo, HeaderTouch } from './header.style';
+import {
+  HeaderWrap,
+  HeaderCol,
+  HeaderLogo,
+  HeaderTouch,
+  HeaderNav,
+} from './header.style';
 
 const Header = ({ siteTitle, siteLinks }) => {
   const [collapse, setCollapse] = useState(false);
@@ -45,20 +51,23 @@ const Header = ({ siteTitle, siteLinks }) => {
               </span>
             </span>
           </Link>
-          <nav className={active}>
-            <div className="navbarNav">
-              <ul>
-                {siteLinks.map(data => (
-                  <li key={data.id}>
-                    <Link to={data.slug}>
-                      <span>{data.name}</span>
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </nav>
         </HeaderTouch>
+        <HeaderNav className={active}>
+          <div className="navbarNav">
+            <ul>
+              {siteLinks.map(data => (
+                <li key={data.id}>
+                  <Link to={data.slug}>
+                    <span>
+                      {'– '}
+                      {data.name}
+                    </span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </HeaderNav>
       </HeaderCol>
     </HeaderWrap>
   );
