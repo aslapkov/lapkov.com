@@ -29,7 +29,7 @@ const Header = ({ siteTitle, siteLinks }) => {
             <span className="mask"></span>
             <span className="label">
               <span className="iconMenu">
-                <FontAwesomeIcon icon={faAlignRight} />
+                <FontAwesomeIcon icon={faAlignRight} size="lg" />
               </span>
             </span>
           </button>
@@ -38,7 +38,7 @@ const Header = ({ siteTitle, siteLinks }) => {
             <span className="label">
               <b>Contact me!</b>
               <span className="iconCall">
-                <FontAwesomeIcon icon={faCoffee} />
+                <FontAwesomeIcon icon={faCoffee} size="lg" />
               </span>
             </span>
           </Link>

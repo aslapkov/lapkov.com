@@ -122,13 +122,10 @@ const HeaderTouch = styled.div`
           display: none;
         }
 
-        .iconCall {
+        .iconCall,
+        .iconMenu {
           display: block;
           margin-left: 0;
-        }
-
-        .iconMenu {
-          font-size: 15px;
         }
       }
     }
