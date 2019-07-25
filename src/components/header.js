@@ -2,8 +2,9 @@ import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import React, { useState } from 'react';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee, faAlignRight } from '@fortawesome/free-solid-svg-icons';
+import IconMenu from '../images/menu.svg';
+import IconMobCont from '../images/plane.svg';
+import IconCont from '../images/paper-plane.svg';
 
 import { HeaderWrap, HeaderCol, HeaderLogo, HeaderTouch } from './header.style';
 
@@ -29,7 +30,7 @@ const Header = ({ siteTitle, siteLinks }) => {
             <span className="mask"></span>
             <span className="label">
               <span className="iconMenu">
-                <FontAwesomeIcon icon={faAlignRight} size="lg" />
+                <IconMenu height="25" width="25" fill="#000" />
               </span>
             </span>
           </button>
@@ -37,8 +38,11 @@ const Header = ({ siteTitle, siteLinks }) => {
             <span className="mask"></span>
             <span className="label">
               <b>Contact me!</b>
+              <span className="iconCoffee">
+                <IconCont height="20" width="20" fill="#fff" />
+              </span>
               <span className="iconCall">
-                <FontAwesomeIcon icon={faCoffee} size="lg" />
+                <IconMobCont height="25" width="25" fill="#000" />
               </span>
             </span>
           </Link>
@@ -48,7 +52,7 @@ const Header = ({ siteTitle, siteLinks }) => {
                 {siteLinks.map(data => (
                   <li key={data.id}>
                     <Link to={data.slug}>
-                      <span>– {data.name}</span>
+                      <span>{data.name}</span>
                     </Link>
                   </li>
                 ))}

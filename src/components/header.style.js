@@ -71,7 +71,7 @@ const HeaderLogo = styled.div`
 const HeaderTouch = styled.div`
   a.contact,
   button {
-    font-size: 0.8em;
+    font-size: 0.9em;
     float: right;
     color: #fff;
     overflow: hidden;
@@ -110,8 +110,14 @@ const HeaderTouch = styled.div`
       z-index: 2;
       display: inline-block;
 
-      .iconCall {
+      .iconCoffee {
         margin-left: 10px;
+      }
+
+      .iconCall {
+        display: none;
+        margin-left: 10px;
+        margin-top: 2px;
       }
 
       @media only screen and (max-width: 950px) {
@@ -119,6 +125,10 @@ const HeaderTouch = styled.div`
         padding-top: 0;
 
         b {
+          display: none;
+        }
+
+        .iconCoffee {
           display: none;
         }
 
@@ -138,11 +148,11 @@ const HeaderTouch = styled.div`
       padding: 7px 10px;
       background: none !important;
       color: #000;
-      margin-top: 8px;
+      margin-top: 3px;
 
       &.button {
         display: block;
-        margin-left: 15px;
+        margin-left: 10px;
         margin-right: 20px;
       }
     }
@@ -220,7 +230,7 @@ const HeaderTouch = styled.div`
 
     a.contact,
     button {
-      border-left: 1px solid #141414;
+      border: none;
     }
   }
 `;
