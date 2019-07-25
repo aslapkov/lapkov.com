@@ -24,6 +24,8 @@ const DivWorks = styled.div`
     font-size: 12px;
     color: #fff;
     font-weight: 600;
+    padding-top: 10px;
+    display: block;
   }
 
   span.count {
@@ -33,7 +35,7 @@ const DivWorks = styled.div`
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 50%;
     text-align: center;
-    font-size: 11px;
+    padding-top: 0;
 
     span {
       padding-top: 0;
@@ -45,6 +47,12 @@ const DivWorks = styled.div`
   span.year {
     font-size: 13px;
     letter-spacing: 0.5px;
+  }
+
+  span.siteUrl {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 `;
 

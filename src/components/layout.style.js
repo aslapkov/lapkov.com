@@ -62,7 +62,7 @@ const Col8 = styled.div`
 
 const Content = styled.div`
   background: rgba(20, 20, 20, 0.85);
-  margin-top: 150px;
+  margin-top: 120px;
   border-top-left-radius: 10px;
   -moz-transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1) 0s;
   -o-transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1) 0s;
@@ -71,7 +71,7 @@ const Content = styled.div`
 
   @media only screen and (max-width: 950px) {
     background: #141414;
-    margin-top: 70px;
+    margin-top: 0;
     border-radius: 0;
   }
 `;
@@ -81,7 +81,7 @@ const Main = styled.main`
   overflow: hidden;
   float: none;
   clear: both;
-  padding: 60px 20px;
+  padding: 90px 20px 60px;
 
   h1 {
     height: 44px;

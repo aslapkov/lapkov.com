@@ -57,7 +57,7 @@ const IndexPage = () => (
         <Link to="/contact/">contact me</Link>!
       </p>
     </blockquote>
-    <h4>What I do?</h4>
+    <h4>What can I do for you?</h4>
     <div>
       <WhatDo data={dataIcon} />
     </div>

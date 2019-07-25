@@ -17,7 +17,12 @@ const FooterWrap = styled.footer`
 
   a {
     color: #fff;
+    opacity: 0.85;
     font-weight: 700;
+
+    &:hover {
+      opacity: 1;
+    }
   }
 `;
 

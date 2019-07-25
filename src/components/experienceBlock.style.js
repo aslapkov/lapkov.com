@@ -75,7 +75,7 @@ const ColSm3 = styled.div`
   span {
     color: #fff;
     font-family: 'Hind', sans-serif;
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.5px;
@@ -91,17 +91,17 @@ const ColSm9 = styled.div`
   span {
     display: block;
     font-size: 16px;
-    font-weight: 500;
-    text-transform: capitalize;
   }
 
   .desc {
+    font-family: 'Hind', sans-serif;
     color: #ccc;
     padding-bottom: 5px;
   }
 
   .loc {
     font-size: 15px;
+    font-weight: 600;
     color: #fff;
     padding-bottom: 15px;
   }

@@ -7,9 +7,11 @@ const Footer = () => (
     <div style={{ float: `left` }}>
       <AvailPoint />
       <AvailTag>
-        Available for freelance and remote work
+        Available for freelance or remote work
         <br />
-        <a href="mailto:email@lapkov.com">email@lapkov.com</a>
+        <a href="mailto:email@lapkov.com" style={{ fontSize: `1.05em` }}>
+          email@lapkov.com
+        </a>
       </AvailTag>
     </div>
     <FooterRigth>

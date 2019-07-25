@@ -21,7 +21,7 @@ const WorksBlock = ({ data }) => {
               <span>{elem.desc}</span>
             </Col5>
             <Col3>
-              <span>
+              <span className="siteUrl">
                 <a
                   href={elem.siteUrl}
                   target="_blank"

@@ -9,9 +9,21 @@ import WorksBlock from '../components/worksBlock';
 const dataWork = [
   {
     year: `2019`,
+    desc: `My new website build with gatsby`,
+    siteUrl: `https://lapkov.com`,
+    site: `lapkov.com`,
+  },
+  {
+    year: `2019`,
     desc: `New brand women clothes in Minsk`,
     siteUrl: `http://botti.by`,
     site: `botti.by`,
+  },
+  {
+    year: `2018`,
+    desc: `The massage room in Minsk (Belarus)`,
+    siteUrl: `http://synergymassage.by`,
+    site: `synergymassage.by`,
   },
   {
     year: `2018`,
@@ -31,6 +43,12 @@ const dataWork = [
     siteUrl: `http://yuliagrebenshchikova.com`,
     site: `yuliagrebenshchikova.com`,
   },
+  {
+    year: `2017`,
+    desc: `Auto insurance with home delivery`,
+    siteUrl: `http://shokopolis.ru`,
+    site: `shokopolis.ru`,
+  },
 ];
 
 const WorksPage = () => (
@@ -40,7 +58,7 @@ const WorksPage = () => (
       <span style={{ display: `none` }}>Works</span>
       <TypedReact strings={[`My Works`]} />
     </h1>
-    <h4>Wokrs that I can show</h4>
+    <h4>These are works that I can show</h4>
     <WorksBlock data={dataWork} />
   </Layout>
 );

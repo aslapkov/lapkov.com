@@ -186,6 +186,7 @@ const GlobalStyle = createGlobalStyle`
   html {
     font-family: 'Lato', sans-serif;
     color: hsla(255, 255%, 255%, 0.9);
+    background-color: #000;
     font-weight: 400;
     box-sizing: border-box;
     overflow-y: scroll;

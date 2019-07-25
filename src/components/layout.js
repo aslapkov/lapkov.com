@@ -47,7 +47,10 @@ const Layout = ({ children, location }) => {
             <NavBar siteLinks={data.site.siteMetadata.siteLinks} />
           </Col4>
           <Col8>
-            <Header siteTitle={data.site.siteMetadata.title} />
+            <Header
+              siteTitle={data.site.siteMetadata.title}
+              siteLinks={data.site.siteMetadata.siteLinks}
+            />
             <Content>
               <Main>{children}</Main>
               <hr />

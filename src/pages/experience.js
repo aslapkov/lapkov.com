@@ -1,5 +1,4 @@
 import React from 'react';
-// import { Link } from 'gatsby';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
@@ -8,22 +7,28 @@ import ExperienceBlock from '../components/experienceBlock';
 
 const dataExp = [
   {
+    period: `May 2019`,
+    position: `Developing, design, SEO`,
+    loc: `«Botti», Minsk, botti.by`,
+    info: `Created a tiny website with a look into the future for new brand in the market of Belarus.`,
+  },
+  {
     period: `June 2017 - present`,
-    position: `Developer, designer, SEO`,
-    loc: `Sister's, sisters.by, Minsk`,
+    position: `Developing, design, SEO`,
+    loc: `«Sister's», Minsk, sisters.by`,
     info: `The third big project.`,
   },
   {
     period: `April 2015 - present`,
-    position: `Developer, designer, SEO`,
-    loc: `Sati, sati.by, Gomel`,
+    position: `Developing, design, SEO`,
+    loc: `«Сати», Gomel, sati.by`,
     info: `My second work and fully performed by me.`,
   },
   {
     period: `December 2012 - May 2016`,
     position: `SEO`,
-    loc: `Hipway & HipClub, hipway.ru, Moscow`,
-    info: `My first work IT in my life`,
+    loc: `«Hipway & HipClub», Moscow, hipway.ru & hipclub.ru`,
+    info: `My first IT work in my life`,
   },
 ];
 
