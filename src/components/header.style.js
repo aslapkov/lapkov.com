@@ -71,7 +71,7 @@ const HeaderLogo = styled.div`
 const HeaderTouch = styled.div`
   a.contact,
   button {
-    font-size: 0.9em;
+    font-size: 0.85em;
     float: right;
     color: #fff;
     overflow: hidden;
@@ -110,14 +110,13 @@ const HeaderTouch = styled.div`
       z-index: 2;
       display: inline-block;
 
-      .iconCoffee {
+      .iconPlane {
         margin-left: 10px;
       }
 
       .iconCall {
         display: none;
         margin-left: 10px;
-        margin-top: 2px;
       }
 
       @media only screen and (max-width: 950px) {
@@ -128,7 +127,7 @@ const HeaderTouch = styled.div`
           display: none;
         }
 
-        .iconCoffee {
+        .iconPlane {
           display: none;
         }
 
@@ -142,6 +141,10 @@ const HeaderTouch = styled.div`
 
     &:hover .mask {
       width: 100%;
+
+      @media only screen and (max-width: 950px) {
+        width: 0;
+      }
     }
 
     @media only screen and (max-width: 950px) {

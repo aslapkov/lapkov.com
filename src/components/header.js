@@ -27,7 +27,6 @@ const Header = ({ siteTitle, siteLinks }) => {
             type="button"
             className="button"
           >
-            <span className="mask"></span>
             <span className="label">
               <span className="iconMenu">
                 <IconMenu height="25" width="25" fill="#000" />
@@ -38,7 +37,7 @@ const Header = ({ siteTitle, siteLinks }) => {
             <span className="mask"></span>
             <span className="label">
               <b>Contact me!</b>
-              <span className="iconCoffee">
+              <span className="iconPlane">
                 <IconCont height="20" width="20" fill="#fff" />
               </span>
               <span className="iconCall">
