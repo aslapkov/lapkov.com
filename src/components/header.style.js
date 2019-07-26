@@ -174,24 +174,25 @@ const HeaderNav = styled.nav`
     display: block;
     position: relative;
     opacity: 0;
+    height: 0;
     z-index: 1;
     margin-bottom: 0;
     background: rgba(255, 255, 255, 0.9);
     border: none;
-    /*-webkit-transition: opacity 0.6s ease 0s;
-    -moz-transition: opacity 0.6s ease 0s;
-    -ms-transition: opacity 0.6s ease 0s;
-    -o-transition: opacity 0.6s ease 0s;
-    transition: opacity 0.6s ease 0s;*/
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    -ms-transition: all 0.6s;
+    -o-transition: all 0.6s;
+    transition: all 0.6s;
 
     &.collapse {
       opacity: 1;
-      /*height: auto;*/
-      -webkit-transition: opacity 0.6s ease 0s;
-      -moz-transition: opacity 0.6s ease 0s;
-      -ms-transition: opacity 0.6s ease 0s;
-      -o-transition: opacity 0.6s ease 0s;
-      transition: opacity 0.6s ease 0s;
+      height: 400px;
+      -webkit-transition: height 0.6s ease 0s;
+      -moz-transition: height 0.6s ease 0s;
+      -ms-transition: height 0.6s ease 0s;
+      -o-transition: height 0.6s ease 0s;
+      transition: height 0.6s ease 0s;
 
       .navbarNav {
         display: block !important;
