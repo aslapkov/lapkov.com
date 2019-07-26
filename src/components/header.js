@@ -17,8 +17,6 @@ import {
 const Header = ({ siteTitle, siteLinks }) => {
   const [collapse, setCollapse] = useState(false);
 
-  const active = collapse ? `collapse` : ``;
-
   return (
     <HeaderWrap>
       <HeaderCol>
@@ -52,7 +50,7 @@ const Header = ({ siteTitle, siteLinks }) => {
             </span>
           </Link>
         </HeaderTouch>
-        <HeaderNav className={active}>
+        <HeaderNav className={collapse ? `collapse` : ``}>
           <div className="navbarNav">
             <ul>
               {siteLinks.map(data => (

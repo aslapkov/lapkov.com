@@ -7,10 +7,6 @@ const HeaderWrap = styled.header`
   width: 100%;
   z-index: 1;
   height: 70px;
-  -moz-transition: transform 0.6s ease 0s;
-  -o-transition: transform 0.6s ease 0s;
-  -webkit-transition: transform 0.6s ease 0s;
-  transition: transform 0.6s ease 0s;
 
   @media only screen and (max-width: 950px) {
     top: 0px;
@@ -24,12 +20,6 @@ const HeaderWrap = styled.header`
     -ms-transform: translateY(-70px) translateZ(0);
     -webkit-transform: translateY(-70px) translateZ(0);
     transform: translateY(-70px) translateZ(0);
-    backface-visibility: hidden;
-    -webkit-backface-visibility: hidden;
-    -moz-transition: margin 0.6s ease 0s, transform 0.6s ease 0s;
-    -o-transition: margin 0.6s ease 0s, transform 0.6s ease 0s;
-    -webkit-transition: margin 0.6s ease 0s, transform 0.6s ease 0s;
-    transition: margin 0.6s ease 0s, transform 0.6s ease 0s;
   }
 `;
 
@@ -174,24 +164,39 @@ const HeaderTouch = styled.div`
 
 const HeaderNav = styled.nav`
   display: none;
-  -moz-transition: transform 0.6s ease 0s;
-  -o-transition: transform 0.6s ease 0s;
-  -webkit-transition: transform 0.6s ease 0s;
-  transition: transform 0.6s ease 0s;
+
+  .navbarNav {
+    opacity: 0;
+    margin-top: 50px;
+  }
 
   @media only screen and (max-width: 950px) {
+    display: block;
+    position: relative;
+    opacity: 0;
+    z-index: 1;
+    margin-bottom: 0;
+    background: rgba(255, 255, 255, 0.9);
+    border: none;
+    /*-webkit-transition: opacity 0.6s ease 0s;
+    -moz-transition: opacity 0.6s ease 0s;
+    -ms-transition: opacity 0.6s ease 0s;
+    -o-transition: opacity 0.6s ease 0s;
+    transition: opacity 0.6s ease 0s;*/
+
     &.collapse {
-      display: block;
-      position: relative;
-      z-index: 1;
-      margin-bottom: 0;
-      margin-top: 50px;
-      background: rgba(255, 255, 255, 0.9);
-      border: none;
+      opacity: 1;
+      /*height: auto;*/
+      -webkit-transition: opacity 0.6s ease 0s;
+      -moz-transition: opacity 0.6s ease 0s;
+      -ms-transition: opacity 0.6s ease 0s;
+      -o-transition: opacity 0.6s ease 0s;
+      transition: opacity 0.6s ease 0s;
 
       .navbarNav {
         display: block !important;
-        padding: 50px;
+        opacity: 1;
+        padding: 40px 0;
         box-shadow: none;
         overflow-x: visible;
         -webkit-overflow-scrolling: touch;
@@ -227,10 +232,6 @@ const HeaderNav = styled.nav`
                 letter-spacing: 1.5px;
                 line-height: 1;
                 text-transform: uppercase;
-                -moz-transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1) 0s;
-                -o-transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1) 0s;
-                -webkit-transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1) 0s;
-                transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1) 0s;
               }
             }
           }
