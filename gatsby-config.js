@@ -64,10 +64,17 @@ module.exports = {
             variants: [`300`, `300i`, `400`, `400i`, `700`, `700i`],
           },
           {
-            family: `Poppins`,
+            family: `Hind`,
             variants: [`400`, `400i`, `500`, `500i`, `700`, `700i`],
           },
         ],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-nprogress`,
+      options: {
+        color: `#e91e63`,
+        showSpinner: false,
       },
     },
     {

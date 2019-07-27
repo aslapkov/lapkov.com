@@ -173,26 +173,24 @@ const HeaderNav = styled.nav`
   @media only screen and (max-width: 950px) {
     display: block;
     position: relative;
-    opacity: 0;
     height: 0;
     z-index: 1;
     margin-bottom: 0;
     background: rgba(255, 255, 255, 0.9);
     border: none;
-    -webkit-transition: all 0.6s;
-    -moz-transition: all 0.6s;
-    -ms-transition: all 0.6s;
-    -o-transition: all 0.6s;
-    transition: all 0.6s;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
 
     &.collapse {
-      opacity: 1;
-      height: 400px;
-      -webkit-transition: height 0.6s ease 0s;
-      -moz-transition: height 0.6s ease 0s;
-      -ms-transition: height 0.6s ease 0s;
-      -o-transition: height 0.6s ease 0s;
-      transition: height 0.6s ease 0s;
+      height: 430px;
+      -webkit-transition: height 0.5s ease 0s;
+      -moz-transition: height 0.5s ease 0s;
+      -ms-transition: height 0.5s ease 0s;
+      -o-transition: height 0.5s ease 0s;
+      transition: height 0.5s ease 0s;
 
       .navbarNav {
         display: block !important;

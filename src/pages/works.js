@@ -39,6 +39,12 @@ const dataWork = [
   },
   {
     year: `2017`,
+    desc: `Redesign of online store selling building materials Sati`,
+    siteUrl: `https://sati.by`,
+    site: `sati.by`,
+  },
+  {
+    year: `2017`,
     desc: `Presentation site for balerine of The Bolshoi Theatre`,
     siteUrl: `http://yuliagrebenshchikova.com`,
     site: `yuliagrebenshchikova.com`,
