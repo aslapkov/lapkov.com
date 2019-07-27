@@ -225,7 +225,6 @@ const HeaderNav = styled.nav`
 
               span {
                 display: block;
-                font-family: 'Hind', sans-serif;
                 color: #141414;
                 font-size: 16px;
                 letter-spacing: 1.5px;

@@ -21,14 +21,15 @@ const DivWorks = styled.div`
 
   span {
     font-family: 'Hind', sans-serif;
-    font-size: 12px;
+    font-size: 13px;
     color: #fff;
     font-weight: 600;
-    padding-top: 10px;
+    padding-top: 8px;
     display: block;
   }
 
   span.count {
+    font-size: 12px;
     height: 35px;
     width: 35px;
     display: table;
@@ -38,18 +39,19 @@ const DivWorks = styled.div`
     padding-top: 0;
 
     span {
-      padding-top: 0;
+      padding-top: 2px;
       display: table-cell;
       vertical-align: middle;
     }
   }
 
   span.year {
-    font-size: 13px;
+    font-size: 14px;
     letter-spacing: 0.5px;
   }
 
   span.siteUrl {
+    margin-left: 10px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
