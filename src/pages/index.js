@@ -9,7 +9,7 @@ import TypedReact from '../components/typedReact';
 import IconCode from '../images/code.svg';
 import IconDesign from '../images/design.svg';
 import IconSupport from '../images/support.svg';
-import IconSeo from '../images/google-logo.svg';
+import IconSeo from '../images/seo.svg';
 
 const dataIcon = [
   {
