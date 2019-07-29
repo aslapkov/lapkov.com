@@ -62,6 +62,22 @@ const dataSkills = [
     label: 'Webpack',
     percent: 83,
   },
+  {
+    label: 'Yarn',
+    percent: 86,
+  },
+  {
+    label: 'NPM',
+    percent: 86,
+  },
+  {
+    label: 'git',
+    percent: 83,
+  },
+  {
+    label: 'ssh',
+    percent: 82,
+  },
 ];
 
 const SkillsPage = () => (

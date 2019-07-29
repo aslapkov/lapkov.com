@@ -26,12 +26,6 @@ const NavStyle = styled.nav`
   transition: all 2s cubic-bezier(0.19, 1, 0.22, 1) 0s;
 `;
 
-const NavHeader = styled.div`
-  @media (min-width: 768px) {
-    float: left;
-  }
-`;
-
 const NavCollapse = styled.div`
   border-color: #e7e7e7;
   padding-right: 15px;
@@ -180,4 +174,4 @@ const NavCollapse = styled.div`
   }
 `;
 
-export { NavStyle, NavHeader, NavCollapse };
+export { NavStyle, NavCollapse };

@@ -37,6 +37,12 @@ const dataWork = [
     site: `kani.by`,
   },
   {
+    year: `2018`,
+    desc: `Online store selling cosmetics for base botox. Now site not available`,
+    siteUrl: `/`,
+    site: `fillery-pro.com`,
+  },
+  {
     year: `2017`,
     desc: `Redesign of online store selling building materials in Gomel`,
     siteUrl: `https://sati.by`,
@@ -47,6 +53,18 @@ const dataWork = [
     desc: `Presentation site for balerine of The Bolshoi Theatre (Moscow)`,
     siteUrl: `http://yuliagrebenshchikova.com`,
     site: `yuliagrebenshchikova.com`,
+  },
+  {
+    year: `2017`,
+    desc: `Animation Studio "Chin Up", creating stunning short animated videos`,
+    siteUrl: `https://chinup.by`,
+    site: `chinup.by`,
+  },
+  {
+    year: `2017`,
+    desc: `The dinner show in the spirit of dark cabaret and steampunk in Moscow`,
+    siteUrl: `http://showtaboo.ru`,
+    site: `showtaboo.ru`,
   },
   {
     year: `2017`,
@@ -62,9 +80,21 @@ const dataWork = [
   },
   {
     year: `2017`,
+    desc: `The SMM agency from Belarus with a focus on instagram`,
+    siteUrl: `/works`,
+    site: `smuziby.ru`,
+  },
+  {
+    year: `2017`,
     desc: `Online store selling cosmetics for nails in Belarus`,
     siteUrl: `https://elitenails.by`,
     site: `elitenails.by`,
+  },
+  {
+    year: `2016`,
+    desc: `Online store selling the paintings of modern Belarusian artists`,
+    siteUrl: `http://artclub.by`,
+    site: `artclub.by`,
   },
   {
     year: `2016`,
@@ -73,10 +103,28 @@ const dataWork = [
     site: ` getmoda.ru`,
   },
   {
+    year: `2016`,
+    desc: `Development site by order the circus performers "Du Soleil"`,
+    siteUrl: `http://vcirke.com`,
+    site: `vcirke.com`,
+  },
+  {
     year: `2015`,
-    desc: `Development online store selling building materials Sati`,
-    siteUrl: `https://sati.by`,
+    desc: `Development online store selling building materials "Sati"`,
+    siteUrl: `https://www.sati.by`,
     site: `sati.by`,
+  },
+  {
+    year: `2014`,
+    desc: `The website for the organization for the production of plastic containers`,
+    siteUrl: `http://belexport.by`,
+    site: `belexport.by`,
+  },
+  {
+    year: `2013`,
+    desc: `My first job position is a specialist for search engine optimization`,
+    siteUrl: `http://hipway.ru`,
+    site: `hipway.ru`,
   },
 ];
 
@@ -90,7 +138,7 @@ const WorksPage = () => (
     <h4>These are works that I can show</h4>
     <p>
       This is not all of my works and projects in which I participated, because
-      some of them I can't show.
+      some of them I can't show or just do not want to show.
     </p>
     <WorksBlock data={dataWork} />
   </Layout>

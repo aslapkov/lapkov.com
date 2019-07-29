@@ -57,6 +57,7 @@ const Col8 = styled.div`
     border-color: #e91e63;
     border: 0;
     border-top: 1px solid #eee;
+    margin-bottom: 0;
   }
 `;
 

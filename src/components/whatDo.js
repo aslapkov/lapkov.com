@@ -2,7 +2,7 @@ import React from 'react';
 import { BlockDiv } from './whatDo.style';
 
 const WhatDo = ({ data }) => (
-  <div>
+  <React.Fragment>
     {data.map((elem, i) => {
       const IconName = elem.iconName;
 
@@ -18,7 +18,7 @@ const WhatDo = ({ data }) => (
         </BlockDiv>
       );
     })}
-  </div>
+  </React.Fragment>
 );
 
 export default WhatDo;

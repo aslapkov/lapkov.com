@@ -2,11 +2,10 @@ import React, { useRef, useEffect } from 'react';
 import Typed from 'typed.js';
 
 const TypedReact = props => {
-  const { strings } = props;
   const spanEl = useRef(null);
   // You can pass other options here
   const options = {
-    strings: strings,
+    strings: props.strings,
     typeSpeed: 40,
     backSpeed: 40,
   };

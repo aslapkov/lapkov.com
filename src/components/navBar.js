@@ -2,16 +2,10 @@ import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import React from 'react';
 
-import { NavStyle, NavHeader, NavCollapse } from './navbar.style';
+import { NavStyle, NavCollapse } from './navbar.style';
 
 const NavBar = ({ siteLinks }) => (
   <NavStyle>
-    <NavHeader>
-      {/*<button type="button" className={navToggle}>
-        <span></span>
-        <span></span>
-      </button>*/}
-    </NavHeader>
     <NavCollapse>
       <ul>
         {siteLinks.map(data => (

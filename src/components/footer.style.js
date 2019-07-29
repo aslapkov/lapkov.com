@@ -95,6 +95,10 @@ const AvailPoint = styled.span`
     opacity: 0.2;
     border-radius: 50%;
   }
+
+  @media (max-width: 769px) {
+    margin-right: 15px;
+  }
 `;
 
 const AvailTag = styled.span`
@@ -104,10 +108,6 @@ const AvailTag = styled.span`
   float: left;
 
   @media (max-width: 769px) {
-    font-size: 0.85em;
-  }
-
-  @media (max-width: 576px) {
     font-size: 0.8em;
   }
 `;
@@ -115,9 +115,14 @@ const AvailTag = styled.span`
 const FooterRigth = styled.div`
   float: right;
   text-align: right;
+  width: 30%;
 
-  @media (max-width: 769px) {
-    padding-top: 30px;
+  .links {
+    font-size: 0.6em;
+
+    @media (max-width: 769px) {
+      font-size: 8px;
+    }
   }
 `;
 

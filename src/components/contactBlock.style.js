@@ -18,7 +18,7 @@ const ContactWrap = styled.div`
     &.social {
       span {
         font-size: 2.7em;
-        margin-right: 30px;
+        margin-right: 40px;
 
         @media only screen and (max-width: 769px) {
           font-size: 2em;
@@ -40,7 +40,7 @@ const ContactWrap = styled.div`
     }
 
     .iconSocStyle {
-      margin-right: 30px;
+      margin-right: 40px;
 
       @media only screen and (max-width: 769px) {
         margin-right: 20px;

@@ -4,10 +4,10 @@ import { FooterWrap, AvailPoint, AvailTag, FooterRigth } from './footer.style';
 
 const Footer = () => (
   <FooterWrap>
-    <div style={{ float: `left` }}>
+    <div style={{ float: `left`, width: `70%` }}>
       <AvailPoint />
       <AvailTag>
-        Available for freelance or remote work
+        Available for freelance work
         <br />
         <a href="mailto:email@lapkov.com" style={{ fontSize: `1.05em` }}>
           email@lapkov.com
@@ -15,7 +15,7 @@ const Footer = () => (
       </AvailTag>
     </div>
     <FooterRigth>
-      <div style={{ fontSize: `.6em` }}>
+      <div className="links">
         © {new Date().getFullYear()}, Open
         {` `}
         <a
