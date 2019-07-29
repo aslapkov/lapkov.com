@@ -1,9 +1,9 @@
 import React from 'react';
-// import { Link } from 'gatsby';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import TypedReact from '../components/typedReact';
+import ContactBlock from '../components/contactBlock';
 
 const ContactPage = () => (
   <Layout>
@@ -12,14 +12,7 @@ const ContactPage = () => (
       <span style={{ display: `none` }}>Contact page</span>
       <TypedReact strings={[`Contacts`]} />
     </h1>
-    <p>
-      <a href="mailto:email@lapkov.com">email@lapkov.com</a> – my email address
-      <br />
-      <a href="https://t.me/aslapkov" target="_blank" rel="noopener noreferrer">
-        @aslapkov
-      </a>{' '}
-      – find me on the telegram
-    </p>
+    <ContactBlock />
   </Layout>
 );
 

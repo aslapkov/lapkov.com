@@ -57,7 +57,7 @@ const IndexPage = () => (
       </p>
       <p>
         At the moment I'm looking for new interesting web projects! If you want
-        to offer me something or ask about me, please{' '}
+        to offer me something or to learn more about me, please{' '}
         <Link to="/contact/">contact me</Link>!
       </p>
     </blockquote>

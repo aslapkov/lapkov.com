@@ -9,20 +9,11 @@ const BlockDiv = styled.div`
   padding-right: 15px;
   padding-left: 15px;
 
-  @media (min-width: 768px) {
-    width: 25%;
-    float: left;
-  }
-
   .iconStyle {
     -moz-transition: all 0.4s ease 0s;
     -o-transition: all 0.4s ease 0s;
     -webkit-transition: all 0.4s ease 0s;
     transition: all 0.4s ease 0s;
-
-    &:hover {
-      fill: #fff;
-    }
   }
 
   span.lab {
@@ -33,6 +24,17 @@ const BlockDiv = styled.div`
     letter-spacing: 0.5px;
     text-transform: uppercase;
     margin-top: 36px;
+  }
+
+  &:hover {
+    .iconStyle {
+      fill: #fff;
+    }
+  }
+
+  @media (min-width: 768px) {
+    width: 25%;
+    float: left;
   }
 `;
 
