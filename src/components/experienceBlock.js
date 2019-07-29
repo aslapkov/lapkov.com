@@ -6,7 +6,6 @@ import {
   ColSm3,
   ColSm9,
 } from './experienceBlock.style';
-import { Row } from './layout.style';
 
 const ExperienceBlock = ({ data }) => {
   const [height, setHeight] = useState([]);
@@ -18,7 +17,7 @@ const ExperienceBlock = ({ data }) => {
   }, []);
 
   return (
-    <Row>
+    <React.Fragment>
       {data.map((elem, i) => {
         const activeFirst = i === 0 && `active`;
 
@@ -36,21 +35,19 @@ const ExperienceBlock = ({ data }) => {
               />
             </Col2>
             <Col10>
-              <Row>
-                <ColSm3>
-                  <span>{elem.period}</span>
-                </ColSm3>
-                <ColSm9>
-                  <span className="desc">{elem.position}</span>
-                  <span className="loc">{elem.loc}</span>
-                  <p className="psmall">{elem.info}</p>
-                </ColSm9>
-              </Row>
+              <ColSm3>
+                <span>{elem.period}</span>
+              </ColSm3>
+              <ColSm9>
+                <span className="desc">{elem.position}</span>
+                <span className="loc">{elem.loc}</span>
+                <p className="psmall">{elem.info}</p>
+              </ColSm9>
             </Col10>
           </TimelineWrap>
         );
       })}
-    </Row>
+    </React.Fragment>
   );
 };
 
