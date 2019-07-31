@@ -1,7 +1,9 @@
-/**
- * Implement Gatsby's Browser APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/browser-apis/
- */
-
-// You can delete this file if you're not using it
+exports.onRouteUpdate = function({ location }) {
+  if (
+    process.env.NODE_ENV === `production` &&
+    typeof window.yaCounter !== `undefined` &&
+    typeof window.yaCounter.hit === 'function'
+  ) {
+    window.yaCounter.hit((location || {}).pathname);
+  }
+};
