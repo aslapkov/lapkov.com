@@ -9,7 +9,6 @@ const SkillsBlock = ({ data }) => (
           <SpanProgress>{elem.label}</SpanProgress>
           <BarWrap>
             <span
-              id={i}
               data-width={elem.percent}
               style={{ width: `${elem.percent}%` }}
             >
