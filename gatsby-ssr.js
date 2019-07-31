@@ -17,13 +17,13 @@ exports.replaceRenderer = ({
   setHeadComponents([sheet.getStyleElement()]);
 };
 
-exports.onRenderBody = ({ setPostBodyComponents }, pluginOptions) => {
+exports.onRenderBody = ({ setPostBodyComponents }) => {
   if (process.env.NODE_ENV === `production`) {
-    const useBeta = pluginOptions.version && pluginOptions.version === 2;
-    const versionSuffix = useBeta ? '2' : '';
-    const metrikaSrc = `https://mc.yandex.ru/metrika/${
-      useBeta ? 'tag' : 'watch'
-    }.js`;
+    const trackingId = '43309609';
+    const webvisor = true;
+    const trackHash = true;
+    const versionSuffix = '2';
+    const metrikaSrc = `https://mc.yandex.ru/metrika/tag.js`;
 
     return setPostBodyComponents([
       <script
@@ -34,12 +34,12 @@ exports.onRenderBody = ({ setPostBodyComponents }, pluginOptions) => {
                 (w[c] = w[c] || []).push(function() {
                     try {
                         w.yaCounter = new Ya.Metrika${versionSuffix}({
-                            id:${pluginOptions.trackingId},
+                            id:${trackingId},
                             clickmap:true,
                             trackLinks:true,
                             accurateTrackBounce:true,
-                            webvisor:${pluginOptions.webvisor},
-                            trackHash:${pluginOptions.trackHash}
+                            webvisor:${webvisor},
+                            trackHash:${trackHash}
                         });
                     } catch(e) { }
                 });
@@ -59,7 +59,7 @@ exports.onRenderBody = ({ setPostBodyComponents }, pluginOptions) => {
       <noscript>
         <div>
           <img
-            src={`https://mc.yandex.ru/watch/${pluginOptions.trackingId}`}
+            src={`https://mc.yandex.ru/watch/${trackingId}`}
             style={{ position: 'absolute', left: '-9999px' }}
             alt=""
           />
