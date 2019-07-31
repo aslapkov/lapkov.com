@@ -32,13 +32,13 @@ const dataExp = [
     info: `The third big project.`,
   },
   {
-    period: `April 2015 - present`,
+    period: `Apr 2015 - present`,
     position: `Developing, design, SEO`,
     loc: `"Сати", Gomel, sati.by`,
     info: `My second work and fully performed by me.`,
   },
   {
-    period: `December 2013 - May 2016`,
+    period: `Dec 2013 - May 2016`,
     position: `SEO`,
     loc: `"Hipway & HipClub", Moscow, hipway.ru & hipclub.ru`,
     info: `My first IT work in my life`,

@@ -82,7 +82,7 @@ const Main = styled.main`
   overflow: hidden;
   float: none;
   clear: both;
-  padding: 90px 20px 60px;
+  padding: 90px 0 60px;
 
   h1 {
     height: 44px;
@@ -109,8 +109,9 @@ const Main = styled.main`
     margin-bottom: 30px;
   }
 
-  @media (min-width: 768px) {
+  @media (max-width: 769px) {
     width: 91.66666667%;
+    padding: 90px 10px 60px;
   }
 
   @media (min-width: 950px) {

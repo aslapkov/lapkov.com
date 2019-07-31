@@ -1,8 +1,8 @@
-const React = require('react');
-const { renderToString } = require('react-dom/server');
-const { ServerStyleSheet, StyleSheetManager } = require('styled-components');
+import React from 'react';
+import { renderToString } from 'react-dom/server';
+import { ServerStyleSheet, StyleSheetManager } from 'styled-components';
 
-exports.replaceRenderer = ({
+const replaceRenderer = ({
   bodyComponent,
   replaceBodyHTMLString,
   setHeadComponents,
@@ -17,7 +17,7 @@ exports.replaceRenderer = ({
   setHeadComponents([sheet.getStyleElement()]);
 };
 
-exports.onRenderBody = ({ setPostBodyComponents }) => {
+const onRenderBody = ({ setPostBodyComponents }) => {
   if (process.env.NODE_ENV === `production`) {
     const trackingId = '43309609';
     const webvisor = true;
@@ -68,3 +68,5 @@ exports.onRenderBody = ({ setPostBodyComponents }) => {
     ]);
   }
 };
+
+export { replaceRenderer, onRenderBody };

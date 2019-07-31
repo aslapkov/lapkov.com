@@ -8,8 +8,6 @@ const BlockSkills = styled.div`
     float: left;
     position: relative;
     min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
 
     &:nth-child(2n) {
       margin-left: 8.33333333%;

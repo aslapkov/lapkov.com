@@ -16,12 +16,16 @@ const FooterWrap = styled.footer`
   }
 
   a {
-    color: #fff;
-    opacity: 0.85;
+    color: #777;
     font-weight: 700;
+    -moz-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    -webkit-transition: all 0.4s ease 0s;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
 
     &:hover {
-      opacity: 1;
+      color: #fff;
     }
   }
 `;

@@ -70,12 +70,11 @@ const ColSm3 = styled.div`
   width: 25%;
   float: left;
   padding-right: 15px;
-  padding-left: 15px;
 
   span {
     color: #fff;
     font-family: 'Hind', sans-serif;
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.5px;
