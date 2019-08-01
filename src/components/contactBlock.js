@@ -10,7 +10,9 @@ import IconTwitter from '../images/twitter.svg';
 const ContactBlock = () => (
   <ContactWrap>
     <p>
-      To contact me you can will send email or telegram message.
+      Hello friend!
+      <br />
+      To contact me you can will send email or message to telegram.
       <br />
       You will also find me in social networks.
     </p>

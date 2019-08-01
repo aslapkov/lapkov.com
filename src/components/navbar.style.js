@@ -9,7 +9,7 @@ const NavStyle = styled.nav`
   transform: translateZ(0);
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
-  top: 50%;
+  top: 40%;
   left: 129px;
   min-height: 50px;
   margin-bottom: 20px;
@@ -61,8 +61,7 @@ const NavCollapse = styled.div`
         padding: 0;
 
         span {
-          font-size: 0.85em;
-          font-weight: 500;
+          font-size: 0.9em;
           left: 60px;
           line-height: 1;
           color: #fff;

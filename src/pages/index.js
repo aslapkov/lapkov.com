@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 import Layout from '../components/layout';
 import Image from '../components/image';
 import SEO from '../components/seo';
-import WhatDo from '../components/whatDo';
+import IconBlock from '../components/iconBlock';
 import TypedReact from '../components/typedReact';
 
 import IconCode from '../images/code.svg';
@@ -32,15 +32,15 @@ const dataIcon = [
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="I am a web developer" />
+    <SEO title="I am a web developer, designer and SEO specialist" />
     <Image />
-    <h1 style={{ height: `132px` }}>
+    <h1 style={{ height: `160px` }}>
       <span style={{ display: `none` }}>
         Hey! I am Alex. Web developer, designer and SEO specialist.
       </span>
       <TypedReact
         strings={[
-          `Hey! I am Alex.<br /> Web developer,<br /> designer and SEO.`,
+          `Hey! I am Alex. <br />Web developer, <br />designer and <br />SEO specialist.`,
         ]}
       />
     </h1>
@@ -49,21 +49,21 @@ const IndexPage = () => (
       <p>
         My name is Aleksandr. I like <strong>javascript</strong>, to build the
         websites, to design beautiful apps and to see how these projects getting
-        the high marks from search engines. For the past 5 years I've helped
-        small companies, organizations and start-ups reach business goals using
-        modern and progressive web sites and to get a lot of new clients with
-        search Google, Yandex etc. I love to read new things around javascript
-        and I am always ready to learn!
+        the high marks from search engines (if it's necessary). For the past 5
+        years I have helped small companies, organizations and start-ups reach
+        business goals using modern and progressive web sites and to get a lot
+        of new clients with search Google, Yandex etc. I love to read new things
+        around javascript and I am always ready to learn.
       </p>
       <p>
-        At the moment I'm looking for new interesting web projects! If you want
+        At the moment I'm looking for new interesting web projects. If you want
         to offer me something or to learn more about me, please{' '}
         <Link to="/contact/">contact me</Link>!
       </p>
     </blockquote>
     <h4>What can I do for you?</h4>
     <div>
-      <WhatDo data={dataIcon} />
+      <IconBlock data={dataIcon} />
     </div>
   </Layout>
 );

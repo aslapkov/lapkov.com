@@ -70,7 +70,7 @@ const HeaderTouch = styled.div`
     outline: none;
     border: none;
     border-left: 1px solid #e91e63;
-    padding: 5px 20px 10px;
+    padding: 5px 20px;
     -moz-transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1) 0s;
     -o-transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1) 0s;
     -webkit-transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1) 0s;
@@ -99,6 +99,7 @@ const HeaderTouch = styled.div`
       position: relative;
       z-index: 2;
       display: inline-block;
+      padding-bottom: 5px;
 
       .iconPlane {
         margin-left: 10px;

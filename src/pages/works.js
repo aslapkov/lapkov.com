@@ -43,6 +43,24 @@ const dataWork = [
     site: `fillery-pro.com`,
   },
   {
+    year: `2018`,
+    desc: `Wholesale online store selling women's clothing in Moscow and St. Petersburg`,
+    siteUrl: `https://www.primabotti.ru`,
+    site: `primabotti.ru`,
+  },
+  {
+    year: `2018`,
+    desc: `Wholesale online store for the sale of women's clothing from Belarus`,
+    siteUrl: `https://www.primabotti.by`,
+    site: `primabotti.by`,
+  },
+  {
+    year: `2017`,
+    desc: `Online store selling women's clothing with delivery throughout Belarus`,
+    siteUrl: `https://sisters.by`,
+    site: `sisters.by`,
+  },
+  {
     year: `2017`,
     desc: `Redesign of online store selling building materials in Gomel`,
     siteUrl: `https://sati.by`,
@@ -135,7 +153,7 @@ const WorksPage = () => (
       <span style={{ display: `none` }}>Works</span>
       <TypedReact strings={[`My Works`]} />
     </h1>
-    <h4>These are works that I can show</h4>
+    <h4>These are my works that I can show</h4>
     <p>
       This is not all of my works and projects in which I participated, because
       some of them I can't show or just do not want to show.

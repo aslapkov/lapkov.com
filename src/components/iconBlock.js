@@ -1,7 +1,7 @@
 import React from 'react';
-import { BlockDiv } from './whatDo.style';
+import { BlockDiv } from './iconBlock.style';
 
-const WhatDo = ({ data }) => (
+const IconBlock = ({ data }) => (
   <React.Fragment>
     {data.map((elem, i) => {
       const IconName = elem.iconName;
@@ -21,4 +21,4 @@ const WhatDo = ({ data }) => (
   </React.Fragment>
 );
 
-export default WhatDo;
+export default IconBlock;

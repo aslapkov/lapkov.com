@@ -99,6 +99,7 @@ const ColSm9 = styled.div`
   }
 
   .loc {
+    font-family: 'Hind', sans-serif;
     font-size: 15px;
     font-weight: 600;
     color: #fff;
