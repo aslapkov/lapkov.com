@@ -9,6 +9,17 @@ const BlockDiv = styled.div`
   padding-right: 15px;
   padding-left: 15px;
 
+  @media (min-width: 768px) {
+    width: 25%;
+    float: left;
+  }
+
+  &:hover {
+    .iconStyle {
+      fill: #fff;
+    }
+  }
+
   .iconStyle {
     -moz-transition: all 0.4s ease 0s;
     -o-transition: all 0.4s ease 0s;
@@ -24,17 +35,6 @@ const BlockDiv = styled.div`
     letter-spacing: 0.5px;
     text-transform: uppercase;
     margin-top: 36px;
-  }
-
-  &:hover {
-    .iconStyle {
-      fill: #fff;
-    }
-  }
-
-  @media (min-width: 768px) {
-    width: 25%;
-    float: left;
   }
 `;
 

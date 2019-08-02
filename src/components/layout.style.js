@@ -84,6 +84,15 @@ const Main = styled.main`
   clear: both;
   padding: 90px 0 60px;
 
+  @media (max-width: 769px) {
+    width: 91.66666667%;
+    padding: 90px 10px 60px;
+  }
+
+  @media (min-width: 950px) {
+    width: 83.33333333%;
+  }
+
   h1 {
     height: 44px;
   }
@@ -107,15 +116,6 @@ const Main = styled.main`
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 30px;
-  }
-
-  @media (max-width: 769px) {
-    width: 91.66666667%;
-    padding: 90px 10px 60px;
-  }
-
-  @media (min-width: 950px) {
-    width: 83.33333333%;
   }
 `;
 

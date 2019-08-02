@@ -1,6 +1,16 @@
 import styled from 'styled-components';
 
 const TimelineWrap = styled.div`
+  &:before,
+  &:after {
+    display: table;
+    content: ' ';
+  }
+
+  &:after {
+    clear: both;
+  }
+
   &.active {
     opacity: 1 !important;
 
@@ -35,16 +45,6 @@ const TimelineWrap = styled.div`
       -webkit-transition: all 0.4s ease 0s;
       transition: all 0.4s ease 0s;
     }
-  }
-
-  &:before,
-  &:after {
-    display: table;
-    content: ' ';
-  }
-
-  &:after {
-    clear: both;
   }
 `;
 

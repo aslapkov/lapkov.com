@@ -22,7 +22,7 @@ const ContactWrap = styled.div`
 
         @media only screen and (max-width: 769px) {
           font-size: 2em;
-          margin-left: 15px;
+          margin-right: 15px;
         }
       }
     }
@@ -30,6 +30,7 @@ const ContactWrap = styled.div`
 
   a {
     display: inline-block;
+    font-size: 0.8em;
 
     .iconStyle,
     .iconSocStyle {

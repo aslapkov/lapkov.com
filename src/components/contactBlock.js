@@ -18,15 +18,15 @@ const ContactBlock = () => (
     </p>
     <p className="base">
       <a href="mailto:email@lapkov.com">
-        <IconEmail height="80" width="80" className="iconStyle" fill="#777" />
+        <IconEmail height="100" width="100" className="iconStyle" fill="#777" />
         <br />
         email@lapkov.com
       </a>
       <span>or</span>
       <a href="https://t.me/aslapkov" target="_blank" rel="noopener noreferrer">
         <IconTelegram
-          height="80"
-          width="80"
+          height="100"
+          width="100"
           className="iconStyle"
           fill="#777"
         />
