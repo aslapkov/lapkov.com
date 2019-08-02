@@ -59,11 +59,6 @@ const HeaderLogo = styled.div`
 `;
 
 const HeaderTouch = styled.div`
-  @media only screen and (max-width: 950px) {
-    position: relative;
-    z-index: 1;
-  }
-
   a.contact,
   button {
     font-size: 0.85em;
@@ -80,27 +75,6 @@ const HeaderTouch = styled.div`
     -o-transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1) 0s;
     -webkit-transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1) 0s;
     transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1) 0s;
-
-    &:hover .mask {
-      width: 100%;
-
-      @media only screen and (max-width: 950px) {
-        width: 0;
-      }
-    }
-
-    @media only screen and (max-width: 950px) {
-      padding: 7px 10px;
-      background: none !important;
-      color: #000;
-      margin-top: 3px;
-
-      &.button {
-        display: block;
-        margin-left: 10px;
-        margin-right: 20px;
-      }
-    }
 
     &.button {
       display: none;
@@ -154,6 +128,37 @@ const HeaderTouch = styled.div`
           margin-left: 0;
         }
       }
+    }
+
+    &:hover .mask {
+      width: 100%;
+
+      @media only screen and (max-width: 950px) {
+        width: 0;
+      }
+    }
+
+    @media only screen and (max-width: 950px) {
+      padding: 7px 10px;
+      background: none !important;
+      color: #000;
+      margin-top: 3px;
+
+      &.button {
+        display: block;
+        margin-left: 10px;
+        margin-right: 20px;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 950px) {
+    position: relative;
+    z-index: 1;
+
+    a.contact,
+    button {
+      border: none;
     }
   }
 `;
