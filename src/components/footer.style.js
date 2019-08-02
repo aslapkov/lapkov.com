@@ -124,7 +124,7 @@ const FooterRigth = styled.div`
   .links {
     font-size: 0.6em;
 
-    @media (max-width: 769px) {
+    @media only screen and (max-width: 769px) {
       font-size: 8px;
     }
   }

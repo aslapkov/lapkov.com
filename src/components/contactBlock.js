@@ -18,20 +18,20 @@ const ContactBlock = () => (
     </p>
     <p className="base">
       <a href="mailto:email@lapkov.com">
-        <IconEmail height="90" width="90" className="iconStyle" fill="#777" />
+        <IconEmail height="80" width="80" className="iconStyle" fill="#777" />
         <br />
         email@lapkov.com
       </a>
       <span>or</span>
       <a href="https://t.me/aslapkov" target="_blank" rel="noopener noreferrer">
         <IconTelegram
-          height="90"
-          width="90"
+          height="80"
+          width="80"
           className="iconStyle"
           fill="#777"
         />
         <br />
-        @aslapkov
+        telegram@aslapkov
       </a>
     </p>
     <p className="social">
@@ -41,8 +41,8 @@ const ContactBlock = () => (
         rel="noopener noreferrer"
       >
         <IconGithub
-          height="50"
-          width="50"
+          height="45"
+          width="45"
           className="iconSocStyle"
           fill="#777"
         />
@@ -53,7 +53,7 @@ const ContactBlock = () => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        <IconVk height="50" width="50" className="iconSocStyle" fill="#777" />
+        <IconVk height="45" width="45" className="iconSocStyle" fill="#777" />
       </a>
       <span>/</span>
       <a
@@ -62,8 +62,8 @@ const ContactBlock = () => (
         rel="noopener noreferrer"
       >
         <IconTwitter
-          height="50"
-          width="50"
+          height="45"
+          width="45"
           className="iconSocStyle"
           fill="#777"
         />

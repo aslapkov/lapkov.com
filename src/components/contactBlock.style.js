@@ -7,7 +7,7 @@ const ContactWrap = styled.div`
 
       span {
         text-transform: uppercase;
-        margin: 0 50px;
+        margin: 0 30px;
 
         @media only screen and (max-width: 769px) {
           margin: 0 15px;
@@ -18,9 +18,11 @@ const ContactWrap = styled.div`
     &.social {
       span {
         font-size: 2.7em;
+        margin-right: 30px;
 
         @media only screen and (max-width: 769px) {
           font-size: 2em;
+          margin-left: 15px;
         }
       }
     }
@@ -35,7 +37,6 @@ const ContactWrap = styled.div`
       -o-transition: all 0.4s ease 0s;
       -webkit-transition: all 0.4s ease 0s;
       transition: all 0.4s ease 0s;
-      margin-left: 30px;
     }
 
     .iconSocStyle {
@@ -43,7 +44,6 @@ const ContactWrap = styled.div`
 
       @media only screen and (max-width: 769px) {
         margin-right: 15px;
-        margin-left: 15px;
       }
     }
 
