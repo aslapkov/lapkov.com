@@ -13,10 +13,10 @@ const dataExp = [
     info: `Created a tiny website with a look into the future for new brand in the market of clothes of Belarus.`,
   },
   {
-    period: `2018 - present`,
+    period: `May 2018 - present`,
     position: `Developing, SEO`,
     loc: `Tanya Levinson, tanyalevinson.com`,
-    info: `This is a blog about writting`,
+    info: `This is a blog about writing and the magic of words from former journalist Tanya Levinson`,
   },
   {
     period: `April 2017 - present`,
@@ -29,7 +29,7 @@ const dataExp = [
     period: `June 2017 - present`,
     position: `Developing, design, SEO`,
     loc: `Sister's, Minsk, sisters.by`,
-    info: `The third big project.`,
+    info: `Support, SEO and design works for a famous brand in the clothing market of Belarus.`,
   },
   {
     period: `Apr 2015 - present`,
