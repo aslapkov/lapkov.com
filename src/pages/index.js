@@ -21,12 +21,12 @@ const dataIcon = [
     label: `Development a clean UI/UX design`,
   },
   {
-    iconName: IconSupport,
-    label: `Support and revision your site, apps`,
-  },
-  {
     iconName: IconSeo,
     label: `SEO – search engine optimization`,
+  },
+  {
+    iconName: IconSupport,
+    label: `Support and revision your site, apps`,
   },
 ];
 
