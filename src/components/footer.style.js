@@ -111,6 +111,12 @@ const AvailTag = styled.span`
   display: block;
   float: left;
 
+  span {
+    @media (max-width: 769px) {
+      font-size: 0.9em;
+    }
+  }
+
   @media (max-width: 769px) {
     font-size: 0.8em;
   }
@@ -125,7 +131,7 @@ const FooterRigth = styled.div`
     font-size: 0.6em;
 
     @media only screen and (max-width: 769px) {
-      font-size: 8px;
+      font-size: 7.5px;
     }
   }
 `;

@@ -4,6 +4,9 @@ module.exports = {
     description: `My personal site built with Gatsby. Here you can find my works and projects that I lead.`,
     author: `A. Lapkov`,
     siteUrl: 'https://lapkov.com',
+    social: {
+      twitter: '@aslapkov',
+    },
     siteLinks: [
       {
         id: 1,
@@ -33,7 +36,6 @@ module.exports = {
     ],
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -55,6 +57,7 @@ module.exports = {
         icon: `src/images/favicon.png`,
       },
     },
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {

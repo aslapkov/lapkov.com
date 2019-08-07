@@ -2,7 +2,7 @@
   "name": "lapkov",
   "private": true,
   "description": "My personal site built with Gatsby",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": "A. Lapkov <a.s.lapkov@gmail.com>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.0",

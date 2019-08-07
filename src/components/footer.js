@@ -7,7 +7,7 @@ const Footer = () => (
     <div style={{ float: `left`, width: `70%` }}>
       <AvailPoint />
       <AvailTag>
-        Available for freelance work
+        <span>Available for freelance/remote work</span>
         <br />
         <a href="mailto:email@lapkov.com" style={{ fontSize: `1.05em` }}>
           email@lapkov.com
