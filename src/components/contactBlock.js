@@ -47,7 +47,6 @@ const ContactBlock = () => (
           fill="#777"
         />
       </a>
-      <span>/</span>
       <a
         href="https://vk.com/a.s.lapkov"
         target="_blank"
@@ -55,7 +54,6 @@ const ContactBlock = () => (
       >
         <IconVk height="45" width="45" className="iconSocStyle" fill="#777" />
       </a>
-      <span>/</span>
       <a
         href="https://twitter.com/aslapkov"
         target="_blank"

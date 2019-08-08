@@ -14,18 +14,6 @@ const ContactWrap = styled.div`
         }
       }
     }
-
-    &.social {
-      span {
-        font-size: 2.7em;
-        margin-right: 30px;
-
-        @media only screen and (max-width: 769px) {
-          font-size: 2em;
-          margin-right: 15px;
-        }
-      }
-    }
   }
 
   a {
@@ -41,11 +29,7 @@ const ContactWrap = styled.div`
     }
 
     .iconSocStyle {
-      margin-right: 30px;
-
-      @media only screen and (max-width: 769px) {
-        margin-right: 15px;
-      }
+      margin-right: 25px;
     }
 
     &:hover {

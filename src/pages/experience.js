@@ -55,7 +55,7 @@ const dataExp = [
     period: `Dec 2013 - May 2016`,
     position: `SEO`,
     loc: `Hipway & HipClub, Moscow, hipway.ru & hipclub.ru`,
-    info: `The first IT work in my life. Remotely I worked as a SEO specialist in a travel company Hipway and
+    info: `The first IT work in my life. I worked remotely as a SEO specialist in a travel company Hipway and
     their related product Hipclub. Here I grew from an ordinary employee to the head of SEO departament.`,
   },
 ];

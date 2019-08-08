@@ -110,6 +110,10 @@ const ColSm9 = styled.div`
     font-size: 14px;
     color: #ccc;
     line-height: 27px;
+
+    @media (max-width: 769px) {
+      line-height: 21px;
+    }
   }
 `;
 

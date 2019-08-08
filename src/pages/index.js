@@ -8,8 +8,8 @@ import TypedReact from '../components/typedReact';
 
 import IconCode from '../images/code.svg';
 import IconDesign from '../images/design.svg';
-import IconSeo from '../images/seo.svg';
 import IconSupport from '../images/support.svg';
+import IconSeo from '../images/seo.svg';
 
 const dataIcon = [
   {
@@ -21,12 +21,12 @@ const dataIcon = [
     label: `Development a clean UI/UX design`,
   },
   {
-    iconName: IconSeo,
-    label: `SEO – search engine optimization`,
-  },
-  {
     iconName: IconSupport,
     label: `Support and revision your web apps`,
+  },
+  {
+    iconName: IconSeo,
+    label: `SEO – search engine optimization`,
   },
 ];
 
