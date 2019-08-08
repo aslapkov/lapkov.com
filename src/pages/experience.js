@@ -10,38 +10,53 @@ const dataExp = [
     period: `May 2019`,
     position: `Developing, design`,
     loc: `Botti, Minsk, botti.by`,
-    info: `Created a tiny website with a look into the future for new brand in the market of clothes of Belarus.`,
+    info: `Created a tiny website with a look into the future for new brand in the market of clothes in Belarus.
+    In the future, plans to create an online store here. There is also a need for SEO later.`,
   },
   {
     period: `May 2018 - present`,
-    position: `Developing, SEO`,
+    position: `Developing, design, SEO`,
     loc: `Tanya Levinson, tanyalevinson.com`,
-    info: `This is a blog about writing and the magic of words from former journalist Tanya Levinson`,
+    info: `This is a blog about writing and the magic of words from former journalist Tanya Levinson.
+    I built this website with wordpress and did a great job of revision, design and SEO.`,
   },
   {
-    period: `April 2017 - present`,
+    period: `Apr 2017 - present`,
     position: `Developing`,
-    loc: `Javascript`,
-    info: `I read a lot of information about Javascript, React, Node js etc.
-    Then I created with a dozen projects using these technologies`,
+    loc: `Javascript, Node js, React js etc.`,
+    info: `I read a lot of information about computer science: Javascript, Node js, React js, different databases,
+    operating systems, web servers and other. Then I created with a dozen projects using these technologies (including this site).
+    Now I am actively studying everything related to Javascript.`,
   },
   {
-    period: `June 2017 - present`,
+    period: `Mar 2017 - present`,
     position: `Developing, design, SEO`,
     loc: `Sister's, Minsk, sisters.by`,
-    info: `Support, SEO and design works for a famous brand in the clothing market of Belarus.`,
+    info: `Support, revision, SEO and consultations for a famous brand «Sister's» in the clothing market of Belarus.
+    Now I'm getting ready to develop and design new site for them. I also help other projects related to them,
+    primabotti.ru and primabotti.by - wholesale online stores.`,
+  },
+  {
+    period: `Nov 2016 - present`,
+    position: `Developing, design, SEO`,
+    loc: `A lot of different projects`,
+    info: `I have created many small web applications based on solving specific client business problems.
+    I currently either advise or support them. See more of my works on the "Works" page on the menu.`,
   },
   {
     period: `Apr 2015 - present`,
     position: `Developing, design, SEO`,
     loc: `Сати, Gomel, sati.by`,
-    info: `My second work and fully performed by me.`,
+    info: `My first individual work, which is completely done by me. This site mainly gets customers through
+    the search Yandex and Google. In 2017, I redesigned this project and updated the entire system.
+    I love this project as an old kind toy ;)`,
   },
   {
     period: `Dec 2013 - May 2016`,
     position: `SEO`,
     loc: `Hipway & HipClub, Moscow, hipway.ru & hipclub.ru`,
-    info: `My first IT work in my life`,
+    info: `The first IT work in my life. Remotely I worked as a SEO specialist in a travel company Hipway and
+    their related product Hipclub. Here I grew from an ordinary employee to the head of SEO departament.`,
   },
 ];
 
