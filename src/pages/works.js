@@ -148,7 +148,10 @@ const dataWork = [
 
 const WorksPage = () => (
   <Layout>
-    <SEO title="Works" />
+    <SEO
+      title="Works"
+      description="This is a part of my works and projects in which I participated. Learn more about me on the home page."
+    />
     <h1>
       <span style={{ display: `none` }}>Works</span>
       <TypedReact strings={[`My Works`]} />

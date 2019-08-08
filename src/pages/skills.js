@@ -82,15 +82,18 @@ const dataSkills = [
 
 const SkillsPage = () => (
   <Layout>
-    <SEO title="Skills" />
+    <SEO
+      title="Skills"
+      description="Here is the best part of my skills, which I preferred to study and used in my projects."
+    />
     <h1>
       <span style={{ display: `none` }}>Skills</span>
       <TypedReact strings={[`My Skills`]} />
     </h1>
     <h4>Tech skills</h4>
     <p>
-      Here is the better part of the directions, that I preferred to study and
-      which I now use in my projects.
+      Here is the best part of my skills, which I preferred to study and now I
+      use with pleasure in my projects.
     </p>
     <SkillsBlock data={dataSkills} />
   </Layout>

@@ -47,7 +47,10 @@ const dataExp = [
 
 const ExperiencePage = () => (
   <Layout>
-    <SEO title="Experience" />
+    <SEO
+      title="Experience"
+      description="A small chronology of my experience. Step by step, you can learn about my best practices."
+    />
     <h1>
       <span style={{ display: `none` }}>Experience</span>
       <TypedReact strings={[`My Experience`]} />
