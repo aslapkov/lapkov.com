@@ -49,11 +49,11 @@ const IndexPage = () => (
       <p>
         My name is Aleksandr. I like <strong>javascript</strong>, to build the
         websites, to design beautiful apps and to see how these projects getting
-        the high marks from search engines (if necessary). For the past 5 years
-        I have helped small companies, organizations and start-ups reach
-        business goals using modern and progressive web sites and to get a lot
-        of new clients with search Google, Yandex etc. I love to read new things
-        around javascript and I am always ready to learn.
+        the high marks from search engines. For the past 5 years I have helped
+        small companies, organizations and start-ups reach business goals using
+        modern and progressive web sites and to get a lot of new clients with
+        search Google, Yandex etc. I love to read new things around javascript
+        and I am always ready to learn.
       </p>
       <p>
         At the moment I'm looking for new interesting web projects. If you want

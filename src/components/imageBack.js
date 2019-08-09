@@ -2,8 +2,6 @@ import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 
-// import layoutStyle from './layout.module.css'
-
 const ImageBack = () => {
   const data = useStaticQuery(
     graphql`
