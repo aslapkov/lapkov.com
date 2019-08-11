@@ -14,7 +14,7 @@ import IconSeo from '../images/seo.svg';
 const dataIcon = [
   {
     iconName: IconCode,
-    label: `Programming websites and web apps`,
+    label: `Programming websites, web apps`,
   },
   {
     iconName: IconDesign,
@@ -26,7 +26,7 @@ const dataIcon = [
   },
   {
     iconName: IconSeo,
-    label: `SEO – search engine optimization`,
+    label: `Search engine optimization of your site`,
   },
 ];
 
@@ -49,15 +49,16 @@ const IndexPage = () => (
       <p>
         My name is Aleksandr. I like <strong>javascript</strong>, to build the
         websites, to design beautiful apps and to see how these projects getting
-        the high marks from search engines. For the past 5 years I have helped
+        the high marks from search engines. For the past 5 years I've helped
         small companies, organizations and start-ups reach business goals using
         modern and progressive web sites and to get a lot of new clients with
         search Google, Yandex etc. I love to read new things around javascript
-        and I am always ready to learn.
+        and I'm always ready to learn.
       </p>
       <p>
-        At the moment I'm looking for new interesting web projects. If you want
-        to offer me something or to learn more about me, please{' '}
+        At the moment I'm looking for new interesting web projects. If you have
+        a different project I can take care about, please
+        {` `}
         <Link to="/contact/">contact me</Link>!
       </p>
     </blockquote>

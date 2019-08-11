@@ -22,7 +22,7 @@ const TimelineWrap = styled.div`
   }
 
   &.inactive {
-    opacity: 0.3;
+    opacity: 0.4;
   }
 
   .linest {
