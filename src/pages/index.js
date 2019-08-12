@@ -18,7 +18,7 @@ const dataIcon = [
   },
   {
     iconName: IconDesign,
-    label: `Development a clean UI/UX design`,
+    label: `Development of a clean UI/UX apps design`,
   },
   {
     iconName: IconSupport,

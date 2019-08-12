@@ -36,7 +36,6 @@ const HeaderCol = styled.div`
   }
 
   a {
-    font-family: 'Poppins', sans-serif;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 600;
@@ -44,13 +43,11 @@ const HeaderCol = styled.div`
 `;
 
 const HeaderLogo = styled.div`
-  margin-left: 20px;
-
   a {
     float: left;
     display: block;
     color: #fff;
-    padding-top: 13px;
+    padding: 16px;
 
     @media only screen and (max-width: 950px) {
       color: #000;
@@ -122,8 +119,7 @@ const HeaderTouch = styled.div`
           display: none;
         }
 
-        .iconCall,
-        .iconMenu {
+        .iconCall {
           display: block;
           margin-left: 0;
         }
@@ -139,15 +135,52 @@ const HeaderTouch = styled.div`
     }
 
     @media only screen and (max-width: 950px) {
-      padding: 7px 10px;
+      padding: 11px 80px 11px 0;
       background: none !important;
       color: #000;
-      margin-top: 3px;
+
+      .iconMenu {
+        display: block;
+        margin-right: 30px;
+      }
+
+      .lineMenu {
+        display: block;
+        background: #000;
+        z-index: 3;
+        width: 30px;
+        height: 2px;
+        transition: opacity 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+
+        &.lineTop {
+          position: absolute;
+          transform: translateY(-3px);
+          -moz-transition: 0.1596s cubic-bezier(0.52, 0.16, 0.52, 0.84) 0.1008s;
+          -o-transition: 0.1596s cubic-bezier(0.52, 0.16, 0.52, 0.84) 0.1008s;
+          -webkit-transition: 0.1596s cubic-bezier(0.52, 0.16, 0.52, 0.84)
+            0.1008s;
+          transition: transform 0.1596s cubic-bezier(0.52, 0.16, 0.52, 0.84)
+            0.1008s;
+        }
+
+        &.lineBottom {
+          position: absolute;
+          transform: translateY(3px);
+          -moz-transition: 0.1596s cubic-bezier(0.52, 0.16, 0.52, 0.84) 0.1008s;
+          -o-transition: 0.1596s cubic-bezier(0.52, 0.16, 0.52, 0.84) 0.1008s;
+          -webkit-transition: 0.1596s cubic-bezier(0.52, 0.16, 0.52, 0.84)
+            0.1008s;
+          transition: transform 0.1596s cubic-bezier(0.52, 0.16, 0.52, 0.84)
+            0.1008s;
+        }
+      }
 
       &.button {
         display: block;
-        margin-left: 10px;
-        margin-right: 20px;
+        cursor: pointer;
+        padding: 23px 15px;
+        position: absolute;
+        right: 10px;
       }
     }
   }
@@ -159,6 +192,30 @@ const HeaderTouch = styled.div`
     a.contact,
     button {
       border: none;
+    }
+
+    &.menuOpen {
+      .lineMenu {
+        &.lineTop {
+          -moz-transition: 0.1596s cubic-bezier(0.52, 0.16, 0.52, 0.84) 0.1008s;
+          -o-transition: 0.1596s cubic-bezier(0.52, 0.16, 0.52, 0.84) 0.1008s;
+          -webkit-transition: 0.1596s cubic-bezier(0.52, 0.16, 0.52, 0.84)
+            0.1008s;
+          transition: transform 0.3192s cubic-bezier(0.04, 0.04, 0.12, 0.96)
+            0.1008s;
+          transform: rotate(45deg);
+        }
+
+        &.lineBottom {
+          -moz-transition: 0.1596s cubic-bezier(0.52, 0.16, 0.52, 0.84) 0.1008s;
+          -o-transition: 0.1596s cubic-bezier(0.52, 0.16, 0.52, 0.84) 0.1008s;
+          -webkit-transition: 0.1596s cubic-bezier(0.52, 0.16, 0.52, 0.84)
+            0.1008s;
+          transition: transform 0.3192s cubic-bezier(0.04, 0.04, 0.12, 0.96)
+            0.1008s;
+          transform: rotate(-45deg);
+        }
+      }
     }
   }
 `;

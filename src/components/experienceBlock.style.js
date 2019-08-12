@@ -107,7 +107,7 @@ const ColSm9 = styled.div`
   }
 
   .psmall {
-    font-size: 14px;
+    font-size: 15px;
     color: #ccc;
     line-height: 27px;
 

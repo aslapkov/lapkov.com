@@ -225,7 +225,6 @@ const GlobalStyle = createGlobalStyle`
     padding-top: 0;
     margin-bottom: 50px;
     color: #fff;
-    font-family: 'Hind',sans-serif;
     font-weight: 700;
     text-rendering: optimizeLegibility;
     font-size: 2.5rem;

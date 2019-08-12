@@ -2,7 +2,6 @@ import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import React, { useState } from 'react';
 
-import IconMenu from '../images/menu.svg';
 import IconMobCont from '../images/plane.svg';
 import IconCont from '../images/paper-plane.svg';
 
@@ -25,18 +24,7 @@ const Header = ({ siteTitle, siteLinks }) => {
             <span>{siteTitle}</span>
           </Link>
         </HeaderLogo>
-        <HeaderTouch>
-          <button
-            onClick={() => setCollapse(!collapse)}
-            type="button"
-            className="button"
-          >
-            <span className="label">
-              <span className="iconMenu">
-                <IconMenu height="25" width="25" fill="#000" />
-              </span>
-            </span>
-          </button>
+        <HeaderTouch className={collapse ? `menuOpen` : ``}>
           <Link to="/contact/" className="contact">
             <span className="mask"></span>
             <span className="label">
@@ -49,6 +37,16 @@ const Header = ({ siteTitle, siteLinks }) => {
               </span>
             </span>
           </Link>
+          <button
+            onClick={() => setCollapse(!collapse)}
+            type="button"
+            className="button"
+          >
+            <span className="iconMenu">
+              <span className="lineMenu lineTop"></span>
+              <span className="lineMenu lineBottom"></span>
+            </span>
+          </button>
         </HeaderTouch>
         <HeaderNav className={collapse ? `collapse` : ``}>
           <div className="navbarNav">

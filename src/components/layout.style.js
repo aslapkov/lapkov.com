@@ -95,6 +95,12 @@ const Main = styled.main`
 
   h1 {
     height: 44px;
+    font-family: 'Hind', sans-serif;
+  }
+
+  p {
+    font-family: 'Hind', sans-serif;
+    font-weight: 500;
   }
 
   a {
