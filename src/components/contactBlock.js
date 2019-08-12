@@ -41,8 +41,8 @@ const ContactBlock = () => (
         rel="noopener noreferrer"
       >
         <IconGithub
-          height="45"
-          width="45"
+          height="40"
+          width="40"
           className="iconSocStyle"
           fill="#777"
         />
@@ -52,7 +52,7 @@ const ContactBlock = () => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        <IconVk height="45" width="45" className="iconSocStyle" fill="#777" />
+        <IconVk height="40" width="40" className="iconSocStyle" fill="#777" />
       </a>
       <a
         href="https://twitter.com/aslapkov"
@@ -60,8 +60,8 @@ const ContactBlock = () => (
         rel="noopener noreferrer"
       >
         <IconTwitter
-          height="45"
-          width="45"
+          height="40"
+          width="40"
           className="iconSocStyle"
           fill="#777"
         />

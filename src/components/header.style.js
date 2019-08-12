@@ -178,7 +178,7 @@ const HeaderTouch = styled.div`
       &.button {
         display: block;
         cursor: pointer;
-        padding: 23px 20px;
+        padding: 25px 20px;
         position: absolute;
         right: 0;
       }

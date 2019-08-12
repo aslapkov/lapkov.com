@@ -29,7 +29,7 @@ const ContactWrap = styled.div`
     }
 
     .iconSocStyle {
-      margin-right: 25px;
+      margin: 0 10px;
     }
 
     &:hover {
