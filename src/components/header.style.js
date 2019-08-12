@@ -135,7 +135,7 @@ const HeaderTouch = styled.div`
     }
 
     @media only screen and (max-width: 950px) {
-      padding: 11px 80px 11px 0;
+      padding: 14px 80px 11px 0;
       background: none !important;
       color: #000;
 
@@ -279,7 +279,7 @@ const HeaderNav = styled.nav`
               span {
                 display: block;
                 color: #141414;
-                font-size: 16px;
+                font-size: 17px;
                 letter-spacing: 1.5px;
                 line-height: 1;
                 text-transform: uppercase;
