@@ -38,7 +38,7 @@ const HeaderCol = styled.div`
   a {
     text-decoration: none;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 700;
   }
 `;
 
@@ -178,9 +178,9 @@ const HeaderTouch = styled.div`
       &.button {
         display: block;
         cursor: pointer;
-        padding: 23px 15px;
+        padding: 23px 20px;
         position: absolute;
-        right: 10px;
+        right: 0;
       }
     }
   }
