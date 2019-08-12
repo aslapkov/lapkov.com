@@ -16,6 +16,7 @@ const FooterWrap = styled.footer`
   }
 
   a {
+    font-size: 1.05em;
     color: #777;
     font-weight: 700;
     -moz-transition: all 0.4s ease 0s;
