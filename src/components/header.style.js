@@ -47,7 +47,7 @@ const HeaderLogo = styled.div`
     float: left;
     display: block;
     color: #fff;
-    padding: 16px;
+    padding: 16px 20px;
 
     @media only screen and (max-width: 950px) {
       color: #000;
@@ -148,7 +148,7 @@ const HeaderTouch = styled.div`
         display: block;
         background: #000;
         z-index: 3;
-        width: 30px;
+        width: 27px;
         height: 2px;
         transition: opacity 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
 
@@ -269,7 +269,7 @@ const HeaderNav = styled.nav`
               line-height: 20px;
               position: relative;
               display: block;
-              padding: 20px 15px;
+              padding: 7px 15px;
 
               &.contact,
               button {
@@ -277,12 +277,14 @@ const HeaderNav = styled.nav`
               }
 
               span {
-                display: block;
+                display: inline-block;
                 color: #141414;
                 font-size: 17px;
+                padding-bottom: 3px;
                 letter-spacing: 1.5px;
                 line-height: 1;
                 text-transform: uppercase;
+                border-bottom: 1px solid #000;
               }
             }
           }

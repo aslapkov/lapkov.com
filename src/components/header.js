@@ -2,7 +2,6 @@ import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import React, { useState } from 'react';
 
-import IconMobCont from '../images/plane.svg';
 import IconCont from '../images/paper-plane.svg';
 
 import {
@@ -33,7 +32,7 @@ const Header = ({ siteTitle, siteLinks }) => {
                 <IconCont height="20" width="20" fill="#fff" />
               </span>
               <span className="iconCall">
-                <IconMobCont height="25" width="25" fill="#000" />
+                <IconCont height="25" width="25" fill="#000" />
               </span>
             </span>
           </Link>
@@ -54,10 +53,7 @@ const Header = ({ siteTitle, siteLinks }) => {
               {siteLinks.map(data => (
                 <li key={data.id}>
                   <Link to={data.slug}>
-                    <span>
-                      {'– '}
-                      {data.name}
-                    </span>
+                    <span>{data.name}</span>
                   </Link>
                 </li>
               ))}

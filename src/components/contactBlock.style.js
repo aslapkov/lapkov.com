@@ -7,10 +7,10 @@ const ContactWrap = styled.div`
 
       span {
         text-transform: uppercase;
-        margin: 0 30px;
+        margin: 0 20px;
 
         @media only screen and (max-width: 769px) {
-          margin: 0 15px;
+          margin: 0 10px;
         }
       }
     }

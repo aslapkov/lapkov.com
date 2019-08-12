@@ -82,15 +82,14 @@ const Main = styled.main`
   overflow: hidden;
   float: none;
   clear: both;
-  padding: 90px 0 60px;
+  padding: 90px 10px 60px;
 
-  @media (max-width: 769px) {
-    width: 91.66666667%;
-    padding: 90px 10px 60px;
+  @media (min-width: 951px) {
+    width: 83.33333333%;
   }
 
-  @media (min-width: 950px) {
-    width: 83.33333333%;
+  @media (max-width: 950px) {
+    width: 91.66666667%;
   }
 
   h1 {
