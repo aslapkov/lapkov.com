@@ -15,21 +15,13 @@ const ContactBlock = () => (
       You will also find me in social networks.
     </p>
     <p className="base">
-      <a
-        href="mailto:email@lapkov.com"
-        onClick={() => `yaCounter43309609.reachGoal('EMAIL'); return true;`}
-      >
+      <a href="mailto:email@lapkov.com">
         <IconEmail height="100" width="100" className="iconStyle" fill="#777" />
         <br />
         email@lapkov.com
       </a>
       <span>or</span>
-      <a
-        href="https://t.me/aslapkov"
-        target="_blank"
-        rel="noopener noreferrer"
-        onClick={() => `yaCounter43309609.reachGoal('TELEGRAM'); return true;`}
-      >
+      <a href="https://t.me/aslapkov" target="_blank" rel="noopener noreferrer">
         <IconTelegram
           height="100"
           width="100"
