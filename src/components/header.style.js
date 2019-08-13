@@ -258,6 +258,7 @@ const HeaderNav = styled.nav`
 
         ul {
           float: none !important;
+          margin-left: 0;
 
           li {
             float: none;
@@ -269,7 +270,8 @@ const HeaderNav = styled.nav`
               line-height: 20px;
               position: relative;
               display: block;
-              padding: 7px 15px;
+              padding: 10px 15px;
+              text-align: center;
 
               &.contact,
               button {
@@ -288,6 +290,10 @@ const HeaderNav = styled.nav`
               }
             }
           }
+        }
+
+        .socialsMenu {
+          margin: 0 5px;
         }
       }
     }

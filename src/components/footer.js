@@ -15,14 +15,13 @@ const Footer = () => (
     </div>
     <FooterRigth>
       <div className="links">
-        © {new Date().getFullYear()}, Open
-        {` `}
+        © {new Date().getFullYear()},{` `}
         <a
           href="https://github.com/aslapkov/lapkov.com"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Source
+          Open Source
         </a>
         .<br />
         Built with

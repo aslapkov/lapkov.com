@@ -2,6 +2,7 @@ import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import React, { useState } from 'react';
 
+import SocialIcons from './socialIcons';
 import IconCont from '../images/paper-plane.svg';
 
 import {
@@ -58,6 +59,9 @@ const Header = ({ siteTitle, siteLinks }) => {
                 </li>
               ))}
             </ul>
+            <p style={{ textAlign: `center` }}>
+              <SocialIcons num="25" color="#000" classSelect="socialsMenu" />
+            </p>
           </div>
         </HeaderNav>
       </HeaderCol>

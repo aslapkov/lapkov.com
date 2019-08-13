@@ -3,9 +3,7 @@ import { ContactWrap } from './contactBlock.style';
 
 import IconEmail from '../images/email.svg';
 import IconTelegram from '../images/telegram.svg';
-import IconGithub from '../images/github.svg';
-import IconVk from '../images/vk.svg';
-import IconTwitter from '../images/twitter.svg';
+import SocialIcons from './socialIcons';
 
 const ContactBlock = () => (
   <ContactWrap>
@@ -17,13 +15,21 @@ const ContactBlock = () => (
       You will also find me in social networks.
     </p>
     <p className="base">
-      <a href="mailto:email@lapkov.com">
+      <a
+        href="mailto:email@lapkov.com"
+        onClick={() => `yaCounter43309609.reachGoal('EMAIL'); return true;`}
+      >
         <IconEmail height="100" width="100" className="iconStyle" fill="#777" />
         <br />
         email@lapkov.com
       </a>
       <span>or</span>
-      <a href="https://t.me/aslapkov" target="_blank" rel="noopener noreferrer">
+      <a
+        href="https://t.me/aslapkov"
+        target="_blank"
+        rel="noopener noreferrer"
+        onClick={() => `yaCounter43309609.reachGoal('TELEGRAM'); return true;`}
+      >
         <IconTelegram
           height="100"
           width="100"
@@ -35,37 +41,7 @@ const ContactBlock = () => (
       </a>
     </p>
     <p className="social">
-      <a
-        href="https://github.com/aslapkov"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <IconGithub
-          height="40"
-          width="40"
-          className="iconSocStyle"
-          fill="#777"
-        />
-      </a>
-      <a
-        href="https://vk.com/a.s.lapkov"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <IconVk height="40" width="40" className="iconSocStyle" fill="#777" />
-      </a>
-      <a
-        href="https://twitter.com/aslapkov"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <IconTwitter
-          height="40"
-          width="40"
-          className="iconSocStyle"
-          fill="#777"
-        />
-      </a>
+      <SocialIcons num="40" color="#777" classSelect="iconSocStyle" />
     </p>
   </ContactWrap>
 );
