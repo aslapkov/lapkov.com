@@ -32,7 +32,7 @@ const dataIcon = [
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="I am a web developer, designer and SEO specialist" />
+    <SEO title="I'm a web developer, designer and SEO specialist" />
     <Image />
     <h1 style={{ height: `160px` }}>
       <span style={{ display: `none` }}>
@@ -57,7 +57,7 @@ const IndexPage = () => (
       </p>
       <p>
         At the moment I'm looking for new interesting web projects. If you have
-        a different project I can take care about, please
+        some of them I can take care about, please
         {` `}
         <Link to="/contact/">contact me</Link>!
       </p>

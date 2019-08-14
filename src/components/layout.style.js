@@ -28,8 +28,7 @@ const Container = styled.div`
 `;
 
 const Row = styled.div`
-  margin-right: -15px;
-  margin-left: -15px;
+  margin: 0 -15px;
 `;
 
 const Col4 = styled.div`

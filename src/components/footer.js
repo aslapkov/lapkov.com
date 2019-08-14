@@ -1,10 +1,16 @@
 import React from 'react';
 
-import { FooterWrap, AvailPoint, AvailTag, FooterRigth } from './footer.style';
+import {
+  FooterWrap,
+  FooterLeft,
+  AvailPoint,
+  AvailTag,
+  FooterRigth,
+} from './footer.style';
 
 const Footer = () => (
   <FooterWrap>
-    <div style={{ float: `left`, width: `70%` }}>
+    <FooterLeft>
       <AvailPoint />
       <AvailTag>
         <span>Available for freelance/remote</span>
@@ -12,7 +18,7 @@ const Footer = () => (
         <span>work </span>
         <a href="mailto:email@lapkov.com">email@lapkov.com</a>
       </AvailTag>
-    </div>
+    </FooterLeft>
     <FooterRigth>
       <div className="links">
         © {new Date().getFullYear()},{` `}

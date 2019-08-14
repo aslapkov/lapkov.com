@@ -31,6 +31,11 @@ const FooterWrap = styled.footer`
   }
 `;
 
+const FooterLeft = styled.div`
+  float: left;
+  width: 70%;
+`;
+
 const AvailPoint = styled.span`
   background: #e91e63 none repeat scroll 0 0;
   position: relative;
@@ -137,4 +142,4 @@ const FooterRigth = styled.div`
   }
 `;
 
-export { FooterWrap, AvailPoint, AvailTag, FooterRigth };
+export { FooterWrap, FooterLeft, AvailPoint, AvailTag, FooterRigth };

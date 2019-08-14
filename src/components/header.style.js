@@ -282,7 +282,7 @@ const HeaderNav = styled.nav`
                 display: inline-block;
                 color: #141414;
                 font-size: 17px;
-                padding-bottom: 3px;
+                padding-bottom: 5px;
                 letter-spacing: 1.5px;
                 line-height: 1;
                 text-transform: uppercase;
