@@ -18,32 +18,32 @@ const ExperienceBlock = ({ data }) => {
   }, []);
 
   const handleMouseOver = event => {
-    const nextNode = elemRefs.current.map(ref => ref.current);
-    const arrResuls = [];
+    const hoverNode = elemRefs.current.map(ref => ref.current);
+    const arrResults = [];
 
-    for (let i = 0; i < nextNode.length; i++) {
-      event.target !== nextNode[i]
-        ? (arrResuls[i] = false)
-        : (arrResuls[i] = true);
+    for (let i = 0; i < hoverNode.length; i++) {
+      event.target !== hoverNode[i]
+        ? (arrResults[i] = false)
+        : (arrResults[i] = true);
     }
 
-    setHover(arrResuls);
+    setHover(arrResults);
   };
 
   const handleMouseOut = () => setHover([]);
 
   useEffect(() => {
-    const nextNode = elemRefs.current.map(ref => ref.current);
+    const hoverNode = elemRefs.current.map(ref => ref.current);
 
-    for (let i = 0; i < nextNode.length; i++) {
-      nextNode[i].addEventListener('mouseenter', handleMouseOver);
-      nextNode[i].addEventListener('mouseleave', handleMouseOut);
+    for (let i = 0; i < hoverNode.length; i++) {
+      hoverNode[i].addEventListener('mouseenter', handleMouseOver);
+      hoverNode[i].addEventListener('mouseleave', handleMouseOut);
     }
 
     return () => {
-      for (let i = 0; i < nextNode.length; i++) {
-        nextNode[i].removeEventListener('mouseenter', handleMouseOver);
-        nextNode[i].removeEventListener('mouseleave', handleMouseOut);
+      for (let i = 0; i < hoverNode.length; i++) {
+        hoverNode[i].removeEventListener('mouseenter', handleMouseOver);
+        hoverNode[i].removeEventListener('mouseleave', handleMouseOut);
       }
     };
   }, []);

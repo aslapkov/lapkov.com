@@ -11,6 +11,14 @@ const TimelineWrap = styled.div`
     clear: both;
   }
 
+  &:hover {
+    .linest {
+      &:after {
+        border: 3px solid #e91e63;
+      }
+    }
+  }
+
   &.active {
     opacity: 1;
     -moz-transition: all 0.5 ease 0s;
