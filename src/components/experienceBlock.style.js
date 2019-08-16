@@ -12,6 +12,8 @@ const TimelineWrap = styled.div`
   }
 
   &:hover {
+    opacity: 1;
+
     .linest {
       &:after {
         border: 3px solid #e91e63;
