@@ -7,6 +7,14 @@ import ExperienceBlock from '../components/experienceBlock';
 
 const dataExp = [
   {
+    period: `Apr 2017 - present`,
+    position: `Developing`,
+    loc: `Javascript, Node js, React js etc.`,
+    info: `I read a lot of information about web technologies: Javascript, Node js, React js, different databases,
+    operating systems, web servers and other. Then I created with a dozen projects using these technologies (including this site).
+    Now I am actively studying everything related to Javascript and the modern web.`,
+  },
+  {
     period: `May 2019`,
     position: `Developing, design`,
     loc: `Botti, Minsk, botti.by`,
@@ -19,14 +27,6 @@ const dataExp = [
     loc: `Tanya Levinson, tanyalevinson.com`,
     info: `This is a blog about writing and the magic of words from former journalist Tanya Levinson.
     I built this website with Wordpress and did a great job of revision, design and SEO.`,
-  },
-  {
-    period: `Apr 2017 - present`,
-    position: `Developing`,
-    loc: `Javascript, Node js, React js etc.`,
-    info: `I read a lot of information about web technologies: Javascript, Node js, React js, different databases,
-    operating systems, web servers and other. Then I created with a dozen projects using these technologies (including this site).
-    Now I am actively studying everything related to Javascript and the modern web.`,
   },
   {
     period: `Mar 2017 - present`,

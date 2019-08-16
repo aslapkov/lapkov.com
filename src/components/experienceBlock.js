@@ -10,23 +10,58 @@ import {
 const ExperienceBlock = ({ data }) => {
   const [height, setHeight] = useState([]);
   const elemRefs = useRef(data.map(() => createRef()));
+  const [hover, setHover] = useState([]);
 
   useEffect(() => {
     const nextHeights = elemRefs.current.map(ref => ref.current.clientHeight);
     setHeight(nextHeights);
   }, []);
 
+  const handleMouseOver = event => {
+    const nextNode = elemRefs.current.map(ref => ref.current);
+    const arrResuls = [];
+
+    for (let i = 0; i < nextNode.length; i++) {
+      event.target !== nextNode[i]
+        ? (arrResuls[i] = false)
+        : (arrResuls[i] = true);
+    }
+
+    setHover(arrResuls);
+  };
+
+  const handleMouseOut = () => setHover([]);
+
+  useEffect(() => {
+    const nextNode = elemRefs.current.map(ref => ref.current);
+
+    for (let i = 0; i < nextNode.length; i++) {
+      nextNode[i].addEventListener('mouseenter', handleMouseOver);
+      nextNode[i].addEventListener('mouseleave', handleMouseOut);
+    }
+
+    return () => {
+      for (let i = 0; i < nextNode.length; i++) {
+        nextNode[i].removeEventListener('mouseenter', handleMouseOver);
+        nextNode[i].removeEventListener('mouseleave', handleMouseOut);
+      }
+    };
+  }, []);
+
   return (
     <React.Fragment>
       {data.map((elem, i) => {
-        const activeFirst = i === 0 && `active`;
+        let activeFirst =
+          (i === 0 && hover.length === 0) || hover[i] ? `active` : `inactive`;
+        let activeHover = hover[i] ? `active` : `inactive`;
+        let activeClass = i !== 0 ? activeHover : activeFirst;
 
         return (
           <TimelineWrap
             key={i}
             ref={elemRefs.current[i]}
             style={{ height: `${height[i]}px` }}
-            className={activeFirst}
+            className={activeClass}
           >
             <Col2>
               <div

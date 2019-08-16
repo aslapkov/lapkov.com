@@ -12,7 +12,11 @@ const TimelineWrap = styled.div`
   }
 
   &.active {
-    opacity: 1 !important;
+    opacity: 1;
+    -moz-transition: all 0.5 ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
 
     .linest {
       &:after {
@@ -23,6 +27,10 @@ const TimelineWrap = styled.div`
 
   &.inactive {
     opacity: 0.4;
+    -moz-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
   }
 
   .linest {
