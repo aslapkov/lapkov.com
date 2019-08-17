@@ -96,6 +96,20 @@ const Main = styled.main`
     font-family: 'Hind', sans-serif;
   }
 
+  h3 {
+    color: #e91e63;
+  }
+
+  h4 {
+    color: #e91e63;
+  }
+
+  blockquote {
+    border-left-color: #e91e63;
+    border-left-width: 1px;
+    border-left-style: solid;
+  }
+
   p {
     font-family: 'Hind', sans-serif;
     font-weight: 500;
