@@ -36,29 +36,29 @@ const IndexPage = () => (
     <Image />
     <h1 style={{ height: `160px` }}>
       <span style={{ display: `none` }}>
-        Hey! I'm Alex. Web developer, designer and SEO specialist.
+        Hey! I am Alex. Web developer, designer and SEO specialist.
       </span>
       <TypedReact
         strings={[
-          `Hey! I'm Alex. <br />Web developer, <br />designer and <br />SEO specialist.`,
+          `Hey! I am Alex. <br />Web developer, <br />designer and <br />SEO specialist.`,
         ]}
       />
     </h1>
     <h4>About</h4>
     <blockquote>
       <p>
-        My name is Aleksandr. I like <strong>javascript</strong>, to build the
-        websites, to design beautiful apps and to see how these projects getting
-        the high marks from search engines. For the past 5 years I've helped
-        small companies, organizations and start-ups reach business goals using
-        modern and progressive web sites and to get a lot of new clients with
-        search Google, Yandex etc. I love to read new things around javascript
-        and I'm always ready to learn.
+        My name is Aleksandr. I specialize in <strong>javascript</strong>,
+        building websites and designing beautiful apps. I love seeing my
+        projects getting the highest marks from search engines. For the past 5
+        years I have been building modern and progressive websites for small
+        companies, organizations and start-ups, which helped them reach their
+        business goals using by attracting a lot of new clients via search
+        Google, Yandex etc. I love getting more and more educated in the field
+        of javascript and am always ready to learn something new.
       </p>
       <p>
-        At the moment I'm looking for new interesting web projects. If you have
-        some of them I can take care about, please
-        {` `}
+        At the moment I am in search for new and interesting web projects. If
+        you have some of them I could work on, please{' '}
         <Link to="/contact/">contact me</Link>!
       </p>
     </blockquote>

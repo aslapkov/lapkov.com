@@ -27,7 +27,7 @@ const dataWork = [
   {
     year: `2018`,
     desc: `A blog about learning to write by Tanya Levinson`,
-    siteUrl: `http://tanyalevinson.com`,
+    siteUrl: `https://tanyalevinson.com`,
     site: `tanyalevinson.com`,
   },
   {

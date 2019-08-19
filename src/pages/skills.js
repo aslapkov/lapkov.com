@@ -40,7 +40,7 @@ const dataSkills = [
   },
   {
     label: 'Nginx',
-    percent: 84,
+    percent: 85,
   },
   {
     label: 'MySQL',
@@ -76,7 +76,7 @@ const dataSkills = [
   },
   {
     label: 'ssh',
-    percent: 82,
+    percent: 84,
   },
 ];
 
@@ -84,7 +84,7 @@ const SkillsPage = () => (
   <Layout>
     <SEO
       title="Skills"
-      description="Here is the best part of my skills, which I preferred to study and used in my projects."
+      description="Here are the skills in developing which I succeeded the most and which I am now using a lot in my projects."
     />
     <h1>
       <span style={{ display: `none` }}>Skills</span>
@@ -92,8 +92,8 @@ const SkillsPage = () => (
     </h1>
     <h4>Tech skills</h4>
     <p>
-      Here is the best part of my skills, which I preferred to study and now I
-      use with pleasure in my projects.
+      Here are the skills in developing which I succeeded the most and which I
+      am now using a lot in my projects.
     </p>
     <SkillsBlock data={dataSkills} />
   </Layout>

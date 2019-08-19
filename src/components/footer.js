@@ -8,6 +8,8 @@ import {
   FooterRigth,
 } from './footer.style';
 
+let year = new Date().getFullYear();
+
 const Footer = () => (
   <FooterWrap>
     <FooterLeft>
@@ -21,7 +23,7 @@ const Footer = () => (
     </FooterLeft>
     <FooterRigth>
       <div className="links">
-        © {new Date().getFullYear()},{` `}
+        © {year},{` `}
         <a
           href="https://github.com/aslapkov/lapkov.com"
           target="_blank"

@@ -10,8 +10,8 @@ const dataExp = [
     period: `Apr 2017 - present`,
     position: `Developing`,
     loc: `Javascript, Node js, React js etc.`,
-    info: `I read a lot of information about web technologies: Javascript, Node js, React js, different databases,
-    operating systems, web servers and other. Then I created with a dozen projects using these technologies (including this site).
+    info: `I read a lot information about web technologies: Javascript, Node js, React js, different databases,
+    operating systems, web servers and other. Then I created thousand projects using these technologies (including this site).
     Now I am actively studying everything related to Javascript and the modern web.`,
   },
   {
