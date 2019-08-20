@@ -156,10 +156,10 @@ const WorksPage = () => (
       <span style={{ display: `none` }}>Works</span>
       <TypedReact strings={[`My Works`]} />
     </h1>
-    <h4>These are my works that I can show</h4>
+    <h4>These are my works to show</h4>
     <p>
-      This is not all of my works and projects in which I participated, because
-      some of them I can't show or just do not want to show.
+      There are not all of the works and projects I've participated in. The
+      reason is some of them I cannot present or just don't want to.
     </p>
     <WorksBlock data={dataWork} />
   </Layout>
