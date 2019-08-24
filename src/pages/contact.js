@@ -9,7 +9,7 @@ const ContactPage = () => (
   <Layout>
     <SEO
       title="Contacts"
-      description="To contact me you can will send email or message to telegram."
+      description="To contact me you can send an email or a message to telegram."
     />
     <h1>
       <span style={{ display: `none` }}>Contact page</span>

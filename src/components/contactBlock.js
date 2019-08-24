@@ -10,9 +10,9 @@ const ContactBlock = () => (
     <p>
       Hello friend!
       <br />
-      To contact me you can will send email or message to telegram.
+      To contact me you can send an email or a message to telegram.
       <br />
-      You will also find me in social networks.
+      You can also find me in social networks.
     </p>
     <p className="base">
       <a href="mailto:email@lapkov.com">

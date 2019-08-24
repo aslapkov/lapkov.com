@@ -52,13 +52,13 @@ const IndexPage = () => (
         projects getting the highest marks from search engines. For the past 5
         years I have been building modern and progressive websites for small
         companies, organizations and start-ups, which helped them reach their
-        business goals using by attracting a lot of new clients via search
-        Google, Yandex etc. I love getting more and more educated in the field
-        of javascript and am always ready to learn something new.
+        business goals by attracting a lot of new clients via search Google,
+        Yandex etc. I love getting more and more educated in the field of
+        javascript and am always ready to learn something new.
       </p>
       <p>
         At the moment I am in search for new and interesting web projects. If
-        you have some of them I could work on, please{' '}
+        you have some I could work on, please{' '}
         <Link to="/contact/">contact me</Link>!
       </p>
     </blockquote>

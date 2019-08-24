@@ -11,21 +11,21 @@ const dataExp = [
     position: `Developing`,
     loc: `Javascript, Node js, React js etc.`,
     info: `I read a lot information about web technologies: Javascript, Node js, React js, different databases,
-    operating systems, web servers and other. Then I created thousand projects using these technologies (including this site).
+    operating systems, web servers and other. Then I created a thousand of projects using these technologies (including this site).
     Now I am actively studying everything related to Javascript and the modern web.`,
   },
   {
     period: `May 2019`,
     position: `Developing, design`,
     loc: `Botti, Minsk, botti.by`,
-    info: `Created a tiny website with a look into the future for new brand in the market of clothes in Belarus.
-    In plans to create an online store here. There is also a need for SEO later.`,
+    info: `Created a tiny website with a look into the future for a new brand in the market of clothes in Belarus.
+    In planning to create an online store here. There is also a need for SEO later.`,
   },
   {
     period: `May 2018 - present`,
     position: `Developing, design, SEO`,
     loc: `Tanya Levinson, tanyalevinson.com`,
-    info: `This is a blog about writing and the magic of words from former journalist Tanya Levinson.
+    info: `This is a blog about writing and the magic of words of a former journalist Tanya Levinson.
     I built this website with Wordpress and did a great job of revision, design and SEO.`,
   },
   {
@@ -33,7 +33,7 @@ const dataExp = [
     position: `Developing, design, SEO`,
     loc: `Sister's, Minsk, sisters.by`,
     info: `Support, revision, SEO and consultations for a famous brand in the clothing market of Belarus.
-    Now I'm getting ready to develop and design new site for them. I also help other projects related to them,
+    Now I'm getting ready to develop and design a new site for them. I also participate in other projects related to them,
     primabotti.ru and primabotti.by - wholesale online stores.`,
   },
   {
@@ -48,8 +48,8 @@ const dataExp = [
     position: `Developing, design, SEO`,
     loc: `Сати, Gomel, sati.by`,
     info: `My first individual work, which is completely done by me. This site mainly gets customers through
-    the search Yandex and Google. In 2017, I redesigned this project and updated the entire system.
-    I love him as a good old toy ;)`,
+    the Google and Yandex search. In 2017, I redesigned this project and updated the entire system.
+    I love it!`,
   },
   {
     period: `Dec 2013 - May 2016`,
