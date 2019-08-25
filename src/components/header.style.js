@@ -286,7 +286,6 @@ const HeaderNav = styled.nav`
                 letter-spacing: 1.5px;
                 line-height: 1;
                 text-transform: uppercase;
-                border-bottom: 1px solid #000;
               }
             }
           }
