@@ -63,12 +63,12 @@ const dataSkills = [
     percent: 83,
   },
   {
-    label: 'Yarn',
-    percent: 86,
+    label: 'Debian',
+    percent: 85,
   },
   {
-    label: 'NPM',
-    percent: 86,
+    label: 'Ubuntu',
+    percent: 83,
   },
   {
     label: 'git',
@@ -77,6 +77,14 @@ const dataSkills = [
   {
     label: 'ssh',
     percent: 84,
+  },
+  {
+    label: 'yarn',
+    percent: 86,
+  },
+  {
+    label: 'npm',
+    percent: 86,
   },
 ];
 

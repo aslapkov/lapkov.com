@@ -22,19 +22,42 @@ const dataExp = [
     In planning to create an online store here. There is also a need for SEO later.`,
   },
   {
-    period: `May 2018 - present`,
+    period: `June 2018`,
+    position: `Developing, SEO`,
+    loc: `Chin Up, www.chinup.by`,
+    info: `Presentation site for animation studio ChinUp (Minsk). The team of creative guys that create emotions
+    for your product in animated videos, animated series and motion design.`,
+  },
+  {
+    period: `Apr 2018`,
     position: `Developing, design, SEO`,
     loc: `Tanya Levinson, tanyalevinson.com`,
     info: `This is a blog about writing and the magic of words of a former journalist Tanya Levinson.
     I built this website with Wordpress and did a great job of revision, design and SEO.`,
   },
   {
-    period: `Mar 2017 - present`,
+    period: `June 2017 - present`,
     position: `Developing, design, SEO`,
     loc: `Sister's, Minsk, sisters.by`,
     info: `Support, revision, SEO and consultations for a famous brand in the clothing market of Belarus.
     Now I'm getting ready to develop and design a new site for them. I also participate in other projects related to them,
     primabotti.ru and primabotti.by - wholesale online stores.`,
+  },
+  {
+    period: `Apr 2017`,
+    position: `Developing, design, SEO`,
+    loc: `Y. Grebenshchikova, Moscow, yuliagrebenshchikova.com`,
+    info: `Presentation site for balerine of The Bolshoi Theatre (Moscow) Yulia Grebenshchikova. She was born in Budapest
+    (Hungary) and continued her studies at Moscow. After graduation in 2003 she joined the Ballet Company of the
+    Bolshoi Theater. The site has many photographs of the chronicle of ballet performances of Yulia.`,
+  },
+  {
+    period: `Mar 2017`,
+    position: `Developing, design, SEO`,
+    loc: `Doctor Ayrapetyan, Moscow, artmedest.ru`,
+    info: `Website fot rhinoplasty surgeon from Moscow of Artashes Ayrapetyan. Artashes Hayrapetyan is one of
+    the few specialists in the market of aesthetic and plastic surgery who came to the specialty right away,
+    just like a plastic surgeon.`,
   },
   {
     period: `Nov 2016 - present`,
