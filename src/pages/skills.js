@@ -23,7 +23,7 @@ const dataSkills = [
     percent: 86,
   },
   {
-    label: 'React js',
+    label: 'React',
     percent: 93,
   },
   {
@@ -31,12 +31,20 @@ const dataSkills = [
     percent: 91,
   },
   {
-    label: 'Node js',
+    label: 'Node',
     percent: 87,
   },
   {
     label: 'Express',
     percent: 85,
+  },
+  {
+    label: 'Wordpress',
+    percent: 89,
+  },
+  {
+    label: 'Woocommerce',
+    percent: 93,
   },
   {
     label: 'Nginx',
