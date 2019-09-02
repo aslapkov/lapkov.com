@@ -9,6 +9,8 @@ const DivWorks = styled.div`
   float: left;
   padding: 30px 10px;
   width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
 
   &.first {
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -52,9 +54,6 @@ const DivWorks = styled.div`
 
   span.siteUrl {
     margin-left: 10px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
   }
 `;
 
