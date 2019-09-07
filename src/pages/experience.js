@@ -72,7 +72,7 @@ const dataExp = [
     loc: `Sati, Gomel, sati.by`,
     info: `My first individual work, which is completely done by me. This site mainly gets customers through
     the Google and Yandex search. In 2017, I redesigned this project and updated the entire system. Currently
-    I also support this project. I just love it ;)`,
+    I also support the project. I just love it ;)`,
   },
   {
     period: `Dec 2013 - May 2016`,
