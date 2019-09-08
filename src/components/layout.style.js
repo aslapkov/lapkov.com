@@ -61,7 +61,7 @@ const Col8 = styled.div`
 `;
 
 const Content = styled.div`
-  background: rgba(20, 20, 20, 0.85);
+  background: rgba(20, 20, 20, 0.9);
   margin-top: 120px;
   border-top-left-radius: 10px;
   -moz-transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1) 0s;

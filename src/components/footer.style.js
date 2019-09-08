@@ -125,6 +125,7 @@ const AvailTag = styled.span`
 
   @media (max-width: 769px) {
     font-size: 0.8em;
+    padding-left: 15px;
   }
 `;
 

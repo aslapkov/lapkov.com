@@ -8,23 +8,23 @@ import SkillsBlock from '../components/skillsBlock';
 const dataSkills = [
   {
     label: 'HTML 5',
-    percent: 90,
+    percent: 93,
   },
   {
     label: 'CSS',
-    percent: 90,
+    percent: 93,
   },
   {
     label: 'Javascript',
-    percent: 93,
+    percent: 95,
   },
   {
     label: 'PHP',
-    percent: 86,
+    percent: 87,
   },
   {
     label: 'React',
-    percent: 93,
+    percent: 94,
   },
   {
     label: 'Jquery',
@@ -32,27 +32,27 @@ const dataSkills = [
   },
   {
     label: 'Node',
-    percent: 87,
-  },
-  {
-    label: 'Express',
-    percent: 85,
-  },
-  {
-    label: 'Wordpress',
     percent: 89,
   },
   {
+    label: 'Express',
+    percent: 87,
+  },
+  {
+    label: 'Wordpress',
+    percent: 90,
+  },
+  {
     label: 'Woocommerce',
-    percent: 93,
+    percent: 94,
   },
   {
     label: 'Nginx',
-    percent: 85,
+    percent: 87,
   },
   {
     label: 'MySQL',
-    percent: 82,
+    percent: 85,
   },
   {
     label: 'MongoDB',
@@ -68,31 +68,31 @@ const dataSkills = [
   },
   {
     label: 'Webpack',
-    percent: 83,
-  },
-  {
-    label: 'Debian',
-    percent: 85,
-  },
-  {
-    label: 'Ubuntu',
-    percent: 83,
-  },
-  {
-    label: 'git',
-    percent: 83,
-  },
-  {
-    label: 'ssh',
     percent: 84,
   },
   {
-    label: 'yarn',
+    label: 'Debian',
+    percent: 88,
+  },
+  {
+    label: 'Ubuntu',
+    percent: 84,
+  },
+  {
+    label: 'git',
+    percent: 85,
+  },
+  {
+    label: 'ssh',
     percent: 86,
   },
   {
+    label: 'yarn',
+    percent: 87,
+  },
+  {
     label: 'npm',
-    percent: 86,
+    percent: 87,
   },
 ];
 
