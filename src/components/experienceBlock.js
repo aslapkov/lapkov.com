@@ -75,7 +75,20 @@ const ExperienceBlock = ({ data }) => {
               </ColSm3>
               <ColSm9>
                 <span className="desc">{elem.position}</span>
-                <span className="loc">{elem.loc}</span>
+                <span className="loc">
+                  {elem.loc},{` `}
+                  {elem.site ? (
+                    <a
+                      href={elem.site}
+                      target="_blank"
+                      rel="noopener noreferrer nofollow"
+                    >
+                      {elem.site}
+                    </a>
+                  ) : (
+                    ``
+                  )}
+                </span>
                 <p className="psmall">{elem.info}</p>
               </ColSm9>
             </Col10>

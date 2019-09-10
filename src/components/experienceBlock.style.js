@@ -122,6 +122,10 @@ const ColSm9 = styled.div`
     font-weight: 600;
     color: #fff;
     padding-bottom: 15px;
+
+    a {
+      font-size: 0.85em;
+    }
   }
 
   .psmall {
