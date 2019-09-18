@@ -8,7 +8,7 @@ import WorksBlock from '../components/worksBlock';
 const dataWork = [
   {
     year: `2019`,
-    desc: `My new website build with gatsby, deploy to Netlify`,
+    desc: `My new personal website build with gatsby, deploy to Netlify.`,
     siteUrl: `https://lapkov.com`,
     site: `lapkov.com`,
   },

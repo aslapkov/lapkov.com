@@ -70,6 +70,10 @@ module.exports = {
             family: `Hind`,
             variants: [`400`, `400i`, `500`, `500i`, `700`, `700i`],
           },
+          {
+            family: `Kalam`,
+            variants: [`400`, `700`],
+          },
         ],
       },
     },

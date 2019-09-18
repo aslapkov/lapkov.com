@@ -25,7 +25,7 @@ const WorksBlock = ({ data }) => {
                 <a
                   href={elem.siteUrl}
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noopener noreferrer nofollow"
                 >
                   {elem.site}
                 </a>

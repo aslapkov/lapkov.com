@@ -53,8 +53,9 @@ const IndexPage = () => (
         years I have been building modern and progressive websites for small
         companies, organizations and start-ups, which helped them reach their
         business goals by attracting a lot of new clients via search Google,
-        Yandex etc. I love getting more and more educated in the field of
-        javascript and am always ready to learn something new.
+        Yandex etc. See my some projects on <Link to="/works/">works</Link>{' '}
+        page. I love getting more and more educated in the field of javascript
+        and I am always ready to learn something new.
       </p>
       <p>
         At the moment I am in search for new and interesting web projects. If

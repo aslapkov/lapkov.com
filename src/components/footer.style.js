@@ -5,10 +5,11 @@ const FooterWrap = styled.footer`
   overflow: hidden;
   float: none;
   clear: both;
-  padding: 60px 20px;
+  padding: 30px 20px;
 
   @media (min-width: 768px) {
     width: 91.66666667%;
+    padding: 60px 20px;
   }
 
   @media (min-width: 950px) {
@@ -107,7 +108,7 @@ const AvailPoint = styled.span`
   }
 
   @media (max-width: 769px) {
-    margin-right: 15px;
+    margin-right: 10px;
   }
 `;
 

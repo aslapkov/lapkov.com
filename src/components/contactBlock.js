@@ -8,8 +8,6 @@ import SocialIcons from './socialIcons';
 const ContactBlock = () => (
   <ContactWrap>
     <p>
-      Hello friend!
-      <br />
       To contact me you can send an email or a message to telegram.
       <br />
       You can also find me in social networks.

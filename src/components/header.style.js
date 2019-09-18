@@ -47,7 +47,9 @@ const HeaderLogo = styled.div`
     float: left;
     display: block;
     color: #fff;
-    padding: 16px 20px;
+    padding: 10px 20px;
+    font-family: 'Kalam';
+    font-size: 1.4em;
 
     @media only screen and (max-width: 950px) {
       color: #000;
@@ -135,7 +137,7 @@ const HeaderTouch = styled.div`
     }
 
     @media only screen and (max-width: 950px) {
-      padding: 14px 80px 11px 0;
+      padding: 13px 80px 10px 0;
       background: none !important;
       color: #000;
 
