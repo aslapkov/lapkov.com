@@ -90,10 +90,10 @@ const ColSm3 = styled.div`
   padding-right: 15px;
 
   span {
+    font-family: 'Lato', sans-serif;
     color: #fff;
-    font-family: 'Hind', sans-serif;
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.5px;
   }
@@ -111,13 +111,11 @@ const ColSm9 = styled.div`
   }
 
   .desc {
-    font-family: 'Hind', sans-serif;
     color: #ccc;
     padding-bottom: 5px;
   }
 
   .loc {
-    font-family: 'Hind', sans-serif;
     font-size: 15px;
     font-weight: 600;
     color: #fff;

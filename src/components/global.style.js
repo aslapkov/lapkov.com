@@ -184,7 +184,7 @@ const GlobalStyle = createGlobalStyle`
     font: inherit;
   }
   html {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Hind', sans-serif;
     color: hsla(255, 255%, 255%, 0.9);
     background-color: #000;
     font-weight: 400;
@@ -240,7 +240,7 @@ const GlobalStyle = createGlobalStyle`
     padding-top: 0;
     margin-bottom: 1.45rem;
     color: #fff;
-    font-weight: bold;
+    font-weight: 700;
     text-rendering: optimizeLegibility;
     font-size: 1.62671rem;
     line-height: 1.1;
@@ -255,7 +255,7 @@ const GlobalStyle = createGlobalStyle`
     padding-top: 0;
     margin-bottom: 1.45rem;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 700;
     text-rendering: optimizeLegibility;
     font-size: 1.38316rem;
     line-height: 1.1;
@@ -269,7 +269,7 @@ const GlobalStyle = createGlobalStyle`
     padding-right: 0;
     padding-top: 0;
     margin-bottom: 50px;
-    font-weight: bold;
+    font-weight: 700;
     text-rendering: optimizeLegibility;
     font-size: 1rem;
     line-height: 1.1;
@@ -285,6 +285,7 @@ const GlobalStyle = createGlobalStyle`
     padding-top: 0;
     margin-bottom: 1.45rem;
     color: inherit;
+    font-weight: 700;
     text-rendering: optimizeLegibility;
     font-size: 0.85028rem;
     line-height: 1.1;
@@ -299,7 +300,7 @@ const GlobalStyle = createGlobalStyle`
     padding-top: 0;
     margin-bottom: 1.45rem;
     color: inherit;
-    font-weight: bold;
+    font-weight: 700;
     text-rendering: optimizeLegibility;
     font-size: 0.78405rem;
     line-height: 1.1;

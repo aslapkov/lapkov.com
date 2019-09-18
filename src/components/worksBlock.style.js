@@ -22,7 +22,6 @@ const DivWorks = styled.div`
   }
 
   span {
-    font-family: 'Hind', sans-serif;
     font-size: 13px;
     color: #fff;
     font-weight: 600;

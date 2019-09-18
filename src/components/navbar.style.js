@@ -56,6 +56,7 @@ const NavCollapse = styled.div`
       width: 50px;
 
       a {
+        font-family: 'Lato', sans-serif;
         background: none;
         border: none;
         padding: 0;

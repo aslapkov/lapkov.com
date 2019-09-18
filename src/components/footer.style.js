@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 const FooterWrap = styled.footer`
+  font-family: 'Lato', sans-serif;
   margin: 0 auto;
   overflow: hidden;
   float: none;

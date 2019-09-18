@@ -93,7 +93,6 @@ const Main = styled.main`
 
   h1 {
     height: 44px;
-    font-family: 'Hind', sans-serif;
   }
 
   h3 {
@@ -111,7 +110,6 @@ const Main = styled.main`
   }
 
   p {
-    font-family: 'Hind', sans-serif;
     font-weight: 500;
   }
 

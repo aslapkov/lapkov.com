@@ -17,7 +17,6 @@ const BlockSkills = styled.div`
 
 const SpanProgress = styled.span`
   font-size: 13px;
-  font-family: 'Hind', sans-serif;
   font-weight: 600;
   color: #fff;
   letter-spacing: 0.5px;
@@ -42,7 +41,6 @@ const BarWrap = styled.div`
 
     strong {
       font-size: 13px;
-      font-family: 'Hind', sans-serif;
       color: #fff;
       opacity: 0;
       display: block;
