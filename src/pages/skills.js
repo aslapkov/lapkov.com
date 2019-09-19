@@ -32,19 +32,19 @@ const dataSkills = [
   },
   {
     label: 'Node',
-    percent: 89,
+    percent: 92,
   },
   {
     label: 'Express',
-    percent: 87,
-  },
-  {
-    label: 'Wordpress',
     percent: 90,
   },
   {
+    label: 'Wordpress',
+    percent: 89,
+  },
+  {
     label: 'Woocommerce',
-    percent: 94,
+    percent: 93,
   },
   {
     label: 'Nginx',
