@@ -8,26 +8,27 @@ import SocialIcons from './socialIcons';
 const ContactBlock = () => (
   <ContactWrap>
     <p>
-      To contact me you can send an email or a message to telegram.
+      To contact me you can send an <strong>email</strong>,
       <br />
-      You can also find me in social networks.
+      message to <strong>telegram</strong> or in <strong>the form</strong>{' '}
+      below.
+      <br />
+      You can also find me in <strong>social networks</strong>.
     </p>
     <p className="base">
       <a href="mailto:email@lapkov.com">
-        <IconEmail height="100" width="100" className="iconStyle" fill="#777" />
-        <br />
-        email@lapkov.com
+        <IconEmail height="20" width="20" className="iconStyle" fill="#777" />
+        {` `}email@lapkov.com
       </a>
-      <span>or</span>
+      <br />
       <a href="https://t.me/aslapkov" target="_blank" rel="noopener noreferrer">
         <IconTelegram
-          height="100"
-          width="100"
+          height="20"
+          width="20"
           className="iconStyle"
           fill="#777"
         />
-        <br />
-        telegram@aslapkov
+        {` `}telegram@aslapkov
       </a>
     </p>
     <p className="social">

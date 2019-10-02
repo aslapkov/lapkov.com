@@ -16,7 +16,7 @@ const dataSkills = [
   },
   {
     label: 'Javascript',
-    percent: 95,
+    percent: 96,
   },
   {
     label: 'PHP',
@@ -24,7 +24,7 @@ const dataSkills = [
   },
   {
     label: 'React',
-    percent: 94,
+    percent: 95,
   },
   {
     label: 'Jquery',
@@ -32,7 +32,7 @@ const dataSkills = [
   },
   {
     label: 'Node',
-    percent: 92,
+    percent: 93,
   },
   {
     label: 'Express',
@@ -72,7 +72,7 @@ const dataSkills = [
   },
   {
     label: 'Debian',
-    percent: 88,
+    percent: 89,
   },
   {
     label: 'Ubuntu',
@@ -80,11 +80,11 @@ const dataSkills = [
   },
   {
     label: 'git',
-    percent: 85,
+    percent: 86,
   },
   {
     label: 'ssh',
-    percent: 86,
+    percent: 88,
   },
   {
     label: 'yarn',
