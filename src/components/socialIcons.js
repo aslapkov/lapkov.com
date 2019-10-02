@@ -1,7 +1,6 @@
 import React from 'react';
 
 import IconGithub from '../images/github.svg';
-import IconVk from '../images/vk.svg';
 import IconTwitter from '../images/twitter.svg';
 
 const SocialIcons = ({ num, color, classSelect }) => {
@@ -10,18 +9,11 @@ const SocialIcons = ({ num, color, classSelect }) => {
   return (
     <React.Fragment>
       <a
-        href="https://vk.com/a.s.lapkov"
+        href="https://twitter.com/aslapkov"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <IconVk height={num} width={num} className={classSel} fill={color} />
-      </a>
-      <a
-        href="https://github.com/aslapkov"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <IconGithub
+        <IconTwitter
           height={num}
           width={num}
           className={classSel}
@@ -29,11 +21,11 @@ const SocialIcons = ({ num, color, classSelect }) => {
         />
       </a>
       <a
-        href="https://twitter.com/aslapkov"
+        href="https://github.com/aslapkov"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <IconTwitter
+        <IconGithub
           height={num}
           width={num}
           className={classSel}

@@ -31,7 +31,7 @@ const ContactBlock = () => (
       </a>
     </p>
     <p className="social">
-      <SocialIcons num="40" color="#777" classSelect="iconSocStyle" />
+      <SocialIcons num="30" color="#777" classSelect="iconSocStyle" />
     </p>
   </ContactWrap>
 );
