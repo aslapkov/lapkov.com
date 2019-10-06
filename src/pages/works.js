@@ -123,7 +123,7 @@ const dataWork = [
   {
     year: `2016`,
     desc: `Development site by order the circus performers "Du Soleil"`,
-    siteUrl: `http://vcirke.com`,
+    siteUrl: `https://lapkov.com/works/`,
     site: `vcirke.com`,
   },
   {

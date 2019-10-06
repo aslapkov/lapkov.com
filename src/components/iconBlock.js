@@ -1,24 +1,27 @@
 import React from 'react';
-import { BlockDiv } from './iconBlock.style';
+import { BlockRow, BlockDiv } from './iconBlock.style';
 
 const IconBlock = ({ data }) => (
-  <React.Fragment>
+  <BlockRow>
     {data.map((elem, i) => {
       const IconName = elem.iconName;
 
       return (
-        <BlockDiv key={i}>
-          <IconName
-            height="100"
-            width="100"
-            className="iconStyle"
-            fill="#777"
-          />
-          <span className="lab">{elem.label}</span>
-        </BlockDiv>
+        <React.Fragment key={i}>
+          <BlockDiv>
+            <IconName
+              height="100"
+              width="100"
+              className="iconStyle"
+              fill="#777"
+            />
+            <span className="lab">{elem.label}</span>
+          </BlockDiv>
+          {i % 2 !== 0 && <div className="w100"></div>}
+        </React.Fragment>
       );
     })}
-  </React.Fragment>
+  </BlockRow>
 );
 
 export default IconBlock;

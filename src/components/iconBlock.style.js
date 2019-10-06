@@ -1,18 +1,25 @@
 import styled from 'styled-components';
 
-const BlockDiv = styled.div`
-  float: left;
-  width: 50%;
-  margin-bottom: 50px;
-  position: relative;
-  min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
+const BlockRow = styled.div`
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 
-  @media (min-width: 768px) {
-    width: 25%;
-    float: left;
+  @media (max-width: 769px) {
+    .w100 {
+      width: 100%;
+    }
   }
+`;
+
+const BlockDiv = styled.div`
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  max-width: 100%;
+  padding: 0.75rem;
 
   &:hover {
     .iconStyle {
@@ -38,4 +45,4 @@ const BlockDiv = styled.div`
   }
 `;
 
-export { BlockDiv };
+export { BlockRow, BlockDiv };

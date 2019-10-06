@@ -136,11 +136,7 @@ const ContactBlock = () => {
         <FormGroup className="full">
           <button type="submit" disabled={isInvalid}>
             <span className="mask"></span>
-            {loading ? (
-              <span>message sending...</span>
-            ) : (
-              <span>Send message</span>
-            )}
+            {loading ? <span>Sending...</span> : <span>Send message</span>}
           </button>
         </FormGroup>
       </form>
