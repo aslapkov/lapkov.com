@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import Layout from '../components/Layout';
-import Image from '../components/Image';
-import SEO from '../components/Seo';
-import IconBlock from '../components/IconBlock';
-import TypedReact from '../components/TypedReact';
+import Layout from '../components/layout';
+import Image from '../components/image';
+import SEO from '../components/seo';
+import IconBlock from '../components/iconBlock';
+import TypedReact from '../components/typedReact';
 
 import IconCode from '../images/code.svg';
 import IconDesign from '../images/design.svg';
