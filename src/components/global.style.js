@@ -257,7 +257,7 @@ const GlobalStyle = createGlobalStyle`
     text-transform: uppercase;
     font-weight: 700;
     text-rendering: optimizeLegibility;
-    font-size: 1.38316rem;
+    font-size: 1.25rem;
     line-height: 1.1;
   }
   h4 {

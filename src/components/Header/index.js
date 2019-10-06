@@ -2,8 +2,8 @@ import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import React, { useState } from 'react';
 
-import SocialIcons from './socialIcons';
-import IconCont from '../images/paper-plane.svg';
+import SocialIcons from '../SocialIcons';
+import IconCont from '../../images/envelope.svg';
 
 import {
   HeaderWrap,
@@ -28,9 +28,9 @@ const Header = ({ siteTitle, siteLinks }) => {
           <Link to="/contact/" className="contact">
             <span className="mask"></span>
             <span className="label">
-              <b>Contact me!</b>
+              <b>Contact me</b>
               <span className="iconPlane">
-                <IconCont height="20" width="20" fill="#fff" />
+                <IconCont height="15" width="15" fill="#fff" />
               </span>
               <span className="iconCall">
                 <IconCont height="25" width="25" fill="#000" />

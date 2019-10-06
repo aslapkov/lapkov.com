@@ -1,9 +1,9 @@
 import React from 'react';
 
-import Layout from '../components/layout';
-import SEO from '../components/seo';
-import TypedReact from '../components/typedReact';
-import ContactBlock from '../components/contactBlock';
+import Layout from '../components/Layout';
+import SEO from '../components/Seo';
+import TypedReact from '../components/TypedReact';
+import ContactBlock from '../components/ContactBlock';
 
 const ContactPage = () => (
   <Layout>

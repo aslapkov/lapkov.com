@@ -16,7 +16,7 @@ const TimelineWrap = styled.div`
 
     .linest {
       &:after {
-        border: 3px solid #e91e63;
+        border: 3px solid #ffff50;
       }
     }
   }
@@ -30,7 +30,7 @@ const TimelineWrap = styled.div`
 
     .linest {
       &:after {
-        border: 3px solid #e91e63;
+        border: 3px solid #ffff50;
       }
     }
   }

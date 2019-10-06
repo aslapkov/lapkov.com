@@ -1,9 +1,9 @@
 import React from 'react';
 
-import Layout from '../components/layout';
-import SEO from '../components/seo';
-import TypedReact from '../components/typedReact';
-import WorksBlock from '../components/worksBlock';
+import Layout from '../components/Layout';
+import SEO from '../components/Seo';
+import TypedReact from '../components/TypedReact';
+import WorksBlock from '../components/WorksBlock';
 
 const dataWork = [
   {
@@ -159,8 +159,8 @@ const WorksPage = () => (
     <h4>These are my works to show</h4>
     <p>
       There are not all of the works and projects I've participated in. The
-      reason is some of them I cannot present (due to trade secrets) or just
-      don't want to.
+      reason is some of them I cannot presen, due to trade secrets, to the
+      nature of the project or just because of reluctance.
     </p>
     <WorksBlock data={dataWork} />
   </Layout>

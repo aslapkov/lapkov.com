@@ -2,6 +2,7 @@ import React from 'react';
 
 import IconGithub from '../images/github.svg';
 import IconTwitter from '../images/twitter.svg';
+import IconLinkedin from '../images/linkedin.svg';
 
 const SocialIcons = ({ num, color, classSelect }) => {
   const classSel = classSelect ? classSelect : ``;
@@ -9,11 +10,11 @@ const SocialIcons = ({ num, color, classSelect }) => {
   return (
     <React.Fragment>
       <a
-        href="https://twitter.com/aslapkov"
+        href="https://www.linkedin.com/in/aleksandr-lapkov-757814194/"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <IconTwitter
+        <IconLinkedin
           height={num}
           width={num}
           className={classSel}
@@ -26,6 +27,18 @@ const SocialIcons = ({ num, color, classSelect }) => {
         rel="noopener noreferrer"
       >
         <IconGithub
+          height={num}
+          width={num}
+          className={classSel}
+          fill={color}
+        />
+      </a>
+      <a
+        href="https://twitter.com/aslapkov"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <IconTwitter
           height={num}
           width={num}
           className={classSel}

@@ -39,7 +39,7 @@ const FooterLeft = styled.div`
 `;
 
 const AvailPoint = styled.span`
-  background: #e91e63 none repeat scroll 0 0;
+  background: #ff0050 none repeat scroll 0 0;
   position: relative;
   display: inline-block;
   float: left;
@@ -96,7 +96,7 @@ const AvailPoint = styled.span`
   }
 
   &:before {
-    background-color: #e91e63;
+    background-color: #ff0050;
     content: ' ';
     position: absolute;
     top: -8px;

@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import Layout from '../components/layout';
-import Image from '../components/image';
-import SEO from '../components/seo';
-import IconBlock from '../components/iconBlock';
-import TypedReact from '../components/typedReact';
+import Layout from '../components/Layout';
+import Image from '../components/Image';
+import SEO from '../components/Seo';
+import IconBlock from '../components/IconBlock';
+import TypedReact from '../components/TypedReact';
 
 import IconCode from '../images/code.svg';
 import IconDesign from '../images/design.svg';
@@ -36,11 +36,11 @@ const IndexPage = () => (
     <Image />
     <h1 style={{ height: `160px` }}>
       <span style={{ display: `none` }}>
-        Hey! I am Alex. Web developer, designer and SEO specialist.
+        Hey! I am Alex. Web developer, designer and SEO expert.
       </span>
       <TypedReact
         strings={[
-          `Hey! I am Alex. <br />Web developer, <br />designer and <br />SEO specialist.`,
+          `Hello! I am Alex. <br />Web developer, <br />designer and <br />SEO expert.`,
         ]}
       />
     </h1>
@@ -63,7 +63,7 @@ const IndexPage = () => (
         <Link to="/contact/">contact me</Link>!
       </p>
     </blockquote>
-    <h4>What can I do for you?</h4>
+    <h4>What can I do?</h4>
     <div>
       <IconBlock data={dataIcon} />
     </div>

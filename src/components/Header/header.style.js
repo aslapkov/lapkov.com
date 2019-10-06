@@ -68,7 +68,7 @@ const HeaderTouch = styled.div`
     background: #141414;
     outline: none;
     border: none;
-    border-left: 1px solid #e91e63;
+    border-left: 2px solid #ffff50;
     padding: 5px 20px;
     -moz-transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1) 0s;
     -o-transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1) 0s;
@@ -79,8 +79,16 @@ const HeaderTouch = styled.div`
       display: none;
     }
 
+    &:hover {
+      color: #000;
+
+      .iconPlane svg {
+        fill: #000;
+      }
+    }
+
     .mask {
-      background: #e91e63;
+      background: #ffff50;
       display: block;
       height: 100%;
       left: 0;
@@ -98,7 +106,6 @@ const HeaderTouch = styled.div`
       position: relative;
       z-index: 2;
       display: inline-block;
-      padding-bottom: 5px;
 
       .iconPlane {
         margin-left: 10px;

@@ -31,7 +31,7 @@ const BarWrap = styled.div`
   width: 100%;
 
   span {
-    background-color: #e91e63;
+    background-color: #ffff50;
     height: 2px;
     width: 0px;
     display: block;
@@ -54,7 +54,7 @@ const BarWrap = styled.div`
     }
 
     &:after {
-      border: 2px solid #e91e63;
+      border: 2px solid #ffff50;
       border-radius: 50%;
       content: '';
       height: 15px;
