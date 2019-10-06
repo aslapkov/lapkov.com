@@ -1,14 +1,14 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://lapkov.com">
-    <img alt="Lapkov" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
+    <img alt="Lapkov" src="https://lapkov.com/image.svg" width="60" />
   </a>
 </p>
 <h1 align="center">
-  I am Starter based on Gatsby
+  My personal tiny Gatsby [site](https://lapkov.com)
 </h1>
 
-My personal tiny [Gatsby](https://lapkov.com) site.
+This site present part of my existing and working projects. Here I'm talking about my experience and skills, which I achieved over the years of work.
 
 ## 💫 Deploy
 
