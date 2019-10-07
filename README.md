@@ -3,12 +3,12 @@
 
 This [site](https://lapkov.com) present part of my existing and working projects. Here I'm talking about my experience and skills, which I achieved over the years of work.
 
-## 🚀 Build
+## 🚀 Build with Gatsby
 
-[![Build with Gatsby](https://www.gatsbyjs.org/monogram.svg | width=50)](https://www.gatsbyjs.org/)
+[<img src="https://www.gatsbyjs.org/monogram.svg" alt="Build with Gatsby" width="32"/>](https://www.gatsbyjs.org/)
 
-## 💫 Deploy
+## 💫 Deploy to Netlify
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://www.netlify.com/docs/)
+[<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />](https://www.netlify.com/docs/)
 
 <!-- AUTO-GENERATED-CONTENT:END -->
