@@ -1,16 +1,11 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<p align="center">
-  <a href="https://lapkov.com">👨‍💻</a>
-</p>
-<h1 align="center">
-  My personal tiny website
-</h1>
+<h1>👨‍💻 My personal tiny website</h1>
 
 This [site](https://lapkov.com) present part of my existing and working projects. Here I'm talking about my experience and skills, which I achieved over the years of work.
 
 ## 🚀 Build
 
-[![Build with Gatsby](https://www.gatsbyjs.org/monogram.svg)](https://www.gatsbyjs.org/)
+[![Build with Gatsby](https://www.gatsbyjs.org/monogram.svg | width=50)](https://www.gatsbyjs.org/)
 
 ## 💫 Deploy
 
