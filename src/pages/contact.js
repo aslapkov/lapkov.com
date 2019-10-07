@@ -1,8 +1,8 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
-import SEO from '../components/Seo';
-import TypedReact from '../components/TypedReact';
+import SEO from '../components/seo';
+import TypedReact from '../components/typedReact';
 import ContactBlock from '../components/ContactBlock';
 
 const ContactPage = () => (
