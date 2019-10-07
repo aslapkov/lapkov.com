@@ -32,15 +32,15 @@ const dataIcon = [
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="I'm a web developer, designer and SEO specialist" />
+    <SEO title="I'm a web developer, designer and SEO expert" />
     <Image />
     <h1 style={{ height: `160px` }}>
       <span style={{ display: `none` }}>
-        Hey! I am Alex. Web developer, designer and SEO expert.
+        Hey! I am Alex. Web developer, designer and SEO specialist.
       </span>
       <TypedReact
         strings={[
-          `Hello! I am Alex. <br />Web developer, <br />designer and <br />SEO expert.`,
+          `Hello! I am Alex. <br />Web developer, <br />designer and <br />SEO specialist.`,
         ]}
       />
     </h1>
