@@ -3,7 +3,7 @@ import { ContactWrap, FormGroup, InputWrap } from './contactBlock.style';
 
 import IconEmail from '../../images/email.svg';
 import IconTelegram from '../../images/telegram.svg';
-import SocialIcons from '../SocialIcons';
+import SocialIcons from '../socialIcons';
 
 const encode = data => {
   return Object.keys(data)
