@@ -1,9 +1,9 @@
 import React from 'react';
 
-import Layout from '../components/layout';
-import SEO from '../components/seo';
-import TypedReact from '../components/typedReact';
-import WorksBlock from '../components/worksBlock';
+import Layout from '../components/Layout';
+import SEO from '../components/Seo';
+import TypedReact from '../components/TypedReact';
+import WorksBlock from '../components/WorksBlock';
 
 const dataWork = [
   {

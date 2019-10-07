@@ -2,8 +2,8 @@ import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import React, { useState } from 'react';
 
-import SocialIcons from './socialIcons';
-import IconCont from '../images/envelope.svg';
+import SocialIcons from '../SocialIcons';
+import IconCont from '../../images/envelope.svg';
 
 import {
   HeaderWrap,

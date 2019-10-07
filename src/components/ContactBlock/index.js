@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { ContactWrap, FormGroup, InputWrap } from './contactBlock.style';
 
-import IconEmail from '../images/email.svg';
-import IconTelegram from '../images/telegram.svg';
-import SocialIcons from './socialIcons';
+import IconEmail from '../../images/email.svg';
+import IconTelegram from '../../images/telegram.svg';
+import SocialIcons from '../SocialIcons';
 
 const encode = data => {
   return Object.keys(data)
