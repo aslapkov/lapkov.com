@@ -2,7 +2,7 @@
   "name": "lapkov",
   "private": true,
   "description": "My personal site built with Gatsby",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "author": "A. Lapkov <a.s.lapkov@gmail.com>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.0",
@@ -34,7 +34,7 @@
     "eslint-utils": "^1.4.2",
     "gatsby-cli": "^2.7.54",
     "husky": "^3.0.8",
-    "lint-staged": "^9.4.1",
+    "lint-staged": "^9.4.2",
     "prettier": "^1.18.2"
   },
   "homepage": "https://lapkov.com",
