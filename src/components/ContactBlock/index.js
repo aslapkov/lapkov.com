@@ -70,7 +70,7 @@ const ContactBlock = () => {
         </a>
       </p>
       <h4>Contact form</h4>
-      <h3>I will be glad to hear you</h3>
+      <h3>I will be glad to hear from you</h3>
       <form
         name="contact"
         method="post"

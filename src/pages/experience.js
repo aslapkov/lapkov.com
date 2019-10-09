@@ -9,18 +9,17 @@ const dataExp = [
   {
     period: `2016 - present`,
     position: `Developing`,
-    loc: `Javascript, Node js, React js etc.`,
-    info: `I read a lot information about web technologies: Javascript, Node js, React js, different databases,
-    operating systems, web servers and other. Then I created dozens of projects using these technologies (including this site).
-    Now I am actively studying everything related to Javascript and the modern web. I currently either advise or support them.
-    See more of my works on the "Works" page on the menu.`,
+    loc: `Javascript, Node, React etc.`,
+    info: `I read a lot information about web technologies: Javascript, Node, React, different databases,
+    operating systems, web servers and other. Then I created dozen of projects using these technologies.
+    Now I'm diligently studying everything related to Javascript and the modern web.`,
   },
   {
     period: `May 2019`,
     position: `Developing, design`,
     loc: `Botti, Minsk`,
     site: `http://botti.by`,
-    info: `Created a tiny website with a look into the future for a new brand in the market of clothes in Belarus.
+    info: `Created a tiny website with a look into the future for a new brand in the of clothing market in Belarus.
     In planning to create an online store here. There is also a need for SEO later.`,
   },
   {
@@ -28,7 +27,7 @@ const dataExp = [
     position: `Developing, design, SEO`,
     loc: `Tanya Levinson`,
     site: `https://tanyalevinson.com`,
-    info: `This is a blog about writing and the magic of words of a former journalist Tanya Levinson.
+    info: `It's a blog about writing and the magic of words of a former journalist Tanya Levinson.
     I built this website with Wordpress and did a great job of revision, design and SEO.`,
   },
   {
@@ -36,25 +35,24 @@ const dataExp = [
     position: `Developing, design, SEO`,
     loc: `Elite Nails`,
     site: `https://elitenails.by`,
-    info: `Online store selling cosmetics for nails in Belarus. Currently
-    I also support the project`,
+    info: `Online store selling nails cosmetic for Belarus. Currently I minimally support this project just for couple of hours a week.`,
   },
   {
     period: `June 2017 - present`,
     position: `Developing, design, SEO`,
     loc: `Sister's, Minsk`,
     site: `https://sisters.by`,
-    info: `Support, revision, SEO and consultations for a famous brand in the clothing market of Belarus.
-    Now I'm getting ready to develop and design a new site for them. I also participate in other projects related to them,
-    primabotti.ru and primabotti.by - wholesale online stores.`,
+    info: `Support, revision, SEO and consultations for a famous brand in Belarusian clothing market.
+    Now I'm getting ready to develop and design a new site for Sister's. I also participate in other projects related to them:
+    primabotti.ru and primabotti.by - wholesale online stores. I support them for couple of hours a week too`,
   },
   {
     period: `May 2017`,
     position: `Developing, SEO`,
     loc: `Chin Up`,
     site: `https://www.chinup.by`,
-    info: `Presentation site for animation studio ChinUp (Minsk). The team of creative guys that create emotions
-    for your product in animated videos, animated series and motion design.`,
+    info: `Presentation site for animation studio ChinUp (Minsk). The team of creative guys who produced animated videos,
+    animated series and motion design.`,
   },
   {
     period: `Apr 2017`,
@@ -63,23 +61,23 @@ const dataExp = [
     site: `http://yuliagrebenshchikova.com`,
     info: `Presentation site for balerine of The Bolshoi Theatre (Moscow) Yulia Grebenshchikova. She was born in Budapest
     (Hungary) and continued her studies at Moscow. After graduation in 2003 she joined the Ballet Company of the
-    Bolshoi Theater. The site has many photographs of the chronicle of ballet performances of Yulia.`,
+    Bolshoi Theater. The site has many chronicle photographs of Yulia's ballet performances.`,
   },
   {
     period: `Mar 2017`,
     position: `Developing, design, SEO`,
     loc: `Doctor Ayrapetyan, Moscow`,
     site: `http://artmedest.ru`,
-    info: `Website fot rhinoplasty surgeon from Moscow of Artashes Ayrapetyan. Artashes Hayrapetyan is one of
+    info: `Website fot rhinoplasty surgeon Artashes Ayrapetyan from Moscow. He is one of
     the few specialists in the market of aesthetic and plastic surgery who came to the specialty right away,
-    just like a plastic surgeon.`,
+    like a plastic surgeon.`,
   },
   {
     period: `Apr 2015 - present`,
     position: `Developing, design, SEO`,
     loc: `Sati, Gomel`,
     site: `https://sati.by`,
-    info: `My first individual work, which is completely done by me. This site mainly gets customers through
+    info: `My first individual work that is completely done by myself. This site mainly gets customers through
     the Google and Yandex search. In 2017, I redesigned this project and updated the entire system. Currently
     I also support the project. I just love it ;)`,
   },
