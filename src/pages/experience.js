@@ -10,7 +10,7 @@ const dataExp = [
     period: `2016 - present`,
     position: `Developing`,
     loc: `Javascript, Node, React etc.`,
-    info: `I read a lot information about web technologies: Javascript, Node, React, different databases,
+    info: `I read a lot of information about web technologies: Javascript, Node, React, different databases,
     operating systems, web servers and other. Then I created dozen of projects using these technologies.
     Now I'm diligently studying everything related to Javascript and the modern web.`,
   },
@@ -19,8 +19,8 @@ const dataExp = [
     position: `Developing, design`,
     loc: `Botti, Minsk`,
     site: `http://botti.by`,
-    info: `Created a tiny website with a look into the future for a new brand in the of clothing market in Belarus.
-    In planning to create an online store here. There is also a need for SEO later.`,
+    info: `Created a tiny website with a look into the future for a new brand in the clothing market of Belarus.
+    I am planning to create an online store here, in addition there is also a need for SEO later.`,
   },
   {
     period: `Apr 2018 - present`,
