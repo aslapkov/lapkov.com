@@ -107,5 +107,14 @@ module.exports = {
         respectDNT: true,
       },
     },
+    {
+      resolve: `gatsby-plugin-yandex-metrika`,
+      options: {
+        trackingId: process.env.YANDEX_TRACKING_ID,
+        webvisor: true,
+        trackHash: true,
+        version: 2,
+      },
+    },
   ],
 };
