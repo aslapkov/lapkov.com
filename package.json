@@ -2,7 +2,7 @@
   "name": "lapkov",
   "private": true,
   "description": "My personal site built with Gatsby",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "author": "A. Lapkov <a.s.lapkov@gmail.com>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.0",
@@ -15,7 +15,7 @@
     "gatsby-plugin-prefetch-google-fonts": "^1.4.3",
     "gatsby-plugin-react-helmet": "^3.1.13",
     "gatsby-plugin-react-svg": "^2.1.2",
-    "gatsby-plugin-sharp": "^2.2.31",
+    "gatsby-plugin-sharp": "^2.2.32",
     "gatsby-plugin-styled-components": "^3.1.11",
     "gatsby-source-filesystem": "^2.1.33",
     "gatsby-transformer-sharp": "^2.2.23",

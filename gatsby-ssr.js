@@ -2,7 +2,7 @@ import React from 'react';
 
 export const onRenderBody = ({ setPostBodyComponents }) => {
   if (process.env.NODE_ENV === `production`) {
-    const trackingId = '43309609';
+    const trackingId = process.env.YANDEX_TRACKING_ID;
     const webvisor = true;
     const trackHash = true;
     const versionSuffix = '2';
