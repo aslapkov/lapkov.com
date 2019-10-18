@@ -10,7 +10,7 @@ const SocialIcons = ({ num, color, classSelect }) => {
   return (
     <React.Fragment>
       <a
-        href="https://www.linkedin.com/in/aleksandr-lapkov-757814194/"
+        href="https://www.linkedin.com/in/aleksandr-lapkov/"
         target="_blank"
         rel="noopener noreferrer"
       >
