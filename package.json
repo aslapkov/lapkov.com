@@ -2,11 +2,11 @@
   "name": "lapkov",
   "private": true,
   "description": "My personal site built with Gatsby",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "A. Lapkov <a.s.lapkov@gmail.com>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.0",
-    "gatsby": "^2.16.3",
+    "gatsby": "^2.16.4",
     "gatsby-image": "^2.2.29",
     "gatsby-plugin-google-analytics": "^2.1.23",
     "gatsby-plugin-manifest": "^2.2.23",
@@ -33,7 +33,7 @@
   "devDependencies": {
     "@hot-loader/react-dom": "^16.10.2",
     "eslint-utils": "^1.4.2",
-    "gatsby-cli": "^2.8.1",
+    "gatsby-cli": "^2.8.2",
     "husky": "^3.0.9",
     "lint-staged": "^9.4.2",
     "prettier": "^1.18.2"
