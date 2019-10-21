@@ -53,7 +53,7 @@ const IndexPage = () => (
         building modern and progressive websites for small companies,
         organizations and start-ups, which helped them reach their business
         goals including by attracting many new clients via Google, Yandex etc.
-        See my some projects on <Link to="/works/">works</Link> page. I love
+        See my some projects on <Link to="/works/">works</Link> page. I like
         getting more and more educated in the field of javascript and I am
         always ready to learn something new.
       </p>

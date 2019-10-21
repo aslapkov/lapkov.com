@@ -160,7 +160,7 @@ const WorksPage = () => (
     <p>
       There are not all of the works and projects I've participated in. The
       reason is some of them I cannot present, due to trade secrets, to the
-      nature of the project or for some other reasons.
+      nature of the projects or for some other reasons.
     </p>
     <WorksBlock data={dataWork} />
   </Layout>
