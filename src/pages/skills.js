@@ -100,7 +100,7 @@ const SkillsPage = () => (
   <Layout>
     <SEO
       title="Skills"
-      description="Here are the skills in developing which I succeeded the most and which I am now using a lot in my projects."
+      description="Here are the developing skills in which I succeeded the most and I'm active using in my projects."
     />
     <h1>
       <span style={{ display: `none` }}>Skills</span>
@@ -108,8 +108,8 @@ const SkillsPage = () => (
     </h1>
     <h4>Tech skills</h4>
     <p>
-      Here are the skills in developing which I succeeded the most and which I
-      am now using a lot in my projects.
+      Here are the developing skills in which I succeeded the most and I'm
+      actively using in my projects.
     </p>
     <SkillsBlock data={dataSkills} />
   </Layout>

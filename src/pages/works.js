@@ -159,7 +159,7 @@ const WorksPage = () => (
     <h4>These are my works to show</h4>
     <p>
       There are not all of the works and projects I've participated in. The
-      reason is some of them I cannot presen, due to trade secrets, to the
+      reason is some of them I cannot present, due to trade secrets, to the
       nature of the project or just because of reluctance.
     </p>
     <WorksBlock data={dataWork} />
