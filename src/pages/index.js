@@ -64,9 +64,7 @@ const IndexPage = () => (
       </p>
     </blockquote>
     <h4>What can I do?</h4>
-    <div>
-      <IconBlock data={dataIcon} />
-    </div>
+    <IconBlock data={dataIcon} />
   </Layout>
 );
 
