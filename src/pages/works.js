@@ -26,12 +26,6 @@ const dataWork = [
   },
   {
     year: `2018`,
-    desc: `A blog about learning to write by Tanya Levinson`,
-    siteUrl: `https://tanyalevinson.com`,
-    site: `tanyalevinson.com`,
-  },
-  {
-    year: `2018`,
     desc: `Online store selling cosmetics for nails with delivery throughout Belarus`,
     siteUrl: `https://kani.by`,
     site: `kani.by`,
