@@ -7,7 +7,7 @@ import ExperienceBlock from '../components/ExperienceBlock';
 
 const dataExp = [
   {
-    period: `2018 - present`,
+    period: `Jan 2018 - pres.`,
     position: `Dev, design`,
     loc: `Javascript, Node, React etc.`,
     site: `https://lapkov.com`,
@@ -24,6 +24,14 @@ const dataExp = [
     I am planning to create an online store here, in addition there is also a need for SEO later.`,
   },
   {
+    period: `Feb 2019 - pres.`,
+    position: `Dev, design, SEO`,
+    loc: `Tanya Levinson`,
+    site: `https://tanyalevinson.com`,
+    info: `It's a blog about writing and the magic of words of a former journalist Tanya Levinson.
+    I built this website with Wordpress and did a great job of revision, design and SEO.`,
+  },
+  {
     period: `Dec 2018`,
     position: `Dev, design, SEO`,
     loc: `Synergy Massage, Minsk`,
@@ -32,7 +40,7 @@ const dataExp = [
     Here you will receive a full range of massage services.`,
   },
   {
-    period: `Oct 2017 - present`,
+    period: `Oct 2017 - pres.`,
     position: `Dev, design, SEO`,
     loc: `Elite Nails`,
     site: `https://elitenails.by`,
@@ -40,7 +48,7 @@ const dataExp = [
     this project just for couple of hours a week.`,
   },
   {
-    period: `June 2017 - present`,
+    period: `Jun 2017 - pres.`,
     position: `Dev, design, SEO`,
     loc: `Sister's, Minsk`,
     site: `https://sisters.by`,
@@ -51,7 +59,7 @@ const dataExp = [
   },
   {
     period: `May 2017`,
-    position: `Developing, SEO`,
+    position: `Dev, SEO`,
     loc: `Chin Up`,
     site: `https://www.chinup.by`,
     info: `Presentation site for animation studio ChinUp (Minsk). The team of creative guys who produced animated
@@ -59,7 +67,7 @@ const dataExp = [
   },
   {
     period: `Apr 2017`,
-    position: `Developing, design, SEO`,
+    position: `Dev, design, SEO`,
     loc: `Yulia, Moscow`,
     site: `http://yuliagrebenshchikova.com`,
     info: `Presentation site for balerine of The Bolshoi Theatre (Moscow) Yulia Grebenshchikova. She was born
@@ -68,7 +76,7 @@ const dataExp = [
   },
   {
     period: `Mar 2017`,
-    position: `Developing, design, SEO`,
+    position: `Dev, design, SEO`,
     loc: `Doctor Ayrapetyan, Moscow`,
     site: `http://artmedest.ru`,
     info: `Website fot rhinoplasty surgeon Artashes Ayrapetyan from Moscow. He is one of
@@ -76,8 +84,8 @@ const dataExp = [
     like a plastic surgeon.`,
   },
   {
-    period: `Apr 2015 - present`,
-    position: `Developing, design, SEO`,
+    period: `Apr 2015 - pres.`,
+    position: `Dev, design, SEO`,
     loc: `Sati, Gomel`,
     site: `https://sati.by`,
     info: `My first individual work that is completely done by myself. This site mainly gets customers through

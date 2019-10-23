@@ -19,6 +19,12 @@ const dataWork = [
     site: `botti.by`,
   },
   {
+    year: `2019`,
+    desc: `A blog about learning to write by Tanya Levinson`,
+    siteUrl: `https://tanyalevinson.com`,
+    site: `tanyalevinson.com`,
+  },
+  {
     year: `2018`,
     desc: `The professional massage room in center Minsk`,
     siteUrl: `http://synergymassage.by`,
