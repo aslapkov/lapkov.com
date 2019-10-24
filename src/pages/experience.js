@@ -11,7 +11,7 @@ const dataExp = [
     position: `Dev, design`,
     loc: `Javascript, Node, React etc.`,
     site: `https://lapkov.com`,
-    info: `I read a lot of information about web technologies, including Javascript, Node, React, different
+    info: `I learned a lot of information about web technologies, including Javascript, Node, React, different
     databases, operating systems, web servers and other. Then I created a dozen projects using these
     technologies. Now I'm diligently studying everything related to Javascript and the modern web.`,
   },
