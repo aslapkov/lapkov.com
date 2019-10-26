@@ -290,7 +290,8 @@ const HeaderNav = styled.nav`
               span {
                 display: inline-block;
                 color: #141414;
-                font-size: 17px;
+                font-size: 1.2em;
+                border-bottom: 1px solid #000;
                 padding-bottom: 5px;
                 letter-spacing: 1.5px;
                 line-height: 1;
