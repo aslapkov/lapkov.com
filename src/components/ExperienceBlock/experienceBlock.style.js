@@ -144,7 +144,7 @@ const ColSm9 = styled.div`
 
     @media (max-width: 769px) {
       line-height: 20px;
-      font-size: 0.8em;
+      font-size: 0.85em;
     }
   }
 `;

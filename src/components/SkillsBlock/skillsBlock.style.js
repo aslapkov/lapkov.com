@@ -39,7 +39,7 @@ const BarWrap = styled.div`
     overflow: visible !important;
 
     strong {
-      font-size: 13px;
+      font-size: 0.8em;
       color: #fff;
       opacity: 0;
       display: block;

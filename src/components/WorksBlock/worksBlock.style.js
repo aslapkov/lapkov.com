@@ -29,7 +29,7 @@ const DivWorks = styled.div`
     line-height: 1.3;
 
     @media (max-width: 768px) {
-      font-size: 0.75em;
+      font-size: 0.8em;
     }
   }
 
