@@ -16,7 +16,6 @@ const BlockSkills = styled.div`
 `;
 
 const SpanProgress = styled.span`
-  font-size: 13px;
   font-weight: 700;
   color: #fff;
   letter-spacing: 0.5px;

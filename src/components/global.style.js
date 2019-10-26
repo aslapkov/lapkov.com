@@ -184,7 +184,7 @@ const GlobalStyle = createGlobalStyle`
     font: inherit;
   }
   html {
-    font-family: 'Hind', sans-serif;
+    font-family: Inconsolata, monospace;
     color: hsla(255, 255%, 255%, 0.9);
     background-color: #000;
     font-weight: 400;
@@ -271,7 +271,7 @@ const GlobalStyle = createGlobalStyle`
     margin-bottom: 50px;
     font-weight: 700;
     text-rendering: optimizeLegibility;
-    font-size: 1rem;
+    font-size: 1.4rem;
     line-height: 1.1;
     text-transform: uppercase;
   }

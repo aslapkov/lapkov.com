@@ -76,7 +76,7 @@ const ExperienceBlock = ({ data }) => {
               <ColSm9>
                 <span className="desc">{elem.position}</span>
                 <span className="loc">
-                  {elem.loc},{` `}
+                  {elem.loc} – {` `}
                   {elem.site ? (
                     <a
                       href={elem.site}

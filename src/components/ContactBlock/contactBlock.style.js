@@ -8,8 +8,6 @@ const ContactWrap = styled.div`
   }
 
   a {
-    font-size: 0.9em;
-
     .iconStyle,
     .iconSocStyle {
       -moz-transition: all 0.4s ease 0s;
@@ -66,7 +64,6 @@ const FormGroup = styled.div`
   button {
     display: inline-block;
     margin-bottom: 0;
-    font-size: 12px;
     font-weight: 700;
     line-height: 1.42857143;
     text-align: center;
@@ -154,7 +151,6 @@ const InputWrap = styled.div`
     display: block;
     overflow: hidden;
     font-size: 16px;
-    font-family: 'Hind', sans-serif;
     padding-left: 0;
     padding-bottom: 18px;
     padding-top: 13px;

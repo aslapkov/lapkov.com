@@ -22,15 +22,18 @@ const DivWorks = styled.div`
   }
 
   span {
-    font-size: 13px;
+    font-size: 0.9em;
     color: #fff;
-    font-weight: 600;
     padding-top: 8px;
     display: block;
+    line-height: 1.3;
+
+    @media (max-width: 768px) {
+      font-size: 0.75em;
+    }
   }
 
   span.count {
-    font-size: 12px;
     height: 35px;
     width: 35px;
     display: table;
@@ -47,12 +50,22 @@ const DivWorks = styled.div`
   }
 
   span.year {
-    font-size: 14px;
+    font-size: 1em;
     letter-spacing: 0.5px;
+    font-weight: 700;
+
+    @media (max-width: 768px) {
+      font-size: 0.8em;
+    }
   }
 
   span.siteUrl {
     margin-left: 10px;
+    text-align: right;
+
+    a {
+      border-bottom: 1px solid #ffff50;
+    }
   }
 `;
 
@@ -62,12 +75,12 @@ const Col2 = styled.div`
 `;
 
 const Col3 = styled.div`
-  width: 25%;
+  width: 20%;
   float: left;
 `;
 
 const Col5 = styled.div`
-  width: 41.66666667%;
+  width: 46.66666667%;
   float: left;
 `;
 

@@ -90,12 +90,15 @@ const ColSm3 = styled.div`
   padding-right: 15px;
 
   span {
-    font-family: 'Lato', sans-serif;
     color: #fff;
-    font-size: 12px;
+    font-size: 0.8em;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.5px;
+
+    @media (max-width: 768px) {
+      font-size: 0.7em;
+    }
   }
 `;
 
@@ -107,32 +110,41 @@ const ColSm9 = styled.div`
 
   span {
     display: block;
-    font-size: 16px;
   }
 
   .desc {
     color: #ccc;
-    padding-bottom: 5px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
   }
 
   .loc {
-    font-size: 15px;
-    font-weight: 600;
+    font-weight: 700;
     color: #fff;
     padding-bottom: 15px;
 
     a {
       font-size: 0.85em;
+      border-bottom: 1px solid #ffff50;
+    }
+
+    @media (max-width: 769px) {
+      font-size: 0.9em;
+
+      a {
+        font-size: 0.8em;
+      }
     }
   }
 
   .psmall {
-    font-size: 15px;
+    font-size: 0.9em;
     color: #ccc;
-    line-height: 27px;
+    line-height: 25px;
 
     @media (max-width: 769px) {
-      line-height: 21px;
+      line-height: 20px;
+      font-size: 0.8em;
     }
   }
 `;

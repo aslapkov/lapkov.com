@@ -60,7 +60,7 @@ const HeaderLogo = styled.div`
 const HeaderTouch = styled.div`
   a.contact,
   button {
-    font-size: 0.85em;
+    font-size: 1.1em;
     float: right;
     color: #fff;
     overflow: hidden;

@@ -36,7 +36,6 @@ const BlockDiv = styled.div`
 
   span.lab {
     display: block;
-    font-size: 14px;
     font-weight: 500;
     color: #fff;
     letter-spacing: 0.5px;

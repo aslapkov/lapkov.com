@@ -63,12 +63,8 @@ module.exports = {
       options: {
         fonts: [
           {
-            family: `Lato`,
-            variants: [`300`, `300i`, `400`, `400i`, `700`, `700i`],
-          },
-          {
-            family: `Hind`,
-            variants: [`400`, `400i`, `500`, `500i`, `700`, `700i`],
+            family: `Inconsolata`,
+            variants: [`400`, `700`],
           },
           {
             family: `Kalam`,

@@ -2,11 +2,11 @@
   "name": "lapkov",
   "private": true,
   "description": "My personal site built with Gatsby",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "author": "A. Lapkov <a.s.lapkov@gmail.com>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.0",
-    "gatsby": "^2.17.2",
+    "gatsby": "^2.17.4",
     "gatsby-image": "^2.2.29",
     "gatsby-plugin-google-analytics": "^2.1.23",
     "gatsby-plugin-manifest": "^2.2.23",

@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 const FooterWrap = styled.footer`
-  font-family: 'Lato', sans-serif;
   margin: 0 auto;
   overflow: hidden;
   float: none;
@@ -18,7 +17,6 @@ const FooterWrap = styled.footer`
   }
 
   a {
-    font-size: 1.05em;
     color: #777;
     font-weight: 700;
     -moz-transition: all 0.4s ease 0s;
@@ -114,10 +112,11 @@ const AvailPoint = styled.span`
 `;
 
 const AvailTag = styled.span`
-  font-size: 0.9em;
-  color: #fff;
-  display: block;
   float: left;
+  display: block;
+  color: #fff;
+  font-weight: 700;
+  line-height: 1.3;
 
   span {
     @media (max-width: 769px) {
@@ -137,10 +136,11 @@ const FooterRigth = styled.div`
   width: 30%;
 
   .links {
-    font-size: 0.6em;
+    font-size: 0.7em;
+    font-weight: 700;
 
     @media only screen and (max-width: 769px) {
-      font-size: 7.5px;
+      font-size: 8px;
     }
   }
 `;

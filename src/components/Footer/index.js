@@ -23,7 +23,7 @@ const Footer = () => (
     </FooterLeft>
     <FooterRigth>
       <div className="links">
-        © {year},{` `}
+        {year},{` `}
         <a
           href="https://github.com/aslapkov/lapkov.com"
           target="_blank"
@@ -31,7 +31,7 @@ const Footer = () => (
         >
           Open Source
         </a>
-        .<br />
+        <br />
         Built with
         {` `}
         <a
@@ -41,7 +41,7 @@ const Footer = () => (
         >
           Gatsby
         </a>
-        .<br />
+        <br />
         Deploy to
         {` `}
         <a
@@ -51,7 +51,6 @@ const Footer = () => (
         >
           Netlify
         </a>
-        .
       </div>
     </FooterRigth>
   </FooterWrap>
