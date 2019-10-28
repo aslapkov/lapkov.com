@@ -125,7 +125,6 @@ const ColSm9 = styled.div`
 
     a {
       font-size: 0.85em;
-      border-bottom: 1px solid #ffff50;
     }
 
     @media (max-width: 769px) {
@@ -138,13 +137,13 @@ const ColSm9 = styled.div`
   }
 
   .psmall {
-    font-size: 0.9em;
+    font-size: 0.95em;
     color: #ccc;
     line-height: 25px;
 
     @media (max-width: 769px) {
       line-height: 20px;
-      font-size: 0.85em;
+      font-size: 0.9em;
     }
   }
 `;

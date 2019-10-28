@@ -8,6 +8,7 @@ const ContactWrap = styled.div`
   }
 
   a {
+    border: none;
     .iconStyle,
     .iconSocStyle {
       -moz-transition: all 0.4s ease 0s;

@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef, createRef } from 'react';
+import React, { Fragment, createRef, useState, useEffect, useRef } from 'react';
 import {
   TimelineWrap,
   Col2,
@@ -49,7 +49,7 @@ const ExperienceBlock = ({ data }) => {
   }, []);
 
   return (
-    <React.Fragment>
+    <Fragment>
       {data.map((elem, i) => {
         let activeFirst =
           (i === 0 && hover.length === 0) || hover[i] ? `active` : `inactive`;
@@ -95,7 +95,7 @@ const ExperienceBlock = ({ data }) => {
           </TimelineWrap>
         );
       })}
-    </React.Fragment>
+    </Fragment>
   );
 };
 

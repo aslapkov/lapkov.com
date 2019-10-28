@@ -159,7 +159,12 @@ const Main = styled.main`
   a {
     color: #ffff50;
     font-weight: 700;
-    opacity: 0.8;
+    opacity: 0.7;
+    border-bottom: 1px solid #ffff50;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
 
     &:hover {
       opacity: 1;

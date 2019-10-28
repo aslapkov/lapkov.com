@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 
 import IconGithub from '../images/github.svg';
 import IconTwitter from '../images/twitter.svg';
@@ -8,7 +8,7 @@ const SocialIcons = ({ num, color, classSelect }) => {
   const classSel = classSelect ? classSelect : ``;
 
   return (
-    <React.Fragment>
+    <Fragment>
       <a
         href="https://www.linkedin.com/in/aleksandr-lapkov/"
         target="_blank"
@@ -45,7 +45,7 @@ const SocialIcons = ({ num, color, classSelect }) => {
           fill={color}
         />
       </a>
-    </React.Fragment>
+    </Fragment>
   );
 };
 

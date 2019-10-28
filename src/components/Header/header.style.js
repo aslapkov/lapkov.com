@@ -69,7 +69,7 @@ const HeaderTouch = styled.div`
     outline: none;
     border: none;
     border-left: 2px solid #ffff50;
-    padding: 5px 20px;
+    padding: 10px 20px;
     -moz-transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1) 0s;
     -o-transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1) 0s;
     -webkit-transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1) 0s;

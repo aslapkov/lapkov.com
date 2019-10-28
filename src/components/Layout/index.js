@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 import { useStaticQuery, graphql } from 'gatsby';
 
@@ -37,7 +37,7 @@ const Layout = ({ children, location }) => {
   );
 
   return (
-    <React.Fragment>
+    <Fragment>
       <GlobalStyle />
       <ImgDiv>
         <ImageBack />
@@ -60,7 +60,7 @@ const Layout = ({ children, location }) => {
           </Col8>
         </Row>
       </Container>
-    </React.Fragment>
+    </Fragment>
   );
 };
 

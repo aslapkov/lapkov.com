@@ -62,10 +62,6 @@ const DivWorks = styled.div`
   span.siteUrl {
     margin-left: 10px;
     text-align: right;
-
-    a {
-      border-bottom: 1px solid #ffff50;
-    }
   }
 `;
 
