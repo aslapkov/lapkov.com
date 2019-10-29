@@ -13,9 +13,9 @@ const dataExp = [
     site: `https://lapkov.com`,
     info: `I learned a lot of information about web technologies, including HTML, CSS, JavaScript, Node, React,
     different databases and operating systems, web servers and other. Then I have created a dozen projects using
-    these technologies. I did most of these projects on React and Node, but they are all secret or closed.
-    Below are some of my sites, many of which I still support. Now I'm diligently studying everything related
-    to JavaScript and the whole modern web.`,
+    these technologies. I did most of these projects on React and Node, they are all closed. Unfortunately
+    I cannot show them. Below are some of my sites, many of which I still support. Now I'm diligently studying
+    everything related to JavaScript and the whole modern web.`,
   },
   {
     period: `May 2019`,
