@@ -11,10 +11,10 @@ const dataExp = [
     position: `Full-stack developer, designer`,
     loc: `JavaScript, Node, React`,
     site: `https://lapkov.com`,
-    info: `I learned a lot of information about web technologies, including HTML, CSS, JavaScript, Node, React,
-    different databases and operating systems, web servers and other. Then I have created a dozen projects using
-    these technologies. I did most of these projects on React and Node, they are all closed. Unfortunately
-    I cannot show them. Below are some of my sites, many of which I still support. Now I'm diligently studying
+    info: `I’ve learned a lot of information about web technologies, including HTML, CSS, JavaScript, Node, React,
+    different databases and operating systems, web servers and other. Afterwards I've created a dozen projects using
+    these technologies. I did most of these projects on React and Node, they are all closed systems. Unfortunately
+    I can't show and tell that I participated in them. Below are some of my sites, many of which I still support. Now I'm diligently studying
     everything related to JavaScript and the whole modern web.`,
   },
   {
