@@ -38,12 +38,6 @@ const dataWork = [
   },
   {
     year: `2018`,
-    desc: `Online store selling cosmetics for base botox. Now site not available`,
-    siteUrl: `/`,
-    site: `fillery-pro.com`,
-  },
-  {
-    year: `2018`,
     desc: `Wholesale online store selling women's clothing in Moscow and St. Petersburg`,
     siteUrl: `https://www.primabotti.ru`,
     site: `primabotti.ru`,
@@ -158,9 +152,9 @@ const WorksPage = () => (
     </h1>
     <h4>These are my works to show</h4>
     <p>
-      There are not all of the works and projects I've participated in. The
+      There are not all of the works or projects I've participated in. The
       reason is some of them I cannot present, due to trade secrets, to the
-      nature of the projects or for some other reasons.
+      nature of the applications and for some other reasons
     </p>
     <WorksBlock data={dataWork} />
   </Layout>

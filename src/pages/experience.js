@@ -8,16 +8,18 @@ import ExperienceBlock from '../components/ExperienceBlock';
 const dataExp = [
   {
     period: `Jan 2018 - pres.`,
-    position: `Full-stack, designer`,
+    position: `Full-stack developer, designer`,
     loc: `JavaScript, Node, React`,
     site: `https://lapkov.com`,
-    info: `I learned a lot of information about web technologies, including Javascript, Node, React, different
-    databases, operating systems, web servers and other. Then I have created a dozen projects using these
-    technologies. Now I'm diligently studying everything related to Javascript and the modern web.`,
+    info: `I learned a lot of information about web technologies, including HTML, CSS, JavaScript, Node, React,
+    different databases and operating systems, web servers and other. Then I have created a dozen projects using
+    these technologies. I did most of these projects on React and Node, but they are all secret or closed.
+    Below are some of my sites, many of which I still support. Now I'm diligently studying everything related
+    to JavaScript and the whole modern web.`,
   },
   {
     period: `May 2019`,
-    position: `Front-end, design`,
+    position: `Front-end developer, designer`,
     loc: `Botti, Minsk`,
     site: `http://botti.by`,
     info: `Created a tiny website with a look into the future for a new brand in the clothing market of Belarus.
@@ -25,7 +27,7 @@ const dataExp = [
   },
   {
     period: `Feb 2019 - pres.`,
-    position: `Front-end, SEO`,
+    position: `Front-end developer, SEO`,
     loc: `Tanya Levinson`,
     site: `https://tanyalevinson.com`,
     info: `It's a blog about writing and the magic of words of a former journalist Tanya Levinson.
@@ -33,7 +35,7 @@ const dataExp = [
   },
   {
     period: `Dec 2018`,
-    position: `Front-end, design`,
+    position: `Front-end developer, designer`,
     loc: `Synergy Massage, Minsk`,
     site: `http://synergymassage.by`,
     info: `Mini site for the professional massage room in center Minsk.
@@ -41,7 +43,7 @@ const dataExp = [
   },
   {
     period: `Oct 2017 - pres.`,
-    position: `Front-end, design, SEO`,
+    position: `Front-end developer, designer, SEO`,
     loc: `Elite Nails`,
     site: `https://elitenails.by`,
     info: `Online store selling nails cosmetic for Belarus. Currently I minimally support
@@ -49,7 +51,7 @@ const dataExp = [
   },
   {
     period: `Jun 2017 - pres.`,
-    position: `Full-stack, SEO`,
+    position: `Full-stack developer, SEO`,
     loc: `Sister's, Minsk`,
     site: `https://sisters.by`,
     info: `Support, revision, SEO and consultations for a famous brand in Belarusian clothing market.
@@ -59,7 +61,7 @@ const dataExp = [
   },
   {
     period: `May 2017`,
-    position: `Front-end, SEO`,
+    position: `Front-end developer, SEO`,
     loc: `Chin Up`,
     site: `https://www.chinup.by`,
     info: `Presentation site for animation studio ChinUp (Minsk). The team of creative guys who produced animated
@@ -67,7 +69,7 @@ const dataExp = [
   },
   {
     period: `Apr 2017`,
-    position: `Front-end, design, SEO`,
+    position: `Front-end developer, designer, SEO`,
     loc: `Yulia, Moscow`,
     site: `http://yuliagrebenshchikova.com`,
     info: `Presentation site for balerine of The Bolshoi Theatre (Moscow) Yulia Grebenshchikova. She was born
@@ -76,7 +78,7 @@ const dataExp = [
   },
   {
     period: `Mar 2017`,
-    position: `Front-end, design, SEO`,
+    position: `Front-end developer, designer, SEO`,
     loc: `Doctor Ayrapetyan, Moscow`,
     site: `http://artmedest.ru`,
     info: `Website fot rhinoplasty surgeon Artashes Ayrapetyan from Moscow. He is one of
@@ -85,7 +87,7 @@ const dataExp = [
   },
   {
     period: `Apr 2015 - pres.`,
-    position: `Full-stack, design, SEO`,
+    position: `Full-stack developer, designer, SEO`,
     loc: `Sati, Gomel`,
     site: `https://sati.by`,
     info: `My first individual work that is completely done by myself. This site mainly gets customers through

@@ -15,9 +15,9 @@ const Footer = () => (
     <FooterLeft>
       <AvailPoint />
       <AvailTag>
-        <span>Available for freelance/remote</span>
+        <span>Available for a full-time </span>
         <br />
-        <span>work </span>
+        <span>position </span>
         <a href="mailto:email@lapkov.com">email@lapkov.com</a>
       </AvailTag>
     </FooterLeft>
