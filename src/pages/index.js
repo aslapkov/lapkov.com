@@ -32,11 +32,12 @@ const dataIcon = [
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="I'm a web developer, UX/UI designer and SEO expert" />
+    <SEO title="I'm a front-end developer, UX/UI designer and SEO specialist" />
     <Image />
     <h1 style={{ height: `160px` }}>
       <span style={{ display: `none` }}>
-        Hey! I'm Alekandr. Web developer, UX/UI designer and SEO specialist.
+        Hey! I'm Alekandr. Front-end developer, UX/UI designer and SEO
+        specialist.
       </span>
       <TypedReact
         strings={[
@@ -47,15 +48,16 @@ const IndexPage = () => (
     <h4>About</h4>
     <blockquote>
       <p>
-        My name is Aleksandr. I love to create javascript websites with a simple
-        design, develop web applications based on business needs and especially
-        solve customers or consumers problems. For the past 5 years I have been
-        building modern and progressive websites for small companies,
-        organizations and start-ups, which helped them reach their business
-        goals including by attracting many new clients via Google, Yandex etc.
-        See my some projects on <Link to="/works/">works</Link> page. I like
-        getting more and more educated in the field of javascript and I am
-        always ready to learn something new.
+        My name is Aleksandr. I'm a front-end developer. I love to create
+        javascript websites with a simple design, develop web applications based
+        on business needs and especially solve customers or consumers problems.
+        For the past 5 years I have been building modern and progressive
+        websites for small companies, organizations and start-ups, which helped
+        them reach their business goals including by attracting many new clients
+        via Google, Yandex etc. See my some projects on{' '}
+        <Link to="/works/">works</Link> page. I like getting more and more
+        educated in the field of javascript and I am always ready to learn
+        something new.
       </p>
       <p>
         At the moment I am in search for new and interesting web projects. If

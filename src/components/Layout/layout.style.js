@@ -73,11 +73,15 @@ const Row = styled.div`
   margin: 0 -15px;
 `;
 
-const Col4 = styled.div`
+const Col3 = styled.div`
   @media (min-width: 950px) {
     width: 33.33333333%;
     float: left;
     position: relative;
+  }
+
+  @media (min-width: 1200px) {
+    width: 27.33333333%;
   }
 
   @media only screen and (max-width: 950px) {
@@ -85,13 +89,17 @@ const Col4 = styled.div`
   }
 `;
 
-const Col8 = styled.div`
+const Col9 = styled.div`
   width: 100%;
 
   @media (min-width: 950px) {
     width: 66.66666667%;
     float: right;
     position: relative;
+  }
+
+  @media (min-width: 1200px) {
+    width: 71.66666667%;
   }
 
   hr {
@@ -183,4 +191,4 @@ const Main = styled.main`
   }
 `;
 
-export { ImgDiv, Container, Row, Col4, Col8, Content, Main };
+export { ImgDiv, Container, Row, Col3, Col9, Content, Main };

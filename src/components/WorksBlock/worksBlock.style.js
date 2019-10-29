@@ -42,6 +42,11 @@ const DivWorks = styled.div`
     text-align: center;
     padding-top: 0;
 
+    @media (max-width: 768px) {
+      height: 30px;
+      width: 30px;
+    }
+
     span {
       padding-top: 2px;
       display: table-cell;
@@ -66,7 +71,7 @@ const DivWorks = styled.div`
 `;
 
 const Col2 = styled.div`
-  width: 16.66666667%;
+  width: 15%;
   float: left;
 `;
 
@@ -76,7 +81,7 @@ const Col3 = styled.div`
 `;
 
 const Col5 = styled.div`
-  width: 46.66666667%;
+  width: 50%;
   float: left;
 `;
 

@@ -12,8 +12,8 @@ import {
   ImgDiv,
   Container,
   Row,
-  Col4,
-  Col8,
+  Col3,
+  Col9,
   Content,
   Main,
 } from './layout.style';
@@ -44,10 +44,10 @@ const Layout = ({ children, location }) => {
       </ImgDiv>
       <Container>
         <Row>
-          <Col4>
+          <Col3>
             <NavBar siteLinks={data.site.siteMetadata.siteLinks} />
-          </Col4>
-          <Col8>
+          </Col3>
+          <Col9>
             <Header
               siteTitle={data.site.siteMetadata.title}
               siteLinks={data.site.siteMetadata.siteLinks}
@@ -57,7 +57,7 @@ const Layout = ({ children, location }) => {
               <hr />
               <Footer />
             </Content>
-          </Col8>
+          </Col9>
         </Row>
       </Container>
     </Fragment>
