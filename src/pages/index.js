@@ -22,7 +22,7 @@ const dataIcon = [
   },
   {
     iconName: IconSupport,
-    label: `Support and maintenance projects`,
+    label: `Support and maintenance of projects`,
   },
   {
     iconName: IconSeo,
