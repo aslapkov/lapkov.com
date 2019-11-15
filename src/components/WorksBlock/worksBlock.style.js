@@ -41,8 +41,8 @@ const DivWorks = styled.div`
     padding-top: 0;
 
     @media (max-width: 768px) {
-      height: 25px;
-      width: 25px;
+      height: 27px;
+      width: 27px;
     }
 
     span {
