@@ -9,8 +9,6 @@ const DivWorks = styled.div`
   float: left;
   padding: 30px 10px;
   width: 100%;
-  overflow-x: auto;
-  overflow-y: hidden;
 
   &.first {
     border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
@@ -43,12 +41,12 @@ const DivWorks = styled.div`
     padding-top: 0;
 
     @media (max-width: 768px) {
-      height: 30px;
-      width: 30px;
+      height: 25px;
+      width: 25px;
     }
 
     span {
-      padding-top: 2px;
+      padding-top: 1px;
       display: table-cell;
       vertical-align: middle;
     }
@@ -56,11 +54,10 @@ const DivWorks = styled.div`
 
   span.year {
     font-size: 1em;
-    letter-spacing: 0.5px;
     font-weight: 700;
 
     @media (max-width: 768px) {
-      font-size: 0.8em;
+      font-size: 0.7em;
     }
   }
 
@@ -71,12 +68,12 @@ const DivWorks = styled.div`
 `;
 
 const Col2 = styled.div`
-  width: 15%;
+  width: 12.5%;
   float: left;
 `;
 
 const Col3 = styled.div`
-  width: 20%;
+  width: 25%;
   float: left;
 `;
 
