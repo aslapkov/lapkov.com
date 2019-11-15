@@ -103,9 +103,8 @@ const Col9 = styled.div`
   }
 
   hr {
-    border-color: #ffff50;
-    border: 0;
-    border-top: 1px solid #eee;
+    border-top: 1px dashed #eee;
+    opacity: 0.5;
     margin-bottom: 0;
   }
 `;
@@ -143,6 +142,10 @@ const Main = styled.main`
 
   h1 {
     height: 44px;
+
+    @media (max-width: 769px) {
+      font-size: 2.25em;
+    }
   }
 
   h3 {
@@ -150,12 +153,13 @@ const Main = styled.main`
   }
 
   h4 {
-    color: #ffff50;
+    color: rgba(255, 255, 80, 0.8);
+    text-transform: uppercase;
   }
 
   blockquote {
     border-left-color: #ffff50;
-    border-left-width: 2px;
+    border-left-width: 1px;
     border-left-style: solid;
   }
 
@@ -166,8 +170,7 @@ const Main = styled.main`
 
   a {
     color: #ffff50;
-    font-weight: 700;
-    opacity: 0.7;
+    opacity: 0.75;
     border-bottom: 1px solid #ffff50;
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;

@@ -148,13 +148,14 @@ const WorksPage = () => (
     />
     <h1>
       <span style={{ display: `none` }}>Works</span>
-      <TypedReact strings={[`My Works`]} />
+      <TypedReact strings={[`Some works`]} />
     </h1>
-    <h4>These are my works to show</h4>
+    <h4>These are part of the works to show</h4>
     <p>
       There are not all of the works or projects I've participated in. The
       reason is some of them I cannot present, due to trade secrets, to the
-      nature of the applications and for some other reasons
+      nature of the applications, they no longer exist and for some other
+      reasons
     </p>
     <WorksBlock data={dataWork} />
   </Layout>

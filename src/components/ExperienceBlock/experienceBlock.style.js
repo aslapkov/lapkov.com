@@ -85,7 +85,7 @@ const Col10 = styled.div`
 `;
 
 const ColSm3 = styled.div`
-  width: 25%;
+  width: 20%;
   float: left;
   padding-right: 15px;
 
@@ -103,10 +103,10 @@ const ColSm3 = styled.div`
 `;
 
 const ColSm9 = styled.div`
-  width: 75%;
+  width: 80%;
   float: left;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
 
   span {
     display: block;

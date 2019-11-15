@@ -59,18 +59,9 @@ module.exports = {
     },
     `gatsby-plugin-react-helmet`,
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: 'gatsby-plugin-typography',
       options: {
-        fonts: [
-          {
-            family: `Inconsolata`,
-            variants: [`400`, `700`],
-          },
-          {
-            family: `Kalam`,
-            variants: [`400`, `700`],
-          },
-        ],
+        pathToConfigModule: 'src/utils/typography',
       },
     },
     {

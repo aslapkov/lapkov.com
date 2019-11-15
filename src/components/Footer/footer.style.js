@@ -115,7 +115,6 @@ const AvailTag = styled.span`
   float: left;
   display: block;
   color: #fff;
-  line-height: 1.3;
 
   span {
     @media (max-width: 769px) {

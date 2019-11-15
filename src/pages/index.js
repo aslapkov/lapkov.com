@@ -22,7 +22,7 @@ const dataIcon = [
   },
   {
     iconName: IconSupport,
-    label: `Support and maintenance of projects`,
+    label: `Support small projects and websites`,
   },
   {
     iconName: IconSeo,
@@ -36,12 +36,12 @@ const IndexPage = () => (
     <Image />
     <h1 style={{ height: `160px` }}>
       <span style={{ display: `none` }}>
-        Hey! I'm Alekandr. Front-end developer, UX/UI designer and SEO
+        Hey! I'm Alekandr. Front end developer, UX/UI designer and SEO
         specialist.
       </span>
       <TypedReact
         strings={[
-          `Hello! <br />I'm Aleksandr. <br />Web developer, <br />UX/UI designer...`,
+          `Hello! <br />I'm Aleksandr. <br />Front-end dev, <br />UX/UI designer.`,
         ]}
       />
     </h1>

@@ -1,0 +1,64 @@
+/* inconsolata-regular - latin */
+@font-face {
+  font-family: 'Inconsolata';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./files/inconsolata-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Inconsolata Regular'), local('Inconsolata-Regular'),
+    url('./files/inconsolata-latin-regular.eot?#iefix')
+      format('embedded-opentype'),
+    /* IE6-IE8 */ url('./files/inconsolata-latin-regular.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('./files/inconsolata-latin-regular.woff')
+      format('woff'),
+    /* Modern Browsers */ url('./files/inconsolata-latin-regular.ttf')
+      format('truetype'),
+    /* Safari, Android, iOS */
+      url('./files/inconsolata-latin-regular.svg#Inconsolata') format('svg'); /* Legacy iOS */
+}
+/* inconsolata-700 - latin */
+@font-face {
+  font-family: 'Inconsolata';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./files/inconsolata-latin-700.eot'); /* IE9 Compat Modes */
+  src: local('Inconsolata Bold'), local('Inconsolata-Bold'),
+    url('./files/inconsolata-latin-700.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */ url('./files/inconsolata-latin-700.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('./files/inconsolata-latin-700.woff')
+      format('woff'),
+    /* Modern Browsers */ url('./files/inconsolata-latin-700.ttf')
+      format('truetype'),
+    /* Safari, Android, iOS */
+      url('./files/inconsolata-latin-700.svg#Inconsolata') format('svg'); /* Legacy iOS */
+}
+/* kalam-regular - latin */
+@font-face {
+  font-family: 'Kalam';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./files/kalam-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Kalam'), local('Kalam-Regular'),
+    url('./files/kalam-latin-regular.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */ url('./files/kalam-latin-regular.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('./files/kalam-latin-regular.woff')
+      format('woff'),
+    /* Modern Browsers */ url('./files/kalam-latin-regular.ttf')
+      format('truetype'),
+    /* Safari, Android, iOS */ url('./files/kalam-latin-regular.svg#Kalam')
+      format('svg'); /* Legacy iOS */
+}
+/* kalam-700 - latin */
+@font-face {
+  font-family: 'Kalam';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./files/kalam-latin-700.eot'); /* IE9 Compat Modes */
+  src: local('Kalam Bold'), local('Kalam-Bold'),
+    url('./files/kalam-latin-700.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */ url('./files/kalam-latin-700.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('./files/kalam-latin-700.woff')
+      format('woff'),
+    /* Modern Browsers */ url('./files/kalam-latin-700.ttf') format('truetype'),
+    /* Safari, Android, iOS */ url('./files/kalam-latin-700.svg#Kalam')
+      format('svg'); /* Legacy iOS */
+}

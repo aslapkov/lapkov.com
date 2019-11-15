@@ -7,7 +7,6 @@ import NavBar from '../Navbar';
 import Header from '../Header';
 import Footer from '../Footer';
 
-import GlobalStyle from '../global.style';
 import {
   ImgDiv,
   Container,
@@ -38,7 +37,6 @@ const Layout = ({ children, location }) => {
 
   return (
     <Fragment>
-      <GlobalStyle />
       <ImgDiv>
         <ImageBack />
       </ImgDiv>

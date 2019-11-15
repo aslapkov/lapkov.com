@@ -5,7 +5,7 @@ const BlockWorks = styled.div`
 `;
 
 const DivWorks = styled.div`
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
   float: left;
   padding: 30px 10px;
   width: 100%;
@@ -13,8 +13,8 @@ const DivWorks = styled.div`
   overflow-y: hidden;
 
   &.first {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
+    border-top: 1px dashed rgba(255, 255, 255, 0.1);
   }
 
   &:nth-child(even) {
