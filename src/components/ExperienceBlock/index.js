@@ -78,11 +78,7 @@ const ExperienceBlock = ({ data }) => {
                 <span className="loc">
                   {elem.loc} – {` `}
                   {elem.site ? (
-                    <a
-                      href={elem.site}
-                      target="_blank"
-                      rel="noopener noreferrer nofollow"
-                    >
+                    <a href={elem.site} rel="nofollow">
                       {elem.site}
                     </a>
                   ) : (

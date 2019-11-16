@@ -24,33 +24,15 @@ const Footer = () => (
     <FooterRigth>
       <div className="links">
         {year},{` `}
-        <a
-          href="https://github.com/aslapkov/lapkov.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Open Source
-        </a>
+        <a href="https://github.com/aslapkov/lapkov.com">Open Source</a>
         <br />
         Built with
         {` `}
-        <a
-          href="https://github.com/gatsbyjs/gatsby"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Gatsby
-        </a>
+        <a href="https://github.com/gatsbyjs/gatsby">Gatsby</a>
         <br />
         Deploy to
         {` `}
-        <a
-          href="https://www.netlify.com/docs/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Netlify
-        </a>
+        <a href="https://www.netlify.com/docs/">Netlify</a>
       </div>
     </FooterRigth>
   </FooterWrap>

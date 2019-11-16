@@ -135,7 +135,7 @@ const dataWork = [
   {
     year: `2013`,
     desc: `My first job position is a specialist for search engine optimization`,
-    siteUrl: `http://hipway.ru`,
+    siteUrl: `#`,
     site: `hipway.ru`,
   },
 ];
