@@ -6,7 +6,7 @@
   "author": "A. Lapkov <a.s.lapkov@gmail.com>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.0",
-    "gatsby": "^2.18.0",
+    "gatsby": "^2.18.1",
     "gatsby-image": "^2.2.33",
     "gatsby-plugin-google-analytics": "^2.1.28",
     "gatsby-plugin-manifest": "^2.2.29",
@@ -34,7 +34,7 @@
   "devDependencies": {
     "@hot-loader/react-dom": "^16.11.0",
     "eslint-utils": "^1.4.3",
-    "gatsby-cli": "^2.8.12",
+    "gatsby-cli": "^2.8.13",
     "husky": "^3.1.0",
     "lint-staged": "^9.4.3",
     "prettier": "^1.19.1"
