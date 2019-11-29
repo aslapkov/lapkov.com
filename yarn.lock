@@ -4807,9 +4807,9 @@ gatsby-plugin-nprogress@^2.1.15:
     "@babel/runtime" "^7.7.4"
     nprogress "^0.2.0"
 
-gatsby-plugin-offline@^3.0.24:
-  version "3.0.24"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-offline/-/gatsby-plugin-offline-3.0.24.tgz#2af84d9ac431d6023f6ffa8d9d053f7142a4792e"
+gatsby-plugin-offline@^3.0.25:
+  version "3.0.25"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-offline/-/gatsby-plugin-offline-3.0.25.tgz#25ae9ed42244d4c9b8eb9b05a26d02300e1ce89e"
   dependencies:
     "@babel/runtime" "^7.7.4"
     cheerio "^1.0.0-rc.3"
@@ -4946,9 +4946,9 @@ gatsby-transformer-sharp@^2.3.6:
     semver "^5.7.1"
     sharp "^0.23.3"
 
-gatsby@^2.18.4:
-  version "2.18.4"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.18.4.tgz#0d359e83e1939df5e9e04af3a3673703900f1913"
+gatsby@^2.18.5:
+  version "2.18.5"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.18.5.tgz#970e6b550582623fe33d1eab7160037681c00fab"
   dependencies:
     "@babel/code-frame" "^7.5.5"
     "@babel/core" "^7.7.4"
@@ -6618,9 +6618,9 @@ lines-and-columns@^1.1.6:
   version "1.1.6"
   resolved "https://registry.yarnpkg.com/lines-and-columns/-/lines-and-columns-1.1.6.tgz#1c00c743b433cd0a4e80758f7b64a57440d9ff00"
 
-lint-staged@^9.4.3:
-  version "9.4.3"
-  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-9.4.3.tgz#f55ad5f94f6e105294bfd6499b23142961f7b982"
+lint-staged@^9.5.0:
+  version "9.5.0"
+  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-9.5.0.tgz#290ec605252af646d9b74d73a0fa118362b05a33"
   dependencies:
     chalk "^2.4.2"
     commander "^2.20.0"
