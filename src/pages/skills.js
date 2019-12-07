@@ -8,15 +8,15 @@ import SkillsBlock from '../components/SkillsBlock';
 const dataSkills = [
   {
     label: 'HTML 5',
-    percent: 93,
+    percent: 94,
   },
   {
     label: 'CSS',
-    percent: 93,
+    percent: 94,
   },
   {
     label: 'Javascript',
-    percent: 95,
+    percent: 96,
   },
   {
     label: 'PHP',
@@ -24,7 +24,7 @@ const dataSkills = [
   },
   {
     label: 'React',
-    percent: 94,
+    percent: 95,
   },
   {
     label: 'Jquery',
@@ -56,11 +56,11 @@ const dataSkills = [
   },
   {
     label: 'MongoDB',
-    percent: 85,
+    percent: 87,
   },
   {
     label: 'Firebase',
-    percent: 90,
+    percent: 92,
   },
   {
     label: 'GraphQL',

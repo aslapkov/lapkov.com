@@ -96,7 +96,7 @@ const ContactBlock = () => {
                 onChange={handleChange}
                 placeholder="Name"
               />
-              <div className="input-label"></div>
+              <span className="input-label"></span>
             </label>
           </InputWrap>
         </FormGroup>
@@ -110,7 +110,7 @@ const ContactBlock = () => {
                 onChange={handleChange}
                 placeholder="Email"
               />
-              <div className="input-label"></div>
+              <span className="input-label"></span>
             </label>
           </InputWrap>
         </FormGroup>
@@ -122,7 +122,7 @@ const ContactBlock = () => {
                 onChange={handleChange}
                 placeholder="Message"
               />
-              <div className="input-label"></div>
+              <span className="input-label"></span>
             </label>
           </InputWrap>
         </FormGroup>
