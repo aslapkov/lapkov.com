@@ -32,12 +32,6 @@ const dataWork = [
   },
   {
     year: `2018`,
-    desc: `Online store selling cosmetics for nails with delivery throughout Belarus`,
-    siteUrl: `https://kani.by`,
-    site: `kani.by`,
-  },
-  {
-    year: `2018`,
     desc: `Wholesale online store selling women's clothing in Moscow and St. Petersburg`,
     siteUrl: `https://www.primabotti.ru`,
     site: `primabotti.ru`,

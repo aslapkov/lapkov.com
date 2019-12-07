@@ -172,7 +172,7 @@ const InputWrap = styled.div`
       box-shadow: none;
     }
 
-    &:focus + label {
+    &:focus + .input-label {
       &:after {
         -webkit-transform: translate3d(0, 0, 0);
         transform: translate3d(0, 0, 0);
@@ -184,7 +184,7 @@ const InputWrap = styled.div`
     height: 150px;
   }
 
-  label {
+  .input-label {
     position: absolute;
     bottom: 0;
     left: 0;

@@ -81,43 +81,49 @@ const ContactBlock = () => {
       >
         <input type="hidden" name="form-name" value="contact" />
         <p hidden>
-          <label>
+          <label htmlFor="bot-field">
             Don’t fill this out:{' '}
             <input name="bot-field" onChange={handleChange} />
           </label>
         </p>
         <FormGroup>
           <InputWrap>
-            <input
-              autoComplete="off"
-              type="text"
-              onChange={handleChange}
-              name="name"
-              placeholder="Name"
-            />
-            <label className="input-label"></label>
+            <label htmlFor="name">
+              <input
+                name="name"
+                type="text"
+                autoComplete="off"
+                onChange={handleChange}
+                placeholder="Name"
+              />
+              <div className="input-label"></div>
+            </label>
           </InputWrap>
         </FormGroup>
         <FormGroup>
           <InputWrap>
-            <input
-              autoComplete="off"
-              type="email"
-              onChange={handleChange}
-              name="email"
-              placeholder="Email"
-            />
-            <label className="input-label"></label>
+            <label htmlFor="email">
+              <input
+                name="email"
+                type="email"
+                autoComplete="off"
+                onChange={handleChange}
+                placeholder="Email"
+              />
+              <div className="input-label"></div>
+            </label>
           </InputWrap>
         </FormGroup>
         <FormGroup className="full">
           <InputWrap>
-            <textarea
-              name="message"
-              onChange={handleChange}
-              placeholder="Message"
-            />
-            <label className="input-label"></label>
+            <label htmlFor="message">
+              <textarea
+                name="message"
+                onChange={handleChange}
+                placeholder="Message"
+              />
+              <div className="input-label"></div>
+            </label>
           </InputWrap>
         </FormGroup>
         {!loading && completeForm ? (
