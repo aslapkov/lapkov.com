@@ -23,7 +23,7 @@ const WorksBlock = ({ data }) => {
             <Col3>
               <span className="siteUrl">
                 <a href={elem.siteUrl} rel="nofollow">
-                  {elem.site}
+                  {elem.siteName}
                 </a>
               </span>
             </Col3>

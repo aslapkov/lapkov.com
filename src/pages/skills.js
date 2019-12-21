@@ -1,118 +1,46 @@
 import React from 'react';
-
+import { useStaticQuery, graphql } from 'gatsby';
 import Layout from '../components/Layout';
 import SEO from '../components/seo';
 import TypedReact from '../components/typedReact';
 import SkillsBlock from '../components/SkillsBlock';
 
-const dataSkills = [
-  {
-    label: 'HTML 5',
-    percent: 94,
-  },
-  {
-    label: 'CSS',
-    percent: 94,
-  },
-  {
-    label: 'Javascript',
-    percent: 96,
-  },
-  {
-    label: 'PHP',
-    percent: 87,
-  },
-  {
-    label: 'React',
-    percent: 95,
-  },
-  {
-    label: 'Jquery',
-    percent: 91,
-  },
-  {
-    label: 'Node',
-    percent: 94,
-  },
-  {
-    label: 'Express',
-    percent: 90,
-  },
-  {
-    label: 'Wordpress',
-    percent: 89,
-  },
-  {
-    label: 'Woocommerce',
-    percent: 93,
-  },
-  {
-    label: 'Nginx',
-    percent: 87,
-  },
-  {
-    label: 'MySQL',
-    percent: 85,
-  },
-  {
-    label: 'MongoDB',
-    percent: 87,
-  },
-  {
-    label: 'Firebase',
-    percent: 92,
-  },
-  {
-    label: 'GraphQL',
-    percent: 87,
-  },
-  {
-    label: 'Webpack',
-    percent: 84,
-  },
-  {
-    label: 'Debian',
-    percent: 90,
-  },
-  {
-    label: 'Ubuntu',
-    percent: 84,
-  },
-  {
-    label: 'git',
-    percent: 87,
-  },
-  {
-    label: 'ssh',
-    percent: 89,
-  },
-  {
-    label: 'yarn',
-    percent: 88,
-  },
-  {
-    label: 'npm',
-    percent: 88,
-  },
-];
+const SkillsPage = () => {
+  const data = useStaticQuery(
+    graphql`
+      query {
+        site {
+          siteMetadata {
+            dataPage {
+              dataSkills {
+                label
+                percent
+              }
+            }
+          }
+        }
+      }
+    `
+  );
 
-const SkillsPage = () => (
-  <Layout>
-    <SEO
-      title="Skills"
-      description="Here are the developing skills in which I succeeded the most and I'm active using in my projects."
-    />
-    <h1>
-      <span style={{ display: `none` }}>Skills</span>
-      <TypedReact strings={[`My Skills`]} />
-    </h1>
-    <h4>Tech skills</h4>
-    <p>
-      Here are the developing skills in which I succeeded the most and I'm
-      actively using in my projects.
-    </p>
-    <SkillsBlock data={dataSkills} />
-  </Layout>
-);
+  return (
+    <Layout>
+      <SEO
+        title="Skills"
+        description="Here are the developing skills in which I succeeded the most and I'm active using in my projects."
+      />
+      <h1>
+        <span style={{ display: `none` }}>Skills</span>
+        <TypedReact strings={[`My Skills`]} />
+      </h1>
+      <h4>Tech skills</h4>
+      <p>
+        Here are the developing skills in which I succeeded the most and I'm
+        actively using in my projects.
+      </p>
+      <SkillsBlock data={data.site.siteMetadata.dataPage.dataSkills} />
+    </Layout>
+  );
+};
 
 export default SkillsPage;
