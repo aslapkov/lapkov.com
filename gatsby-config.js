@@ -218,31 +218,31 @@ module.exports = {
       dataWorks: [
         {
           year: `2019`,
-          desc: `My new personal website build with gatsby, deploy to Netlify.`,
+          desc: `My new small personal website build with Gatsby, deploy to Netlify.`,
           siteUrl: `https://lapkov.com`,
           siteName: `lapkov.com`,
         },
         {
           year: `2019`,
-          desc: `New brand women clothes, bugs and accessories in Belarus`,
+          desc: `New clothing brand in Belarus`,
           siteUrl: `http://botti.by`,
           siteName: `botti.by`,
         },
         {
           year: `2019`,
-          desc: `A blog about learning to write by Tanya Levinson`,
+          desc: `The blog about learning to write by Tanya Levinson`,
           siteUrl: `https://tanyalevinson.com`,
           siteName: `tanyalevinson.com`,
         },
         {
           year: `2018`,
           desc: `The professional massage room in center Minsk`,
-          siteUrl: `http://synergymassage.by`,
+          siteUrl: `/#`,
           siteName: `synergymassage.by`,
         },
         {
           year: `2018`,
-          desc: `Wholesale online store selling women's clothing in Moscow and St. Petersburg`,
+          desc: `Wholesale online store selling women's clothing in St. Petersburg`,
           siteUrl: `https://www.primabotti.ru`,
           siteName: `primabotti.ru`,
         },
@@ -260,19 +260,19 @@ module.exports = {
         },
         {
           year: `2017`,
-          desc: `Redesign of online store selling building materials in Gomel`,
+          desc: `Redesign of an online store selling building materials in Gomel`,
           siteUrl: `https://sati.by`,
           siteName: `sati.by`,
         },
         {
           year: `2017`,
-          desc: `Presentation site for balerine of The Bolshoi Theatre (Moscow)`,
+          desc: `Presentation site for the ballerina of The Bolshoi Theatre`,
           siteUrl: `http://yuliagrebenshchikova.com`,
           siteName: `yuliagrebenshchikova.com`,
         },
         {
           year: `2017`,
-          desc: `Animation Studio "Chin Up", creating stunning short animated videos`,
+          desc: `Animation Studio, creating stunning short animated videos and motion design`,
           siteUrl: `https://chinup.by`,
           siteName: `chinup.by`,
         },
@@ -284,7 +284,7 @@ module.exports = {
         },
         {
           year: `2017`,
-          desc: `Personal website for rhinoplasty surgeon Artashes Ayrapetyan`,
+          desc: `Personal website of rhinoplasty surgeon Artashes Ayrapetyan`,
           siteUrl: `http://artmedest.ru`,
           siteName: `artmedest.ru`,
         },
@@ -296,7 +296,7 @@ module.exports = {
         },
         {
           year: `2017`,
-          desc: `The SMM agency from Belarus with a focus on instagram`,
+          desc: `The SMM agency from Belarus with a focus on Instagram`,
           siteUrl: `/works`,
           siteName: `smuziby.ru`,
         },
@@ -308,7 +308,7 @@ module.exports = {
         },
         {
           year: `2016`,
-          desc: `Online store selling the paintings of modern Belarusian artists`,
+          desc: `Help for an online store selling paintings by contemporary Belarusian artists`,
           siteUrl: `http://artclub.by`,
           siteName: `artclub.by`,
         },
@@ -320,7 +320,7 @@ module.exports = {
         },
         {
           year: `2015`,
-          desc: `Development online store selling building materials "Sati"`,
+          desc: `Development and design online store selling building materials`,
           siteUrl: `https://www.sati.by`,
           siteName: `sati.by`,
         },
