@@ -148,7 +148,7 @@ module.exports = {
         {
           period: `Feb 2019 - pres.`,
           position: `Front-end developer, SEO`,
-          loc: `Tanya Levinson`,
+          loc: `Tanya Levinson, Tel-Aviv`,
           site: `https://tanyalevinson.com`,
           info: `It's a blog about writing and the magic of words of a former journalist Tanya Levinson.
           I built this website with Wordpress and did a great job of revision, design and SEO.`,
@@ -156,7 +156,7 @@ module.exports = {
         {
           period: `Oct 2017 - pres.`,
           position: `Front-end developer, designer, SEO`,
-          loc: `Elite Nails`,
+          loc: `Elite Nails, Minsk`,
           site: `https://elitenails.by`,
           info: `Online store selling nails cosmetic for Belarus. Currently I minimally support
           this project just for couple of hours a week.`,
@@ -174,7 +174,7 @@ module.exports = {
         {
           period: `May 2017`,
           position: `Front-end developer, SEO`,
-          loc: `Chin Up`,
+          loc: `Chin Up, Minsk`,
           site: `https://www.chinup.by`,
           info: `Presentation site for animation studio ChinUp (Minsk). The team of creative guys who produced animated
           videos, animated series and motion design.`,
@@ -210,7 +210,6 @@ module.exports = {
           period: `Dec 2013 - May 2016`,
           position: `SEO`,
           loc: `Hipway & HipClub, Moscow`,
-          site: `#`,
           info: `The first IT work in my life. I worked remotely as a SEO specialist in a travel company Hipway and
           their related product Hipclub. Here I grew from an ordinary employee to the head of SEO departament.`,
         },
@@ -237,7 +236,7 @@ module.exports = {
         {
           year: `2018`,
           desc: `The professional massage room in center Minsk`,
-          siteUrl: `/#`,
+          siteUrl: `#`,
           siteName: `synergymassage.by`,
         },
         {
@@ -297,7 +296,7 @@ module.exports = {
         {
           year: `2017`,
           desc: `The SMM agency from Belarus with a focus on Instagram`,
-          siteUrl: `/works`,
+          siteUrl: `#`,
           siteName: `smuziby.ru`,
         },
         {
@@ -321,7 +320,7 @@ module.exports = {
         {
           year: `2015`,
           desc: `Development and design online store selling building materials`,
-          siteUrl: `https://www.sati.by`,
+          siteUrl: `https://sati.by`,
           siteName: `sati.by`,
         },
         {

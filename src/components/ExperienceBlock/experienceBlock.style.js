@@ -108,19 +108,19 @@ const ColSm9 = styled.div`
   padding-right: 10px;
   padding-left: 10px;
 
-  span {
-    display: block;
-  }
-
   .desc {
+    display: block;
     color: #ccc;
     padding-bottom: 15px;
     text-transform: uppercase;
   }
 
-  .loc {
+  .loc,
+  .site {
+    display: inline-block;
     font-weight: 700;
     color: #fff;
+    padding-right: 10px;
     padding-bottom: 15px;
 
     a {
