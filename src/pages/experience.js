@@ -31,6 +31,7 @@ const ExperiencePage = () => {
       <SEO
         title="Experience"
         description="A small chronology of my experience. Step by step, you can learn about my best practices."
+        slug="/experience/"
       />
       <h1>
         <span style={{ display: `none` }}>Experience</span>

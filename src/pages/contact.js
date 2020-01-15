@@ -10,6 +10,7 @@ const ContactPage = () => (
     <SEO
       title="Contacts"
       description="To contact me you can send an email or a message to telegram."
+      slug="/contacts/"
     />
     <h1>
       <span style={{ display: `none` }}>Contact page</span>
