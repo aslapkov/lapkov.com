@@ -32,7 +32,11 @@ const dataIcon = [
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="I'm a front-end developer, web designer and SEO specialist" />
+    <SEO
+      title="I'm a front-end developer, web designer and SEO specialist"
+      description="My name is Aleksandr. I'm a front-end developer and UX/UI designer. I have been building modern and
+        progressive websites for small companies, organizations and start-ups."
+    />
     <Image />
     <h1 style={{ height: `160px` }}>
       <span style={{ display: `none` }}>
@@ -41,23 +45,23 @@ const IndexPage = () => (
       </span>
       <TypedReact
         strings={[
-          `Hello! <br />I'm Aleksandr. <br />Front-end dev, <br />web designer.`,
+          `Hello! <br />I'm Aleksandr. <br />Web developer <br />and designer...`,
         ]}
       />
     </h1>
     <h4>About</h4>
     <blockquote>
       <p>
-        My name is Aleksandr. I'm a front-end developer and UX/UI designer. I
-        love to create javascript websites with a simple design, develop web
+        My name is Aleksandr. I'm a front-end, web developer and UX/UI designer.
+        I love to create JavaScript websites with a simple design, develop web
         applications based on business needs and especially solve customers or
         consumers problems. For the past 5 years I have been building modern and
         progressive websites for small companies, organizations and start-ups,
         which helped them reach their business goals including by attracting
         many new clients via Google, Yandex etc. See my some projects on{' '}
         <Link to="/works/">works</Link> page. I like getting more and more
-        educated in the field of javascript and I am always ready to learn
-        something new.
+        educated in the field of javascript. I'm studying every day and ready
+        to learn new things.
       </p>
       <p>
         At the moment I am in search for new and interesting web projects. If
