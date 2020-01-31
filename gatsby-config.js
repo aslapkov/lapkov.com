@@ -58,7 +58,7 @@ module.exports = {
         },
         {
           label: 'Jquery',
-          percent: 91,
+          percent: 92,
         },
         {
           label: 'Node',
@@ -69,20 +69,8 @@ module.exports = {
           percent: 90,
         },
         {
-          label: 'Wordpress',
-          percent: 89,
-        },
-        {
-          label: 'Woocommerce',
-          percent: 93,
-        },
-        {
-          label: 'Nginx',
-          percent: 87,
-        },
-        {
           label: 'MySQL',
-          percent: 85,
+          percent: 88,
         },
         {
           label: 'MongoDB',
@@ -98,7 +86,35 @@ module.exports = {
         },
         {
           label: 'Webpack',
-          percent: 84,
+          percent: 85,
+        },
+        {
+          label: 'git',
+          percent: 87,
+        },
+        {
+          label: 'yarn',
+          percent: 88,
+        },
+        {
+          label: 'npm',
+          percent: 88,
+        },
+        {
+          label: 'Wordpress',
+          percent: 89,
+        },
+        {
+          label: 'Woocommerce',
+          percent: 93,
+        },
+        {
+          label: 'Nginx',
+          percent: 88,
+        },
+        {
+          label: 'Apache',
+          percent: 85,
         },
         {
           label: 'Debian',
@@ -109,20 +125,12 @@ module.exports = {
           percent: 84,
         },
         {
-          label: 'git',
+          label: 'ssh',
           percent: 87,
         },
         {
-          label: 'ssh',
-          percent: 89,
-        },
-        {
-          label: 'yarn',
-          percent: 88,
-        },
-        {
-          label: 'npm',
-          percent: 88,
+          label: 'bash',
+          percent: 87,
         },
       ],
       dataExp: [

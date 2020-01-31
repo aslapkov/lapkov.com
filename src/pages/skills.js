@@ -37,7 +37,7 @@ const SkillsPage = () => {
       <h4>Tech skills</h4>
       <p>
         Here are the developing skills in which I succeeded the most and I'm
-        actively using in my projects.
+        actively using in my and client projects.
       </p>
       <SkillsBlock data={data.site.siteMetadata.dataPage.dataSkills} />
     </Layout>

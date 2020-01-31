@@ -45,7 +45,7 @@ const IndexPage = () => (
       </span>
       <TypedReact
         strings={[
-          `Hello! <br />I'm Aleksandr. <br />Web developer <br />and designer...`,
+          `Hello! <br />I'm Aleksandr. <br />Web developer <br />and UX/UI designer`,
         ]}
       />
     </h1>
@@ -60,8 +60,8 @@ const IndexPage = () => (
         which helped them reach their business goals including by attracting
         many new clients via Google, Yandex etc. See my some projects on{' '}
         <Link to="/works/">works</Link> page. I like getting more and more
-        educated in the field of javascript. I'm studying every day and ready
-        to learn new things.
+        educated in the modern web. I'm studying every day and ready to learn
+        new things.
       </p>
       <p>
         At the moment I am in search for new and interesting web projects. If
