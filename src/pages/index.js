@@ -45,7 +45,7 @@ const IndexPage = () => (
       </span>
       <TypedReact
         strings={[
-          `Hello! <br />I'm Aleksandr. <br />Web developer <br />and UX/UI designer`,
+          `Hello! <br />I'm Aleksandr. <br />Web developer, <br />UX/UI designer`,
         ]}
       />
     </h1>
