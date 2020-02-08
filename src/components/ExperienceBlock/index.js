@@ -15,7 +15,7 @@ const ExperienceBlock = ({ data }) => {
   useEffect(() => {
     const nextHeights = elemRefs.current.map(ref => ref.current.clientHeight);
     setHeight(nextHeights);
-  }, []);
+  }, [height]);
 
   const handleMouseOver = event => {
     const hoverNode = elemRefs.current.map(ref => ref.current);
