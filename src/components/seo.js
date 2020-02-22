@@ -33,41 +33,41 @@ const SEO = ({ description, lang, meta, slug, title }) => {
       link={[
         {
           rel: `canonical`,
-          href: url
-        }
+          href: url,
+        },
       ]}
       meta={[
         {
           name: `description`,
-          content: metaDescription
+          content: metaDescription,
         },
         {
           property: `og:title`,
-          content: title
+          content: title,
         },
         {
           property: `og:description`,
-          content: metaDescription
+          content: metaDescription,
         },
         {
           property: `og:url`,
-          content: url
+          content: url,
         },
         {
           name: `twitter:card`,
-          content: `summary`
+          content: `summary`,
         },
         {
           name: `twitter:creator`,
-          content: site.siteMetadata.author
+          content: site.siteMetadata.author,
         },
         {
           name: `twitter:title`,
-          content: title
+          content: title,
         },
         {
           name: `twitter:description`,
-          content: metaDescription
+          content: metaDescription,
         },
       ]}
     />
@@ -79,7 +79,7 @@ SEO.defaultProps = {
   link: [],
   meta: [],
   description: ``,
-  slug: ``
+  slug: ``,
 };
 
 SEO.propTypes = {
@@ -88,8 +88,7 @@ SEO.propTypes = {
   link: PropTypes.arrayOf(PropTypes.object),
   meta: PropTypes.arrayOf(PropTypes.object),
   description: PropTypes.string,
-  slug: PropTypes.string
-  
+  slug: PropTypes.string,
 };
 
 export default SEO;
