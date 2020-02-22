@@ -224,14 +224,20 @@ module.exports = {
       ],
       dataWorks: [
         {
+          year: `2020`,
+          desc: `The digital agency from Belarus with ambitions to conquer the World`,
+          siteUrl: `http://smuzi.agency`,
+          siteName: `smuzi.agency`,
+        },
+        {
           year: `2019`,
-          desc: `My new small personal website build with Gatsby, deploy to Netlify.`,
+          desc: `My new small personal website build with Gatsby, deploy to Netlify`,
           siteUrl: `https://lapkov.com`,
           siteName: `lapkov.com`,
         },
         {
           year: `2019`,
-          desc: `New clothing brand in Belarus`,
+          desc: `New modern brand in Belarus with exclusive clothes, shoes and bags`,
           siteUrl: `http://botti.by`,
           siteName: `botti.by`,
         },
