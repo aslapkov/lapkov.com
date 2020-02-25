@@ -3,9 +3,9 @@ module.exports = {
     title: `A. Lapkov`,
     description: `My personal site built with Gatsby. Here you can find my works and projects that I lead.`,
     author: `A. Lapkov`,
-    siteUrl: 'https://lapkov.com',
+    siteUrl: `https://lapkov.com`,
     social: {
-      twitter: '@aslapkov',
+      twitter: `@aslapkov`,
     },
     siteLinks: [
       {
@@ -37,99 +37,99 @@ module.exports = {
     dataPage: {
       dataSkills: [
         {
-          label: 'HTML 5',
+          label: `HTML 5`,
           percent: 94,
         },
         {
-          label: 'CSS',
+          label: `CSS`,
           percent: 94,
         },
         {
-          label: 'Javascript',
+          label: `Javascript`,
           percent: 96,
         },
         {
-          label: 'PHP',
+          label: `PHP`,
           percent: 87,
         },
         {
-          label: 'React',
+          label: `React`,
           percent: 95,
         },
         {
-          label: 'Jquery',
+          label: `Jquery`,
           percent: 92,
         },
         {
-          label: 'Node',
+          label: `Node`,
           percent: 94,
         },
         {
-          label: 'Express',
+          label: `Express`,
           percent: 90,
         },
         {
-          label: 'MySQL',
+          label: `MySQL`,
           percent: 88,
         },
         {
-          label: 'MongoDB',
+          label: `MongoDB`,
           percent: 87,
         },
         {
-          label: 'Firebase',
+          label: `Firebase`,
           percent: 92,
         },
         {
-          label: 'GraphQL',
+          label: `GraphQL`,
           percent: 87,
         },
         {
-          label: 'Webpack',
+          label: `Webpack'`,
           percent: 85,
         },
         {
-          label: 'git',
+          label: `git`,
           percent: 87,
         },
         {
-          label: 'yarn',
+          label: `yarn`,
           percent: 88,
         },
         {
-          label: 'npm',
+          label: `npm`,
           percent: 88,
         },
         {
-          label: 'Wordpress',
+          label: `Wordpress`,
           percent: 89,
         },
         {
-          label: 'Woocommerce',
+          label: `Woocommerce`,
           percent: 93,
         },
         {
-          label: 'Nginx',
+          label: `Nginx`,
           percent: 88,
         },
         {
-          label: 'Apache',
+          label: `Apache`,
           percent: 85,
         },
         {
-          label: 'Debian',
-          percent: 90,
+          label: `Debian`,
+          percent: 91,
         },
         {
-          label: 'Ubuntu',
+          label: `Ubuntu`,
           percent: 84,
         },
         {
-          label: 'ssh',
+          label: `ssh`,
           percent: 87,
         },
         {
-          label: 'bash',
+          label: `bash`,
           percent: 87,
         },
       ],
@@ -285,7 +285,7 @@ module.exports = {
         },
         {
           year: `2017`,
-          desc: `Animation Studio, creating stunning short animated videos and motion design`,
+          desc: `Animation studio, creating stunning short animated videos and motion design`,
           siteUrl: `https://chinup.by`,
           siteName: `chinup.by`,
         },
@@ -327,7 +327,7 @@ module.exports = {
         },
         {
           year: `2016`,
-          desc: `Development site by order the circus performers "Du Soleil"`,
+          desc: `Development site by order the circus performers Du Soleil`,
           siteUrl: `https://lapkov.com/works/`,
           siteName: `vcirke.com`,
         },
@@ -376,9 +376,9 @@ module.exports = {
     },
     `gatsby-plugin-react-helmet`,
     {
-      resolve: 'gatsby-plugin-typography',
+      resolve: `gatsby-plugin-typography`,
       options: {
-        pathToConfigModule: 'src/utils/typography',
+        pathToConfigModule: `src/utils/typography`,
       },
     },
     {
