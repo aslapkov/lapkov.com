@@ -85,7 +85,7 @@ module.exports = {
           percent: 87,
         },
         {
-          label: `Webpack'`,
+          label: `Webpack`,
           percent: 85,
         },
         {
