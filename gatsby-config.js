@@ -154,14 +154,6 @@ module.exports = {
           I am planning to create an online store here, in addition there is also a need for SEO later.`,
         },
         {
-          period: `Feb 2019 - pres.`,
-          position: `Front-end developer, SEO`,
-          loc: `Tanya Levinson, Tel-Aviv`,
-          site: `https://tanyalevinson.com`,
-          info: `It's a blog about writing and the magic of words of a former journalist Tanya Levinson.
-          I built this website with Wordpress and did a great job of revision, design and SEO.`,
-        },
-        {
           period: `Oct 2017 - pres.`,
           position: `Front-end developer, designer, SEO`,
           loc: `Elite Nails, Minsk`,
@@ -240,12 +232,6 @@ module.exports = {
           desc: `New modern brand in Belarus with exclusive clothes, shoes and bags`,
           siteUrl: `http://botti.by`,
           siteName: `botti.by`,
-        },
-        {
-          year: `2019`,
-          desc: `The blog about learning to write by Tanya Levinson`,
-          siteUrl: `https://tanyalevinson.com`,
-          siteName: `tanyalevinson.com`,
         },
         {
           year: `2018`,
