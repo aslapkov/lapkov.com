@@ -8,7 +8,7 @@ const NavBar = ({ siteLinks }) => (
   <NavStyle>
     <NavCollapse>
       <ul>
-        {siteLinks.map(data => (
+        {siteLinks.map((data) => (
           <li key={data.id}>
             <Link to={data.slug}>
               <span className="hide">{data.name}</span>

@@ -48,7 +48,7 @@ const Header = ({ siteTitle, siteLinks }) => {
         <HeaderNav className={collapse ? `collapse` : ``}>
           <div className="navbarNav">
             <ul>
-              {siteLinks.map(data => (
+              {siteLinks.map((data) => (
                 <li key={data.id}>
                   <Link to={data.slug}>
                     <span>{data.name}</span>

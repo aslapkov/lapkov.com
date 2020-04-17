@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 import Typed from 'typed.js';
 
-const TypedReact = props => {
+const TypedReact = (props) => {
   const spanEl = useRef(null);
   // You can pass other options here
   const options = {

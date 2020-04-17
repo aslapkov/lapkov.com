@@ -5,9 +5,9 @@ import IconEmail from '../../images/email.svg';
 import IconTelegram from '../../images/telegram.svg';
 import SocialIcons from '../socialIcons';
 
-const encode = data => {
+const encode = (data) => {
   return Object.keys(data)
-    .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
+    .map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
     .join('&');
 };
 
@@ -17,10 +17,10 @@ const ContactBlock = () => {
   const [completeForm, setCompleteForm] = useState(false);
   let isInvalid = !state.name || !state.email || !state.message;
 
-  const handleChange = e =>
+  const handleChange = (e) =>
     setState({ ...state, [e.target.name]: e.target.value });
 
-  const handleSubmit = e => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     const form = e.target;
     fetch('/', {
@@ -31,14 +31,14 @@ const ContactBlock = () => {
         ...state,
       }),
     })
-      .then(data => {
+      .then((data) => {
         if (!isInvalid && data.status === 200) {
           setLoading(true);
           setTimeout(() => setLoading(false), 1000);
           setCompleteForm(true);
         }
       })
-      .catch(error => console.log(error));
+      .catch((error) => console.log(error));
   };
 
   return (

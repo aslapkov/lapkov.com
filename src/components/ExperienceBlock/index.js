@@ -13,12 +13,12 @@ const ExperienceBlock = ({ data }) => {
   const [hover, setHover] = useState([]);
 
   useEffect(() => {
-    const nextHeights = elemRefs.current.map(ref => ref.current.clientHeight);
+    const nextHeights = elemRefs.current.map((ref) => ref.current.clientHeight);
     setHeight(nextHeights);
   }, []);
 
-  const handleMouseOver = event => {
-    const hoverNode = elemRefs.current.map(ref => ref.current);
+  const handleMouseOver = (event) => {
+    const hoverNode = elemRefs.current.map((ref) => ref.current);
     const arrResults = [];
 
     for (let i = 0; i < hoverNode.length; i++) {
@@ -33,7 +33,7 @@ const ExperienceBlock = ({ data }) => {
   const handleMouseOut = () => setHover([]);
 
   useEffect(() => {
-    const hoverNode = elemRefs.current.map(ref => ref.current);
+    const hoverNode = elemRefs.current.map((ref) => ref.current);
 
     for (let i = 0; i < hoverNode.length; i++) {
       hoverNode[i].addEventListener('mouseenter', handleMouseOver);
