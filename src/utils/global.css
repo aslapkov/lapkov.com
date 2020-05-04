@@ -441,3 +441,29 @@ pre tt:before,
 pre tt:after {
   content: '';
 }
+
+.loader {
+  border-style: solid;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -13px;
+  border-color: #ffff50 #ffff50 transparent;
+  animation: revolve 0.7s linear infinite;
+  width: 26px;
+  height: 26px;
+  border-radius: 26px;
+  border-width: 2px;
+}
+
+@keyframes revolve {
+  from {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

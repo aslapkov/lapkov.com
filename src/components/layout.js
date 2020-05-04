@@ -1,21 +1,11 @@
 import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 import { useStaticQuery, graphql } from 'gatsby';
-
-import ImageBack from '../imageBack';
-import NavBar from '../Navbar';
-import Header from '../Header';
-import Footer from '../Footer';
-
-import {
-  ImgDiv,
-  Container,
-  Row,
-  Col3,
-  Col9,
-  Content,
-  Main,
-} from './layout.style';
+import ImageBack from './imageBack';
+import NavBar from './Navbar';
+import Header from './Header';
+import Footer from './Footer';
+import styles from './layout.module.css';
 
 const Layout = ({ children, location }) => {
   const data = useStaticQuery(
@@ -37,27 +27,27 @@ const Layout = ({ children, location }) => {
 
   return (
     <Fragment>
-      <ImgDiv>
+      <div className={styles.imgDiv}>
         <ImageBack />
-      </ImgDiv>
-      <Container>
-        <Row>
-          <Col3>
+      </div>
+      <div className={styles.container}>
+        <div className={styles.row}>
+          <div className={styles.col3}>
             <NavBar siteLinks={data.site.siteMetadata.siteLinks} />
-          </Col3>
-          <Col9>
+          </div>
+          <div className={styles.col9}>
             <Header
               siteTitle={data.site.siteMetadata.title}
               siteLinks={data.site.siteMetadata.siteLinks}
             />
-            <Content>
-              <Main>{children}</Main>
+            <div className={styles.content}>
+              <div className={styles.main}>{children}</div>
               <hr />
               <Footer />
-            </Content>
-          </Col9>
-        </Row>
-      </Container>
+            </div>
+          </div>
+        </div>
+      </div>
     </Fragment>
   );
 };

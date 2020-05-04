@@ -20,7 +20,12 @@ const Image = () => {
   return (
     <Img
       fixed={data.placeholderImage.childImageSharp.fixed}
-      className="imageDiv"
+      style={{
+        borderRadius: '50%',
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: 'cover',
+        marginBottom: '30px',
+      }}
     />
   );
 };
