@@ -1,0 +1,30 @@
+.blockRow {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.blockDiv {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+  padding: 0.75rem;
+}
+
+.iconStyle {
+  transition: all 0.4s ease 0s;
+}
+
+.lab {
+  display: block;
+  font-weight: 500;
+  color: #fff;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin-top: 36px;
+}
+
+@media (max-width: 769px) {
+  .w100 {
+    width: 100%;
+  }
+}
