@@ -37,16 +37,16 @@ module.exports = {
     dataPage: {
       dataSkills: [
         {
-          label: `HTML 5`,
-          percent: 94,
+          label: `HTML`,
+          percent: 95,
         },
         {
           label: `CSS`,
-          percent: 94,
+          percent: 95,
         },
         {
           label: `Javascript`,
-          percent: 96,
+          percent: 97,
         },
         {
           label: `PHP`,
@@ -54,7 +54,7 @@ module.exports = {
         },
         {
           label: `React`,
-          percent: 95,
+          percent: 97,
         },
         {
           label: `Jquery`,
@@ -62,7 +62,7 @@ module.exports = {
         },
         {
           label: `Node`,
-          percent: 94,
+          percent: 95,
         },
         {
           label: `Express`,
@@ -78,19 +78,27 @@ module.exports = {
         },
         {
           label: `Firebase`,
-          percent: 92,
+          percent: 93,
         },
         {
           label: `GraphQL`,
-          percent: 87,
+          percent: 88,
         },
         {
-          label: `Webpack`,
+          label: `Gatsby js`,
+          percent: 90,
+        },
+        {
+          label: `Next js`,
+          percent: 89,
+        },
+        {
+          label: `TypeScript`,
           percent: 85,
         },
         {
-          label: `git`,
-          percent: 87,
+          label: `Git`,
+          percent: 88,
         },
         {
           label: `yarn`,
@@ -99,6 +107,14 @@ module.exports = {
         {
           label: `npm`,
           percent: 88,
+        },
+        {
+          label: `Netlify`,
+          percent: 90,
+        },
+        {
+          label: `Vercel`,
+          percent: 90,
         },
         {
           label: `Wordpress`,
@@ -204,14 +220,15 @@ module.exports = {
           site: `https://sati.by`,
           info: `My first individual work that is completely done by myself. This site mainly gets customers through
           the Google and Yandex search. In 2017, I redesigned this project and updated the entire system. Currently
-          I also support the project. I just love it ;)`,
+          I support the project.`,
         },
         {
           period: `Dec 2013 - May 2016`,
           position: `SEO`,
           loc: `Hipway & HipClub, Moscow`,
           info: `The first IT work in my life. I worked remotely as a SEO specialist in a travel company Hipway and
-          their related product Hipclub. Here I grew from an ordinary employee to the head of SEO departament.`,
+          their related product Hipclub. Here I grew from an ordinary employee to the head of SEO departament.
+          But I also understood how an inefficient company works.`,
         },
       ],
       dataWorks: [

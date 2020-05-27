@@ -7,7 +7,7 @@ import SocialIcons from '../socialIcons';
 
 const encode = (data) => {
   return Object.keys(data)
-    .map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
+    .map((key) => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`)
     .join('&');
 };
 
@@ -25,7 +25,9 @@ const ContactBlock = () => {
     const form = e.target;
     fetch('/', {
       method: 'POST',
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      headers: {
+        'Content-Type': 'application/x-www-form-urlencoded',
+      },
       body: encode({
         'form-name': form.getAttribute('name'),
         ...state,
@@ -51,8 +53,8 @@ const ContactBlock = () => {
       </p>
       <p className="base">
         <a href="mailto:email@lapkov.com">
-          <IconEmail height="20" width="20" className="iconStyle" fill="#777" />
-          {` `}email@lapkov.com
+          <IconEmail height="20" width="20" className="iconStyle" fill="#777" />{' '}
+          email@lapkov.com
         </a>
         <br />
         <a
@@ -65,8 +67,8 @@ const ContactBlock = () => {
             width="20"
             className="iconStyle"
             fill="#777"
-          />
-          {` `}telegram@aslapkov
+          />{' '}
+          telegram@aslapkov
         </a>
       </p>
       <h4>Contact form</h4>
@@ -79,19 +81,30 @@ const ContactBlock = () => {
         data-netlify-honeypot="bot-field"
         onSubmit={handleSubmit}
       >
-        <input type="hidden" name="form-name" value="contact" />
+        <input
+          type="hidden"
+          name="form-name"
+          aria-label="Form name"
+          value="contact"
+        />
         <p hidden>
           <label htmlFor="bot-field">
             Don’t fill this out:{' '}
-            <input name="bot-field" onChange={handleChange} />
+            <input
+              type="text"
+              name="bot-field"
+              aria-label="Bot field"
+              onChange={handleChange}
+            />
           </label>
         </p>
         <FormGroup>
           <InputWrap>
             <label htmlFor="name">
               <input
-                name="name"
                 type="text"
+                name="name"
+                aria-label="Name"
                 autoComplete="off"
                 onChange={handleChange}
                 placeholder="Name"
@@ -104,8 +117,9 @@ const ContactBlock = () => {
           <InputWrap>
             <label htmlFor="email">
               <input
-                name="email"
                 type="email"
+                name="email"
+                aria-label="Email"
                 autoComplete="off"
                 onChange={handleChange}
                 placeholder="Email"
@@ -119,6 +133,7 @@ const ContactBlock = () => {
             <label htmlFor="message">
               <textarea
                 name="message"
+                aria-label="Message"
                 onChange={handleChange}
                 placeholder="Message"
               />

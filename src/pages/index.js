@@ -58,8 +58,8 @@ const IndexPage = () => (
         consumers problems. For the past 5 years I have been building modern and
         progressive websites for small companies, organizations and start-ups,
         which helped them reach their business goals including by attracting
-        many new clients via Google, Yandex etc. See my some projects on{' '}
-        <Link to="/works/">works</Link> page. I like getting more and more
+        many new clients via Google, Yandex etc. See a small part of my projects
+        on the <Link to="/works/">work</Link> page. I like getting more and more
         educated in the modern web. I'm studying every day and ready to learn
         new things.
       </p>
