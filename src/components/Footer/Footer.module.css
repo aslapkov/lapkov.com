@@ -49,6 +49,7 @@ footer a:hover {
   }
   100% {
     opacity: 0;
+    transform: scale(1);
   }
 }
 
