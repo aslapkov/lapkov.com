@@ -152,8 +152,8 @@ module.exports = {
       dataExp: [
         {
           period: `Jan 2018 - pres.`,
-          position: `Full-stack developer, designer`,
-          loc: `JavaScript, Node, React`,
+          position: `Full-stack dev, design`,
+          loc: `Freelance – `,
           site: `https://lapkov.com`,
           info: `I’ve learned a lot of information about web technologies, including JavaScript, Node, React,
           different databases, web servers and other. Afterwards I've created and participated in a dozen projects
@@ -162,25 +162,33 @@ module.exports = {
           related to JavaScript and the whole modern web.`,
         },
         {
+          period: `Feb 2020`,
+          position: `Front-end dev, design`,
+          loc: `Smuzi, Minsk – `,
+          site: `http://smuzi.agency`,
+          info: `Digital agency from Minsk (Belarus). Small site for promotion and telecommunications agency.
+          They will also help push your brand on social networks.`,
+        },
+        {
           period: `May 2019`,
-          position: `Front-end developer, designer`,
-          loc: `Botti, Minsk`,
+          position: `Front-end dev, design`,
+          loc: `Botti, Minsk – `,
           site: `http://botti.by`,
           info: `Created a tiny website with a look into the future for a new brand in the clothing market of Belarus.
           I am planning to create an online store here, in addition there is also a need for SEO later.`,
         },
         {
           period: `Oct 2017 - pres.`,
-          position: `Front-end developer, designer, SEO`,
-          loc: `Elite Nails, Minsk`,
+          position: `Front-end dev, design, SEO`,
+          loc: `Elite Nails, Minsk – `,
           site: `https://elitenails.by`,
           info: `Online store selling nails cosmetic for Belarus. Currently I minimally support
           this project just for couple of hours a week.`,
         },
         {
           period: `Jun 2017 - pres.`,
-          position: `Full-stack developer, SEO`,
-          loc: `Sister's, Minsk`,
+          position: `Full-stack dev, SEO`,
+          loc: `Sister's, Minsk – `,
           site: `https://sisters.by`,
           info: `Support, revision, SEO and consultations for a famous brand in Belarusian clothing market.
           Now I'm getting ready to develop and design a new site for Sister's. I also participate in other projects
@@ -189,16 +197,16 @@ module.exports = {
         },
         {
           period: `May 2017`,
-          position: `Front-end developer, SEO`,
-          loc: `Chin Up, Minsk`,
+          position: `Front-end dev, SEO`,
+          loc: `Chin Up, Minsk – `,
           site: `https://www.chinup.by`,
-          info: `Presentation site for animation studio ChinUp (Minsk). The team of creative guys who produced animated
-          videos, animated series and motion design.`,
+          info: `Presentation site for animation studio ChinUp (Minsk). The team of creative guys who make really good
+          animated videos, animated series and motion design.`,
         },
         {
           period: `Apr 2017`,
-          position: `Front-end developer, designer, SEO`,
-          loc: `Yulia, Moscow`,
+          position: `Front-end dev, design, SEO`,
+          loc: `Yulia, Moscow – `,
           site: `http://yuliagrebenshchikova.com`,
           info: `Presentation site for balerine of The Bolshoi Theatre (Moscow) Yulia Grebenshchikova. She was born
           in Budapest (Hungary) and continued her studies at Moscow. After graduation in 2003 she joined the Ballet
@@ -206,8 +214,8 @@ module.exports = {
         },
         {
           period: `Mar 2017`,
-          position: `Front-end developer, designer, SEO`,
-          loc: `Doctor Ayrapetyan, Moscow`,
+          position: `Front-end dev, design, SEO`,
+          loc: `Doctor Ayrapetyan, Moscow – `,
           site: `http://artmedest.ru`,
           info: `Website fot rhinoplasty surgeon Artashes Ayrapetyan from Moscow. He is one of
           the few specialists in the market of aesthetic and plastic surgery who came to the specialty right away,
@@ -215,8 +223,8 @@ module.exports = {
         },
         {
           period: `Apr 2015 - pres.`,
-          position: `Full-stack developer, designer, SEO`,
-          loc: `Sati, Gomel`,
+          position: `Full-stack dev, design, SEO`,
+          loc: `Sati, Gomel – `,
           site: `https://sati.by`,
           info: `My first individual work that is completely done by myself. This site mainly gets customers through
           the Google and Yandex search. In 2017, I redesigned this project and updated the entire system. Currently
@@ -234,7 +242,7 @@ module.exports = {
       dataWorks: [
         {
           year: `2020`,
-          desc: `The digital agency from Belarus with ambitions to conquer the World`,
+          desc: `Digital agency from Belarus with ambitions to conquer industry`,
           siteUrl: `http://smuzi.agency`,
           siteName: `smuzi.agency`,
         },

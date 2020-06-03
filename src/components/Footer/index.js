@@ -7,7 +7,8 @@ export default () => (
       <span className={styles.pointAnimation} />
       <p className={styles.availTag}>
         <span>I'm available for hire</span>
-        <br /> <a href="mailto:email@lapkov.com">email@lapkov.com</a>
+        <br />
+        <a href="mailto:email@lapkov.com">email@lapkov.com</a>
       </p>
     </div>
     <div className={styles.right}>
