@@ -5,16 +5,6 @@ const typography = new Typography({
   bodyColor: 'hsl(255,255%,255%,0.9)',
   headerFontFamily: ['Inconsolata', 'sans-serif'],
   bodyFontFamily: ['Inconsolata', 'sans-serif'],
-  googleFonts: [
-    {
-      name: 'Inconsolata',
-      styles: ['400', '700'],
-    },
-    {
-      name: 'Kalam',
-      styles: ['400', '700'],
-    },
-  ],
   overrideStyles: () => ({
     a: {
       textDecoration: 'none',
