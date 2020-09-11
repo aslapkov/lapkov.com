@@ -6,6 +6,7 @@ import NavBar from './Navbar';
 import Header from './Header';
 import Footer from './Footer';
 import styles from './layout.module.css';
+import './global.css';
 
 const Layout = ({ children, location }) => {
   const data = useStaticQuery(
