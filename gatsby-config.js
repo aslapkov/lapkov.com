@@ -242,20 +242,26 @@ module.exports = {
       dataWorks: [
         {
           year: `2020`,
-          desc: `We have been professionally engaged in interior design for over 12 years.`,
-          siteUrl: `http://design.archimedes.by`,
-          siteName: `design.archimedes.by`,
+          desc: `The company has been installing stretch ceilings for 10 years`,
+          siteUrl: `https://sofitto.by`,
+          siteName: `sofitto.by`,
         },
         {
           year: `2020`,
           desc: `We have been creating architectural projects that are thought out to the smallest detail.`,
-          siteUrl: `http://architect.archimedes.by`,
+          siteUrl: `https://architect.archimedes.by`,
           siteName: `architect.archimedes.by`,
         },
         {
           year: `2020`,
+          desc: `We have been professionally engaged in interior design for over 12 years.`,
+          siteUrl: `https://design.archimedes.by`,
+          siteName: `design.archimedes.by`,
+        },
+        {
+          year: `2020`,
           desc: `Digital agency from Belarus with ambitions to conquer industry`,
-          siteUrl: `http://smuzi.agency`,
+          siteUrl: `#`,
           siteName: `smuzi.agency`,
         },
         {
