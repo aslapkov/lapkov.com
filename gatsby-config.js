@@ -242,19 +242,31 @@ module.exports = {
       dataWorks: [
         {
           year: `2020`,
-          desc: `The company has been installing stretch ceilings for 10 years`,
+          desc: `Fitness online project "Nesvyataya" by professional trainer Daria Starikova`,
+          siteUrl: `https://nesvyataya.com`,
+          siteName: `nesvyataya.com`,
+        },
+        {
+          year: `2020`,
+          desc: `Sale of active sports supplements for men and women throughout Belarus`,
+          siteUrl: `https://samyun.online`,
+          siteName: `samyun.online`,
+        },
+        {
+          year: `2020`,
+          desc: `The company has been installing stretch ceilings in Gomel for 10 years`,
           siteUrl: `https://sofitto.by`,
           siteName: `sofitto.by`,
         },
         {
           year: `2020`,
-          desc: `We have been creating architectural projects that are thought out to the smallest detail.`,
+          desc: `We have been creating architectural projects that are thought out to the smallest detail`,
           siteUrl: `https://architect.archimedes.by`,
           siteName: `architect.archimedes.by`,
         },
         {
           year: `2020`,
-          desc: `We have been professionally engaged in interior design for over 12 years.`,
+          desc: `We have been professionally engaged in interior design for over 12 years`,
           siteUrl: `https://design.archimedes.by`,
           siteName: `design.archimedes.by`,
         },
@@ -266,7 +278,7 @@ module.exports = {
         },
         {
           year: `2019`,
-          desc: `My new small personal website build with Gatsby, deploy to Netlify`,
+          desc: `My new small personal website build with Gatsby, deploy to Netlify for free`,
           siteUrl: `https://lapkov.com`,
           siteName: `lapkov.com`,
         },
