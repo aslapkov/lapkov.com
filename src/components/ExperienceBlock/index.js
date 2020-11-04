@@ -79,7 +79,7 @@ const ExperienceBlock = ({ data }) => {
                 {elem.site ? (
                   <span className="site">
                     <a href={elem.site} rel="nofollow">
-                      {elem.site}
+                      {elem.site.slice(elem.site.includes('https') ? 8 : 7)}
                     </a>
                   </span>
                 ) : (

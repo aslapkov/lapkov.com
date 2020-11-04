@@ -152,7 +152,7 @@ module.exports = {
       dataExp: [
         {
           period: `Jan 2018 - pres.`,
-          position: `Full-stack dev, design`,
+          position: `Full-stack dev, designer`,
           loc: `Freelance – `,
           site: `https://lapkov.com`,
           info: `I’ve learned a lot of information about web technologies, including JavaScript, Node, React,
@@ -162,25 +162,60 @@ module.exports = {
           related to JavaScript and the whole modern web.`,
         },
         {
+          period: `Oct 2020`,
+          position: `Full-stack dev, designer`,
+          loc: `Darya, Minsk – `,
+          site: `https://nesvyataya.com`,
+          info: `soon...`,
+        },
+        {
+          period: `Oct 2020`,
+          position: `Front-end dev, designer`,
+          loc: `Sofitto, Minsk – `,
+          site: `https://sofitto.by`,
+          info: `soon...`,
+        },
+        {
+          period: `Sep 2020`,
+          position: `Front-end dev, designer`,
+          loc: `Titul Stroy, Minsk – `,
+          site: `https://landing.titulstroy.by`,
+          info: `soon...`,
+        },
+        {
+          period: `Aug 2020`,
+          position: `Front-end dev, designer`,
+          loc: `Archimedes, Minsk – `,
+          site: `https://architect.archimedes.by`,
+          info: `soon...`,
+        },
+        {
+          period: `Aug 2020`,
+          position: `Front-end dev, designer`,
+          loc: `Archimedes design, Minsk – `,
+          site: `https://design.archimedes.by`,
+          info: `soon...`,
+        },
+        {
           period: `Feb 2020`,
-          position: `Front-end dev, design`,
-          loc: `Smuzi, Minsk – `,
-          site: `http://smuzi.agency`,
+          position: `Front-end dev, designer`,
+          loc: `Smuzi, Minsk – (site has been changed)`,
+          site: ``,
           info: `Digital agency from Minsk (Belarus). Small site for promotion and telecommunications agency.
           They will also help push your brand on social networks.`,
         },
         {
           period: `May 2019`,
-          position: `Front-end dev, design`,
+          position: `Front-end dev, designer`,
           loc: `Botti, Minsk – `,
           site: `http://botti.by`,
           info: `Created a tiny website with a look into the future for a new brand in the clothing market of Belarus.
-          I am planning to create an online store here, in addition there is also a need for SEO later.`,
+          There are plans to create an online store here, and SEO will be needed later.`,
         },
         {
-          period: `Oct 2017 - pres.`,
-          position: `Front-end dev, design, SEO`,
-          loc: `Elite Nails, Minsk – `,
+          period: `Oct 2017 - Jul 2020.`,
+          position: `Front-end dev, designer, SEO`,
+          loc: `Elite Nails, Minsk (site has been changed) – `,
           site: `https://elitenails.by`,
           info: `Online store selling nails cosmetic for Belarus. Currently I minimally support
           this project just for couple of hours a week.`,
@@ -198,14 +233,14 @@ module.exports = {
         {
           period: `May 2017`,
           position: `Front-end dev, SEO`,
-          loc: `Chin Up, Minsk – `,
+          loc: `Chin Up, Minsk (site has been changed) – `,
           site: `https://www.chinup.by`,
           info: `Presentation site for animation studio ChinUp (Minsk). The team of creative guys who make really good
           animated videos, animated series and motion design.`,
         },
         {
           period: `Apr 2017`,
-          position: `Front-end dev, design, SEO`,
+          position: `Front-end dev, designer, SEO`,
           loc: `Yulia, Moscow – `,
           site: `http://yuliagrebenshchikova.com`,
           info: `Presentation site for balerine of The Bolshoi Theatre (Moscow) Yulia Grebenshchikova. She was born
@@ -214,7 +249,7 @@ module.exports = {
         },
         {
           period: `Mar 2017`,
-          position: `Front-end dev, design, SEO`,
+          position: `Front-end dev, designer, SEO`,
           loc: `Doctor Ayrapetyan, Moscow – `,
           site: `http://artmedest.ru`,
           info: `Website fot rhinoplasty surgeon Artashes Ayrapetyan from Moscow. He is one of
@@ -223,7 +258,7 @@ module.exports = {
         },
         {
           period: `Apr 2015 - pres.`,
-          position: `Full-stack dev, design, SEO`,
+          position: `Full-stack dev, designer, SEO`,
           loc: `Sati, Gomel – `,
           site: `https://sati.by`,
           info: `My first individual work that is completely done by myself. This site mainly gets customers through
@@ -248,12 +283,6 @@ module.exports = {
         },
         {
           year: `2020`,
-          desc: `Sale of active sports supplements for men and women throughout Belarus`,
-          siteUrl: `https://samyun.online`,
-          siteName: `samyun.online`,
-        },
-        {
-          year: `2020`,
           desc: `The company has been installing stretch ceilings in Gomel for 10 years`,
           siteUrl: `https://sofitto.by`,
           siteName: `sofitto.by`,
@@ -269,6 +298,12 @@ module.exports = {
           desc: `We have been professionally engaged in interior design for over 12 years`,
           siteUrl: `https://design.archimedes.by`,
           siteName: `design.archimedes.by`,
+        },
+        {
+          year: `2020`,
+          desc: `We have been professionally engaged in the construction of houses and cottages for over 12 years.`,
+          siteUrl: `https://landing.titulstroy.by`,
+          siteName: `landing.titulstroy.by`,
         },
         {
           year: `2020`,
