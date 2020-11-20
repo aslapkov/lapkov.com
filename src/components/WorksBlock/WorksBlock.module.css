@@ -1,0 +1,79 @@
+.works {
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
+  float: left;
+  padding: 30px 10px;
+  width: 100%;
+}
+
+.works.first {
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
+  border-top: 1px dashed rgba(255, 255, 255, 0.1);
+}
+
+.works:nth-child(even) {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.works span {
+  font-size: 0.9em;
+  color: #fff;
+  padding-top: 8px;
+  display: block;
+  line-height: 1.3;
+}
+
+.col2 {
+  width: 12.5%;
+  float: left;
+}
+
+.col3 {
+  width: 25%;
+  float: left;
+}
+
+.col5 {
+  width: 50%;
+  float: left;
+}
+
+span.count {
+  height: 35px;
+  width: 35px;
+  display: table;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 0;
+}
+
+span.count span {
+  padding-top: 1px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+span.year {
+  font-size: 1em;
+  font-weight: 700;
+}
+
+span.siteUrl {
+  margin-left: 10px;
+  text-align: right;
+}
+
+@media (max-width: 768px) {
+  .works span {
+    font-size: 0.8em;
+  }
+
+  span.count {
+    height: 27px;
+    width: 27px;
+  }
+
+  span.year {
+    font-size: 0.7em;
+  }
+}

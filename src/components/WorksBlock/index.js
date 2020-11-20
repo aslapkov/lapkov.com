@@ -1,36 +1,36 @@
 import React from 'react';
-import { BlockWorks, DivWorks, Col2, Col3, Col5 } from './worksBlock.style';
+import styles from './WorksBlock.module.css';
 
 const WorksBlock = ({ data }) => {
   return (
-    <BlockWorks>
+    <div style={{ marginTop: '40px' }}>
       {data.map((elem, i) => {
-        const first = i === 0 && `first`;
+        const first = i === 0 && styles.first;
 
         return (
-          <DivWorks key={i} className={first}>
-            <Col2>
-              <span className="count">
+          <div className={`${styles.works} ${first}`} key={i}>
+            <div className={styles.col2}>
+              <span className={styles.count}>
                 <span>{i + 1}</span>
               </span>
-            </Col2>
-            <Col2>
-              <span className="year">{elem.year}</span>
-            </Col2>
-            <Col5>
+            </div>
+            <div className={styles.col2}>
+              <span className={styles.year}>{elem.year}</span>
+            </div>
+            <div className={styles.col5}>
               <span>{elem.desc}</span>
-            </Col5>
-            <Col3>
-              <span className="siteUrl">
+            </div>
+            <div className={styles.col3}>
+              <span className={styles.siteUrl}>
                 <a href={elem.siteUrl} rel="nofollow">
                   {elem.siteName}
                 </a>
               </span>
-            </Col3>
-          </DivWorks>
+            </div>
+          </div>
         );
       })}
-    </BlockWorks>
+    </div>
   );
 };
 

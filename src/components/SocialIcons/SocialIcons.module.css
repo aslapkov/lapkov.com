@@ -1,0 +1,8 @@
+.iconSocStyle {
+  transition: all 0.4s ease 0s;
+  margin: 0 5px;
+}
+
+.iconSocStyle:hover {
+  fill: #fff;
+}

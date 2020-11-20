@@ -1,11 +1,5 @@
 import React, { Fragment, createRef, useState, useEffect, useRef } from 'react';
-import {
-  TimelineWrap,
-  Col2,
-  Col10,
-  ColSm3,
-  ColSm9,
-} from './experienceBlock.style';
+import styles from './ExperienceBlock.module.css';
 
 const ExperienceBlock = ({ data }) => {
   const [height, setHeight] = useState([]);
@@ -52,32 +46,34 @@ const ExperienceBlock = ({ data }) => {
     <Fragment>
       {data.map((elem, i) => {
         let activeFirst =
-          (i === 0 && hover.length === 0) || hover[i] ? `active` : `inactive`;
-        let activeHover = hover[i] ? `active` : `inactive`;
+          (i === 0 && hover.length === 0) || hover[i]
+            ? styles.active
+            : styles.inactive;
+        let activeHover = hover[i] ? styles.active : styles.inactive;
         let activeClass = i !== 0 ? activeHover : activeFirst;
 
         return (
-          <TimelineWrap
+          <div
             key={i}
             ref={elemRefs.current[i]}
             style={{ height: `${height[i]}px` }}
-            className={activeClass}
+            className={`${styles.timelineWrap} ${activeClass}`}
           >
-            <Col2>
+            <div className={styles.col2}>
               <div
-                className="linest"
+                className={styles.linest}
                 style={{ height: `${height[i] - 15}px` }}
               />
-            </Col2>
-            <Col10>
-              <ColSm3>
+            </div>
+            <div className={styles.col10}>
+              <div className={styles.colSm3}>
                 <span>{elem.period}</span>
-              </ColSm3>
-              <ColSm9>
-                <span className="desc">{elem.position}</span>
-                <span className="loc">{elem.loc}</span>
+              </div>
+              <div className={styles.colSm9}>
+                <span className={styles.desc}>{elem.position}</span>
+                <span className={styles.loc}>{elem.loc}</span>
                 {elem.site ? (
-                  <span className="site">
+                  <span className={styles.site}>
                     <a href={elem.site} rel="nofollow">
                       {elem.site.slice(elem.site.includes('https') ? 8 : 7)}
                     </a>
@@ -85,10 +81,10 @@ const ExperienceBlock = ({ data }) => {
                 ) : (
                   ``
                 )}
-                <p className="psmall">{elem.info}</p>
-              </ColSm9>
-            </Col10>
-          </TimelineWrap>
+                <p className={styles.psmall}>{elem.info}</p>
+              </div>
+            </div>
+          </div>
         );
       })}
     </Fragment>

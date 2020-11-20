@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
-import { ContactWrap, FormGroup, InputWrap } from './contactBlock.style';
-
 import IconEmail from '../../images/email.svg';
 import IconTelegram from '../../images/telegram.svg';
-import SocialIcons from '../socialIcons';
+import SocialIcons from '../SocialIcons';
+import styles from './ContactBlock.module.css';
 
 const encode = (data) => {
   return Object.keys(data)
@@ -44,16 +43,21 @@ const ContactBlock = () => {
   };
 
   return (
-    <ContactWrap>
+    <div className={styles.contact}>
       <p>
         To contact me you can send an <strong>email</strong>, message to{' '}
         <strong>telegram</strong> or fill <strong>the form</strong> below.
         <br />
         You can also find me in <strong>social networks</strong>.
       </p>
-      <p className="base">
+      <p className={styles.base}>
         <a href="mailto:email@lapkov.com">
-          <IconEmail height="20" width="20" className="iconStyle" fill="#777" />{' '}
+          <IconEmail
+            height="20"
+            width="20"
+            className={styles.iconStyle}
+            fill="#777"
+          />{' '}
           email@lapkov.com
         </a>
         <br />
@@ -65,7 +69,7 @@ const ContactBlock = () => {
           <IconTelegram
             height="20"
             width="20"
-            className="iconStyle"
+            className={styles.iconStyle}
             fill="#777"
           />{' '}
           telegram@aslapkov
@@ -98,8 +102,8 @@ const ContactBlock = () => {
             />
           </label>
         </p>
-        <FormGroup>
-          <InputWrap>
+        <div className={styles.formGroup}>
+          <div className={styles.inputWrap}>
             <label htmlFor="name">
               <input
                 type="text"
@@ -109,12 +113,12 @@ const ContactBlock = () => {
                 onChange={handleChange}
                 placeholder="Name"
               />
-              <span className="input-label"></span>
+              <span className={styles.inputLabel} />
             </label>
-          </InputWrap>
-        </FormGroup>
-        <FormGroup>
-          <InputWrap>
+          </div>
+        </div>
+        <div className={styles.formGroup}>
+          <div className={styles.inputWrap}>
             <label htmlFor="email">
               <input
                 type="email"
@@ -124,12 +128,12 @@ const ContactBlock = () => {
                 onChange={handleChange}
                 placeholder="Email"
               />
-              <span className="input-label"></span>
+              <span className={styles.inputLabel} />
             </label>
-          </InputWrap>
-        </FormGroup>
-        <FormGroup className="full">
-          <InputWrap>
+          </div>
+        </div>
+        <div className={`${styles.formGroup} ${styles.full}`}>
+          <div className={styles.inputWrap}>
             <label htmlFor="message">
               <textarea
                 name="message"
@@ -137,34 +141,34 @@ const ContactBlock = () => {
                 onChange={handleChange}
                 placeholder="Message"
               />
-              <span className="input-label"></span>
+              <span className={styles.inputLabel} />
             </label>
-          </InputWrap>
-        </FormGroup>
+          </div>
+        </div>
         {!loading && completeForm ? (
-          <FormGroup className="full">
-            <span className="notification">
+          <div className={`${styles.formGroup} ${styles.full}`}>
+            <span className={styles.notification}>
               <i></i> Your message was sent. Thanks!
             </span>
-          </FormGroup>
+          </div>
         ) : (
           loading && (
-            <FormGroup className="full">
-              <span className="loader"></span>
-            </FormGroup>
+            <div className={`${styles.formGroup} ${styles.full}`}>
+              <span className={styles.loader}></span>
+            </div>
           )
         )}
-        <FormGroup className="full">
+        <div className={`${styles.formGroup} ${styles.full}`}>
           <button type="submit" disabled={isInvalid}>
-            <span className="mask"></span>
+            <span className={styles.mask} />
             {loading ? <span>Sending...</span> : <span>Send message</span>}
           </button>
-        </FormGroup>
+        </div>
       </form>
-      <div className="social">
-        <SocialIcons num="30" color="#777" classSelect="iconSocStyle" />
+      <div className={styles.social}>
+        <SocialIcons num="30" color="#777" />
       </div>
-    </ContactWrap>
+    </div>
   );
 };
 

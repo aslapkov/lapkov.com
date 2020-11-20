@@ -42,7 +42,7 @@ module.exports = {
         },
         {
           label: `CSS`,
-          percent: 95,
+          percent: 96,
         },
         {
           label: `Javascript`,
@@ -58,7 +58,7 @@ module.exports = {
         },
         {
           label: `Jquery`,
-          percent: 92,
+          percent: 93,
         },
         {
           label: `Node`,
@@ -74,7 +74,7 @@ module.exports = {
         },
         {
           label: `MongoDB`,
-          percent: 87,
+          percent: 89,
         },
         {
           label: `Firebase`,
@@ -86,19 +86,19 @@ module.exports = {
         },
         {
           label: `Gatsby js`,
-          percent: 90,
+          percent: 91,
         },
         {
           label: `Next js`,
-          percent: 89,
+          percent: 90,
         },
         {
           label: `TypeScript`,
-          percent: 85,
+          percent: 86,
         },
         {
           label: `Git`,
-          percent: 88,
+          percent: 89,
         },
         {
           label: `yarn`,
@@ -110,15 +110,15 @@ module.exports = {
         },
         {
           label: `Netlify`,
-          percent: 90,
+          percent: 91,
         },
         {
           label: `Vercel`,
-          percent: 90,
+          percent: 91,
         },
         {
           label: `Wordpress`,
-          percent: 89,
+          percent: 90,
         },
         {
           label: `Woocommerce`,
@@ -126,7 +126,7 @@ module.exports = {
         },
         {
           label: `Nginx`,
-          percent: 88,
+          percent: 89,
         },
         {
           label: `Apache`,
@@ -166,13 +166,6 @@ module.exports = {
           position: `Full-stack dev, designer`,
           loc: `Darya, Minsk – `,
           site: `https://nesvyataya.com`,
-          info: `soon...`,
-        },
-        {
-          period: `Oct 2020`,
-          position: `Front-end dev, designer`,
-          loc: `Sofitto, Minsk – `,
-          site: `https://sofitto.by`,
           info: `soon...`,
         },
         {
@@ -284,7 +277,7 @@ module.exports = {
         {
           year: `2020`,
           desc: `The company has been installing stretch ceilings in Gomel for 10 years`,
-          siteUrl: `https://sofitto.by`,
+          siteUrl: `https://sofitto-by.vercel.app`,
           siteName: `sofitto.by`,
         },
         {

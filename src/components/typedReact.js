@@ -3,7 +3,7 @@ import Typed from 'typed.js';
 
 const TypedReact = (props) => {
   const spanEl = useRef(null);
-  // You can pass other options here
+
   const options = {
     strings: props.strings,
     typeSpeed: 40,

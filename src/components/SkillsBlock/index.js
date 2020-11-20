@@ -1,13 +1,13 @@
 import React from 'react';
-import { BlockSkills, SpanProgress, BarWrap } from './skillsBlock.style';
+import styles from './skillsBlock.module.css';
 
 const SkillsBlock = ({ data }) => (
   <div style={{ marginTop: `40px` }}>
     {data.map((elem, i) => {
       return (
-        <BlockSkills key={i}>
-          <SpanProgress>{elem.label}</SpanProgress>
-          <BarWrap>
+        <div className={styles.skills} key={i}>
+          <span className={styles.progress}>{elem.label}</span>
+          <div className={styles.barWrap}>
             <span
               data-width={elem.percent}
               style={{ width: `${elem.percent}%` }}
@@ -16,8 +16,8 @@ const SkillsBlock = ({ data }) => (
                 <i>{elem.percent}</i>%
               </strong>
             </span>
-          </BarWrap>
-        </BlockSkills>
+          </div>
+        </div>
       );
     })}
   </div>
