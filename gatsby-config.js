@@ -459,12 +459,6 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-styled-components`,
-      options: {
-        pure: true,
-      },
-    },
-    {
       resolve: `gatsby-plugin-react-svg`,
       options: {
         rule: {

@@ -1,0 +1,144 @@
+.nav {
+  position: fixed;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  top: 40%;
+  left: 129px;
+  min-height: 50px;
+  margin-bottom: 20px;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  transition: all 2s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+}
+
+.collapse {
+  border-color: #e7e7e7;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.collapse ul {
+  padding-left: 0;
+  list-style: none;
+  margin: 7.5px -15px;
+}
+
+.collapse ul li {
+  display: block;
+  position: relative;
+  float: none;
+  height: 7px;
+  margin-bottom: 29px;
+  width: 50px;
+}
+
+.collapse ul li a {
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.collapse ul li a span {
+  font-size: 1.1em;
+  left: 60px;
+  line-height: 1;
+  color: #fff;
+  position: absolute;
+  opacity: 0.5;
+  text-transform: uppercase;
+  transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+}
+
+.collapse ul li a span.hide {
+  display: none;
+}
+
+.collapse ul li a:hover,
+.collapse ul li a:active,
+.collapse ul li a::focus {
+  background: none;
+  border: none;
+}
+
+.collapse ul li a:before {
+  background-color: #fff;
+  border-radius: 50%;
+  height: 50px;
+  top: -21px !important;
+  opacity: 1;
+  transform: scale(0);
+  width: 50px;
+}
+
+.collapse ul li a:before,
+.collapse ul li a:after {
+  content: '';
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  left: 0;
+}
+
+.collapse ul li a:after {
+  background: #fff none repeat scroll 0 0;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  height: 12px;
+  width: 12px;
+  transition: all 0.1s ease-out 0s;
+}
+
+.collapse ul li:hover a:after {
+  background: transparent none repeat scroll 0 0;
+  border-width: 3px;
+  height: 15px;
+  width: 15px;
+}
+
+.collapse ul li:hover span.show {
+  left: 50px;
+  opacity: 1;
+  color: #fff;
+  font-weight: 700;
+}
+
+.collapse ul li [aria-current='page'] span.show {
+  left: 50px;
+  opacity: 1;
+  color: #fff;
+  font-weight: 700;
+}
+
+.collapse ul li a[aria-current='page']:before {
+  opacity: 0;
+  transform: scale(1);
+  transition: all 0.5s ease-out 0s;
+}
+
+.collapse ul li a[aria-current='page']:after {
+  background: transparent none repeat scroll 0 0;
+  border-width: 2px;
+  height: 15px;
+  width: 15px;
+}
+
+.collapse ul li a[aria-current='page']:after span.show {
+  left: 50px;
+  opacity: 1;
+  color: #fff;
+  font-weight: 700;
+}
+
+@media (min-width: 768px) {
+  .collapse {
+    display: block !important;
+    height: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+    width: auto;
+    border-top: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+}

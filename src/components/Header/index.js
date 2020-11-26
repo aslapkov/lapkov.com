@@ -1,35 +1,29 @@
 import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import React, { useState } from 'react';
-
 import SocialIcons from '../SocialIcons';
 import IconCont from '../../images/envelope.svg';
-
-import {
-  HeaderWrap,
-  HeaderCol,
-  HeaderLogo,
-  HeaderTouch,
-  HeaderNav,
-} from './header.style';
+import styles from './Header.module.css';
 
 const Header = ({ siteTitle, siteLinks }) => {
   const [collapse, setCollapse] = useState(false);
 
   return (
-    <HeaderWrap>
-      <HeaderCol>
-        <HeaderLogo>
+    <header>
+      <div className={styles.col}>
+        <div className={styles.logo}>
           <Link to="/">
             <span>{siteTitle}</span>
           </Link>
-        </HeaderLogo>
-        <HeaderTouch className={collapse ? `menuOpen` : ``}>
-          <Link to="/contact/" className="contact">
-            <span className="mask"></span>
-            <span className="label">
+        </div>
+        <div
+          className={`${styles.touch}${collapse ? ' ' + styles.menuOpen : ''}`}
+        >
+          <Link to="/contact/" className={styles.contact}>
+            <span className={styles.mask}></span>
+            <span className={styles.label}>
               <b>Contact me</b>
-              <span className="iconCall">
+              <span className={styles.iconCall}>
                 <IconCont height="25" width="25" fill="#000" />
               </span>
             </span>
@@ -37,16 +31,20 @@ const Header = ({ siteTitle, siteLinks }) => {
           <button
             onClick={() => setCollapse(!collapse)}
             type="button"
-            className="button"
+            className={styles.button}
           >
-            <span className="iconMenu">
-              <span className="lineMenu lineTop"></span>
-              <span className="lineMenu lineBottom"></span>
+            <span className={styles.iconMenu}>
+              <span className={`${styles.lineMenu} ${styles.lineTop}`}></span>
+              <span
+                className={`${styles.lineMenu} ${styles.lineBottom}`}
+              ></span>
             </span>
           </button>
-        </HeaderTouch>
-        <HeaderNav className={collapse ? `collapse` : ``}>
-          <div className="navbarNav">
+        </div>
+        <div
+          className={`${styles.nav}${collapse ? ' ' + styles.collapse : ''}`}
+        >
+          <div className={styles.navbar}>
             <ul>
               {siteLinks.map((data) => (
                 <li key={data.id}>
@@ -60,9 +58,9 @@ const Header = ({ siteTitle, siteLinks }) => {
               <SocialIcons num="25" color="#000" />
             </p>
           </div>
-        </HeaderNav>
-      </HeaderCol>
-    </HeaderWrap>
+        </div>
+      </div>
+    </header>
   );
 };
 

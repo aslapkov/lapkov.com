@@ -1,24 +1,23 @@
+import React from 'react';
 import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
-import React from 'react';
-
-import { NavStyle, NavCollapse } from './navbar.style';
+import styles from './NavBar.module.css';
 
 const NavBar = ({ siteLinks }) => (
-  <NavStyle>
-    <NavCollapse>
+  <div className={styles.nav}>
+    <div className={styles.collapse}>
       <ul>
         {siteLinks.map((data) => (
           <li key={data.id}>
             <Link to={data.slug}>
-              <span className="hide">{data.name}</span>
-              <span className="show">{data.name}</span>
+              <span className={styles.hide}>{data.name}</span>
+              <span className={styles.show}>{data.name}</span>
             </Link>
           </li>
         ))}
       </ul>
-    </NavCollapse>
-  </NavStyle>
+    </div>
+  </div>
 );
 
 NavBar.defaultProps = {

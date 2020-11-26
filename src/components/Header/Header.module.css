@@ -1,0 +1,264 @@
+header {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  height: 70px;
+}
+
+.col {
+  width: 83.33333333%;
+  padding-top: 20px;
+  margin: 0 auto;
+  overflow: hidden;
+  float: none;
+  clear: both;
+}
+
+.col a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.logo a {
+  float: left;
+  display: block;
+  color: #fff;
+  padding: 10px 20px;
+  font-family: 'Kalam';
+  font-size: 1.4em;
+}
+
+a.contact,
+button {
+  font-size: 1.1em;
+  float: right;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+  background: #141414;
+  outline: none;
+  border: none;
+  border-left: 2px solid #ffff50;
+  padding: 5px 20px;
+  transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+}
+
+a.contact.button,
+button.button {
+  display: none;
+}
+
+a.contact:hover,
+button:hover {
+  color: #000;
+}
+
+a.contact:hover .iconPlane svg,
+button:hover .iconPlane svg {
+  fill: #000;
+}
+
+.mask {
+  background: #ffff50;
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 0;
+  z-index: 1;
+  transition: all 1.1s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+}
+
+.label {
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+}
+
+.iconCall {
+  display: none;
+  margin-left: 10px;
+}
+
+a.contact:hover .mask,
+button:hover .mask {
+  width: 100%;
+}
+
+.nav {
+  display: none;
+}
+
+.navbar {
+  opacity: 0;
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 950px) {
+  header {
+    top: 0px;
+    margin-top: 50px;
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+    background: rgba(255, 255, 255, 0.9);
+    transform: translateY(-70px) translateZ(0);
+  }
+
+  .col {
+    width: 100%;
+  }
+
+  .logo a {
+    color: #000;
+  }
+
+  .touch {
+    position: relative;
+    z-index: 1;
+  }
+
+  a.contact,
+  button {
+    padding: 13px 80px 10px 0;
+    background: none !important;
+    color: #000;
+    border: none;
+  }
+
+  a.contact:hover .mask,
+  button:hover .mask {
+    width: 0;
+  }
+
+  a.contact.button,
+  button.button {
+    display: block;
+    cursor: pointer;
+    padding: 25px 20px;
+    position: absolute;
+    right: 0;
+  }
+
+  .label {
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+
+  .label b {
+    display: none;
+  }
+
+  .iconCall {
+    display: block;
+    margin-left: 0;
+  }
+
+  .iconMenu {
+    display: block;
+    margin-right: 30px;
+  }
+
+  .lineMenu {
+    display: block;
+    background: #000;
+    z-index: 3;
+    width: 27px;
+    height: 2px;
+    transition: opacity 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+
+  .lineMenu.lineTop {
+    position: absolute;
+    transform: translateY(-3px);
+    transition: transform 0.1596s cubic-bezier(0.52, 0.16, 0.52, 0.84) 0.1008s;
+  }
+
+  .lineMenu.lineBottom {
+    position: absolute;
+    transform: translateY(3px);
+    transition: transform 0.1596s cubic-bezier(0.52, 0.16, 0.52, 0.84) 0.1008s;
+  }
+
+  .touch.menuOpen .lineMenu.lineTop {
+    transition: transform 0.3192s cubic-bezier(0.04, 0.04, 0.12, 0.96) 0.1008s;
+    transform: rotate(45deg);
+  }
+
+  .touch.menuOpen .lineMenu.lineBottom {
+    transition: transform 0.3192s cubic-bezier(0.04, 0.04, 0.12, 0.96) 0.1008s;
+    transform: rotate(-45deg);
+  }
+
+  .nav {
+    display: block;
+    position: relative;
+    height: 0;
+    z-index: 1;
+    margin-bottom: 0;
+    background: rgba(255, 255, 255, 0.9);
+    border: none;
+    transition: all 0.5s ease-out;
+  }
+
+  .nav.collapse {
+    height: 430px;
+    transition: height 0.5s ease 0s;
+  }
+
+  .navbar {
+    display: block !important;
+    opacity: 1;
+    padding: 40px 0;
+    box-shadow: none;
+    overflow-x: visible;
+    -webkit-overflow-scrolling: touch;
+    border-top: 1px solid transparent;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
+
+  .navbar ul {
+    float: none !important;
+    margin-left: 0;
+  }
+
+  .navbar ul li {
+    float: none;
+    position: relative;
+    display: block;
+  }
+
+  .navbar ul li a {
+    color: #000;
+    line-height: 20px;
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    text-align: center;
+  }
+
+  .navbar ul li a.contact,
+  .navbar ul li button {
+    border: none;
+  }
+
+  .navbar ul li a span {
+    display: inline-block;
+    color: #141414;
+    font-size: 1.2em;
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+    letter-spacing: 1.5px;
+    line-height: 1;
+    text-transform: uppercase;
+  }
+
+  .navbar .socialsMenu {
+    margin: 0 5px;
+  }
+}
