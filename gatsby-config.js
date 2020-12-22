@@ -38,7 +38,7 @@ module.exports = {
       dataSkills: [
         {
           label: `HTML`,
-          percent: 95,
+          percent: 96,
         },
         {
           label: `CSS`,
@@ -82,11 +82,11 @@ module.exports = {
         },
         {
           label: `GraphQL`,
-          percent: 88,
+          percent: 90,
         },
         {
           label: `Gatsby js`,
-          percent: 91,
+          percent: 92,
         },
         {
           label: `Next js`,
@@ -94,19 +94,19 @@ module.exports = {
         },
         {
           label: `TypeScript`,
-          percent: 86,
-        },
-        {
-          label: `Git`,
           percent: 89,
         },
         {
+          label: `Git`,
+          percent: 90,
+        },
+        {
           label: `yarn`,
-          percent: 88,
+          percent: 89,
         },
         {
           label: `npm`,
-          percent: 88,
+          percent: 89,
         },
         {
           label: `Netlify`,
@@ -139,14 +139,6 @@ module.exports = {
         {
           label: `Ubuntu`,
           percent: 84,
-        },
-        {
-          label: `ssh`,
-          percent: 87,
-        },
-        {
-          label: `bash`,
-          percent: 87,
         },
       ],
       dataExp: [
@@ -201,7 +193,7 @@ module.exports = {
           period: `May 2019`,
           position: `Front-end dev, designer`,
           loc: `Botti, Minsk – `,
-          site: `http://botti.by`,
+          site: `https://botti.by`,
           info: `Created a tiny website with a look into the future for a new brand in the clothing market of Belarus.
           There are plans to create an online store here, and SEO will be needed later.`,
         },
@@ -277,7 +269,7 @@ module.exports = {
         {
           year: `2020`,
           desc: `The company has been installing stretch ceilings in Gomel for 10 years`,
-          siteUrl: `https://sofitto-by.vercel.app`,
+          siteUrl: `https://sofitto.by`,
           siteName: `sofitto.by`,
         },
         {
@@ -301,7 +293,7 @@ module.exports = {
         {
           year: `2020`,
           desc: `Digital agency from Belarus with ambitions to conquer industry`,
-          siteUrl: `#`,
+          siteUrl: `#smuzi.agency`,
           siteName: `smuzi.agency`,
         },
         {
@@ -313,13 +305,13 @@ module.exports = {
         {
           year: `2019`,
           desc: `New modern brand in Belarus with exclusive clothes, shoes and bags`,
-          siteUrl: `http://botti.by`,
+          siteUrl: `https://botti.by`,
           siteName: `botti.by`,
         },
         {
           year: `2018`,
           desc: `The professional massage room in center Minsk`,
-          siteUrl: `#`,
+          siteUrl: `#synergymassage.by`,
           siteName: `synergymassage.by`,
         },
         {
@@ -367,19 +359,19 @@ module.exports = {
         {
           year: `2017`,
           desc: `Personal website of rhinoplasty surgeon Artashes Ayrapetyan`,
-          siteUrl: `http://artmedest.ru`,
+          siteUrl: `#artmedest.ru`,
           siteName: `artmedest.ru`,
         },
         {
           year: `2017`,
           desc: `Auto insurance in Moscow with home delivery`,
-          siteUrl: `http://shokopolis.ru`,
+          siteUrl: `#shokopolis.ru`,
           siteName: `shokopolis.ru`,
         },
         {
           year: `2017`,
           desc: `The SMM agency from Belarus with a focus on Instagram`,
-          siteUrl: `#`,
+          siteUrl: `#smuziby.ru`,
           siteName: `smuziby.ru`,
         },
         {
