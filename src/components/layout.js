@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 import { useStaticQuery, graphql } from 'gatsby';
-import ImageBack from './imageBack';
+import Img from 'gatsby-image';
 import NavBar from './Navbar';
 import Header from './Header';
 import Footer from './Footer';
@@ -22,6 +22,13 @@ const Layout = ({ children, location }) => {
             }
           }
         }
+        placeholderImage: file(relativePath: { eq: "back.png" }) {
+          childImageSharp {
+            fluid(maxWidth: 1920, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     `
   );
@@ -29,7 +36,7 @@ const Layout = ({ children, location }) => {
   return (
     <Fragment>
       <div className={styles.imgDiv}>
-        <ImageBack />
+        <Img fluid={data.placeholderImage.childImageSharp.fluid} />
       </div>
       <div className={styles.container}>
         <div className={styles.row}>
