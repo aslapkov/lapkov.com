@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
-import styles from './NavBar.module.css';
+import * as styles from './NavBar.module.css';
 
 const NavBar = ({ siteLinks }) => (
   <div className={styles.nav}>

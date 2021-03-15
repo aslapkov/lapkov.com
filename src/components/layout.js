@@ -5,7 +5,7 @@ import Img from 'gatsby-image';
 import NavBar from './Navbar';
 import Header from './Header';
 import Footer from './Footer';
-import styles from './layout.module.css';
+import * as styles from './layout.module.css';
 import './global.css';
 
 const Layout = ({ children, location }) => {

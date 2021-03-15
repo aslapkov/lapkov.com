@@ -1,3 +1,7 @@
+require('dotenv').config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
 module.exports = {
   siteMetadata: {
     title: `A. Lapkov`,
@@ -38,11 +42,11 @@ module.exports = {
       dataSkills: [
         {
           label: `HTML`,
-          percent: 96,
+          percent: 97,
         },
         {
           label: `CSS`,
-          percent: 96,
+          percent: 97,
         },
         {
           label: `Javascript`,
@@ -82,11 +86,11 @@ module.exports = {
         },
         {
           label: `GraphQL`,
-          percent: 90,
+          percent: 93,
         },
         {
           label: `Gatsby js`,
-          percent: 92,
+          percent: 95,
         },
         {
           label: `Next js`,
@@ -94,7 +98,7 @@ module.exports = {
         },
         {
           label: `TypeScript`,
-          percent: 89,
+          percent: 90,
         },
         {
           label: `Git`,
@@ -114,7 +118,7 @@ module.exports = {
         },
         {
           label: `Vercel`,
-          percent: 91,
+          percent: 93,
         },
         {
           label: `Wordpress`,
@@ -260,6 +264,12 @@ module.exports = {
         },
       ],
       dataWorks: [
+        {
+          year: `2021`,
+          desc: `A new brand on the Belarusian market of teeth whitening using the latest painless technology`,
+          siteUrl: `https://olasmilenow.by`,
+          siteName: `olasmilenow.by`,
+        },
         {
           year: `2020`,
           desc: `Fitness online project "Nesvyataya" by professional trainer Daria Starikova`,

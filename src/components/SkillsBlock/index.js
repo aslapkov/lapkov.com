@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './SkillsBlock.module.css';
+import * as styles from './SkillsBlock.module.css';
 
 const SkillsBlock = ({ data }) => (
   <div style={{ marginTop: `40px` }}>

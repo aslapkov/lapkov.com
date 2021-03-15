@@ -1,7 +1,7 @@
 import React from 'react';
-import styles from './Footer.module.css';
+import * as styles from './Footer.module.css';
 
-export default () => (
+const Footer = () => (
   <footer>
     <div className={styles.left}>
       <span className={styles.pointAnimation} />
@@ -23,3 +23,5 @@ export default () => (
     </div>
   </footer>
 );
+
+export default Footer;

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import React, { useState } from 'react';
 import SocialIcons from '../SocialIcons';
 import IconCont from '../../images/envelope.svg';
-import styles from './Header.module.css';
+import * as styles from './Header.module.css';
 
 const Header = ({ siteTitle, siteLinks }) => {
   const [collapse, setCollapse] = useState(false);

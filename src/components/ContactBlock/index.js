@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import IconEmail from '../../images/email.svg';
 import IconTelegram from '../../images/telegram.svg';
 import SocialIcons from '../SocialIcons';
-import styles from './ContactBlock.module.css';
+import * as styles from './ContactBlock.module.css';
 
 const encode = (data) => {
   return Object.keys(data)
@@ -154,7 +154,7 @@ const ContactBlock = () => {
         ) : (
           loading && (
             <div className={`${styles.formGroup} ${styles.full}`}>
-              <span className={styles.loader}></span>
+              <span className="loader"></span>
             </div>
           )
         )}

@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import styles from './IconBlock.module.css';
+import * as styles from './IconBlock.module.css';
 
 const IconBlock = ({ data }) => (
   <div className={styles.blockRow}>

@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './WorksBlock.module.css';
+import * as styles from './WorksBlock.module.css';
 
 const WorksBlock = ({ data }) => {
   return (

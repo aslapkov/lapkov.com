@@ -1,5 +1,5 @@
 import React, { Fragment, createRef, useState, useEffect, useRef } from 'react';
-import styles from './ExperienceBlock.module.css';
+import * as styles from './ExperienceBlock.module.css';
 
 const ExperienceBlock = ({ data }) => {
   const [height, setHeight] = useState([]);

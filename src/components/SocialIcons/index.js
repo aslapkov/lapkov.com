@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 import IconGithub from '../../images/github.svg';
 import IconTwitter from '../../images/twitter.svg';
 import IconLinkedin from '../../images/linkedin.svg';
-import styles from './SocialIcons.module.css';
+import * as styles from './SocialIcons.module.css';
 
 const SocialIcons = ({ num, color }) => (
   <Fragment>
