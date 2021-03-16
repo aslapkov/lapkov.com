@@ -4,6 +4,9 @@
   "description": "My small personal site built with Gatsby",
   "version": "1.0.8",
   "author": "A. Lapkov <a.s.lapkov@gmail.com>",
+  "engines": {
+    "node": "12.x"
+  },
   "dependencies": {
     "gatsby": "^3.0.4",
     "gatsby-image": "^3.0.0",
