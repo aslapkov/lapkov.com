@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 import Layout from '../components/layout';
 import Image from '../components/image';
-import SEO from '../components/seo';
+import Seo from '../components/seo';
 import IconBlock from '../components/IconBlock';
 import TypedReact from '../components/typedReact';
 
@@ -32,7 +32,7 @@ const dataIcon = [
 
 const IndexPage = () => (
   <Layout>
-    <SEO
+    <Seo
       title="I'm a front-end developer, web designer and SEO specialist"
       description="My name is Aleksandr. I'm a front-end developer and UX/UI designer. I have been building modern and
         progressive websites for small companies, organizations and start-ups."

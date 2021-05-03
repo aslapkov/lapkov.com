@@ -1,13 +1,13 @@
 import React from 'react';
 
 import Layout from '../components/layout';
-import SEO from '../components/seo';
+import Seo from '../components/seo';
 import TypedReact from '../components/typedReact';
 import ContactBlock from '../components/ContactBlock';
 
 const ContactPage = () => (
   <Layout>
-    <SEO
+    <Seo
       title="Contacts"
       description="To contact me you can send an email or a message to telegram."
       slug="/contacts/"

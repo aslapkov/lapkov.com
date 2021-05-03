@@ -1,7 +1,7 @@
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import Layout from '../components/layout';
-import SEO from '../components/seo';
+import Seo from '../components/seo';
 import TypedReact from '../components/typedReact';
 import WorksBlock from '../components/WorksBlock';
 
@@ -27,7 +27,7 @@ const WorksPage = () => {
 
   return (
     <Layout>
-      <SEO
+      <Seo
         title="Works"
         description="This is a part of my works and projects in which I participated. Learn more about me on the home page."
         slug="/works/"

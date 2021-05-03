@@ -278,6 +278,12 @@ module.exports = {
         },
         {
           year: `2020`,
+          desc: `A unique remedy for increasing body weight and combating fatigue during training.`,
+          siteUrl: `https://samyun-online.vercel.app`,
+          siteName: `samyun.online`,
+        },
+        {
+          year: `2020`,
           desc: `The company has been installing stretch ceilings in Gomel for 10 years`,
           siteUrl: `https://sofitto-by.vercel.app`,
           siteName: `sofitto.by`,

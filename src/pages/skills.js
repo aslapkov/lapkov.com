@@ -1,7 +1,7 @@
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import Layout from '../components/layout';
-import SEO from '../components/seo';
+import Seo from '../components/seo';
 import TypedReact from '../components/typedReact';
 import SkillsBlock from '../components/SkillsBlock';
 
@@ -25,7 +25,7 @@ const SkillsPage = () => {
 
   return (
     <Layout>
-      <SEO
+      <Seo
         title="Skills"
         description="Here are the developing skills in which I succeeded the most and I'm active using in my projects."
         slug="/skills/"

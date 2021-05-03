@@ -1,7 +1,7 @@
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import Layout from '../components/layout';
-import SEO from '../components/seo';
+import Seo from '../components/seo';
 import TypedReact from '../components/typedReact';
 import ExperienceBlock from '../components/ExperienceBlock';
 
@@ -28,7 +28,7 @@ const ExperiencePage = () => {
 
   return (
     <Layout>
-      <SEO
+      <Seo
         title="Experience"
         description="A small chronology of my experience. Step by step, you can learn about my best practices."
         slug="/experience/"
