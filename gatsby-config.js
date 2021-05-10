@@ -152,9 +152,9 @@ module.exports = {
           loc: `Freelance – `,
           site: `https://lapkov.com`,
           info: `I’ve learned a lot of information about web technologies, including JavaScript, Node, React,
-          different databases, web servers and other. Afterwards I"ve created and participated in a dozen projects
+          different databases, web servers and other. Afterwards I've created and participated in a dozen projects
           using these technologies. I did most of these projects on React and Node, they are all closed systems.
-          Unfortunately I can"t show and tell that I participated in them. Now I"m diligently studying everything
+          Unfortunately I can't show and tell that I participated in them. Now I'm diligently studying everything
           related to JavaScript and the whole modern web.`,
         },
         {
@@ -212,10 +212,10 @@ module.exports = {
         {
           period: `Jun 2017 - pres.`,
           position: `Full-stack dev, SEO`,
-          loc: `Sister"s, Minsk – `,
+          loc: `Sister's, Minsk – `,
           site: `https://sisters.by`,
           info: `Support, revision, SEO and consultations for a famous brand in Belarusian clothing market.
-          Now I"m getting ready to develop and design a new site for Sister"s. I also participate in other projects
+          Now I'm getting ready to develop and design a new site for Sister's. I also participate in other projects
           related to them: primabotti.ru and primabotti.by - wholesale online stores. I support them for couple of
           hours a week too`,
         },
@@ -234,7 +234,7 @@ module.exports = {
           site: `http://yuliagrebenshchikova.com`,
           info: `Presentation site for balerine of The Bolshoi Theatre (Moscow) Yulia Grebenshchikova. She was born
           in Budapest (Hungary) and continued her studies at Moscow. After graduation in 2003 she joined the Ballet
-          Company of the Bolshoi Theater. The site has many chronicle photographs of Yulia"s ballet performances.`,
+          Company of the Bolshoi Theater. The site has many chronicle photographs of Yulia's ballet performances.`,
         },
         {
           period: `Mar 2017`,
@@ -272,7 +272,7 @@ module.exports = {
         },
         {
           year: `2020`,
-          desc: `Fitness online project "Nesvyataya" by professional trainer Daria Starikova`,
+          desc: `Fitness online project 'Nesvyataya' by professional trainer Daria Starikova`,
           siteUrl: `https://nesvyataya.com`,
           siteName: `nesvyataya.com`,
         },
@@ -332,19 +332,19 @@ module.exports = {
         },
         {
           year: `2018`,
-          desc: `Wholesale online store selling women"s clothing in St. Petersburg`,
+          desc: `Wholesale online store selling women's clothing in St. Petersburg`,
           siteUrl: `https://www.primabotti.ru`,
           siteName: `primabotti.ru`,
         },
         {
           year: `2018`,
-          desc: `Wholesale online store for the sale of women"s clothing from Belarus`,
+          desc: `Wholesale online store for the sale of women's clothing from Belarus`,
           siteUrl: `https://www.primabotti.by`,
           siteName: `primabotti.by`,
         },
         {
           year: `2017`,
-          desc: `Online store selling women"s clothing with delivery throughout Belarus`,
+          desc: `Online store selling women's clothing with delivery throughout Belarus`,
           siteUrl: `https://sisters.by`,
           siteName: `sisters.by`,
         },
