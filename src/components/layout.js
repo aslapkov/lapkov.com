@@ -1,12 +1,12 @@
-import React, { Fragment } from 'react';
-import PropTypes from 'prop-types';
-import { useStaticQuery, graphql } from 'gatsby';
-import Img from 'gatsby-image';
-import NavBar from './Navbar';
-import Header from './Header';
-import Footer from './Footer';
-import * as styles from './layout.module.css';
-import './global.css';
+import * as React from "react"
+import PropTypes from "prop-types"
+import { useStaticQuery, graphql } from "gatsby"
+import Img from "gatsby-image"
+import NavBar from "./Navbar"
+import Header from "./Header"
+import Footer from "./Footer"
+import * as styles from "./layout.module.css"
+import "./global.css"
 
 const Layout = ({ children, location }) => {
   const data = useStaticQuery(
@@ -31,10 +31,10 @@ const Layout = ({ children, location }) => {
         }
       }
     `
-  );
+  )
 
   return (
-    <Fragment>
+    <React.Fragment>
       <div className={styles.imgDiv}>
         <Img fluid={data.placeholderImage.childImageSharp.fluid} />
       </div>
@@ -56,12 +56,12 @@ const Layout = ({ children, location }) => {
           </div>
         </div>
       </div>
-    </Fragment>
-  );
-};
+    </React.Fragment>
+  )
+}
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
-};
+}
 
-export default Layout;
+export default Layout

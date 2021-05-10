@@ -1,6 +1,6 @@
-import React from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
-import Img from 'gatsby-image';
+import * as React from "react"
+import { useStaticQuery, graphql } from "gatsby"
+import Img from "gatsby-image"
 
 const Image = () => {
   const data = useStaticQuery(
@@ -15,19 +15,19 @@ const Image = () => {
         }
       }
     `
-  );
+  )
 
   return (
     <Img
       fixed={data.placeholderImage.childImageSharp.fixed}
       style={{
-        borderRadius: '50%',
-        backgroundRepeat: 'no-repeat',
-        backgroundSize: 'cover',
-        marginBottom: '30px',
+        borderRadius: "50%",
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+        marginBottom: "30px",
       }}
     />
-  );
-};
+  )
+}
 
-export default Image;
+export default Image

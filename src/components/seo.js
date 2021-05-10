@@ -1,7 +1,7 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { Helmet } from 'react-helmet';
-import { useStaticQuery, graphql } from 'gatsby';
+import * as React from "react"
+import PropTypes from "prop-types"
+import { Helmet } from "react-helmet"
+import { useStaticQuery, graphql } from "gatsby"
 
 const Seo = ({ description, lang, meta, slug, title }) => {
   const { site } = useStaticQuery(
@@ -20,10 +20,10 @@ const Seo = ({ description, lang, meta, slug, title }) => {
         }
       }
     `
-  );
+  )
 
-  const metaDescription = description || site.siteMetadata.description;
-  const url = `${site.siteMetadata.siteUrl}${slug}`;
+  const metaDescription = description || site.siteMetadata.description
+  const url = `${site.siteMetadata.siteUrl}${slug}`
 
   return (
     <Helmet
@@ -71,8 +71,8 @@ const Seo = ({ description, lang, meta, slug, title }) => {
         },
       ]}
     />
-  );
-};
+  )
+}
 
 Seo.defaultProps = {
   lang: `en`,
@@ -80,7 +80,7 @@ Seo.defaultProps = {
   meta: [],
   description: ``,
   slug: ``,
-};
+}
 
 Seo.propTypes = {
   lang: PropTypes.string,
@@ -89,6 +89,6 @@ Seo.propTypes = {
   meta: PropTypes.arrayOf(PropTypes.object),
   description: PropTypes.string,
   slug: PropTypes.string,
-};
+}
 
-export default Seo;
+export default Seo

@@ -1,11 +1,11 @@
-import React from 'react';
-import * as styles from './WorksBlock.module.css';
+import * as React from "react"
+import * as styles from "./WorksBlock.module.css"
 
 const WorksBlock = ({ data }) => {
   return (
-    <div style={{ marginTop: '40px' }}>
+    <div style={{ marginTop: "40px" }}>
       {data.map((elem, i) => {
-        const first = i === 0 && styles.first;
+        const first = i === 0 && styles.first
 
         return (
           <div className={`${styles.works} ${first}`} key={i}>
@@ -28,10 +28,10 @@ const WorksBlock = ({ data }) => {
               </span>
             </div>
           </div>
-        );
+        )
       })}
     </div>
-  );
-};
+  )
+}
 
-export default WorksBlock;
+export default WorksBlock

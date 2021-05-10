@@ -1,70 +1,70 @@
-import Typography from 'typography';
+import Typography from "typography"
 
 const typography = new Typography({
-  baseFontSize: '16px',
-  bodyColor: 'hsl(255,255%,255%,0.9)',
-  headerFontFamily: ['Inconsolata', 'sans-serif'],
-  bodyFontFamily: ['Inconsolata', 'sans-serif'],
+  baseFontSize: "16px",
+  bodyColor: "hsl(255,255%,255%,0.9)",
+  headerFontFamily: ["Inconsolata", "sans-serif"],
+  bodyFontFamily: ["Inconsolata", "sans-serif"],
   overrideStyles: () => ({
     a: {
-      textDecoration: 'none',
-      backgroundColor: 'transparent',
+      textDecoration: "none",
+      backgroundColor: "transparent",
     },
-    'a:active, a:hover': {
-      outlineWidth: '0',
+    "a:active, a:hover": {
+      outlineWidth: "0",
     },
     hr: {
-      boxSizing: 'content-box',
-      overflow: 'visible',
-      marginBottom: 'calc(1.45rem - 1px)',
-      background: 'hsla(0, 0%, 0%, 0.2)',
-      border: 'none',
-      height: '1px',
+      boxSizing: "content-box",
+      overflow: "visible",
+      marginBottom: "calc(1.45rem - 1px)",
+      background: "hsla(0, 0%, 0%, 0.2)",
+      border: "none",
+      height: "1px",
     },
     blockquote: {
-      marginLeft: '0',
-      marginRight: '1.25rem',
-      marginTop: '0',
-      paddingBottom: '0',
-      paddingLeft: '1.45em',
-      paddingRight: '0',
-      paddingTop: '0',
-      marginBottom: '50px',
+      marginLeft: "0",
+      marginRight: "1.25rem",
+      marginTop: "0",
+      paddingBottom: "0",
+      paddingLeft: "1.45em",
+      paddingRight: "0",
+      paddingTop: "0",
+      marginBottom: "50px",
     },
-    'blockquote > :last-child': {
+    "blockquote > :last-child": {
       marginBottom: 0,
     },
     h1: {
-      fontSize: '2.5rem',
-      marginBottom: '50px',
-      lineHeight: '1.1',
+      fontSize: "2.5rem",
+      marginBottom: "50px",
+      lineHeight: "1.1",
     },
     h2: {
-      fontSize: '2.62671rem',
-      marginBottom: '1.45rem',
+      fontSize: "2.62671rem",
+      marginBottom: "1.45rem",
     },
     h3: {
-      fontSize: ' 1.25rem',
-      marginBottom: '1.45rem',
+      fontSize: " 1.25rem",
+      marginBottom: "1.45rem",
     },
     h4: {
-      fontSize: '1.4rem',
-      marginBottom: '50px',
+      fontSize: "1.4rem",
+      marginBottom: "50px",
     },
     h5: {
-      fontSize: '0.85028rem',
-      marginBottom: '1.45rem',
+      fontSize: "0.85028rem",
+      marginBottom: "1.45rem",
     },
     h6: {
-      fontSize: '0.78405rem',
-      marginBottom: '1.45rem',
+      fontSize: "0.78405rem",
+      marginBottom: "1.45rem",
     },
   }),
-});
+})
 
 // Hot reload typography in development
-if (process.env.NODE_ENV !== 'production') {
-  typography.injectStyles();
+if (process.env.NODE_ENV !== "production") {
+  typography.injectStyles()
 }
 
-export default typography;
+export default typography

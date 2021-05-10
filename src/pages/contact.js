@@ -1,9 +1,8 @@
-import React from 'react';
-
-import Layout from '../components/layout';
-import Seo from '../components/seo';
-import TypedReact from '../components/typedReact';
-import ContactBlock from '../components/ContactBlock';
+import * as React from "react"
+import Layout from "../components/layout"
+import Seo from "../components/seo"
+import TypedReact from "../components/typedReact"
+import ContactBlock from "../components/ContactBlock"
 
 const ContactPage = () => (
   <Layout>
@@ -18,6 +17,6 @@ const ContactPage = () => (
     </h1>
     <ContactBlock />
   </Layout>
-);
+)
 
-export default ContactPage;
+export default ContactPage

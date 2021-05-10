@@ -54,7 +54,7 @@ footer a:hover {
 }
 
 .pointAnimation:before {
-  content: '';
+  content: "";
   position: absolute;
   background-color: #ff0050;
   top: -8px;

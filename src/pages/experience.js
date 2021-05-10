@@ -1,9 +1,9 @@
-import React from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
-import Layout from '../components/layout';
-import Seo from '../components/seo';
-import TypedReact from '../components/typedReact';
-import ExperienceBlock from '../components/ExperienceBlock';
+import * as React from "react"
+import { useStaticQuery, graphql } from "gatsby"
+import Layout from "../components/layout"
+import Seo from "../components/seo"
+import TypedReact from "../components/typedReact"
+import ExperienceBlock from "../components/ExperienceBlock"
 
 const ExperiencePage = () => {
   const data = useStaticQuery(
@@ -24,7 +24,7 @@ const ExperiencePage = () => {
         }
       }
     `
-  );
+  )
 
   return (
     <Layout>
@@ -40,7 +40,7 @@ const ExperiencePage = () => {
       <h4>The timeline of experience</h4>
       <ExperienceBlock data={data.site.siteMetadata.dataPage.dataExp} />
     </Layout>
-  );
-};
+  )
+}
 
-export default ExperiencePage;
+export default ExperiencePage

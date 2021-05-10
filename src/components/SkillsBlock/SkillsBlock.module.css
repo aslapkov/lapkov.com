@@ -30,7 +30,7 @@
 .barWrap span:after {
   border: 2px solid #ffff50;
   border-radius: 50%;
-  content: '';
+  content: "";
   height: 15px;
   position: absolute;
   right: 0px;

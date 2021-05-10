@@ -1,56 +1,56 @@
-import React, { Fragment, createRef, useState, useEffect, useRef } from 'react';
-import * as styles from './ExperienceBlock.module.css';
+import * as React from "react"
+import * as styles from "./ExperienceBlock.module.css"
 
 const ExperienceBlock = ({ data }) => {
-  const [height, setHeight] = useState([]);
-  const elemRefs = useRef(data.map(() => createRef()));
-  const [hover, setHover] = useState([]);
+  const [height, setHeight] = React.useState([])
+  const elemRefs = React.useRef(data.map(() => React.createRef()))
+  const [hover, setHover] = React.useState([])
 
-  useEffect(() => {
-    const nextHeights = elemRefs.current.map((ref) => ref.current.clientHeight);
-    setHeight(nextHeights);
-  }, []);
+  React.useEffect(() => {
+    const nextHeights = elemRefs.current.map((ref) => ref.current.clientHeight)
+    setHeight(nextHeights)
+  }, [])
 
   const handleMouseOver = (event) => {
-    const hoverNode = elemRefs.current.map((ref) => ref.current);
-    const arrResults = [];
+    const hoverNode = elemRefs.current.map((ref) => ref.current)
+    const arrResults = []
 
     for (let i = 0; i < hoverNode.length; i++) {
       event.target !== hoverNode[i]
         ? (arrResults[i] = false)
-        : (arrResults[i] = true);
+        : (arrResults[i] = true)
     }
 
-    setHover(arrResults);
-  };
+    setHover(arrResults)
+  }
 
-  const handleMouseOut = () => setHover([]);
+  const handleMouseOut = () => setHover([])
 
-  useEffect(() => {
-    const hoverNode = elemRefs.current.map((ref) => ref.current);
+  React.useEffect(() => {
+    const hoverNode = elemRefs.current.map((ref) => ref.current)
 
     for (let i = 0; i < hoverNode.length; i++) {
-      hoverNode[i].addEventListener('mouseenter', handleMouseOver);
-      hoverNode[i].addEventListener('mouseleave', handleMouseOut);
+      hoverNode[i].addEventListener("mouseenter", handleMouseOver)
+      hoverNode[i].addEventListener("mouseleave", handleMouseOut)
     }
 
     return () => {
       for (let i = 0; i < hoverNode.length; i++) {
-        hoverNode[i].removeEventListener('mouseenter', handleMouseOver);
-        hoverNode[i].removeEventListener('mouseleave', handleMouseOut);
+        hoverNode[i].removeEventListener("mouseenter", handleMouseOver)
+        hoverNode[i].removeEventListener("mouseleave", handleMouseOut)
       }
-    };
-  }, []);
+    }
+  }, [])
 
   return (
-    <Fragment>
+    <React.Fragment>
       {data.map((elem, i) => {
         let activeFirst =
           (i === 0 && hover.length === 0) || hover[i]
             ? styles.active
-            : styles.inactive;
-        let activeHover = hover[i] ? styles.active : styles.inactive;
-        let activeClass = i !== 0 ? activeHover : activeFirst;
+            : styles.inactive
+        let activeHover = hover[i] ? styles.active : styles.inactive
+        let activeClass = i !== 0 ? activeHover : activeFirst
 
         return (
           <div
@@ -75,7 +75,7 @@ const ExperienceBlock = ({ data }) => {
                 {elem.site ? (
                   <span className={styles.site}>
                     <a href={elem.site} rel="nofollow">
-                      {elem.site.slice(elem.site.includes('https') ? 8 : 7)}
+                      {elem.site.slice(elem.site.includes("https") ? 8 : 7)}
                     </a>
                   </span>
                 ) : (
@@ -85,10 +85,10 @@ const ExperienceBlock = ({ data }) => {
               </div>
             </div>
           </div>
-        );
+        )
       })}
-    </Fragment>
-  );
-};
+    </React.Fragment>
+  )
+}
 
-export default ExperienceBlock;
+export default ExperienceBlock

@@ -1,7 +1,7 @@
 .timelineWrap:before,
 .timelineWrap:after {
   display: table;
-  content: ' ';
+  content: "";
 }
 
 .timelineWrap:after {

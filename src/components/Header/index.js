@@ -1,12 +1,12 @@
-import { Link } from 'gatsby';
-import PropTypes from 'prop-types';
-import React, { useState } from 'react';
-import SocialIcons from '../SocialIcons';
-import IconCont from '../../images/envelope.svg';
-import * as styles from './Header.module.css';
+import * as React from "react"
+import { Link } from "gatsby"
+import PropTypes from "prop-types"
+import SocialIcons from "../SocialIcons"
+import IconCont from "../../images/envelope.svg"
+import * as styles from "./Header.module.css"
 
 const Header = ({ siteTitle, siteLinks }) => {
-  const [collapse, setCollapse] = useState(false);
+  const [collapse, setCollapse] = React.useState(false)
 
   return (
     <header>
@@ -17,7 +17,7 @@ const Header = ({ siteTitle, siteLinks }) => {
           </Link>
         </div>
         <div
-          className={`${styles.touch}${collapse ? ' ' + styles.menuOpen : ''}`}
+          className={`${styles.touch}${collapse ? " " + styles.menuOpen : ""}`}
         >
           <Link to="/contact/" className={styles.contact}>
             <span className={styles.mask}></span>
@@ -42,7 +42,7 @@ const Header = ({ siteTitle, siteLinks }) => {
           </button>
         </div>
         <div
-          className={`${styles.nav}${collapse ? ' ' + styles.collapse : ''}`}
+          className={`${styles.nav}${collapse ? " " + styles.collapse : ""}`}
         >
           <div className={styles.navbar}>
             <ul>
@@ -61,17 +61,17 @@ const Header = ({ siteTitle, siteLinks }) => {
         </div>
       </div>
     </header>
-  );
-};
+  )
+}
 
 Header.defaultProps = {
   siteTitle: ``,
   siteLinks: [],
-};
+}
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
   siteLinks: PropTypes.arrayOf(PropTypes.object),
-};
+}
 
-export default Header;
+export default Header

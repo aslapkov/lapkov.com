@@ -73,7 +73,7 @@
 
 .collapse ul li a:before,
 .collapse ul li a:after {
-  content: '';
+  content: "";
   margin: 0 auto;
   position: absolute;
   right: 0;
@@ -103,27 +103,27 @@
   font-weight: 700;
 }
 
-.collapse ul li [aria-current='page'] span.show {
+.collapse ul li [aria-current="page"] span.show {
   left: 50px;
   opacity: 1;
   color: #fff;
   font-weight: 700;
 }
 
-.collapse ul li a[aria-current='page']:before {
+.collapse ul li a[aria-current="page"]:before {
   opacity: 0;
   transform: scale(1);
   transition: all 0.5s ease-out 0s;
 }
 
-.collapse ul li a[aria-current='page']:after {
+.collapse ul li a[aria-current="page"]:after {
   background: transparent none repeat scroll 0 0;
   border-width: 2px;
   height: 15px;
   width: 15px;
 }
 
-.collapse ul li a[aria-current='page']:after span.show {
+.collapse ul li a[aria-current="page"]:after span.show {
   left: 50px;
   opacity: 1;
   color: #fff;

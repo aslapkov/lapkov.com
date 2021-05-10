@@ -1,5 +1,5 @@
-import React from 'react';
-import * as styles from './SkillsBlock.module.css';
+import * as React from "react"
+import * as styles from "./SkillsBlock.module.css"
 
 const SkillsBlock = ({ data }) => (
   <div style={{ marginTop: `40px` }}>
@@ -18,9 +18,9 @@ const SkillsBlock = ({ data }) => (
             </span>
           </div>
         </div>
-      );
+      )
     })}
   </div>
-);
+)
 
-export default SkillsBlock;
+export default SkillsBlock

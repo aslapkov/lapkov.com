@@ -1,13 +1,13 @@
-import React, { Fragment } from 'react';
-import * as styles from './IconBlock.module.css';
+import * as React from "react"
+import * as styles from "./IconBlock.module.css"
 
 const IconBlock = ({ data }) => (
   <div className={styles.blockRow}>
     {data.map((elem, i) => {
-      const IconName = elem.iconName;
+      const IconName = elem.iconName
 
       return (
-        <Fragment key={i}>
+        <React.Fragment key={i}>
           <div className={styles.blockDiv}>
             <IconName
               height="100"
@@ -18,10 +18,10 @@ const IconBlock = ({ data }) => (
             <span className={styles.lab}>{elem.label}</span>
           </div>
           {i % 2 !== 0 && <div className={styles.w100}></div>}
-        </Fragment>
-      );
+        </React.Fragment>
+      )
     })}
   </div>
-);
+)
 
-export default IconBlock;
+export default IconBlock

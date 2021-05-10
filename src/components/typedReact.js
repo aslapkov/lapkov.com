@@ -1,25 +1,25 @@
-import React, { useRef, useEffect } from 'react';
-import Typed from 'typed.js';
+import * as React from "react"
+import Typed from "typed.js"
 
 const TypedReact = (props) => {
-  const spanEl = useRef(null);
+  const spanEl = React.useRef(null)
 
   const options = {
     strings: props.strings,
     typeSpeed: 40,
     backSpeed: 30,
-  };
+  }
 
-  useEffect(() => {
-    const typed = new Typed(spanEl.current, options);
+  React.useEffect(() => {
+    const typed = new Typed(spanEl.current, options)
 
     return () => {
       // to prevent memory leaks
-      typed.destroy();
-    };
-  });
+      typed.destroy()
+    }
+  })
 
-  return <span style={{ whiteSpace: 'pre' }} ref={spanEl} />;
-};
+  return <span style={{ whiteSpace: "pre" }} ref={spanEl} />
+}
 
-export default TypedReact;
+export default TypedReact

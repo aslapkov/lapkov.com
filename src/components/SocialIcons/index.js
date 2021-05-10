@@ -1,11 +1,11 @@
-import React, { Fragment } from 'react';
-import IconGithub from '../../images/github.svg';
-import IconTwitter from '../../images/twitter.svg';
-import IconLinkedin from '../../images/linkedin.svg';
-import * as styles from './SocialIcons.module.css';
+import * as React from "react"
+import IconGithub from "../../images/github.svg"
+import IconTwitter from "../../images/twitter.svg"
+import IconLinkedin from "../../images/linkedin.svg"
+import * as styles from "./SocialIcons.module.css"
 
 const SocialIcons = ({ num, color }) => (
-  <Fragment>
+  <React.Fragment>
     <a
       href="https://www.linkedin.com/in/aleksandr-lapkov/"
       target="_blank"
@@ -42,7 +42,7 @@ const SocialIcons = ({ num, color }) => (
         fill={color}
       />
     </a>
-  </Fragment>
-);
+  </React.Fragment>
+)
 
-export default SocialIcons;
+export default SocialIcons
