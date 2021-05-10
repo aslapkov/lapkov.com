@@ -151,7 +151,7 @@ module.exports = {
           position: `Full-stack dev, designer`,
           loc: `Freelance – `,
           site: `https://lapkov.com`,
-          info: `I’ve learned a lot of information about web technologies, including JavaScript, Node, React,
+          info: `I've learned a lot of information about web technologies, including JavaScript, Node, React,
           different databases, web servers and other. Afterwards I've created and participated in a dozen projects
           using these technologies. I did most of these projects on React and Node, they are all closed systems.
           Unfortunately I can't show and tell that I participated in them. Now I'm diligently studying everything
@@ -272,7 +272,7 @@ module.exports = {
         },
         {
           year: `2020`,
-          desc: `Fitness online project 'Nesvyataya' by professional trainer Daria Starikova`,
+          desc: `Fitness online project Nesvyataya by professional trainer Daria Starikova`,
           siteUrl: `https://nesvyataya.com`,
           siteName: `nesvyataya.com`,
         },

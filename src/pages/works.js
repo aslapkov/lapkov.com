@@ -38,7 +38,7 @@ const WorksPage = () => {
       </h1>
       <h4>These are part of the projects to can show</h4>
       <p>
-        There are not all of the works or projects I"ve participated in. The
+        There are not all of the works or projects I've participated in. The
         reason is some of them I cannot present, due to trade secrets, to the
         nature of the applications, they no longer exist and for some other
         reasons

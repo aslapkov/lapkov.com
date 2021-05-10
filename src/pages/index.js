@@ -52,7 +52,7 @@ const IndexPage = () => (
     <h4>About</h4>
     <blockquote>
       <p>
-        My name is Aleksandr. I"m a front-end, web developer and UX/UI designer.
+        My name is Aleksandr. I'm a front-end, web developer and UX/UI designer.
         I love to create JavaScript websites with a simple design, develop web
         applications based on business needs and especially solve customers or
         consumers problems. For the past 5 years I have been building modern and
