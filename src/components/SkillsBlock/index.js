@@ -1,9 +1,9 @@
 import * as React from "react"
 import * as styles from "./SkillsBlock.module.css"
 
-const SkillsBlock = ({ data }) => (
+const SkillsBlock = ({ dataSkills }) => (
   <div style={{ marginTop: `40px` }}>
-    {data.map((elem, i) => {
+    {dataSkills.map((elem, i) => {
       return (
         <div className={styles.skills} key={i}>
           <span className={styles.progress}>{elem.label}</span>

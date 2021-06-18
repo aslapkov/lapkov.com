@@ -1,9 +1,9 @@
 import * as React from "react"
 import * as styles from "./ExperienceBlock.module.css"
 
-const ExperienceBlock = ({ data }) => {
+const ExperienceBlock = ({ dataExperience }) => {
   const [height, setHeight] = React.useState([])
-  const elemRefs = React.useRef(data.map(() => React.createRef()))
+  const elemRefs = React.useRef(dataExperience.map(() => React.createRef()))
   const [hover, setHover] = React.useState([])
 
   React.useEffect(() => {
@@ -44,7 +44,7 @@ const ExperienceBlock = ({ data }) => {
 
   return (
     <React.Fragment>
-      {data.map((elem, i) => {
+      {dataExperience.map((elem, i) => {
         let activeFirst =
           (i === 0 && hover.length === 0) || hover[i]
             ? styles.active

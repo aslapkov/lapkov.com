@@ -1,10 +1,10 @@
 import * as React from "react"
 import * as styles from "./WorksBlock.module.css"
 
-const WorksBlock = ({ data }) => {
+const WorksBlock = ({ dataWorks }) => {
   return (
     <div style={{ marginTop: "40px" }}>
-      {data.map((elem, i) => {
+      {dataWorks.map((elem, i) => {
         const first = i === 0 && styles.first
 
         return (

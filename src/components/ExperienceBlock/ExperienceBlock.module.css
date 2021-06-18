@@ -40,7 +40,7 @@
 .timelineWrap .linest:after {
   border: 3px solid rgba(255, 255, 255, 0.15);
   border-radius: 50%;
-  content: '';
+  content: "";
   height: 15px;
   left: 15px;
   position: absolute;
@@ -107,7 +107,7 @@
 }
 
 .psmall {
-  font-size: 0.95em;
+  font-size: 1em;
   color: #ccc;
   line-height: 25px;
 }

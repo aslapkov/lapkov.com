@@ -1,28 +1,68 @@
 import * as React from "react"
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
+import { useStateMachine } from "little-state-machine"
+import { globalHistory, navigate } from "@reach/router"
+import { updateCurrentLanguage } from "../../actions/languageActions"
+import getNavLink from "../../utils/getNavLink"
+import { updateSetting } from "../../actions/settingActions"
+import translateLink from "../logic/translateLink"
+import nav from "../../data/nav"
+import header from "../../data/header"
 import SocialIcons from "../SocialIcons"
 import IconCont from "../../images/envelope.svg"
 import * as styles from "./Header.module.css"
 
-const Header = ({ siteTitle, siteLinks }) => {
+const Header = ({ currentLanguage }) => {
   const [collapse, setCollapse] = React.useState(false)
+  const { actions } = useStateMachine({
+    updateCurrentLanguage,
+    updateSetting,
+  })
+  const location = globalHistory.location
 
   return (
     <header>
       <div className={styles.col}>
         <div className={styles.logo}>
-          <Link to="/">
-            <span>{siteTitle}</span>
+          <Link to={translateLink("/", currentLanguage)}>
+            <span>{header[currentLanguage].title}</span>
           </Link>
         </div>
         <div
           className={`${styles.touch}${collapse ? " " + styles.menuOpen : ""}`}
         >
-          <Link to="/contact/" className={styles.contact}>
+          <select
+            className={styles.contactSelect}
+            aria-label="Select a language"
+            onChange={(e) => {
+              const selectedLanguage = e.target.value
+              actions.updateCurrentLanguage(e.target.value)
+
+              let url = location.pathname.substr(1)
+
+              switch (url) {
+                case "ru/":
+                  url = "ru"
+                  break
+              }
+
+              navigate(getNavLink(url, selectedLanguage))
+            }}
+            value={currentLanguage}
+          >
+            {/* eslint-disable jsx-a11y/accessible-emoji */}
+            <option value="en">🇦🇺 </option>
+            <option value="ru">🇷🇺 </option>
+            {/* eslint-enable jsx-a11y/accessible-emoji */}
+          </select>
+          <Link
+            to={translateLink("/contact", currentLanguage)}
+            className={styles.contact}
+          >
             <span className={styles.mask}></span>
             <span className={styles.label}>
-              <b>Contact me</b>
+              <b>{header[currentLanguage].contacts}</b>
               <span className={styles.iconCall}>
                 <IconCont height="25" width="25" fill="#000" />
               </span>
@@ -41,23 +81,41 @@ const Header = ({ siteTitle, siteLinks }) => {
             </span>
           </button>
         </div>
-        <div
-          className={`${styles.nav}${collapse ? " " + styles.collapse : ""}`}
-        >
-          <div className={styles.navbar}>
-            <ul>
-              {siteLinks.map((data) => (
-                <li key={data.id}>
-                  <Link to={data.slug}>
-                    <span>{data.name}</span>
-                  </Link>
-                </li>
-              ))}
-            </ul>
-            <p style={{ textAlign: `center` }}>
-              <SocialIcons num="25" color="#000" />
-            </p>
-          </div>
+      </div>
+      <div
+        className={`${styles.nav}${collapse ? " " + styles.collapse : ""}`}
+      >
+        <div className={styles.navbar}>
+          <ul>
+            <li>
+              <Link to={translateLink("/", currentLanguage)}>
+                <span>{nav[currentLanguage].home}</span>
+              </Link>
+            </li>
+            <li>
+              <Link to={translateLink("/skills", currentLanguage)}>
+                <span>{nav[currentLanguage].skills}</span>
+              </Link>
+            </li>
+            <li>
+              <Link to={translateLink("/works", currentLanguage)}>
+                <span>{nav[currentLanguage].works}</span>
+              </Link>
+            </li>
+            <li>
+              <Link to={translateLink("/experience", currentLanguage)}>
+                <span>{nav[currentLanguage].experience}</span>
+              </Link>
+            </li>
+            <li>
+              <Link to={translateLink("/contact", currentLanguage)}>
+                <span>{nav[currentLanguage].contact}</span>
+              </Link>
+            </li>
+          </ul>
+          <p style={{ textAlign: `center` }}>
+            <SocialIcons num="25" color="#000" />
+          </p>
         </div>
       </div>
     </header>
@@ -65,13 +123,11 @@ const Header = ({ siteTitle, siteLinks }) => {
 }
 
 Header.defaultProps = {
-  siteTitle: ``,
-  siteLinks: [],
+  currentLanguage: ``,
 }
 
 Header.propTypes = {
-  siteTitle: PropTypes.string,
-  siteLinks: PropTypes.arrayOf(PropTypes.object),
+  currentLanguage: PropTypes.string,
 }
 
 export default Header

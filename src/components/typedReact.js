@@ -6,7 +6,7 @@ const TypedReact = (props) => {
 
   const options = {
     strings: props.strings,
-    typeSpeed: 40,
+    typeSpeed: 50,
     backSpeed: 30,
   }
 

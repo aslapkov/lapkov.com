@@ -1,16 +1,19 @@
 import * as React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
+import { GatsbyImage } from "gatsby-plugin-image"
 
 const Image = () => {
   const data = useStaticQuery(
     graphql`
       query {
-        placeholderImage: file(relativePath: { eq: "i.jpg" }) {
+        file(relativePath: { eq: "i.jpg" }) {
           childImageSharp {
-            fixed(width: 200, height: 200) {
-              ...GatsbyImageSharpFixed
-            }
+            gatsbyImageData(
+              layout: FIXED,
+              placeholder: BLURRED,
+              width: 200,
+              height: 200
+            )
           }
         }
       }
@@ -18,8 +21,9 @@ const Image = () => {
   )
 
   return (
-    <Img
-      fixed={data.placeholderImage.childImageSharp.fixed}
+    <GatsbyImage
+      image={data.file.childImageSharp.gatsbyImageData}
+      alt="Me"
       style={{
         borderRadius: "50%",
         backgroundRepeat: "no-repeat",

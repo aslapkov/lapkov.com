@@ -1,10 +1,10 @@
 import Typography from "typography"
 
 const typography = new Typography({
-  baseFontSize: "16px",
+  baseFontSize: "15px",
   bodyColor: "hsl(255,255%,255%,0.9)",
-  headerFontFamily: ["Inconsolata", "sans-serif"],
-  bodyFontFamily: ["Inconsolata", "sans-serif"],
+  headerFontFamily: ["Nunito", "sans-serif"],
+  bodyFontFamily: ["Nunito", "sans-serif"],
   overrideStyles: () => ({
     a: {
       textDecoration: "none",
@@ -48,7 +48,7 @@ const typography = new Typography({
       marginBottom: "1.45rem",
     },
     h4: {
-      fontSize: "1.4rem",
+      fontSize: "1.3rem",
       marginBottom: "50px",
     },
     h5: {

@@ -10,7 +10,7 @@ const encode = (data) => {
     .join("&")
 }
 
-const ContactBlock = () => {
+const ContactBlock = ({ dataContact }) => {
   const [state, setState] = React.useState({})
   const [loading, setLoading] = React.useState(false)
   const [completeForm, setCompleteForm] = React.useState(false)
@@ -44,12 +44,7 @@ const ContactBlock = () => {
 
   return (
     <div className={styles.contact}>
-      <p>
-        To contact me you can send an <strong>email</strong>, message to{" "}
-        <strong>telegram</strong> or fill <strong>the form</strong> below.
-        <br />
-        You can also find me in <strong>social networks</strong>.
-      </p>
+      <p>{dataContact.p}</p>
       <p className={styles.base}>
         <a href="mailto:email@lapkov.com">
           <IconEmail
@@ -75,8 +70,8 @@ const ContactBlock = () => {
           telegram@aslapkov
         </a>
       </p>
-      <h4>Contact form</h4>
-      <h3>I"ll be glad to hear from you</h3>
+      <h4>{dataContact.h4}</h4>
+      <h3>{dataContact.h3}</h3>
       <form
         name="contact"
         method="post"
@@ -93,7 +88,7 @@ const ContactBlock = () => {
         />
         <p hidden>
           <label htmlFor="bot-field">
-            Don’t fill this out:{" "}
+            {dataContact.fill}{" "}
             <input
               type="text"
               name="bot-field"
@@ -111,7 +106,7 @@ const ContactBlock = () => {
                 aria-label="Name"
                 autoComplete="off"
                 onChange={handleChange}
-                placeholder="Name"
+                placeholder={dataContact.name}
               />
               <span className={styles.inputLabel} />
             </label>
@@ -139,7 +134,7 @@ const ContactBlock = () => {
                 name="message"
                 aria-label="Message"
                 onChange={handleChange}
-                placeholder="Message"
+                placeholder={dataContact.message}
               />
               <span className={styles.inputLabel} />
             </label>
@@ -148,7 +143,7 @@ const ContactBlock = () => {
         {!loading && completeForm ? (
           <div className={`${styles.formGroup} ${styles.full}`}>
             <span className={styles.notification}>
-              <i></i> Your message was sent. Thanks!
+              <i></i> {dataContact.success}
             </span>
           </div>
         ) : (
@@ -161,7 +156,11 @@ const ContactBlock = () => {
         <div className={`${styles.formGroup} ${styles.full}`}>
           <button type="submit" disabled={isInvalid}>
             <span className={styles.mask} />
-            {loading ? <span>Sending...</span> : <span>Send message</span>}
+            {loading ? (
+              <span>{dataContact.loading}</span>
+            ) : (
+              <span>{dataContact.send}</span>
+            )}
           </button>
         </div>
       </form>
