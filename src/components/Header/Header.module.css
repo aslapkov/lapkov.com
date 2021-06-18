@@ -159,6 +159,7 @@ button:hover .mask {
   }
 
   .contactSelect {
+    font-size: 16px;
     margin-right: 10px;
     padding: 5px 10px;
   }
