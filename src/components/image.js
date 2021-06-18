@@ -28,8 +28,8 @@ const Image = () => {
         borderRadius: "50%",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
-        marginBottom: "30px",
       }}
+      style={{ marginBottom: "30px" }}
     />
   )
 }
