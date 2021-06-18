@@ -24,7 +24,7 @@ const Image = () => {
     <GatsbyImage
       image={data.file.childImageSharp.gatsbyImageData}
       alt="Me"
-      style={{
+      imgStyle={{
         borderRadius: "50%",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
