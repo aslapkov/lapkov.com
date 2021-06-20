@@ -1,8 +1,6 @@
 import * as React from "react"
 import PropTypes from "prop-types"
-// import { useStaticQuery, graphql } from "gatsby"
 import { useStateMachine } from "little-state-machine"
-// import { GatsbyImage } from "gatsby-plugin-image"
 import { StaticImage } from "gatsby-plugin-image"
 import NavBar from "./Navbar"
 import Header from "./Header"
@@ -15,18 +13,6 @@ const Layout = ({
   location,
   defaultLang,
 }) => {
-  // const data = useStaticQuery(
-  //   graphql`
-  //     query {
-  //       file(relativePath: { eq: "back.png" }) {
-  //         childImageSharp {
-  //           gatsbyImageData(layout: FULL_WIDTH)
-  //         }
-  //       }
-  //     }
-  //   `
-  // )
-
   const {
     state: { language }
   } = useStateMachine()
@@ -38,7 +24,6 @@ const Layout = ({
   return (
     <React.Fragment>
       <div className={styles.imgDiv}>
-        {/*<GatsbyImage image={data.file.childImageSharp.gatsbyImageData} />*/}
         <StaticImage
           src="../images/back.png"
           layout="fullWidth"

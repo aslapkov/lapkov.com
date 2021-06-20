@@ -1,7 +1,5 @@
-const language = () => {
-  return {
-    currentLanguage: "",
-  }
+const language =  {
+  currentLanguage: "",
 }
 
 export default language

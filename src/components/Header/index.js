@@ -53,7 +53,7 @@ const Header = ({ currentLanguage }) => {
           >
             {/* eslint-disable jsx-a11y/accessible-emoji */}
             <option value="en">🇦🇺 Eng</option>
-            <option value="ru">🇷🇺 Ru</option>
+            <option value="ru">🇷🇺 Рус</option>
             {/* eslint-enable jsx-a11y/accessible-emoji */}
           </select>
           <Link
@@ -123,7 +123,7 @@ const Header = ({ currentLanguage }) => {
 }
 
 Header.defaultProps = {
-  currentLanguage: ``,
+  currentLanguage: "",
 }
 
 Header.propTypes = {
