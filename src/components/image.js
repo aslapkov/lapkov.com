@@ -24,12 +24,15 @@ const Image = () => {
     <GatsbyImage
       image={data.file.childImageSharp.gatsbyImageData}
       alt="Me"
+      style={{
+        marginBottom: "30px",
+        borderRadius: "50%",
+      }}
       imgStyle={{
         borderRadius: "50%",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
       }}
-      style={{ marginBottom: "30px" }}
     />
   )
 }

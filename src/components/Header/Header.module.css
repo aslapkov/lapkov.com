@@ -45,16 +45,20 @@ button {
 }
 
 .contactSelect {
+  font-size: 14px;
   margin-right: 20px;
   color: #fff;
   overflow: hidden;
   position: relative;
-  background: #141414;
+  background: none;
   outline: none;
   border: none;
-  border-left: 2px solid #ffff50;
-  padding: 5px 20px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 5px 10px;
   transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+  appearance: none;
+  cursor: pointer;
 }
 
 a.contact.button,
@@ -160,8 +164,10 @@ button:hover .mask {
 
   .contactSelect {
     font-size: 16px;
+    color: #000;
+    border: 1px solid #000;
     margin-right: 10px;
-    padding: 5px 10px;
+    padding: 3px 7px;
   }
 
   .label {

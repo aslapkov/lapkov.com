@@ -52,8 +52,8 @@ const Header = ({ currentLanguage }) => {
             value={currentLanguage}
           >
             {/* eslint-disable jsx-a11y/accessible-emoji */}
-            <option value="en">🇦🇺 </option>
-            <option value="ru">🇷🇺 </option>
+            <option value="en">🇦🇺 Eng</option>
+            <option value="ru">🇷🇺 Ru</option>
             {/* eslint-enable jsx-a11y/accessible-emoji */}
           </select>
           <Link
