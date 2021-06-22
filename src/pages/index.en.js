@@ -34,7 +34,7 @@ const IndexPage = () => (
   <Layout>
     <Seo
       title="I'm a front-end developer, web designer and SEO specialist"
-      description="My name is Aleksandr. I'm a front-end developer and UX/UI designer. I have been building modern and
+      description="My name is Aleksandr Lapkov. I'm a front-end developer and UX/UI designer. I have been building modern and
         progressive websites for small companies, organizations and start-ups."
     />
     <Image />
@@ -52,7 +52,7 @@ const IndexPage = () => (
     <h4>About</h4>
     <blockquote>
       <p>
-        My name is Aleksandr. I'm a front-end, web developer and UX/UI designer.
+        My name is <strong>Aleksandr Lapkov</strong>. I'm a front-end, web developer and UX/UI designer.
         I love to create JavaScript/TypeScript websites with a simple design, develop web
         applications based on business needs and especially solve customers or
         consumers problems. For the past 5 years I have been building modern and
