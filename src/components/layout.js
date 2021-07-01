@@ -19,7 +19,7 @@ const Layout = ({
   const { currentLanguage } =
     language && language.currentLanguage
       ? language
-      : { currentLanguage: "en" }
+      : { currentLanguage: defaultLang }
 
   return (
     <React.Fragment>

@@ -5,9 +5,10 @@ import TypedReact from "../components/typedReact"
 import WorksBlock from "../components/WorksBlock"
 import dataWorks from "../data/ru/works"
 
-const WorksPage = () => (
-  <Layout>
+const WorksPage = ({ location }) => (
+  <Layout location={location} defaultLang="ru">
     <Seo
+      location={location}
       title="Работы"
       description="Это часть моих работ и проектов, в которых я участвовал. Узнайте больше обо мне на домашней странице."
       slug="/works/"

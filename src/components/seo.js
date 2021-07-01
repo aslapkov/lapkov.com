@@ -1,9 +1,16 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
+import { getCurrentLangKey, getLangs, getUrlForLang } from "ptz-i18n"
 import { useStaticQuery, graphql } from "gatsby"
+import { useStateMachine } from "little-state-machine"
+import { updateCurrentLanguage } from "../actions/languageActions"
 
-const Seo = ({ description, lang, meta, slug, title }) => {
+const Seo = ({
+  location,
+  title,
+  description,
+}) => {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -16,18 +23,37 @@ const Seo = ({ description, lang, meta, slug, title }) => {
             social {
               twitter
             }
+            languages {
+              langs
+              defaultLangKey
+            }
           }
         }
       }
     `
   )
 
+  const { actions } = useStateMachine({ updateCurrentLanguage })
+
   const metaDescription = description || site.siteMetadata.description
-  const url = `${site.siteMetadata.siteUrl}${slug}`
+  const { langs, defaultLangKey } = site.siteMetadata.languages
+  const url = location.pathname
+  const langKey = getCurrentLangKey(langs, defaultLangKey, url)
+  const homeLink = `/${langKey}`.replace(`/${defaultLangKey}/`, "/")
+
+  React.useEffect(() => {
+    actions.updateCurrentLanguage(
+      getLangs(langs, langKey, getUrlForLang(homeLink, url)).filter(
+        ({ selected }) => selected
+      )[0].langKey
+    )
+  }, [])
 
   return (
     <Helmet
-      htmlAttributes={{ lang }}
+      htmlAttributes={{
+        lang: langKey,
+      }}
       title={title}
       titleTemplate={`%s | ${site.siteMetadata.title}`}
       link={[
@@ -75,20 +101,17 @@ const Seo = ({ description, lang, meta, slug, title }) => {
 }
 
 Seo.defaultProps = {
-  lang: `en`,
-  link: [],
-  meta: [],
+  location: {
+    pathname: ``
+  },
+  title: ``,
   description: ``,
-  slug: ``,
 }
 
 Seo.propTypes = {
-  lang: PropTypes.string,
+  location: PropTypes.object,
   title: PropTypes.string.isRequired,
-  link: PropTypes.arrayOf(PropTypes.object),
-  meta: PropTypes.arrayOf(PropTypes.object),
   description: PropTypes.string,
-  slug: PropTypes.string,
 }
 
 export default Seo

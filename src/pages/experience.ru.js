@@ -5,9 +5,10 @@ import TypedReact from "../components/typedReact"
 import ExperienceBlock from "../components/ExperienceBlock"
 import dataExperience from "../data/ru/experience"
 
-const ExperiencePage = () => (
-  <Layout>
+const ExperiencePage = ({ location }) => (
+  <Layout location={location} defaultLang="ru">
     <Seo
+      location={location}
       title="Опыт"
       description="Небольшая хронология моего опыта. Шаг за шагом вы можете узнать о моих лучших практиках."
       slug="/experience/"

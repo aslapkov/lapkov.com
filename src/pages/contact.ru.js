@@ -5,9 +5,10 @@ import TypedReact from "../components/typedReact"
 import ContactBlock from "../components/ContactBlock"
 import dataContact from "../data/ru/contact"
 
-const ContactPage = () => (
-  <Layout>
+const ContactPage = ({ location }) => (
+  <Layout location={location} defaultLang="ru">
     <Seo
+      location={location}
       title="Контакты"
       description="Чтобы связаться со мной, вы можете отправить email или сообщение в telegram."
       slug="/contacts/"

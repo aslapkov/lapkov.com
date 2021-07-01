@@ -4,9 +4,9 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import Seo from "../components/seo"
 
-const NotFoundPage = () => (
-  <Layout>
-    <Seo title="404 PAGE NOT FOUND" />
+const NotFoundPage = ({ location }) => (
+  <Layout location={location} defaultLang="en">
+    <Seo location={location} title="404 PAGE NOT FOUND" />
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>

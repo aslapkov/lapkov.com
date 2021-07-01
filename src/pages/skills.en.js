@@ -5,9 +5,10 @@ import TypedReact from "../components/typedReact"
 import SkillsBlock from "../components/SkillsBlock"
 import dataSkills from "../data/en/skills"
 
-const SkillsPage = () => (
-  <Layout defaultLang="en">
+const SkillsPage = ({ location }) => (
+  <Layout location={location} defaultLang="en">
     <Seo
+      location={location}
       title="Technical skills"
       description="Here are the developing skills in which I succeeded the most and I'm active using in my projects."
       slug="/skills"

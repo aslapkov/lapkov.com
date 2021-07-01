@@ -30,9 +30,10 @@ const dataIcon = [
   },
 ]
 
-const IndexPage = () => (
-  <Layout>
+const IndexPage = ({ location }) => (
+  <Layout location={location} defaultLang="ru">
     <Seo
+      location={location}
       title="Я фронтенд-разработчик, веб-дизайнер и SEO-специалист."
       description="Меня зовут Александр Лапков. Я фронтенд-разработчик и UX/UI дизайнер.
       Я занимаюсь созданием современных и прогрессивных веб-сайтов для небольших компаний,
