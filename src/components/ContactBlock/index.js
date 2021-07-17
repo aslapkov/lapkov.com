@@ -57,7 +57,7 @@ const ContactBlock = ({ dataContact }) => {
         </a>
         <br />
         <a
-          href="https://t.me/aslapkov"
+          href="https://t.me/alapkov"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -67,7 +67,7 @@ const ContactBlock = ({ dataContact }) => {
             className={styles.iconStyle}
             fill="#777"
           />{" "}
-          telegram@aslapkov
+          telegram@alapkov
         </a>
       </p>
       <h4>{dataContact.h4}</h4>

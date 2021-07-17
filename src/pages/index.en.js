@@ -14,19 +14,19 @@ import IconSeo from "../images/seo.svg"
 const dataIcon = [
   {
     iconName: IconCode,
-    label: `Programming javascript websites, apps`,
+    label: `Programming websites, apps`,
   },
   {
     iconName: IconDesign,
-    label: `Development clean UI/UX design for apps`,
-  },
-  {
-    iconName: IconSupport,
-    label: `Support small projects and websites`,
+    label: `Development clean UI/UX design`,
   },
   {
     iconName: IconSeo,
-    label: `Search engine optimization of sites`,
+    label: `Search engine optimization (SEO)`,
+  },
+  {
+    iconName: IconSupport,
+    label: `Server support for projects`,
   },
 ]
 

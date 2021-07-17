@@ -3,10 +3,9 @@ import * as React from "react"
 const dataContact = {
   p: (
     <React.Fragment>
-      To contact me you can send an <strong>email</strong>, message to{" "}
-      <strong>telegram</strong> or fill <strong>the form</strong> below.
-      <br />
-      You can also find me in <strong>social networks</strong>.
+      To contact me you can send an <a href="mailto:email@lapkov.com">email</a>, message to {" "}
+      <a href="https://t.me/alapkov" target="_blank" rel="noopener noreferrer">telegram</a> {" "}
+      or fill <strong>the form</strong> below. You can also find me in <strong>social networks</strong>.
     </React.Fragment>
   ),
   h4: "Contact form",
