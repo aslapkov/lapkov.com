@@ -18,11 +18,11 @@ const dataIcon = [
   },
   {
     iconName: IconDesign,
-    label: `Development clean UI/UX design`,
+    label: `Development UI/UX design`,
   },
   {
     iconName: IconSeo,
-    label: `Search engine optimization (SEO)`,
+    label: `Search engine optimization`,
   },
   {
     iconName: IconSupport,
