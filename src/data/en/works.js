@@ -14,7 +14,7 @@ const dataWorks = [
   {
     year: `2020`,
     desc: `Fitness online project Nesvyataya by professional trainer Daria Starikova.`,
-    siteUrl: `nesvyataya-aslapkov.vercel.app`,
+    siteUrl: `https://nesvyataya-aslapkov.vercel.app`,
     siteName: `nesvyataya.com`,
   },
   {

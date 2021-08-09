@@ -14,7 +14,7 @@ const dataWorks = [
   {
     year: `2020`,
     desc: `Фитнес-онлайн-проект Несвятая от профессионального тренера Дарьи Стариковой.`,
-    siteUrl: `nesvyataya-aslapkov.vercel.app`,
+    siteUrl: `https://nesvyataya-aslapkov.vercel.app`,
     siteName: `nesvyataya.com`,
   },
   {
