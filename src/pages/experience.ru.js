@@ -9,7 +9,7 @@ const ExperiencePage = ({ location }) => (
   <Layout location={location} defaultLang="ru">
     <Seo
       location={location}
-      title="Опыт"
+      title="Опыт | А. Лапков"
       description="Небольшая хронология моего опыта. Шаг за шагом вы можете узнать о моих лучших практиках."
       slug="/experience/"
     />

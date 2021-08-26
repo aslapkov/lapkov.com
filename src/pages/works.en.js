@@ -9,7 +9,7 @@ const WorksPage = ({ location }) => (
   <Layout location={location} defaultLang="en">
     <Seo
       location={location}
-      title="Works"
+      title="Works | A. Lapkov"
       description="This is a part of my works and projects in which I participated. Learn more about me on the home page."
       slug="/works/"
     />
@@ -22,7 +22,7 @@ const WorksPage = ({ location }) => (
       There are not all of the works or projects I've participated in. The
       reason is some of them I cannot present, due to trade secrets, to the
       nature of the applications, they no longer exist and for some other
-      reasons
+      reasons.
     </p>
     <WorksBlock dataWorks={dataWorks} />
   </Layout>

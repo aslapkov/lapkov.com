@@ -16,7 +16,6 @@ const Seo = ({
       query {
         site {
           siteMetadata {
-            title
             description
             author
             siteUrl
@@ -55,7 +54,7 @@ const Seo = ({
         lang: langKey,
       }}
       title={title}
-      titleTemplate={`%s | ${site.siteMetadata.title}`}
+      // titleTemplate={`%s`}
       link={[
         {
           rel: `canonical`,

@@ -11,7 +11,7 @@ module.exports = {
     PRESERVE_FILE_DOWNLOAD_CACHE: true,
   },
   siteMetadata: {
-    title: `A. Lapkov`,
+    // title: `A. Lapkov`,
     description: `My personal site built with Gatsby. Here you can find my works and projects that I lead.`,
     author: `A. Lapkov`,
     siteUrl: `https://lapkov.com`,

@@ -9,7 +9,7 @@ const ContactPage = ({ location }) => (
   <Layout location={location} defaultLang="ru">
     <Seo
       location={location}
-      title="Контакты"
+      title="Контакты | А. Лапков"
       description="Чтобы связаться со мной, вы можете отправить email или сообщение в telegram."
       slug="/contacts/"
     />
