@@ -49,7 +49,7 @@ const typography = new Typography({
     },
     h4: {
       fontSize: "1.3rem",
-      marginBottom: "50px",
+      marginBottom: "2rem",
     },
     h5: {
       fontSize: "0.85028rem",

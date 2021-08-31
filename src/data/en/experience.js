@@ -11,10 +11,24 @@ const dataExperience = [
     related to JavaScript and the whole modern web.`,
   },
   {
+    period: `Jun 2021`,
+    position: `Front-end dev`,
+    loc: `Ola Smile, Minsk – `,
+    site: `https://olasmilenow.by`,
+    info: `скоро...`,
+  },
+  {
+    period: `Mar 2021`,
+    position: `Front-end dev`,
+    loc: `Beleks, Gomel – `,
+    site: `http://beleks.com`,
+    info: `скоро...`,
+  },
+  {
     period: `Oct 2020`,
     position: `Front-end dev, designer`,
     loc: `Darya, Minsk – `,
-    site: `https://nesvyataya.com`,
+    site: `https://nesvyataya-aslapkov.vercel.app`,
     info: `soon...`,
   },
   {
@@ -91,8 +105,8 @@ const dataExperience = [
   {
     period: `Mar 2017`,
     position: `Front-end dev, designer, SEO`,
-    loc: `Doctor Ayrapetyan, Moscow – `,
-    site: `http://artmedest.ru`,
+    loc: `Doctor Ayrapetyan, Moscow – (site does not work)`,
+    site: ``,
     info: `Website fot rhinoplasty surgeon Artashes Ayrapetyan from Moscow. He is one of
     the few specialists in the market of aesthetic and plastic surgery who came to the specialty right away
     like a plastic surgeon.`,
