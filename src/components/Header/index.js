@@ -33,6 +33,7 @@ const Header = ({ currentLanguage }) => {
           </Link>
         </div>
         <div
+          ref={mobileNavRef}
           className={`${styles.touch}${collapse ? " " + styles.menuOpen : ""}`}
         >
           <select
@@ -86,7 +87,6 @@ const Header = ({ currentLanguage }) => {
         </div>
       </div>
       <div
-        ref={mobileNavRef}
         className={`${styles.nav}${collapse ? " " + styles.collapse : ""}`}
       >
         <div className={styles.navbar}>
