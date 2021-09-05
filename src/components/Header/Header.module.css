@@ -251,7 +251,7 @@ button:hover .mask {
     display: block !important;
     opacity: 1;
     visibility: visible;
-    padding: 40px 0;
+    padding: 40px 0 0;
     box-shadow: none;
     overflow-x: visible;
     -webkit-overflow-scrolling: touch;

@@ -7,6 +7,7 @@ import { updateCurrentLanguage } from "../../actions/languageActions"
 import getNavLink from "../../utils/getNavLink"
 import { updateSetting } from "../../actions/settingActions"
 import translateLink from "../logic/translateLink"
+import useOnClickOutside from "../../hooks/useOnClickOutside"
 import nav from "../../data/nav"
 import header from "../../data/header"
 import SocialIcons from "../SocialIcons"
@@ -20,6 +21,8 @@ const Header = ({ currentLanguage }) => {
     updateSetting,
   })
   const location = globalHistory.location
+  const mobileNavRef = React.useRef(null)
+  useOnClickOutside(mobileNavRef, () => setCollapse(false))
 
   return (
     <header>
@@ -69,9 +72,9 @@ const Header = ({ currentLanguage }) => {
             </span>
           </Link>
           <button
-            onClick={() => setCollapse(!collapse)}
             type="button"
             className={styles.button}
+            onClick={() => setCollapse(!collapse)}
           >
             <span className={styles.iconMenu}>
               <span className={`${styles.lineMenu} ${styles.lineTop}`}></span>
@@ -83,6 +86,7 @@ const Header = ({ currentLanguage }) => {
         </div>
       </div>
       <div
+        ref={mobileNavRef}
         className={`${styles.nav}${collapse ? " " + styles.collapse : ""}`}
       >
         <div className={styles.navbar}>
