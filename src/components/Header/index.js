@@ -25,7 +25,7 @@ const Header = ({ currentLanguage }) => {
   useOnClickOutside(mobileNavRef, () => setCollapse(false))
 
   return (
-    <header>
+    <header ref={mobileNavRef}>
       <div className={styles.col}>
         <div className={styles.logo}>
           <Link to={translateLink("/", currentLanguage)}>
@@ -33,7 +33,6 @@ const Header = ({ currentLanguage }) => {
           </Link>
         </div>
         <div
-          ref={mobileNavRef}
           className={`${styles.touch}${collapse ? " " + styles.menuOpen : ""}`}
         >
           <select
