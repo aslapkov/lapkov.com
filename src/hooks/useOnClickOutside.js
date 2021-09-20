@@ -1,11 +1,8 @@
 import * as React from "react"
 
-export default function useOnClickOutside(
-  ref: { current: { contains: (arg: any) => any } },
-  handler: (arg: any) => void
-) {
+export default function useOnClickOutside(ref, handler) {
   React.useEffect(() => {
-    const listener = (event: { target: any }) => {
+    const listener = (event) => {
       if (!ref.current || ref.current.contains(event.target)) {
         return
       }
