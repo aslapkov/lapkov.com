@@ -291,13 +291,24 @@ button:hover .mask {
 
   .navbar ul li a span {
     display: inline-block;
-    color: #141414;
+    color: #717171;
     font-size: 1.2em;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px dashed #717171;
     padding-bottom: 5px;
     letter-spacing: 1.5px;
     line-height: 1;
     text-transform: uppercase;
+    transition: .3s;
+  }
+
+  .navbar ul li a:hover span {
+    color: #141414;
+    border-bottom: 1px solid #000;
+  }
+
+  .navbar ul li a[aria-current="page"] span {
+    color: #141414;
+    border-bottom: 1px solid #000;
   }
 
   .navbar .socialsMenu {
