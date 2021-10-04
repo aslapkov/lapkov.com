@@ -1,5 +1,11 @@
 const dataWorks = [
-    {
+  {
+    year: `2021`,
+    desc: `Concept for a fast online store written in Gatsby js + Shopify + Prismic (JAMStack) and deployed with Gatsby Cloud.`,
+    siteUrl: `https://satiby.gatsbyjs.io`,
+    siteName: `satiby.gatsbyjs.io`,
+  },
+  {
     year: `2021`,
     desc: `A new brand on the Belarusian market of teeth whitening using the latest painless technology.`,
     siteUrl: `https://olasmilenow.by`,
