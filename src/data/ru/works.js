@@ -12,18 +12,6 @@ const dataWorks = [
     siteName: `olasmilenow.by`,
   },
   {
-    year: `2021`,
-    desc: `Сегодня Белекс - это группа компаний, состоящая из 6 филиалов в 5 странах, собственный автопарк которой насчитывает более 80 грузовиков.`,
-    siteUrl: `http://beleks.com`,
-    siteName: `beleks.com`,
-  },
-  {
-    year: `2020`,
-    desc: `Фитнес-онлайн-проект Несвятая от профессионального тренера Дарьи Стариковой.`,
-    siteUrl: `https://nesvyataya-aslapkov.vercel.app`,
-    siteName: `nesvyataya.com`,
-  },
-  {
     year: `2020`,
     desc: `Уникальное средство для увеличения массы тела и борьбы с усталостью во время тренировок.`,
     siteUrl: `https://samyun-online.vercel.app`,
@@ -34,6 +22,18 @@ const dataWorks = [
     desc: `Компания занимается установкой натяжных потолков в Гомеле 10 лет.`,
     siteUrl: `https://sofitto-by.vercel.app`,
     siteName: `sofitto.by`,
+  },
+  {
+    year: `2020`,
+    desc: `Фитнес-онлайн-проект Несвятая от профессионального тренера Дарьи Стариковой.`,
+    siteUrl: `https://nesvyataya-aslapkov.vercel.app`,
+    siteName: `nesvyataya.com`,
+  },
+  {
+    year: `2020`,
+    desc: `Zaiger в Беларуси – системы безопасности и связи.`,
+    siteUrl: `https://www.zaiger.by`,
+    siteName: `www.zaiger.by`,
   },
   {
     year: `2020`,
@@ -58,6 +58,12 @@ const dataWorks = [
     desc: `Диджитал-агентство из Беларуси с амбициями покорить индустрию.`,
     siteUrl: `#smuzi.agency`,
     siteName: `smuzi.agency`,
+  },
+  {
+    year: `2020`,
+    desc: `Сегодня Белекс - это группа компаний, состоящая из 6 филиалов в 5 странах, собственный автопарк которой насчитывает более 80 грузовиков.`,
+    siteUrl: `http://beleks.com`,
+    siteName: `beleks.com`,
   },
   {
     year: `2019`,

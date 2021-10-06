@@ -12,18 +12,6 @@ const dataWorks = [
     siteName: `olasmilenow.by`,
   },
   {
-    year: `2021`,
-    desc: `Nowadays Beleks is the group of companies consisting 6 branches 5 countries which own fleet contains more than 80 truck.`,
-    siteUrl: `http://beleks.com`,
-    siteName: `beleks.com`,
-  },
-  {
-    year: `2020`,
-    desc: `Fitness online project Nesvyataya by professional trainer Daria Starikova.`,
-    siteUrl: `https://nesvyataya-aslapkov.vercel.app`,
-    siteName: `nesvyataya.com`,
-  },
-  {
     year: `2020`,
     desc: `A unique remedy for increasing body weight and combating fatigue during training.`,
     siteUrl: `https://samyun-online.vercel.app`,
@@ -34,6 +22,18 @@ const dataWorks = [
     desc: `The company has been installing stretch ceilings in Gomel for 10 years.`,
     siteUrl: `https://sofitto-by.vercel.app`,
     siteName: `sofitto.by`,
+  },
+  {
+    year: `2020`,
+    desc: `Zaiger in Belarus - security and communication systems.`,
+    siteUrl: `https://nesvyataya-aslapkov.vercel.app`,
+    siteName: `nesvyataya.com`,
+  },
+  {
+    year: `2020`,
+    desc: `The company has been installing stretch ceilings in Gomel for 10 years.`,
+    siteUrl: `https://www.zaiger.by`,
+    siteName: `www.zaiger.by`,
   },
   {
     year: `2020`,
@@ -58,6 +58,12 @@ const dataWorks = [
     desc: `Digital agency from Belarus with ambitions to conquer industry.`,
     siteUrl: `#smuzi.agency`,
     siteName: `smuzi.agency`,
+  },
+  {
+    year: `2020`,
+    desc: `Nowadays Beleks is the group of companies consisting 6 branches 5 countries which own fleet contains more than 80 truck.`,
+    siteUrl: `http://beleks.com`,
+    siteName: `beleks.com`,
   },
   {
     year: `2019`,
