@@ -31,7 +31,7 @@ const dataWorks = [
   },
   {
     year: `2020`,
-    desc: `The company has been installing stretch ceilings in Gomel for 10 years.`,
+    desc: `Zaiger in Belarus - security and communication systems.`,
     siteUrl: `https://www.zaiger.by`,
     siteName: `www.zaiger.by`,
   },
