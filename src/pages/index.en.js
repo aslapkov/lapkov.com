@@ -60,14 +60,14 @@ const IndexPage = ({ location }) => (
         progressive websites for small companies, organizations and start-ups,
         which helped them reach their business goals including by attracting
         many new clients via Google, Yandex etc. See a small part of my projects
-        on the <Link to={translateLink("/works", "en")}>works</Link> page. I like getting more and more
+        on the <Link to={translateLink("/works/", "en")}>works</Link> page. I like getting more and more
         educated in the modern web. I"m studying every day and ready to learn
         new things.
       </p>
       <p>
         At the moment I am in search for new and interesting web projects. If
         you have some I could work on, please{" "}
-        <Link to={translateLink("/contact", "en")}>contact me</Link>!
+        <Link to={translateLink("/contact/", "en")}>contact me</Link>!
       </p>
     </blockquote>
     <h4>What can I do?</h4>

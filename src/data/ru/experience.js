@@ -11,6 +11,13 @@ const dataExperience = [
     Сейчас я активно изучаю все, что связано с JavaScript и всей современной сетью.`,
   },
   {
+    period: `Авг 2021`,
+    position: `Разработчик, дизайнер, SEO`,
+    loc: `Сати, Гомель – `,
+    site: `https://satiby.gatsbyjs.io`,
+    info: `скоро...`,
+  },
+  {
     period: `Июн 2021`,
     position: `Веб-разработчик`,
     loc: `Ola Smile, Минск – `,
@@ -18,10 +25,17 @@ const dataExperience = [
     info: `скоро...`,
   },
   {
-    period: `Мар 2021`,
-    position: `Веб-разработчик`,
-    loc: `Белэкс, Гомель – `,
-    site: `http://beleks.com`,
+    period: `Дек 2020`,
+    position: `Веб-разработчик, дизайнер`,
+    loc: `Samyun Wan, Минск – `,
+    site: `https://samyun-online.vercel.app`,
+    info: `скоро...`,
+  },
+  {
+    period: `Ноя 2020`,
+    position: `Веб-разработчик, дизайнер`,
+    loc: `Sofitto, Гомель – `,
+    site: `https://sofitto-by.vercel.app`,
     info: `скоро...`,
   },
   {
@@ -50,6 +64,13 @@ const dataExperience = [
     position: `Веб-разработчик, дизайнер`,
     loc: `Архимедес дизайн, Минск – `,
     site: `https://design.archimedes.by`,
+    info: `скоро...`,
+  },
+  {
+    period: `Мар 2020`,
+    position: `Веб-разработчик`,
+    loc: `Белэкс, Гомель – `,
+    site: `http://beleks.com`,
     info: `скоро...`,
   },
   {

@@ -60,7 +60,7 @@ const Header = ({ currentLanguage }) => {
             {/* eslint-enable jsx-a11y/accessible-emoji */}
           </select>
           <Link
-            to={translateLink("/contact", currentLanguage)}
+            to={translateLink("/contact/", currentLanguage)}
             className={styles.contact}
           >
             <span className={styles.mask}></span>
