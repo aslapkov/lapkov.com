@@ -20,7 +20,7 @@ const NavBar = ({ currentLanguage }) => (
           </Link>
         </li>
         <li>
-          <Link to={translateLink("/skills", currentLanguage)}>
+          <Link to={translateLink("/skills/", currentLanguage)}>
             <span className={styles.hide}>
               {nav[currentLanguage].skills}
             </span>
@@ -30,7 +30,7 @@ const NavBar = ({ currentLanguage }) => (
           </Link>
         </li>
         <li>
-          <Link to={translateLink("/works", currentLanguage)}>
+          <Link to={translateLink("/works/", currentLanguage)}>
             <span className={styles.hide}>
               {nav[currentLanguage].works}
             </span>
@@ -40,7 +40,7 @@ const NavBar = ({ currentLanguage }) => (
           </Link>
         </li>
         <li>
-          <Link to={translateLink("/experience", currentLanguage)}>
+          <Link to={translateLink("/experience/", currentLanguage)}>
             <span className={styles.hide}>
               {nav[currentLanguage].experience}
             </span>
@@ -50,7 +50,7 @@ const NavBar = ({ currentLanguage }) => (
           </Link>
         </li>
         <li>
-          <Link to={translateLink("/contact", currentLanguage)}>
+          <Link to={translateLink("/contact/", currentLanguage)}>
             <span className={styles.hide}>
               {nav[currentLanguage].contact}
             </span>

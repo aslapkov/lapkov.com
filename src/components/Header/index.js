@@ -96,22 +96,22 @@ const Header = ({ currentLanguage }) => {
               </Link>
             </li>
             <li>
-              <Link to={translateLink("/skills", currentLanguage)}>
+              <Link to={translateLink("/skills/", currentLanguage)}>
                 <span>{nav[currentLanguage].skills}</span>
               </Link>
             </li>
             <li>
-              <Link to={translateLink("/works", currentLanguage)}>
+              <Link to={translateLink("/works/", currentLanguage)}>
                 <span>{nav[currentLanguage].works}</span>
               </Link>
             </li>
             <li>
-              <Link to={translateLink("/experience", currentLanguage)}>
+              <Link to={translateLink("/experience/", currentLanguage)}>
                 <span>{nav[currentLanguage].experience}</span>
               </Link>
             </li>
             <li>
-              <Link to={translateLink("/contact", currentLanguage)}>
+              <Link to={translateLink("/contact/", currentLanguage)}>
                 <span>{nav[currentLanguage].contact}</span>
               </Link>
             </li>
