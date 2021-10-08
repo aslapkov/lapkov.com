@@ -24,7 +24,7 @@ const dataExperience = [
     site: `https://olasmilenow.by`,
     info: `soon...`,
   },
-    {
+  {
     period: `Dec 2020`,
     position: `Front-end dev, designer`,
     loc: `Samyun Wan, Minsk – `,
