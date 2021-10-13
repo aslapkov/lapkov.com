@@ -4,11 +4,9 @@
   width: 100%;
   z-index: -1;
   position: fixed;
-  background-position: center;
-  background-size: cover;
-  transform: translateZ(0);
-  backface-visibility: hidden;
-  background-color: #000;
+  background: #141414;
+  background: -webkit-linear-gradient(to right, #141414, #313131);
+  background: linear-gradient(to right, #141414, #313131);
 }
 
 .container {

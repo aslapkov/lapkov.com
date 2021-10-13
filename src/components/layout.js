@@ -1,7 +1,6 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { useStateMachine } from "little-state-machine"
-import { StaticImage } from "gatsby-plugin-image"
 import NavBar from "./Navbar"
 import Header from "./Header"
 import Footer from "./Footer"
@@ -23,13 +22,7 @@ const Layout = ({
 
   return (
     <React.Fragment>
-      <div className={styles.imgDiv}>
-        <StaticImage
-          src="../images/back.png"
-          layout="fullWidth"
-          alt="Back image"
-        />
-      </div>
+      <div className={styles.imgDiv} />
       <div className={styles.container}>
         <div className={styles.row}>
           <div className={styles.col3}>
