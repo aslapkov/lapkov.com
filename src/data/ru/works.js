@@ -56,7 +56,7 @@ const dataWorks = [
   {
     year: `2020`,
     desc: `Диджитал-агентство из Беларуси с амбициями покорить индустрию.`,
-    siteUrl: `#smuzi.agency`,
+    siteUrl: `https://smuzi-agency.vercel.app`,
     siteName: `smuzi.agency`,
   },
   {
@@ -80,7 +80,7 @@ const dataWorks = [
   {
     year: `2018`,
     desc: `Кабинет профессионального массажа в центре Минска.`,
-    siteUrl: `#synergymassage.by`,
+    siteUrl: `https://synergymassage-by.vercel.app`,
     siteName: `synergymassage.by`,
   },
   {
@@ -158,7 +158,7 @@ const dataWorks = [
   {
     year: `2016`,
     desc: `Разработка сайта по заказу артистов цирка Du Soleil.`,
-    siteUrl: `#vcirke.com`,
+    siteUrl: `https://vcirke-com.vercel.app`,
     siteName: `vcirke.com`,
   },
   {

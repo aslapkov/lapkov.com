@@ -56,7 +56,7 @@ const dataWorks = [
   {
     year: `2020`,
     desc: `Digital agency from Belarus with ambitions to conquer industry.`,
-    siteUrl: `#smuzi.agency`,
+    siteUrl: `https://smuzi-agency.vercel.app`,
     siteName: `smuzi.agency`,
   },
   {
@@ -80,7 +80,7 @@ const dataWorks = [
   {
     year: `2018`,
     desc: `The professional massage room in center Minsk.`,
-    siteUrl: `#synergymassage.by`,
+    siteUrl: `https://synergymassage-by.vercel.app`,
     siteName: `synergymassage.by`,
   },
   {
@@ -158,7 +158,7 @@ const dataWorks = [
   {
     year: `2016`,
     desc: `Development site by order the circus performers Du Soleil.`,
-    siteUrl: `#vcirke.com`,
+    siteUrl: `https://vcirke-com.vercel.app`,
     siteName: `vcirke.com`,
   },
   {
