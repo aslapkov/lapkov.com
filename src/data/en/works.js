@@ -25,7 +25,7 @@ const dataWorks = [
   },
   {
     year: `2020`,
-    desc: `Zaiger in Belarus - security and communication systems.`,
+    desc: `Fitness online project "Nesvyataya" from professional trainer Daria Starikova.`,
     siteUrl: `https://nesvyataya-aslapkov.vercel.app`,
     siteName: `nesvyataya.com`,
   },
