@@ -6,29 +6,7 @@ import Seo from "../components/seo"
 import IconBlock from "../components/IconBlock"
 import TypedReact from "../components/typedReact"
 import translateLink from "../components/logic/translateLink"
-import IconCode from "../images/code.svg"
-import IconDesign from "../images/design.svg"
-import IconSupport from "../images/support.svg"
-import IconSeo from "../images/seo.svg"
-
-const dataIcon = [
-  {
-    iconName: IconCode,
-    label: `Programming websites, apps`,
-  },
-  {
-    iconName: IconDesign,
-    label: `Development UI/UX design`,
-  },
-  {
-    iconName: IconSeo,
-    label: `Search engine optimization`,
-  },
-  {
-    iconName: IconSupport,
-    label: `Server support for projects`,
-  },
-]
+import dataIndex from "../data/en/index"
 
 const IndexPage = ({ location }) => (
   <Layout location={location} defaultLang="en">
@@ -39,14 +17,14 @@ const IndexPage = ({ location }) => (
         progressive websites for small companies, organizations and start-ups."
     />
     <Image />
-    <h1 style={{ height: `160px` }}>
+    <h1 style={{ height: `130px` }}>
       <span style={{ display: `none` }}>
-        Hey! I'm Alekandr. Front end developer, UX/UI designer and SEO
+        I'm Alekandr. Front end developer, UX/UI designer and SEO
         specialist.
       </span>
       <TypedReact
         strings={[
-          `Hello! <br />I'm Aleksandr. <br />Web developer, <br />UX/UI designer`,
+          `I'm Aleksandr. <br />Web developer, <br />UX/UI designer`,
         ]}
       />
     </h1>
@@ -71,7 +49,7 @@ const IndexPage = ({ location }) => (
       </p>
     </blockquote>
     <h4>What can I do?</h4>
-    <IconBlock data={dataIcon} />
+    <IconBlock data={dataIndex} />
   </Layout>
 )
 

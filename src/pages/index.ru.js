@@ -6,29 +6,7 @@ import Seo from "../components/seo"
 import IconBlock from "../components/IconBlock"
 import TypedReact from "../components/typedReact"
 import translateLink from "../components/logic/translateLink"
-import IconCode from "../images/code.svg"
-import IconDesign from "../images/design.svg"
-import IconSupport from "../images/support.svg"
-import IconSeo from "../images/seo.svg"
-
-const dataIcon = [
-  {
-    iconName: IconCode,
-    label: `Программирование сайтов, приложений`,
-  },
-  {
-    iconName: IconDesign,
-    label: `Разработка UI/UX дизайна для сайтов`,
-  },
-  {
-    iconName: IconSeo,
-    label: `Поисковая оптимизация сайтов (SEO)`,
-  },
-  {
-    iconName: IconSupport,
-    label: `Серверная поддержка проектов`,
-  },
-]
+import dataIndex from "../data/ru/index"
 
 const IndexPage = ({ location }) => (
   <Layout location={location} defaultLang="ru">
@@ -40,14 +18,14 @@ const IndexPage = ({ location }) => (
       организаций и стартапов."
     />
     <Image />
-    <h1 style={{ height: `160px` }}>
+    <h1 style={{ height: `130px` }}>
       <span style={{ display: `none` }}>
-        Привет! Я Александр. Веб-разработчик, UX/UI дизайнер и SEO
+        Я Александр. Веб-разработчик, UX/UI дизайнер и SEO
         specialist.
       </span>
       <TypedReact
         strings={[
-          `Привет! <br />Я Александр. <br />Веб-разработчик, <br />UX/UI дизайнер`,
+          `Я – Александр. <br />Веб-разработчик, <br />UX/UI дизайнер`,
         ]}
       />
     </h1>
@@ -68,7 +46,7 @@ const IndexPage = ({ location }) => (
       </p>
     </blockquote>
     <h4>Что я могу для вас сделать?</h4>
-    <IconBlock data={dataIcon} />
+    <IconBlock data={dataIndex} />
   </Layout>
 )
 

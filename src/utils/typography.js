@@ -36,7 +36,7 @@ const typography = new Typography({
     },
     h1: {
       fontSize: "2.5rem",
-      marginBottom: "50px",
+      marginBottom: "40px",
       lineHeight: "1.1",
     },
     h2: {
