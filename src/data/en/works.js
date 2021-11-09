@@ -38,19 +38,19 @@ const dataWorks = [
   {
     year: `2020`,
     desc: `We have been creating architectural projects that are thought out to the smallest detail.`,
-    siteUrl: `https://architect.archimedes.by`,
+    siteUrl: `https://archimedes.vercel.app`,
     siteName: `architect.archimedes.by`,
   },
   {
     year: `2020`,
     desc: `We have been professionally engaged in interior design for over 12 years.`,
-    siteUrl: `https://design.archimedes.by`,
+    siteUrl: `https://archimedes-design.vercel.app`,
     siteName: `design.archimedes.by`,
   },
   {
     year: `2020`,
     desc: `We have been professionally engaged in the construction of houses and cottages for over 12 years.`,
-    siteUrl: `https://landing.titulstroy.by`,
+    siteUrl: `https://titulstroy.vercel.app`,
     siteName: `landing.titulstroy.by`,
   },
   {

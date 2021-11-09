@@ -38,19 +38,19 @@ const dataWorks = [
   {
     year: `2020`,
     desc: `Мы создаем продуманные до мелочей архитектурные проекты.`,
-    siteUrl: `https://architect.archimedes.by`,
+    siteUrl: `https://archimedes.vercel.app`,
     siteName: `architect.archimedes.by`,
   },
   {
     year: `2020`,
     desc: `Профессионально занимаемся дизайном интерьеров более 12 лет.`,
-    siteUrl: `https://design.archimedes.by`,
+    siteUrl: `https://archimedes-design.vercel.app`,
     siteName: `design.archimedes.by`,
   },
   {
     year: `2020`,
     desc: `Мы профессионально занимаемся строительством домов и коттеджей более 12 лет.`,
-    siteUrl: `https://landing.titulstroy.by`,
+    siteUrl: `https://titulstroy.vercel.app`,
     siteName: `landing.titulstroy.by`,
   },
   {

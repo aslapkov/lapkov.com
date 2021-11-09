@@ -39,7 +39,7 @@ const IndexPage = ({ location }) => (
         which helped them reach their business goals including by attracting
         many new clients via Google, Yandex etc. See a small part of my projects
         on the <Link to={translateLink("/works/", "en")}>works</Link> page. I like getting more and more
-        educated in the modern web. I"m studying every day and ready to learn
+        educated in the modern web. I'm studying every day and ready to learn
         new things.
       </p>
       <p>
