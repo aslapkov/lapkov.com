@@ -72,10 +72,10 @@ const ExperienceBlock = ({ dataExperience }) => {
               <div className={styles.colSm9}>
                 <span className={styles.desc}>{elem.position}</span>
                 <span className={styles.loc}>{elem.loc}</span>
-                {elem.site ? (
+                {elem.siteUrl ? (
                   <span className={styles.site}>
-                    <a href={elem.site} rel="nofollow">
-                      {elem.site.slice(elem.site.includes("https") ? 8 : 7)}
+                    <a href={elem.siteUrl} rel="nofollow">
+                      {elem.siteName}
                     </a>
                   </span>
                 ) : (
