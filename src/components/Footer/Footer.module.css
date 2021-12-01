@@ -6,6 +6,12 @@ footer {
   padding: 30px 20px;
 }
 
+footer.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 footer a {
   color: #777;
   font-weight: 700;
@@ -19,8 +25,11 @@ footer a:hover {
 }
 
 .left {
-  float: left;
-  width: 65%;
+  width: auto;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .pointAnimation {
@@ -28,8 +37,8 @@ footer a:hover {
   position: relative;
   display: inline-block;
   float: left;
-  width: 14px;
-  height: 14px;
+  width: 19px;
+  height: 19px;
   margin-left: 10px;
   margin-right: 10px;
   margin-top: 7px;
@@ -60,8 +69,8 @@ footer a:hover {
   top: -8px;
   left: -8px;
   display: inline-block;
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
   opacity: 0.2;
   border-radius: 50%;
 }
@@ -72,17 +81,32 @@ footer a:hover {
   color: #fff;
   font-size: 0.75em;
   padding-left: 10px;
+  margin-top: 15px;
 }
 
 .right {
-  float: right;
-  text-align: right;
-  width: 35%;
+  width: auto;
+  margin-bottom: 10px;
 }
 
 .links {
   font-size: 8px;
   font-weight: 700;
+  text-align: center;
+  line-height: 1.8;
+}
+
+.center {
+  width: auto;
+  margin-bottom: 10px;
+}
+
+.center a {
+  border-bottom: none;
+}
+
+.center a:hover {
+   border-bottom: none;
 }
 
 @media (min-width: 768px) {
@@ -91,13 +115,27 @@ footer a:hover {
     padding: 50px 20px;
   }
 
+  footer.footer {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .left {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
   .availTag {
     font-size: 1em;
     padding-left: 20px;
+    margin-top: 0;
   }
 
   .links {
     font-size: 0.7em;
+    text-align: left;
+    line-height: 1.7;
   }
 }
 

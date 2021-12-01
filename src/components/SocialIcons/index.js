@@ -5,13 +5,13 @@ import IconLinkedin from "../../images/linkedin.svg"
 import * as styles from "./SocialIcons.module.css"
 
 const SocialIcons = ({ num, color }) => (
-  <React.Fragment>
+  <>
     <a
-      href="https://www.linkedin.com/in/aleksandr-lapkov/"
+      href="https://github.com/aslapkov"
       target="_blank"
       rel="noopener noreferrer"
     >
-      <IconLinkedin
+      <IconGithub
         height={num}
         width={num}
         className={styles.iconSocStyle}
@@ -19,11 +19,11 @@ const SocialIcons = ({ num, color }) => (
       />
     </a>
     <a
-      href="https://github.com/aslapkov"
+      href="https://www.linkedin.com/in/aleksandr-lapkov/"
       target="_blank"
       rel="noopener noreferrer"
     >
-      <IconGithub
+      <IconLinkedin
         height={num}
         width={num}
         className={styles.iconSocStyle}
@@ -42,7 +42,7 @@ const SocialIcons = ({ num, color }) => (
         fill={color}
       />
     </a>
-  </React.Fragment>
+  </>
 )
 
 export default SocialIcons

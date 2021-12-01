@@ -43,7 +43,7 @@ const ExperienceBlock = ({ dataExperience }) => {
   }, [])
 
   return (
-    <React.Fragment>
+    <>
       {dataExperience.map((elem, i) => {
         let activeFirst =
           (i === 0 && hover.length === 0) || hover[i]
@@ -87,7 +87,7 @@ const ExperienceBlock = ({ dataExperience }) => {
           </div>
         )
       })}
-    </React.Fragment>
+    </>
   )
 }
 

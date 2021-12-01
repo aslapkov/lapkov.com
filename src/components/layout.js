@@ -21,7 +21,7 @@ const Layout = ({
       : { currentLanguage: defaultLang }
 
   return (
-    <React.Fragment>
+    <>
       <div className={styles.imgDiv} />
       <div className={styles.container}>
         <div className={styles.row}>
@@ -38,7 +38,7 @@ const Layout = ({
           </div>
         </div>
       </div>
-    </React.Fragment>
+    </>
   )
 }
 

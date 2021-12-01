@@ -1,9 +1,10 @@
 import * as React from "react"
 import footer from "../../data/footer"
+import SocialIcons from "../SocialIcons"
 import * as styles from "./Footer.module.css"
 
 const Footer = ({ currentLanguage }) => (
-  <footer>
+  <footer className={styles.footer}>
     <div className={styles.left}>
       <span className={styles.pointAnimation} />
       <p className={styles.availTag}>
@@ -11,6 +12,9 @@ const Footer = ({ currentLanguage }) => (
         <br />
         <a href="mailto:email@lapkov.com">email@lapkov.com</a>
       </p>
+    </div>
+    <div className={styles.center}>
+      <SocialIcons num="20" color="#777" />
     </div>
     <div className={styles.right}>
       <div className={styles.links}>
