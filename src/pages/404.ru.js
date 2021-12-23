@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import Seo from "../components/seo"
-import translateLink from "../components/logic/translateLink"
+import translateLink from "../utils/translateLink"
 
 const NotFoundPage = ({ location }) => (
   <Layout location={location} defaultLang="ru">

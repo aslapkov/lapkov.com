@@ -54,7 +54,6 @@ const Seo = ({
         lang: langKey,
       }}
       title={title}
-      // titleTemplate={`%s`}
       link={[
         {
           rel: `canonical`,

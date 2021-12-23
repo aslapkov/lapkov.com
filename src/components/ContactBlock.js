@@ -1,7 +1,7 @@
 import * as React from "react"
-import IconEmail from "../../images/email.svg"
-import IconTelegram from "../../images/telegram.svg"
-import SocialIcons from "../SocialIcons"
+import IconEmail from "../images/email.svg"
+import IconTelegram from "../images/telegram.svg"
+import SocialIcons from "./SocialIcons"
 import * as styles from "./ContactBlock.module.css"
 
 const encode = (data) => {

@@ -1,8 +1,8 @@
 import * as React from "react"
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
-import translateLink from "../logic/translateLink"
-import nav from "../../data/nav"
+import translateLink from "../utils/translateLink"
+import nav from "../data/nav"
 import * as styles from "./NavBar.module.css"
 
 const NavBar = ({ currentLanguage }) => (

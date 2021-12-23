@@ -1,6 +1,6 @@
-import withLittleStateMachine from "./with-little-state-machine"
+import stateMachine from "./state-machine"
 
-export const wrapRootElement = withLittleStateMachine
+export const wrapRootElement = stateMachine
 
 export const onServiceWorkerUpdateReady = () => {
   window.location.reload()

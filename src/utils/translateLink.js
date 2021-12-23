@@ -1,7 +1,7 @@
-import * as language from "../../data/languages"
+import * as language from "../data/languages"
 
 const translateLink = (link, currentLanguage) => {
-	if (currentLanguage === language.defaultLangKey) {
+  if (currentLanguage === language.defaultLangKey) {
     return link
   }
 

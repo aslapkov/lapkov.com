@@ -4,8 +4,8 @@ import language from "./src/state/language"
 
 createStore({ language })
 
-const withLittleStateMachine = ({ element }) => (
+const stateMachine = ({ element }) => (
   <StateMachineProvider>{element}</StateMachineProvider>
 )
 
-export default withLittleStateMachine
+export default stateMachine

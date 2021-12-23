@@ -1,6 +1,6 @@
 import * as React from "react"
-import footer from "../../data/footer"
-import SocialIcons from "../SocialIcons"
+import footer from "../data/footer"
+import SocialIcons from "./SocialIcons"
 import * as styles from "./Footer.module.css"
 
 const Footer = ({ currentLanguage }) => (

@@ -1,4 +1,4 @@
-import translateLink from "../components/logic/translateLink"
+import translateLink from "./translateLink"
 
 export default function getNavLink(path, selectedLanguage) {
   const i18nPagePathRegex = /^([a-z]{2})(\/\S+|\?.+)/

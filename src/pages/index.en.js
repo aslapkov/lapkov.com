@@ -5,7 +5,7 @@ import Image from "../components/image"
 import Seo from "../components/seo"
 import IconBlock from "../components/IconBlock"
 import TypedReact from "../components/typedReact"
-import translateLink from "../components/logic/translateLink"
+import translateLink from "../utils/translateLink"
 import dataIndex from "../data/en/index"
 
 const IndexPage = ({ location }) => (
