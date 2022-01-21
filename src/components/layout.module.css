@@ -17,6 +17,7 @@
 }
 
 .row {
+  display: flex;
   margin: 0 -15px;
 }
 
@@ -42,10 +43,10 @@ hr {
 }
 
 .main {
+  display: flex;
+  flex-direction: column;
   margin: 0 auto;
   overflow: hidden;
-  float: none;
-  clear: both;
   padding: 90px 20px 60px;
 }
 
@@ -87,19 +88,17 @@ p {
 
 @media (min-width: 950px) {
   .imgDiv {
-    display: block;
+    display: flex;
   }
 
   .col3 {
-    display: block;
-    width: 33.33333333%;
-    float: left;
+    display: flex;
+    width: 30%;
     position: relative;
   }
 
   .col9 {
-    width: 66.66666667%;
-    float: right;
+    width: 70%;
     position: relative;
   }
 
@@ -110,7 +109,7 @@ p {
   }
 
   .main {
-    width: 83.33333333%;
+    width: 85%;
   }
 
   .main h1 {
@@ -120,10 +119,10 @@ p {
 
 @media (min-width: 1200px) {
   .col3 {
-    width: 27.33333333%;
+    width: 25%;
   }
 
   .col9 {
-    width: 71.66666667%;
+    width: 75%;
   }
 }

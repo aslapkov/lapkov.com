@@ -566,6 +566,10 @@ pre tt:after {
   content: "";
 }
 
+.gatsby-image-wrapper-constrained {
+  width: 200px;
+}
+
 .loader {
   border-style: solid;
   position: absolute;

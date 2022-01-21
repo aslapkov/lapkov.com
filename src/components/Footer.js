@@ -9,7 +9,6 @@ const Footer = ({ currentLanguage }) => (
       <span className={styles.pointAnimation} />
       <p className={styles.availTag}>
         <span>{footer[currentLanguage].hire}</span>
-        <br />
         <a href="mailto:email@lapkov.com">email@lapkov.com</a>
       </p>
     </div>

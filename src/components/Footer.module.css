@@ -1,8 +1,6 @@
 footer {
   margin: 0 auto;
   overflow: hidden;
-  float: none;
-  clear: both;
   padding: 30px 20px;
 }
 
@@ -35,8 +33,7 @@ footer a:hover {
 .pointAnimation {
   background: #ff0050 none repeat scroll 0 0;
   position: relative;
-  display: inline-block;
-  float: left;
+  display: flex;
   width: 19px;
   height: 19px;
   margin-left: 10px;
@@ -76,8 +73,8 @@ footer a:hover {
 }
 
 .availTag {
-  float: left;
-  display: block;
+  display: flex;
+  flex-direction: column;
   color: #fff;
   font-size: 0.75em;
   padding-left: 10px;
@@ -111,7 +108,7 @@ footer a:hover {
 
 @media (min-width: 768px) {
   footer {
-    width: 91.66666667%;
+    width: 90%;
     padding: 50px 20px;
   }
 
@@ -141,6 +138,6 @@ footer a:hover {
 
 @media (min-width: 950px) {
   footer {
-    width: 83.33333333%;
+    width: 85%;
   }
 }
