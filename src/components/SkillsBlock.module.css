@@ -1,5 +1,12 @@
 .skills {
-  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 40px;
+  grid-gap: 30px;
+}
+
+.skill {
+  margin-bottom: 30px;
 }
 
 .progress {
@@ -7,21 +14,18 @@
   color: #fff;
   letter-spacing: 0.5px;
   text-transform: uppercase;
-  display: block;
+  display: flex;
   padding-bottom: 10px;
 }
 
 .barWrap {
   position: relative;
-  float: left;
-  width: 100%;
 }
 
 .barWrap span {
   background-color: #ffff50;
   height: 2px;
-  width: 0px;
-  display: block;
+  display: flex;
   float: left;
   position: relative;
   overflow: visible !important;
@@ -43,26 +47,13 @@
   font-size: 0.8em;
   color: #fff;
   opacity: 0;
-  display: block;
-  float: left;
   position: absolute;
   right: 0px;
   top: -27px;
 }
 
-.barWrap span i {
-  font-style: normal;
-}
-
-@media (min-width: 768px) {
+/*@media(min-width: 768px) {
   .skills {
-    width: 41.66666667%;
-    float: left;
-    position: relative;
-    min-height: 1px;
+    grid-gap: 40px;
   }
-
-  .skills:nth-child(2n) {
-    margin-left: 8.33333333%;
-  }
-}
+}*/

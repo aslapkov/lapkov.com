@@ -90,7 +90,7 @@ module.exports = {
         trackingId: process.env.YANDEX_TRACKING_ID,
         webvisor: true,
         trackHash: true,
-        version: 2,
+        afterBody: true,
       },
     },
   ],
