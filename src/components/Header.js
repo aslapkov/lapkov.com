@@ -29,7 +29,7 @@ const Header = ({ currentLanguage }) => {
       <div className={styles.col}>
         <div className={styles.logo}>
           <Link to={translateLink("/", currentLanguage)}>
-            <span>{header[currentLanguage].title}</span>
+            {header[currentLanguage].title}
           </Link>
         </div>
         <div

@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-top: 40px;
-  grid-gap: 30px;
+  grid-gap: 20px;
 }
 
 .skill {
@@ -50,3 +50,10 @@
   right: 0px;
   top: -27px;
 }
+
+@media(min-width:  768px) {
+  .skills {
+    grid-gap: 30px;
+  }
+}
+
