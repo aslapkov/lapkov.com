@@ -1432,6 +1432,16 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@fontsource/kalam@^4.5.1":
+  version "4.5.1"
+  resolved "https://registry.yarnpkg.com/@fontsource/kalam/-/kalam-4.5.1.tgz#49983c6a46d55fa0ab1450e83eeab5bc96e36f73"
+  integrity sha512-EBTcvqGK4Cs56ADRy4uDQUnDvsZaFP4WBNW3+s7bMY+YhhbJJWmfFNIDS3GFs2wuAUVACBr1em678UEMKf1jmQ==
+
+"@fontsource/nunito@^4.5.2":
+  version "4.5.2"
+  resolved "https://registry.yarnpkg.com/@fontsource/nunito/-/nunito-4.5.2.tgz#ddf3dba9ed1943c664da338fea6b24ac4b8f1256"
+  integrity sha512-GnMO+OqjJqRPT/PLQGN8dEopp1tDD6+8p9Y+A7ED65YDjnv/f56LfbG+DoBBjEdaJ2Z4CBMioM9x+8n9oFIRVg==
+
 "@gatsbyjs/reach-router@^1.3.6":
   version "1.3.6"
   resolved "https://registry.yarnpkg.com/@gatsbyjs/reach-router/-/reach-router-1.3.6.tgz#4e8225836959be247890b66f21a3198a0589e34d"

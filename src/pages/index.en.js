@@ -17,8 +17,8 @@ const IndexPage = ({ location }) => (
         progressive websites for small companies, organizations and start-ups."
     />
     <Image />
-    <h1 style={{ height: `130px` }}>
-      <span style={{ display: `none` }}>
+    <h1 style={{ height: "130px" }}>
+      <span style={{ display: "none" }}>
         I'm Alekandr. Front-end developer, UI/UX designer and SEO
         specialist.
       </span>
