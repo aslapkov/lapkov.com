@@ -1,5 +1,11 @@
 const dataWorks = [
   {
+    year: `2022`,
+    desc: `Николай Морозов — дизайнер и создатель модного бренда Nickolia Morozov в Беларуси.`,
+    siteUrl: `https://morozovstore.com`,
+    siteName: `morozovstore.com`,
+  },
+  {
     year: `2021`,
     desc: `Концепт быстрого интернет-магазина написанного на Gatsby js + Shopify + Prismic (JAMStack) и развернутого с помощью Gatsby Cloud.`,
     siteUrl: `https://satiby.gatsbyjs.io`,
