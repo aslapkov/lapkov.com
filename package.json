@@ -8,8 +8,6 @@
     "node": "14.x"
   },
   "dependencies": {
-    "@fontsource/kalam": "^4.5.1",
-    "@fontsource/nunito": "^4.5.2",
     "gatsby": "^4.5.4",
     "gatsby-plugin-google-analytics": "^4.5.0",
     "gatsby-plugin-i18n": "^1.0.1",
