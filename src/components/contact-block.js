@@ -1,8 +1,8 @@
 import * as React from "react"
 import IconEmail from "../images/email.svg"
 import IconTelegram from "../images/telegram.svg"
-import SocialIcons from "./SocialIcons"
-import * as styles from "./ContactBlock.module.css"
+import SocialIcons from "./social-icons"
+import * as styles from "./contact-block.module.css"
 
 const encode = (data) => {
   return Object.keys(data)

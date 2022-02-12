@@ -1,9 +1,9 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { useStateMachine } from "little-state-machine"
-import NavBar from "./Navbar"
-import Header from "./Header"
-import Footer from "./Footer"
+import NavBar from "./navbar"
+import Header from "./header"
+import Footer from "./footer"
 import * as styles from "./layout.module.css"
 
 const Layout = ({

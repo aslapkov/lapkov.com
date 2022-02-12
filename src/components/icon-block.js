@@ -1,5 +1,5 @@
 import * as React from "react"
-import * as styles from "./IconBlock.module.css"
+import * as styles from "./icon-block.module.css"
 
 const IconBlock = ({ data }) => (
   <div className={styles.blockRow}>

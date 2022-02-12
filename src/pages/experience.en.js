@@ -2,7 +2,7 @@ import * as React from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import TypedReact from "../components/typedReact"
-import ExperienceBlock from "../components/ExperienceBlock"
+import ExperienceBlock from "../components/experience-block"
 import dataExperience from "../data/en/experience"
 
 const ExperiencePage = ({ location }) => (

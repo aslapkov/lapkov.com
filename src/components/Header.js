@@ -10,9 +10,9 @@ import translateLink from "../utils/translateLink"
 import useOnClickOutside from "../hooks/useOnClickOutside"
 import nav from "../data/nav"
 import header from "../data/header"
-import SocialIcons from "./SocialIcons"
+import SocialIcons from "./social-icons"
 import IconCont from "../images/envelope.svg"
-import * as styles from "./Header.module.css"
+import * as styles from "./header.module.css"
 
 const Header = ({ currentLanguage }) => {
   const [collapse, setCollapse] = React.useState(false)

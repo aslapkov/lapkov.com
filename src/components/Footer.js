@@ -1,7 +1,7 @@
 import * as React from "react"
 import footer from "../data/footer"
-import SocialIcons from "./SocialIcons"
-import * as styles from "./Footer.module.css"
+import SocialIcons from "./social-icons"
+import * as styles from "./footer.module.css"
 
 const Footer = ({ currentLanguage }) => (
   <footer className={styles.footer}>

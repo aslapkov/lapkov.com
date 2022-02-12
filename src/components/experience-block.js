@@ -1,5 +1,5 @@
 import * as React from "react"
-import * as styles from "./ExperienceBlock.module.css"
+import * as styles from "./experience-block.module.css"
 
 const ExperienceBlock = ({ dataExperience }) => {
   const [height, setHeight] = React.useState([])

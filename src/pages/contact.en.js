@@ -2,7 +2,7 @@ import * as React from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import TypedReact from "../components/typedReact"
-import ContactBlock from "../components/ContactBlock"
+import ContactBlock from "../components/contact-block"
 import dataContact from "../data/en/contact"
 
 const ContactPage = ({ location }) => (

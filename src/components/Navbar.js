@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import translateLink from "../utils/translateLink"
 import nav from "../data/nav"
-import * as styles from "./NavBar.module.css"
+import * as styles from "./navbar.module.css"
 
 const NavBar = ({ currentLanguage }) => (
   <div className={styles.nav}>

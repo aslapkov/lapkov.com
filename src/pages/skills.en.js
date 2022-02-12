@@ -2,7 +2,7 @@ import * as React from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import TypedReact from "../components/typedReact"
-import SkillsBlock from "../components/SkillsBlock"
+import SkillsBlock from "../components/skills-block"
 import dataSkills from "../data/en/skills"
 
 const SkillsPage = ({ location }) => (

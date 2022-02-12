@@ -1,5 +1,5 @@
 import * as React from "react"
-import * as styles from "./SkillsBlock.module.css"
+import * as styles from "./skills-block.module.css"
 
 const SkillsBlock = ({ dataSkills }) => (
   <div className={styles.skills}>
