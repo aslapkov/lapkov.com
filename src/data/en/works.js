@@ -14,7 +14,7 @@ const dataWorks = [
   {
     year: `2021`,
     desc: `A new brand on the Belarusian market of teeth whitening using the latest painless technology.`,
-    siteUrl: `https://olasmilenow.by`,
+    siteUrl: `https://olasmilenow.com`,
     siteName: `olasmilenow.by`,
   },
   {

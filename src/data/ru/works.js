@@ -14,7 +14,7 @@ const dataWorks = [
   {
     year: `2021`,
     desc: `Новый бренд на белорусском рынке отбеливания зубов по новейшей безболезненной технологии.`,
-    siteUrl: `https://olasmilenow.by`,
+    siteUrl: `https://olasmilenow.com`,
     siteName: `olasmilenow.by`,
   },
   {
