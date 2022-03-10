@@ -23,8 +23,8 @@ const dataExperience = [
     period: `Jun 2021`,
     position: `Front-end dev`,
     loc: `Ola Smile, Minsk – `,
-    siteUrl: `https://olasmilenow.by`,
-    siteName: `olasmilenow.by`,
+    siteUrl: `https://olasmilenow.com`,
+    siteName: `olasmilenow.com`,
     info: `soon...`,
   },
   {

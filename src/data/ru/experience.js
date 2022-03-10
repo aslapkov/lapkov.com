@@ -23,8 +23,8 @@ const dataExperience = [
     period: `Июн 2021`,
     position: `Веб-разработчик`,
     loc: `Ola Smile, Минск – `,
-    siteUrl: `https://olasmilenow.by`,
-    siteName: `olasmilenow.by`,
+    siteUrl: `https://olasmilenow.com`,
+    siteName: `olasmilenow.com`,
     info: `скоро...`,
   },
   {
@@ -116,7 +116,7 @@ const dataExperience = [
     loc: `Sister's, Минск – `,
     siteUrl: `https://sisters.by`,
     siteName: `sisters.by`,
-    info: `Поддержка, доработка, SEO и консультации известного бренда на белорусском рынке одежды.
+    info: `Поддержка, доработка, SEO и консультации для известного бренда на белорусском рынке одежды.
     Сейчас я готовлюсь к разработке и оформлению нового сайта для Sister's. Я также участвую в других
     связанных с ними проектах: primabotti.ru и primabotti.by - оптовые интернет-магазины.`,
   },
