@@ -54,10 +54,6 @@ button {
   transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1) 0s;
 }
 
-.resume {
-  padding-left: 5px;
-}
-
 .contactSelect {
   font-size: 14px;
   margin-right: 20px;
@@ -80,18 +76,13 @@ button.button {
   display: none;
 }
 
-a.contact:hover,
-button:hover {
-  color: #b7b6b6;
-}
-
 a.contact:hover .iconPlane svg,
 button:hover .iconPlane svg {
   fill: #000;
 }
 
 .mask {
-  background: #ffff50;
+  background: #494949;
   display: block;
   height: 100%;
   left: 0;
@@ -106,6 +97,7 @@ button:hover .iconPlane svg {
   position: relative;
   z-index: 2;
   display: inline-block;
+  padding-left: 5px;
 }
 
 .iconCall {

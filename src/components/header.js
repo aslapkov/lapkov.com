@@ -64,15 +64,14 @@ const Header = ({ currentLanguage }) => {
             to="/res.pdf"
             className={styles.contact}
           >
-            <IconPdf height="25" width="25" />
-            <span className={styles.resume}>{header[currentLanguage].contacts}</span>
-            {/*<span className={styles.mask}></span>
+            <IconPdf style={{ zIndex: 10 }} height="25" width="25" />
+            <span className={styles.mask}></span>
             <span className={styles.label}>
               <b>{header[currentLanguage].contacts}</b>
               <span className={styles.iconCall}>
                 <IconCont height="25" width="25" fill="#000" />
               </span>
-            </span>*/}
+            </span>
           </Link>
           <button
             type="button"
