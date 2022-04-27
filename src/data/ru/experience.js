@@ -104,7 +104,7 @@ const dataExperience = [
   {
     period: `Окт 2017 - Июл 2020.`,
     position: `Веб-разработчик, дизайнер, SEO`,
-    loc: `Elite Nails, Минск (сайт был изменен) – `,
+    loc: `Elite Nails, Гомель – `,
     siteUrl: `https://elitenails.by`,
     siteName: `elitenails.by`,
     info: `Интернет-магазин по продаже косметики для ногтей для Беларуси.

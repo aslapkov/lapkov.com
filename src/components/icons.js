@@ -1,7 +1,7 @@
 import * as React from "react"
-import * as styles from "./icon-block.module.css"
+import * as styles from "./icons.module.css"
 
-const IconBlock = ({ data }) => (
+const Icons = ({ data }) => (
   <div className={styles.blockRow}>
     {data.map((elem, i) => {
       const IconName = elem.iconName
@@ -24,4 +24,4 @@ const IconBlock = ({ data }) => (
   </div>
 )
 
-export default IconBlock
+export default Icons

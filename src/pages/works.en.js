@@ -1,8 +1,8 @@
 import * as React from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import TypedReact from "../components/typedReact"
-import WorksBlock from "../components/works-block"
+import TypedReact from "../components/typed-react"
+import Works from "../components/works"
 import dataWorks from "../data/en/works"
 
 const WorksPage = ({ location }) => (
@@ -24,7 +24,7 @@ const WorksPage = ({ location }) => (
       nature of the applications, they no longer exist and for some other
       reasons.
     </p>
-    <WorksBlock dataWorks={dataWorks} />
+    <Works dataWorks={dataWorks} />
   </Layout>
 )
 

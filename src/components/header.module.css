@@ -40,15 +40,22 @@ header {
 
 .contact,
 button {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
   color: #fff;
   overflow: hidden;
   position: relative;
   background: #141414;
   outline: none;
   border: none;
-  border-left: 2px solid #ffff50;
+  border-left: 2px solid #f44336;
   padding: 5px 20px;
   transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+}
+
+.resume {
+  padding-left: 5px;
 }
 
 .contactSelect {
@@ -75,7 +82,7 @@ button.button {
 
 a.contact:hover,
 button:hover {
-  color: #000;
+  color: #b7b6b6;
 }
 
 a.contact:hover .iconPlane svg,

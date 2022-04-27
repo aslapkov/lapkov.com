@@ -1,7 +1,7 @@
 import * as React from "react"
-import * as styles from "./works-block.module.css"
+import * as styles from "./works.module.css"
 
-const WorksBlock = ({ dataWorks }) => {
+const Works = ({ dataWorks }) => {
   return (
     <div style={{ marginTop: "40px" }}>
       {dataWorks.map((elem, i) => {
@@ -34,4 +34,4 @@ const WorksBlock = ({ dataWorks }) => {
   )
 }
 
-export default WorksBlock
+export default Works

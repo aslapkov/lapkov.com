@@ -1,8 +1,8 @@
 import * as React from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import TypedReact from "../components/typedReact"
-import SkillsBlock from "../components/skills-block"
+import TypedReact from "../components/typed-react"
+import Skills from "../components/skills"
 import dataSkills from "../data/ru/skills"
 
 const SkillsPage = ({ location }) => (
@@ -22,7 +22,7 @@ const SkillsPage = ({ location }) => (
       Вот знания веб-технологий, в которых я преуспел больше всего, 
       и которые я активно использую в своих и клиентских проектах.
     </p>
-    <SkillsBlock dataSkills={dataSkills} />
+    <Skills dataSkills={dataSkills} />
   </Layout>
 )
 

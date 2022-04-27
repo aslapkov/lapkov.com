@@ -1,7 +1,7 @@
 import * as React from "react"
-import * as styles from "./experience-block.module.css"
+import * as styles from "./experience.module.css"
 
-const ExperienceBlock = ({ dataExperience }) => {
+const Experience = ({ dataExperience }) => {
   const [height, setHeight] = React.useState([])
   const elemRefs = React.useRef(dataExperience.map(() => React.createRef()))
   const [hover, setHover] = React.useState([])
@@ -91,4 +91,4 @@ const ExperienceBlock = ({ dataExperience }) => {
   )
 }
 
-export default ExperienceBlock
+export default Experience

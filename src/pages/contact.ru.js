@@ -1,8 +1,8 @@
 import * as React from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import TypedReact from "../components/typedReact"
-import ContactBlock from "../components/contact-block"
+import TypedReact from "../components/typed-react"
+import Contact from "../components/contact"
 import dataContact from "../data/ru/contact"
 
 const ContactPage = ({ location }) => (
@@ -17,7 +17,7 @@ const ContactPage = ({ location }) => (
       <span style={{ display: `none` }}>Страница контактов</span>
       <TypedReact strings={[`Контакты`]} />
     </h1>
-    <ContactBlock dataContact={dataContact} />
+    <Contact dataContact={dataContact} />
   </Layout>
 )
 

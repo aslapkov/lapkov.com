@@ -3,8 +3,8 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import Seo from "../components/seo"
-import IconBlock from "../components/icon-block"
-import TypedReact from "../components/typedReact"
+import Icons from "../components/icons"
+import TypedReact from "../components/typed-react"
 import translateLink from "../utils/translateLink"
 import dataIndex from "../data/en/index"
 
@@ -49,7 +49,7 @@ const IndexPage = ({ location }) => (
       </p>
     </blockquote>
     <h4>What can I do?</h4>
-    <IconBlock data={dataIndex} />
+    <Icons data={dataIndex} />
   </Layout>
 )
 

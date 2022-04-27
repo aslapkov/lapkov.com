@@ -1,11 +1,11 @@
 const header = {
   en: {
     title: "A. Lapkov",
-    contacts: "Contact me",
+    contacts: "Resume",
   },
   ru: {
     title: "A. Lapkov",
-    contacts: "Напишите мне",
+    contacts: "Резюме",
   },
 }
 

@@ -12,6 +12,7 @@ import nav from "../data/nav"
 import header from "../data/header"
 import SocialIcons from "./social-icons"
 import IconCont from "../images/envelope.svg"
+import IconPdf from "../images/pdf.svg"
 import * as styles from "./header.module.css"
 
 const Header = ({ currentLanguage }) => {
@@ -60,16 +61,18 @@ const Header = ({ currentLanguage }) => {
             {/* eslint-enable jsx-a11y/accessible-emoji */}
           </select>
           <Link
-            to={translateLink("/contact/", currentLanguage)}
+            to="/res.pdf"
             className={styles.contact}
           >
-            <span className={styles.mask}></span>
+            <IconPdf height="25" width="25" />
+            <span className={styles.resume}>{header[currentLanguage].contacts}</span>
+            {/*<span className={styles.mask}></span>
             <span className={styles.label}>
               <b>{header[currentLanguage].contacts}</b>
               <span className={styles.iconCall}>
                 <IconCont height="25" width="25" fill="#000" />
               </span>
-            </span>
+            </span>*/}
           </Link>
           <button
             type="button"

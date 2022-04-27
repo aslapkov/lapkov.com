@@ -1,7 +1,7 @@
 import * as React from "react"
-import * as styles from "./skills-block.module.css"
+import * as styles from "./skills.module.css"
 
-const SkillsBlock = ({ dataSkills }) => (
+const Skills = ({ dataSkills }) => (
   <div className={styles.skills}>
     {dataSkills.map((elem, i) => {
       return (
@@ -23,4 +23,4 @@ const SkillsBlock = ({ dataSkills }) => (
   </div>
 )
 
-export default SkillsBlock
+export default Skills

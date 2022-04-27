@@ -104,7 +104,7 @@ const dataExperience = [
   {
     period: `Oct 2017 - Jul 2020.`,
     position: `Front-end dev, designer, SEO`,
-    loc: `Elite Nails, Minsk (site has been changed) – `,
+    loc: `Elite Nails, Gomel – `,
     siteUrl: `https://elitenails.by`,
     siteName: `elitenails.by`,
     info: `Online store selling nails cosmetic for Belarus. Currently I don't support  this project.`,

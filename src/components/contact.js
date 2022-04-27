@@ -2,7 +2,7 @@ import * as React from "react"
 import IconEmail from "../images/email.svg"
 import IconTelegram from "../images/telegram.svg"
 import SocialIcons from "./social-icons"
-import * as styles from "./contact-block.module.css"
+import * as styles from "./contact.module.css"
 
 const encode = (data) => {
   return Object.keys(data)
@@ -10,7 +10,7 @@ const encode = (data) => {
     .join("&")
 }
 
-const ContactBlock = ({ dataContact }) => {
+const Contact = ({ dataContact }) => {
   const [state, setState] = React.useState({})
   const [loading, setLoading] = React.useState(false)
   const [completeForm, setCompleteForm] = React.useState(false)
@@ -171,4 +171,4 @@ const ContactBlock = ({ dataContact }) => {
   )
 }
 
-export default ContactBlock
+export default Contact

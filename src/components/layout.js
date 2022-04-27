@@ -30,7 +30,9 @@ const Layout = ({
           <div className={styles.col9}>
             <Header currentLanguage={currentLanguage} />
             <div className={styles.content}>
-              <div className={styles.main}>{children}</div>
+              <div className={styles.main}>
+                {children}
+              </div>
               <hr />
               <Footer currentLanguage={currentLanguage} />
             </div>

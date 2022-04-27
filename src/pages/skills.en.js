@@ -1,8 +1,8 @@
 import * as React from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import TypedReact from "../components/typedReact"
-import SkillsBlock from "../components/skills-block"
+import TypedReact from "../components/typed-react"
+import Skills from "../components/skills"
 import dataSkills from "../data/en/skills"
 
 const SkillsPage = ({ location }) => (
@@ -22,7 +22,7 @@ const SkillsPage = ({ location }) => (
       Here are the developing skills in which I succeeded the most and I'm
       actively using in my and client projects.
     </p>
-    <SkillsBlock dataSkills={dataSkills} />
+    <Skills dataSkills={dataSkills} />
   </Layout>
 )
 
