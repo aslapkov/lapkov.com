@@ -1,6 +1,12 @@
 const dataWorks = [
   {
     year: `2022`,
+    desc: `Vira Decor – online store of handmade confectionery in Gomel.`,
+    siteUrl: `https://viradecor.by`,
+    siteName: `viradecor.by`,
+  },
+  {
+    year: `2022`,
     desc: `Nikolai Morozov is a designer and creator of the Nickolia Morozov fashion brand fro Belarus.`,
     siteUrl: `https://morozovstore.com`,
     siteName: `morozovstore.com`,
