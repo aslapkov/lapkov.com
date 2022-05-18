@@ -1,4 +1,5 @@
 import * as React from "react"
+import { Link } from "gatsby"
 
 const dataExperience = [
   {
@@ -13,8 +14,9 @@ const dataExperience = [
         different databases, web servers and other. Afterwards I've created and participated in a dozen projects
         using these technologies. I did most of these projects on React and Node, they are all closed systems.
         Unfortunately I can't show and tell that I participated in them of the NDA. Now I'm diligently studying everything
-        related to JavaScript and the whole modern web. There are some projects in the works page <a href="https://lapkov.com/works/">lapkov.com/works</a>,
-        this is mostly small sites, online stores, in which I took part as a freelancer.
+        related to JavaScript and the whole modern web. There are some projects in the works page{" "}
+        <Link to="/works/">lapkov.com/works</Link>, this is mostly small sites, online stores,
+        in which I took part as a freelancer.
       </React.Fragment>
     ),
   },
