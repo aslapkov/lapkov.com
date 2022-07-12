@@ -1,6 +1,18 @@
 const dataWorks = [
   {
     year: `2022`,
+    desc: `Dev4u – development websites and mobile applications, design and redesign, SEO.`,
+    siteUrl: `https://dev4u.site`,
+    siteName: `dev4u.site`,
+  },
+  {
+    year: `2022`,
+    desc: `Carnavalia – online store of carnival costumes and clothes.`,
+    siteUrl: `https://carnavalia-shop.ru`,
+    siteName: `carnavalia-shop.ru`,
+  },
+  {
+    year: `2022`,
     desc: `Vira Decor – online store of handmade confectionery in Gomel.`,
     siteUrl: `https://viradecor.by`,
     siteName: `viradecor.by`,
@@ -22,12 +34,6 @@ const dataWorks = [
     desc: `A new brand on the Belarusian market of teeth whitening using the latest painless technology.`,
     siteUrl: `https://olasmilenow.com`,
     siteName: `olasmilenow.by`,
-  },
-  {
-    year: `2020`,
-    desc: `A unique remedy for increasing body weight and combating fatigue during training.`,
-    siteUrl: `https://samyun-online.vercel.app`,
-    siteName: `samyun.online`,
   },
   {
     year: `2020`,
