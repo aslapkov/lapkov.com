@@ -161,12 +161,12 @@ const dataWorks = [
     siteUrl: `#smuziby.ru`,
     siteName: `smuziby.ru`,
   },
-  {
-    year: `2017`,
-    desc: `Интернет-магазин по продаже косметики для ногтей в Беларуси.`,
-    siteUrl: `https://elitenails.by`,
-    siteName: `elitenails.by`,
-  },
+  // {
+  //   year: `2017`,
+  //   desc: `Интернет-магазин по продаже косметики для ногтей в Беларуси.`,
+  //   siteUrl: `https://elitenails.by`,
+  //   siteName: `elitenails.by`,
+  // },
   {
     year: `2016`,
     desc: `Помощь интернет-магазину по продаже картин современных белорусских художников.`,
