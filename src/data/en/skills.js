@@ -8,23 +8,27 @@ const dataSkills = [
     percent: 97,
   },
   {
-    label: `Javascript`,
+    label: `JavaScript`,
     percent: 97,
   },
   {
-    label: `PHP`,
-    percent: 87,
+    label: `TypeScript`,
+    percent: 90,
   },
   {
     label: `React`,
     percent: 97,
   },
   {
-    label: `Jquery`,
+    label: `Redux`,
     percent: 93,
   },
   {
-    label: `Node`,
+    label: `JQuery`,
+    percent: 93,
+  },
+  {
+    label: `Node js`,
     percent: 95,
   },
   {
@@ -32,7 +36,23 @@ const dataSkills = [
     percent: 90,
   },
   {
+    label: `SEO`,
+    percent: 98,
+  },
+  {
+    label: `PHP`,
+    percent: 87,
+  },
+  {
     label: `MySQL`,
+    percent: 88,
+  },
+  {
+    label: `PostgreSQL`,
+    percent: 88,
+  },
+  {
+    label: `SQLite`,
     percent: 88,
   },
   {
@@ -56,10 +76,6 @@ const dataSkills = [
     percent: 90,
   },
   {
-    label: `TypeScript`,
-    percent: 90,
-  },
-  {
     label: `Git`,
     percent: 90,
   },
@@ -80,6 +96,10 @@ const dataSkills = [
     percent: 93,
   },
   {
+    label: `Gatsby Cloud`,
+    percent: 90,
+  },
+  {
     label: `Wordpress`,
     percent: 90,
   },
@@ -88,7 +108,7 @@ const dataSkills = [
     percent: 93,
   },
   {
-    label: `Nginx`,
+    label: `nginx`,
     percent: 89,
   },
   {
