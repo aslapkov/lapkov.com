@@ -61,7 +61,7 @@ const Header = ({ currentLanguage }) => {
             {/* eslint-enable jsx-a11y/accessible-emoji */}
           </select>
           <Link
-            to="/res.pdf"
+            to="/cv.pdf"
             className={styles.contact}
           >
             <IconPdf style={{ zIndex: 10 }} height="25" width="25" />
