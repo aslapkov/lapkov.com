@@ -1,6 +1,12 @@
 const dataWorks = [
   {
     year: `2022`,
+    desc: `Benjamin More – вёрстка 8 страниц для будущего интернет-магазина красок (только html, css и javascript)`,
+    siteUrl: `https://benjamin-moore.vercel.app`,
+    siteName: `benjamin-moore.app`,
+  },
+  {
+    year: `2022`,
     desc: `Dev4u – разработка сайтов, мобильных приложений, дизайн и редизайн, SEO.`,
     siteUrl: `https://dev4u.site`,
     siteName: `dev4u.site`,
@@ -50,7 +56,7 @@ const dataWorks = [
   {
     year: `2020`,
     desc: `Zaiger в Беларуси – системы безопасности и связи.`,
-    siteUrl: `https://www.zaiger.by`,
+    siteUrl: `https://zaiger-by.vercel.app`,
     siteName: `www.zaiger.by`,
   },
   {
