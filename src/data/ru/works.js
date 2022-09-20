@@ -1,7 +1,13 @@
 const dataWorks = [
   {
     year: `2022`,
-    desc: `Benjamin More – вёрстка 8 страниц для будущего интернет-магазина красок (только html, css и javascript)`,
+    desc: `La-lama – поддержка сайта и добавление нового функционала.`,
+    siteUrl: `https://la-lama.ru`,
+    siteName: `la-lama.ru`,
+  },
+  {
+    year: `2022`,
+    desc: `Benjamin More – вёрстка 8 страниц для будущего интернет-магазина красок (html, css и javascript). Дизайн в Figma.`,
     siteUrl: `https://benjamin-moore.vercel.app`,
     siteName: `benjamin-moore.app`,
   },
