@@ -10070,11 +10070,6 @@ react-side-effect@^2.1.0:
   resolved "https://registry.yarnpkg.com/react-side-effect/-/react-side-effect-2.1.0.tgz#1ce4a8b4445168c487ed24dab886421f74d380d3"
   integrity sha512-IgmcegOSi5SNX+2Snh1vqmF0Vg/CbkycU9XZbOHJlZ6kMzTmi3yc254oB1WCkgA7OQtIAoLmcSFuHTc/tlcqXg==
 
-react-simple-animate@^3.5.1:
-  version "3.5.1"
-  resolved "https://registry.yarnpkg.com/react-simple-animate/-/react-simple-animate-3.5.1.tgz#6cdc1407864989b604d52200ffaaec8aa75c0505"
-  integrity sha512-VpQS4nYU3G8+xU9hMinbeFZqHRVe+rNicec+y+Jaz3kHCV5TlBSkTzoaz/Nycsh2ShoWWfqfhV3Rn8E85QNqZg==
-
 react-typography@^0.16.20:
   version "0.16.20"
   resolved "https://registry.yarnpkg.com/react-typography/-/react-typography-0.16.20.tgz#6861fef52ab3156eda334cbe110fb66646340f57"

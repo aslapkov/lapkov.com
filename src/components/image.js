@@ -4,7 +4,7 @@ import { StaticImage } from "gatsby-plugin-image"
 const Image = () => (
   <StaticImage
     src="../images/iam.jpg"
-    alt="Lapkov"
+    alt="Aleksandr Lapkov | Александр Лапков"
     placeholder="blurred"
     width={200}
     height={200}

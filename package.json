@@ -28,7 +28,6 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
-    "react-simple-animate": "^3.5.1",
     "react-typography": "^0.16.20",
     "typed.js": "^2.0.12",
     "typography": "^0.16.21"
