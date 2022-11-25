@@ -1,13 +1,19 @@
 const dataWorks = [
   {
     year: `2022`,
+    desc: `SVB-Service – верстка 20 страниц для будущего проекта "Проставки увеличения клиренса" (только html, css и javascript). Дизайн в Figma.`,
+    siteUrl: `https://svb-service.vercel.app`,
+    siteName: `svb-service.ru`,
+  },
+  {
+    year: `2022`,
     desc: `La-lama – поддержка сайта и добавление нового функционала.`,
     siteUrl: `https://la-lama.ru`,
     siteName: `la-lama.ru`,
   },
   {
     year: `2022`,
-    desc: `Benjamin More – вёрстка 8 страниц для будущего интернет-магазина красок (html, css и javascript). Дизайн в Figma.`,
+    desc: `Benjamin More – верстка 8 страниц для будущего интернет-магазина красок (html, css и javascript). Дизайн в Figma.`,
     siteUrl: `https://benjamin-moore.vercel.app`,
     siteName: `benjamin-moore.app`,
   },

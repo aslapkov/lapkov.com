@@ -119,6 +119,12 @@ button:hover .mask {
   margin-top: 50px;
 }
 
+.navbarSoc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @media (max-width: 767px) {
   .logo a {
     font-size: 1.3em;

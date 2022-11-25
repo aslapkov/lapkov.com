@@ -118,9 +118,9 @@ const Header = ({ currentLanguage }) => {
               </Link>
             </li>
           </ul>
-          <p style={{ textAlign: `center` }}>
+          <div className={styles.navbarSoc}>
             <SocialIcons num="25" color="#000" />
-          </p>
+          </div>
         </div>
       </div>
     </header>

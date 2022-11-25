@@ -1,6 +1,12 @@
 const dataWorks = [
   {
     year: `2022`,
+    desc: `SVB-Service – layout of 20 pages for the future project "Clearance increase spacers" (only html, css and javascript). Design in Figma.`,
+    siteUrl: `https://svb-service.vercel.app`,
+    siteName: `svb-service.ru`,
+  },
+  {
+    year: `2022`,
     desc: `La-lama – site maintenance and adding new features.`,
     siteUrl: `https://la-lama.ru`,
     siteName: `la-lama.ru`,
