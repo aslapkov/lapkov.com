@@ -10,23 +10,17 @@
 }
 
 .container {
-  padding-right: 15px;
-  padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
 }
 
 .row {
-  display: flex;
-  margin: 0 -15px;
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 .col3 {
   display: none;
-}
-
-.col9 {
-  width: 100%;
 }
 
 hr {
@@ -91,14 +85,16 @@ p {
     display: flex;
   }
 
+  .row {
+    grid-template-columns: 1fr 3fr;
+  }
+
   .col3 {
     display: flex;
-    width: 30%;
     position: relative;
   }
 
   .col9 {
-    width: 70%;
     position: relative;
   }
 
@@ -114,15 +110,5 @@ p {
 
   .main h1 {
     font-size: 2.5em;
-  }
-}
-
-@media (min-width: 1200px) {
-  .col3 {
-    width: 25%;
-  }
-
-  .col9 {
-    width: 75%;
   }
 }

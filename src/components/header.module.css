@@ -48,7 +48,6 @@ button {
   position: relative;
   background: #141414;
   outline: none;
-  border: none;
   border-left: 2px solid #f44336;
   padding: 5px 20px;
   transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1) 0s;
@@ -63,9 +62,9 @@ button {
   background: none;
   outline: none;
   border: none;
-  border: 1px solid #fff;
-  border-radius: 5px;
-  padding: 5px 10px;
+  border-left: 2px solid #fff;
+  background: #141414;
+  padding: 7.5px 20px;
   transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1) 0s;
   appearance: none;
   cursor: pointer;
@@ -175,8 +174,8 @@ button:hover .mask {
 
   .contactSelect {
     font-size: 16px;
-    color: #000;
-    border: 1px solid #000;
+    border-left: 3px solid #ffff50;
+    background: #383838;
     margin-right: 10px;
     padding: 3px 7px;
   }
