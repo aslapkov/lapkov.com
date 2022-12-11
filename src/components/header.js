@@ -28,11 +28,9 @@ const Header = ({ currentLanguage }) => {
   return (
     <header ref={mobileNavRef}>
       <div className={styles.col}>
-        <div className={styles.logo}>
-          <Link to={translateLink("/", currentLanguage)}>
+          <Link className={styles.logo} to={translateLink("/", currentLanguage)}>
             {header[currentLanguage].title}
           </Link>
-        </div>
         <div
           className={`${styles.touch}${collapse ? " " + styles.menuOpen : ""}`}
         >
@@ -56,8 +54,8 @@ const Header = ({ currentLanguage }) => {
             value={currentLanguage}
           >
             {/* eslint-disable jsx-a11y/accessible-emoji */}
-            <option value="en">🇦🇺 Eng</option>
-            <option value="ru">🇷🇺 Рус</option>
+            <option value="en">🇦🇺 ENG</option>
+            <option value="ru">🇷🇺 РУС</option>
             {/* eslint-enable jsx-a11y/accessible-emoji */}
           </select>
           <Link

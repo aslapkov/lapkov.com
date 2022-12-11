@@ -11,7 +11,7 @@ header {
   align-content: center;
   justify-content: space-between;
   width: 83.33333333%;
-  padding-top: 20px;
+  padding-top: 40px;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -22,11 +22,11 @@ header {
   font-weight: 700;
 }
 
-.logo a {
-  float: left;
-  display: block;
+.logo {
+  display: flex;
+  align-items: center;
   color: #fff;
-  padding: 15px 20px 10px;
+  padding: 0 20px;
   font-family: "Kalam";
   font-size: 1.7em;
 }
@@ -55,11 +55,10 @@ button {
 
 .contactSelect {
   font-size: 14px;
+  font-weight: 700;
   margin-right: 20px;
   color: #fff;
-  overflow: hidden;
   position: relative;
-  background: none;
   outline: none;
   border: none;
   border-left: 2px solid #fff;
@@ -68,6 +67,10 @@ button {
   transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1) 0s;
   appearance: none;
   cursor: pointer;
+}
+
+.contactSelect:hover {
+  background: #494949;
 }
 
 a.contact.button,
@@ -125,7 +128,7 @@ button:hover .mask {
 }
 
 @media (max-width: 767px) {
-  .logo a {
+  .logo {
     font-size: 1.3em;
   }
 }
@@ -143,9 +146,10 @@ button:hover .mask {
 
   .col {
     width: 100%;
+    padding-top: 20px;
   }
 
-  .logo a {
+  .logo {
     color: #000;
   }
 
@@ -173,7 +177,7 @@ button:hover .mask {
   }
 
   .contactSelect {
-    font-size: 16px;
+    font-weight: 500;
     border-left: 3px solid #ffff50;
     background: #383838;
     margin-right: 10px;
