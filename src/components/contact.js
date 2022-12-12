@@ -67,7 +67,7 @@ const Contact = ({ dataContact }) => {
             className={styles.iconStyle}
             fill="#777"
           />{" "}
-          telegram@alapkov
+          telegram@aslapkov
         </a>
       </p>
       <h4>{dataContact.h4}</h4>
