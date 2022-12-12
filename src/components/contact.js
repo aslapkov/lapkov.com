@@ -57,7 +57,7 @@ const Contact = ({ dataContact }) => {
         </a>
         <br />
         <a
-          href="https://t.me/alapkov"
+          href="https://t.me/aslapkov"
           target="_blank"
           rel="noopener noreferrer"
         >
