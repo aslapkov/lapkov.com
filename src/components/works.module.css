@@ -1,6 +1,6 @@
 .works {
+  display: flex;
   border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
-  float: left;
   padding: 30px 5px;
   width: 100%;
 }
@@ -24,33 +24,30 @@
 
 .col2 {
   width: 12.5%;
-  float: left;
 }
 
 .col3 {
   width: 25%;
-  float: left;
+  overflow: hidden;
 }
 
 .col5 {
   width: 50%;
-  float: left;
 }
 
 span.count {
   height: 35px;
   width: 35px;
-  display: table;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 50%;
-  text-align: center;
   padding-top: 0;
 }
 
 span.count span {
   padding-top: 1px;
-  display: table-cell;
-  vertical-align: middle;
 }
 
 span.year {
