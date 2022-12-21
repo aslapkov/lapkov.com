@@ -1,6 +1,12 @@
 const dataWorks = [
   {
     year: `2022`,
+    desc: `Создание опроса на Gatsby (React) для сервиса онлайн-исследований A2:Research и hornhoo.`,
+    siteUrl: `https://quiz-aslapkov.vercel.app`,
+    siteName: `quiz-aslapkov.vercel.app`,
+  },
+  {
+    year: `2022`,
     desc: `SVB-Service – верстка 20 страниц для будущего проекта "Проставки увеличения клиренса" (только html, css и javascript). Дизайн в Figma.`,
     siteUrl: `https://svb-service.vercel.app`,
     siteName: `svb-service.ru`,

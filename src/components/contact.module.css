@@ -1,5 +1,10 @@
 .contact .base {
-  margin: 40px 0 70px;
+  margin: 20px 0 70px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
 }
 
 .contact a {
@@ -23,19 +28,21 @@ a:hover .iconStyle {
 }
 
 .social {
-  display: inline-block;
-  margin-top: 30px;
+  display: flex;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
 }
 
 .formGroup {
-  float: left;
   position: relative;
-  padding-right: 15px;
-  padding-left: 15px;
+  width: 100%;
   margin-left: 0;
   margin-right: 0;
   margin-bottom: 36px;
-  width: 50%;
 }
 
 .formGroup button {
@@ -98,10 +105,6 @@ a:hover .iconStyle {
   width: 100%;
 }
 
-.formGroup.full {
-  width: 100%;
-}
-
 .mask {
   background: #ffff50;
   border-radius: 2px;
@@ -116,7 +119,6 @@ a:hover .iconStyle {
 }
 
 .inputWrap {
-  overflow: hidden;
   position: relative;
 }
 
@@ -133,7 +135,7 @@ a:hover .iconStyle {
   padding-left: 0;
   padding-bottom: 18px;
   padding-top: 13px;
-  height: 80px;
+  height: 50px;
   width: 100%;
   outline: none;
   transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
@@ -183,10 +185,4 @@ a:hover .iconStyle {
   border-bottom: 2px solid #eee;
   transform: translate3d(-100%, 0, 0);
   transition: transform 0.3s;
-}
-
-@media (max-width: 768px) {
-  .formGroup {
-    width: 100%;
-  }
 }

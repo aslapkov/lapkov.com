@@ -111,8 +111,7 @@ const Contact = ({ dataContact }) => {
               <span className={styles.inputLabel} />
             </label>
           </div>
-        </div>
-        <div className={styles.formGroup}>
+
           <div className={styles.inputWrap}>
             <label htmlFor="email">
               <input
@@ -127,7 +126,7 @@ const Contact = ({ dataContact }) => {
             </label>
           </div>
         </div>
-        <div className={`${styles.formGroup} ${styles.full}`}>
+        <div className={styles.formGroup}>
           <div className={styles.inputWrap}>
             <label htmlFor="message">
               <textarea
@@ -141,19 +140,19 @@ const Contact = ({ dataContact }) => {
           </div>
         </div>
         {!loading && completeForm ? (
-          <div className={`${styles.formGroup} ${styles.full}`}>
+          <div className={styles.formGroup}>
             <span className={styles.notification}>
               <i></i> {dataContact.success}
             </span>
           </div>
         ) : (
           loading && (
-            <div className={`${styles.formGroup} ${styles.full}`}>
+            <div className={styles.formGroup}>
               <span className="loader"></span>
             </div>
           )
         )}
-        <div className={`${styles.formGroup} ${styles.full}`}>
+        <div className={styles.formGroup}>
           <button type="submit" disabled={isInvalid}>
             <span className={styles.mask} />
             {loading ? (

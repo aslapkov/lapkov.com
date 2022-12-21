@@ -4,9 +4,13 @@ require("dotenv").config({
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const languages = require("./src/data/languages")
 
+/**
+ * @type {import('gatsby').GatsbyConfig}
+ */
 module.exports = {
   flags: {
-    PRESERVE_WEBPACK_CACHE: true,
+    DEV_SSR: true,
+    // PARTIAL_HYDRATION: true,
     FAST_DEV: true,
     PRESERVE_FILE_DOWNLOAD_CACHE: true,
   },
@@ -53,13 +57,6 @@ module.exports = {
       },
     },
     `gatsby-plugin-react-helmet`,
-    {
-      resolve: `gatsby-plugin-typography`,
-      options: {
-        pathToConfigModule: `src/utils/typography`,
-        omitGoogleFont: true,
-      },
-    },
     {
       resolve: `gatsby-plugin-nprogress`,
       options: {

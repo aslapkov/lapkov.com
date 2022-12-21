@@ -57,6 +57,7 @@ button {
   font-size: 14px;
   font-weight: 700;
   margin-right: 20px;
+  height: 35px;
   color: #fff;
   position: relative;
   outline: none;
@@ -182,6 +183,7 @@ button:hover .mask {
     background: #383838;
     margin-right: 10px;
     padding: 3px 7px;
+    height: auto;
   }
 
   .label {
