@@ -19,6 +19,12 @@ const dataWorks = [
   },
   {
     year: `2022`,
+    desc: `Клининг плюс – создание сайта для услуг профессиональной химчистки мягкой мебели в Гомеле.`,
+    siteUrl: `https://cleaning-plus.by`,
+    siteName: `cleaning-plus.by`,
+  },
+  {
+    year: `2022`,
     desc: `Benjamin More – верстка 8 страниц для будущего интернет-магазина красок (html, css и javascript). Дизайн в Figma.`,
     siteUrl: `https://benjamin-moore.vercel.app`,
     siteName: `benjamin-moore.app`,

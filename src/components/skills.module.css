@@ -34,12 +34,12 @@
   border: 2px solid #ffff50;
   border-radius: 50%;
   content: "";
-  height: 15px;
+  height: 12px;
+  width: 12px;
   position: absolute;
   right: 0px;
   background: #141414;
-  top: -6px;
-  width: 15px;
+  top: -7px;
 }
 
 .barWrap span strong {

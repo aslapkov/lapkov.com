@@ -19,6 +19,12 @@ const dataWorks = [
   },
   {
     year: `2022`,
+    desc: `Cleaning Plus – creation of a website for services of dry cleaning of upholstered furniture in Gomel.`,
+    siteUrl: `https://cleaning-plus.by`,
+    siteName: `cleaning-plus.by`,
+  },
+  {
+    year: `2022`,
     desc: `Benjamin More – layout of 8 pages for the future online store of paints (html, css and javascript). Design in Figma.`,
     siteUrl: `https://benjamin-moore.vercel.app`,
     siteName: `benjamin-moore.app`,
