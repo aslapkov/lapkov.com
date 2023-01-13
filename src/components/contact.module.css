@@ -39,7 +39,7 @@ form {
 
 .formGroup {
   position: relative;
-  width: 100%;
+  width: 50%;
   margin-left: 0;
   margin-right: 0;
   margin-bottom: 36px;
@@ -185,4 +185,10 @@ form {
   border-bottom: 2px solid #eee;
   transform: translate3d(-100%, 0, 0);
   transition: transform 0.3s;
+}
+
+@media (max-width: 992px) {
+  .formGroup {
+    width: 100%;
+  }
 }

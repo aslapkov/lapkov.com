@@ -17,7 +17,7 @@ const SkillsPage = ({ location }) => (
       <span style={{ display: `none` }}>Skills</span>
       <TypedReact strings={[`My Skills`]} />
     </h1>
-    <h4>Tech skills</h4>
+    <h2>Tech skills</h2>
     <p>
       Here are the developing skills in which I succeeded the most and I'm
       actively using in my and client projects.

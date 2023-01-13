@@ -17,7 +17,7 @@ const ExperiencePage = ({ location }) => (
       <span style={{ display: `none` }}>Опыт</span>
       <TypedReact strings={[`Об опыте`]} />
     </h1>
-    <h4>Хронология опыта</h4>
+    <h2>Хронология опыта</h2>
     <Experience dataExperience={dataExperience} />
   </Layout>
 )

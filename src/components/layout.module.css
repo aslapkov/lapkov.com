@@ -57,7 +57,11 @@ hr {
 
 h1 {
   height: 44px;
-  font-size: 2.1em;
+  font-size: 2.5em;
+}
+
+h2 {
+  color: rgba(255, 255, 80, 0.8);
 }
 
 h3 {
@@ -66,7 +70,6 @@ h3 {
 
 h4 {
   color: rgba(255, 255, 80, 0.8);
-  text-transform: uppercase;
 }
 
 blockquote {
@@ -76,7 +79,7 @@ blockquote {
 }
 
 p {
-  font-size: 1.05em;
+  font-size: 1.2em;
   font-weight: 400;
 }
 

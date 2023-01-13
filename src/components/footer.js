@@ -13,7 +13,7 @@ const Footer = ({ currentLanguage }) => (
       </p>
     </div>
     <div className={styles.center}>
-      <SocialIcons num="20" color="#777" />
+      <SocialIcons num="30" color="#777" />
     </div>
     <div className={styles.right}>
       <div className={styles.links}>

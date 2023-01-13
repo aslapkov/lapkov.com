@@ -70,7 +70,7 @@ const Contact = ({ dataContact }) => {
           telegram@aslapkov
         </a>
       </p>
-      <h4>{dataContact.h4}</h4>
+      <h2>{dataContact.h4}</h2>
       <h3>{dataContact.h3}</h3>
       <form
         name="contact"

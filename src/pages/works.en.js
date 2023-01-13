@@ -17,7 +17,7 @@ const WorksPage = ({ location }) => (
       <span style={{ display: `none` }}>Works</span>
       <TypedReact strings={[`Some works`]} />
     </h1>
-    <h4>These are part of my projects to can show</h4>
+    <h2>These are part of my projects to can show</h2>
     <p>
       There are not all of the works or projects I've participated in. The
       reason is some of them I cannot present, due to trade secrets, to the

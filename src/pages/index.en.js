@@ -28,7 +28,7 @@ const IndexPage = ({ location }) => (
         ]}
       />
     </h1>
-    <h4>About</h4>
+    <h2>About</h2>
     <blockquote>
       <p>
         My name is <strong>Aleksandr Lapkov</strong>. I'm a front-end, web developer and UI/UX designer.

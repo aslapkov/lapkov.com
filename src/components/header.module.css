@@ -28,7 +28,7 @@ header {
   color: #fff;
   padding: 0 20px;
   font-family: "Kalam";
-  font-size: 1.7em;
+  font-size: 1.9em;
 }
 
 .touch {
@@ -130,11 +130,11 @@ button:hover .mask {
 
 @media (max-width: 767px) {
   .logo {
-    font-size: 1.3em;
+    font-size: 1.5em;
   }
 }
 
-@media only screen and (max-width: 950px) {
+@media (max-width: 950px) {
   header {
     top: 0px;
     margin-top: 50px;

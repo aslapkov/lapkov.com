@@ -3,7 +3,7 @@ import * as styles from "./works.module.css"
 
 const Works = ({ dataWorks }) => {
   return (
-    <div style={{ marginTop: "40px" }}>
+    <div className={styles.worksBlock}>
       {dataWorks.map((elem, i) => {
         const first = i === 0 && styles.first
 

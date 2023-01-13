@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 const dataExperience = [
   {
     period: `Aug 2017 - pres.`,
-    position: `Full-stack dev, designer, SEO`,
+    position: `Web developer, designer, SEO`,
     loc: `Freelance – `,
     siteUrl: `https://lapkov.com`,
     siteName: `lapkov.com`,
@@ -21,7 +21,7 @@ const dataExperience = [
     ),
   },
   {
-    period: `Aug 2018 - Sep 2020.`,
+    period: `Aug 2019 - Sep 2020.`,
     position: `Assistant Web dev`,
     loc: `EXADEL, Minsk – `,
     siteUrl: `https://exadel.com`,
