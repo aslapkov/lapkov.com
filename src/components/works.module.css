@@ -19,7 +19,7 @@
 }
 
 .works span {
-  font-size: 1em;
+  font-size: .8em;
   color: #fff;
   padding-top: 8px;
   display: block;
@@ -39,8 +39,8 @@
 }
 
 span.count {
-  height: 35px;
-  width: 35px;
+  height: 27px;
+  width: 27px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -54,7 +54,7 @@ span.count span {
 }
 
 span.year {
-  font-size: 1em;
+  font-size: .7em;
   font-weight: 700;
 }
 
@@ -67,17 +67,17 @@ span.siteUrl {
   white-space: nowrap;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .works span {
-    font-size: 0.8em;
+    font-size: 1em;
   }
 
   span.count {
-    height: 27px;
-    width: 27px;
+    height: 35px;
+    width: 35px;
   }
 
   span.year {
-    font-size: 0.7em;
+    font-size: 1em;
   }
 }

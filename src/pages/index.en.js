@@ -34,7 +34,7 @@ const IndexPage = ({ location }) => (
         My name is <strong>Aleksandr Lapkov</strong>. I'm a front-end, web developer and UI/UX designer.
         I love to create JavaScript/TypeScript websites with a simple design, develop web
         applications based on business needs and especially solve customers or
-        consumers problems. For the past 5 years I have been building modern and
+        consumers problems. For the past 7 years I have been building modern and
         progressive websites for small companies, organizations and start-ups,
         which helped them reach their business goals including by attracting
         many new clients via Google, Yandex etc. See a small part of my projects

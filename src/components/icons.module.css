@@ -12,10 +12,12 @@
 
 .iconStyle {
   transition: all 0.4s ease 0s;
+  width: 100px;
+  height: 100px;
 }
 
 .lab {
-  display: block;
+  font-size: 1em;
   font-weight: 500;
   color: #fff;
   letter-spacing: 0.5px;
@@ -23,8 +25,13 @@
   margin-top: 36px;
 }
 
-@media (max-width: 769px) {
-  .w100 {
-    width: 100%;
+@media (min-width: 992px) {
+  .iconStyle {
+    width: 150px;
+    height: 150px;
+  }
+
+  .lab {
+    font-size: 1.2em;
   }
 }

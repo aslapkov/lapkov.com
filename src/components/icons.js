@@ -10,14 +10,11 @@ const Icons = ({ data }) => (
         <React.Fragment key={i}>
           <div className={styles.blockDiv}>
             <IconName
-              height="100"
-              width="100"
               className={styles.iconStyle}
               fill="#777"
             />
-            <span className={styles.lab}>{elem.label}</span>
+            <div className={styles.lab}>{elem.label}</div>
           </div>
-          {i % 2 !== 0 && <div className={styles.w100}></div>}
         </React.Fragment>
       )
     })}

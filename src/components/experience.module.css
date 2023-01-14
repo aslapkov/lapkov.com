@@ -72,7 +72,7 @@
 
 .colSm3 span {
   color: #fff;
-  font-size: 0.8em;
+  font-size: 0.7em;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -102,19 +102,19 @@
 }
 
 .psmall {
-  font-size: 1.1em;
+  font-size: 0.9em;
   color: #ccc;
-  line-height: 25px;
+  line-height: 20px;
   margin-bottom: 40px;
 }
 
-@media (max-width: 769px) {
+@media (min-width: 769px) {
   .colSm3 span {
-    font-size: 0.7em;
+    font-size: 0.8em;
   }
 
   .psmall {
-    line-height: 20px;
-    font-size: 0.9em;
+    line-height: 25px;
+    font-size: 1.1em;
   }
 }

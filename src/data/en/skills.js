@@ -104,7 +104,7 @@ const dataSkills = [
     percent: 90,
   },
   {
-    label: `Woocommerce`,
+    label: `WooCommerce`,
     percent: 93,
   },
   {

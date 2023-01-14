@@ -10,7 +10,7 @@
 }
 
 .progress {
-  font-size: 1.1em;
+  font-size: 1em;
   font-weight: 600;
   color: #fff;
   letter-spacing: 0.5px;
@@ -52,13 +52,13 @@
   top: -27px;
 }
 
-@media(min-width:  768px) {
+@media(min-width: 768px) {
   .skills {
     grid-gap: 30px;
   }
 
   .progress {
-    font-size: 1em;
+    font-size: 1.1em;
   }
 }
 
