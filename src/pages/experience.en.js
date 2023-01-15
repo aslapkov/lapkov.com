@@ -11,7 +11,6 @@ const ExperiencePage = ({ location }) => (
       location={location}
       title="Experience | A. Lapkov"
       description="A small chronology of my experience. Step by step, you can learn about my best practices."
-      slug="/experience/"
     />
     <h1>
       <span style={{ display: `none` }}>Experience</span>

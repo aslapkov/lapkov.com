@@ -11,7 +11,6 @@ const WorksPage = ({ location }) => (
       location={location}
       title="Работы | А. Лапков"
       description="Это часть моих работ и проектов, в которых я участвовал. Узнайте больше обо мне на домашней странице."
-      slug="/works/"
     />
     <h1>
       <span style={{ display: `none` }}>Работы</span>

@@ -11,7 +11,6 @@ const SkillsPage = ({ location }) => (
       location={location}
       title="Tехнические навыки | А. Лапков"
       description="Вот знания веб-технологий, в которых я преуспел больше всего, их я активно использую в своих проектах."
-      slug="/ru/skills"
     />
     <h1>
       <span style={{ display: `none` }}>Навыки</span>

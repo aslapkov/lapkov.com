@@ -11,7 +11,6 @@ const ContactPage = ({ location }) => (
       location={location}
       title="Контакты | А. Лапков"
       description="Чтобы связаться со мной, вы можете отправить email или сообщение в telegram."
-      slug="/contacts/"
     />
     <h1>
       <span style={{ display: `none` }}>Страница контактов</span>

@@ -11,7 +11,6 @@ const SkillsPage = ({ location }) => (
       location={location}
       title="Technical skills | A. Lapkov"
       description="Here are the developing skills in which I succeeded the most and I'm active using in my projects."
-      slug="/skills"
     />
     <h1>
       <span style={{ display: `none` }}>Skills</span>

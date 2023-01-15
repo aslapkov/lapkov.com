@@ -11,7 +11,6 @@ const ExperiencePage = ({ location }) => (
       location={location}
       title="Опыт | А. Лапков"
       description="Небольшая хронология моего опыта. Шаг за шагом вы можете узнать о моих лучших практиках."
-      slug="/experience/"
     />
     <h1>
       <span style={{ display: `none` }}>Опыт</span>
