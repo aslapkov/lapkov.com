@@ -18,7 +18,7 @@ const IndexPage = ({ location }) => (
         организаций и стартапов."
     />
     <Image />
-    <h1 style={{ height: "130px" }}>
+    <h1 style={{ height: "130px", textAlign: "center" }}>
       <span style={{ display: "none" }}>
         Я Александр. Фронтенд разработчик, UI/UX дизайнер и SEO
         specialist.

@@ -10,6 +10,7 @@ const Image = () => (
     height={200}
     style={{
       width: "200px",
+      margin: "0 auto",
       marginBottom: "40px",
       borderRadius: "50%",
     }}
