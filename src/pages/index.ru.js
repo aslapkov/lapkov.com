@@ -20,12 +20,12 @@ const IndexPage = ({ location }) => (
     <Image />
     <h1 style={{ height: "130px", textAlign: "center" }}>
       <span style={{ display: "none" }}>
-        Я Александр. Фронтенд разработчик, UI/UX дизайнер и SEO
+        Я Александр. Веб-разработчик, UI/UX дизайнер и SEO
         specialist.
       </span>
       <TypedReact
         strings={[
-          `Я – Александр. <br />Веб-разработчик, <br />UI/UX дизайнер`,
+          `Я – Александр. <br />Разработчик, <br />UI/UX дизайнер`,
         ]}
       />
     </h1>
