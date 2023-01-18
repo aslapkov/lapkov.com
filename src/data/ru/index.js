@@ -6,15 +6,15 @@ import IconSeo from "../../../src/images/seo.svg"
 const dataIndex = [
  {
     iconName: IconCode,
-    label: `Программирование сайтов, приложений`,
+    label: `Разработка сайтов, приложений`,
   },
   {
     iconName: IconDesign,
-    label: `Разработка UI/UX дизайна для сайтов`,
+    label: `Проектирование UI/UX дизайна для сайтов`,
   },
   {
     iconName: IconSeo,
-    label: `Поисковая оптимизация сайтов (SEO)`,
+    label: `Поисковая оптимизация сайтов`,
   },
   {
     iconName: IconSupport,
