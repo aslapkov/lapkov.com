@@ -1,6 +1,8 @@
 import * as React from "react"
 
 const dataContact = {
+  h1: "Контакты",
+  h1Span: "Страница контактов",
   p: (
     <React.Fragment>
       Чтобы связаться со мной, вы можете отправить <a href="mailto:email@lapkov.com">email</a>, сообщение в {" "}

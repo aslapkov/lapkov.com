@@ -7,15 +7,13 @@ const Icons = ({ data }) => (
       const IconName = elem.iconName
 
       return (
-        <React.Fragment key={i}>
-          <div className={styles.blockDiv}>
-            <IconName
-              className={styles.iconStyle}
-              fill="#777"
-            />
-            <div className={styles.lab}>{elem.label}</div>
-          </div>
-        </React.Fragment>
+        <div key={i}>
+          <IconName
+            className={styles.iconStyle}
+            fill="#777"
+          />
+          <div className={styles.lab}>{elem.label}</div>
+        </div>
       )
     })}
   </div>

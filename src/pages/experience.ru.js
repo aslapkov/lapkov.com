@@ -1,7 +1,6 @@
 import * as React from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import TypedReact from "../components/typed-react"
 import Experience from "../components/experience"
 import dataExperience from "../data/ru/experience"
 
@@ -12,11 +11,6 @@ const ExperiencePage = ({ location }) => (
       title="Опыт | А. Лапков"
       description="Небольшая хронология моего опыта. Шаг за шагом вы можете узнать о моих лучших практиках."
     />
-    <h1>
-      <span style={{ display: `none` }}>Опыт</span>
-      <TypedReact strings={[`Об опыте`]} />
-    </h1>
-    <h2>Хронология опыта</h2>
     <Experience dataExperience={dataExperience} />
   </Layout>
 )
