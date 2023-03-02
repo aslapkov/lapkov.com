@@ -167,8 +167,8 @@ const dataWorks = {
     {
       year: `2017`,
       desc: `Presentation site for the ballerina of The Bolshoi Theatre Yulia Grebenshchikova.`,
-      siteUrl: `http://yuliagrebenshchikova.com`,
-      siteName: `yuliagrebenshchikova.com`,
+      siteUrl: `http://yuliagrebenshchikova.ru`,
+      siteName: `yuliagrebenshchikova.ru`,
     },
     {
       year: `2017`,

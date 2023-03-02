@@ -167,8 +167,8 @@ const dataWorks = {
     {
       year: `2017`,
       desc: `Презентационная площадка балерины Большого театра Юлии Гребещиковой.`,
-      siteUrl: `http://yuliagrebenshchikova.com`,
-      siteName: `yuliagrebenshchikova.com`,
+      siteUrl: `http://yuliagrebenshchikova.ru`,
+      siteName: `yuliagrebenshchikova.ru`,
     },
     {
       year: `2017`,
