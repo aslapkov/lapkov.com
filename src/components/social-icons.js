@@ -10,6 +10,7 @@ const SocialIcons = ({ num, color }) => (
       href="https://github.com/aslapkov"
       target="_blank"
       rel="noopener noreferrer"
+      aria-label="Github icon"
     >
       <IconGithub
         height={num}
@@ -22,6 +23,7 @@ const SocialIcons = ({ num, color }) => (
       href="https://www.linkedin.com/in/aleksandr-lapkov/"
       target="_blank"
       rel="noopener noreferrer"
+      aria-label="Linkedin icon"
     >
       <IconLinkedin
         height={num}
@@ -34,6 +36,7 @@ const SocialIcons = ({ num, color }) => (
       href="https://twitter.com/aslapkov"
       target="_blank"
       rel="noopener noreferrer"
+      aria-label="Twitter icon"
     >
       <IconTwitter
         height={num}

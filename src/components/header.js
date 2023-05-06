@@ -74,6 +74,7 @@ const Header = ({ currentLanguage }) => {
           <button
             type="button"
             className={styles.button}
+            aria-label="Navigation"
             onClick={() => setCollapse(!collapse)}
           >
             <span className={styles.iconMenu}>

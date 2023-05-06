@@ -45,7 +45,7 @@ const IndexPage = ({ location }) => (
         <Link to={translateLink("/contact/", "ru")}>напишите мне</Link>!
       </p>
     </blockquote>
-    <h4>Что я могу для вас сделать?</h4>
+    <h3>Что я могу для вас сделать?</h3>
     <Icons data={dataIndex} />
   </Layout>
 )

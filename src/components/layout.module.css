@@ -60,15 +60,7 @@ h1 {
   font-size: 2.5em;
 }
 
-h2 {
-  color: rgba(255, 255, 80, 0.8);
-}
-
-h3 {
-  color: #fff;
-}
-
-h4 {
+h2, h3, h4 {
   color: rgba(255, 255, 80, 0.8);
 }
 
