@@ -57,7 +57,7 @@ const Seo = ({
       link={[
         {
           rel: `canonical`,
-          href: url,
+          href: `https://lapkov.com${url}`,
         },
       ]}
       meta={[
