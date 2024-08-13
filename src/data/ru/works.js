@@ -95,7 +95,7 @@ const dataWorks = {
     {
       year: `2022`,
       desc: `Dev4u – разработка сайтов, мобильных приложений, дизайн и редизайн, SEO.`,
-      siteUrl: `https://dev4u.vercel.app/`,
+      siteUrl: `https://dev4u.vercel.app`,
       siteName: `dev4u.site`,
     },
     {

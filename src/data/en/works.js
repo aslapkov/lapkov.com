@@ -83,7 +83,7 @@ const dataWorks = {
     {
       year: `2022`,
       desc: `Cleaning Plus – creation of a website for services of dry cleaning of upholstered furniture in Gomel.`,
-      siteUrl: `https://cleaning-plus.by`,
+      siteUrl: `https://cleaning-plus-aslapkov.vercel.app`,
       siteName: `cleaning-plus.by`,
     },
     {
@@ -95,7 +95,7 @@ const dataWorks = {
     {
       year: `2022`,
       desc: `Dev4u – development websites and mobile applications, design and redesign, SEO.`,
-      siteUrl: `https://dev4u.site`,
+      siteUrl: `https://dev4u.vercel.app`,
       siteName: `dev4u.site`,
     },
     {
@@ -179,8 +179,8 @@ const dataWorks = {
     {
       year: `2019`,
       desc: `New modern brand in Belarus with exclusive clothes, shoes and bags.`,
-      siteUrl: `https://ботти.бел`,
-      siteName: `ботти.бел`,
+      siteUrl: `https://botti.by`,
+      siteName: `botti.by`,
     },
     {
       year: `2018`,
