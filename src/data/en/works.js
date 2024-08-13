@@ -9,6 +9,54 @@ const dataWorks = {
   
   works: [
     {
+      year: `2024`,
+      desc: `«TAINA PERFUME BOUTIQUE» development on Next JS, Typescript, Tailwindcss, Wordpress API and WOO. Support and improvements.`,
+      siteUrl: `https://taina.by`,
+      siteName: `taina.by`,
+    },
+    {
+      year: `2024`,
+      desc: `Development of a website for stretch ceilings and chandeliers in Gomel.`,
+      siteUrl: `https://tyani.by`,
+      siteName: `tyani.by`,
+    },
+    {
+      year: `2023`,
+      desc: `Quiz for real estate services in Minsk. Gatsby (React).`,
+      siteUrl: `https://real-estate-quiz-aslapkov.vercel.app`,
+      siteName: `real-estate-quiz-aslapkov.vercel.app`,
+    },
+    {
+      year: `2023`,
+      desc: `Website for selling dietary supplements in Belarus. Samyun Wan (capsules).`,
+      siteUrl: `https://samyun-online.vercel.app`,
+      siteName: `samyun-online.vercel.app`,
+    },
+    {
+      year: `2023`,
+      desc: `Website for the Martial Arts Federation "LEGENDA" section of Greco-Roman and freestyle wrestling in Minsk.`,
+      siteUrl: `https://legenda-club.by`,
+      siteName: `legenda-club.by`,
+    },
+    {
+      year: `2023`,
+      desc: `Full layout (~25 pages) of an online store selling paints and varnishes + js for interactivity.`,
+      siteUrl: `https://stroy-hit.vercel.app`,
+      siteName: `stroy-hit.vercel.app`,
+    },
+    {
+      year: `2023`,
+      desc: `Website for fitness online marathon for weight loss Nesvyataya by Daria.`,
+      siteUrl: `https://darfit.by`,
+      siteName: `darfit.by`,
+    },
+    {
+      year: `2023`,
+      desc: `Layout using a template in figma for the Railway draft gear service.`,
+      siteUrl: `https://rjd.vercel.app`,
+      siteName: `rjd.vercel.app`,
+    },
+    {
       year: `2022`,
       desc: `Creating a survey in Gatsby (React) for the A2:Research online research service and hornhoo.`,
       siteUrl: `https://quiz-aslapkov.vercel.app`,

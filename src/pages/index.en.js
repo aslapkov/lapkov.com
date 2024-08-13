@@ -19,19 +19,18 @@ const IndexPage = ({ location }) => (
     <Image />
     <h1 style={{ height: "130px", textAlign: "center" }}>
       <span style={{ display: "none" }}>
-        I'm Alekandr. Front-end developer, UI/UX designer and SEO
-        specialist.
+        I'm Alekandr. Web developer, SEO specialist.
       </span>
       <TypedReact
         strings={[
-          "I'm Aleksandr. <br />Web developer, <br />UI/UX designer",
+          "I'm Aleksandr. <br />Web developer, <br />SEO specialist",
         ]}
       />
     </h1>
     <h2>About</h2>
     <blockquote>
       <p>
-        My name is <strong>Aleksandr Lapkov</strong>. I'm a front-end, web developer and UI/UX designer.
+        My name is <strong>Aleksandr Lapkov</strong>. I'm a front-end, web developer and SEO specialist.
         I love to create JavaScript/TypeScript websites with a simple design, develop web
         applications based on business needs and especially solve customers or
         consumers problems. For the past 7 years I have been building modern and

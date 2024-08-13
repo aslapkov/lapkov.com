@@ -6,8 +6,56 @@ const dataWorks = {
     в том, что некоторые из них я не могу показать из-за коммерческой
     тайны, из-за характера приложений или они больше не существуют,
     ну и по некоторым другим причинам.`,
-
+    
   works: [
+    {
+      year: `2024`,
+      desc: `«TAINA PERFUME BOUTIQUE» разработка с нуля на Next JS, Typescript, Tailwindcss, API Wordpress и WOO. Поддержка и доработки.`,
+      siteUrl: `https://taina.by`,
+      siteName: `taina.by`,
+    },
+    {
+      year: `2024`,
+      desc: `Разработка сайта натяжных потолков и люстр в Гомеле.`,
+      siteUrl: `https://tyani.by`,
+      siteName: `tyani.by`,
+    },
+    {
+      year: `2023`,
+      desc: `Квиз для риэлторских услуг в Минске. Gatsby (React).`,
+      siteUrl: `https://real-estate-quiz-aslapkov.vercel.app`,
+      siteName: `real-estate-quiz-aslapkov.vercel.app`,
+    },
+    {
+      year: `2023`,
+      desc: `Сайт для продажи бадов в Беларуси. Samyun Wan (капсулы).`,
+      siteUrl: `https://samyun-online.vercel.app`,
+      siteName: `samyun-online.vercel.app`,
+    },
+    {
+      year: `2023`,
+      desc: `Сайт для Федерации единоборств «ЛЕГЕНДА» секции греко-римской и вольной борьбы в Минске.`,
+      siteUrl: `https://legenda-club.by`,
+      siteName: `legenda-club.by`,
+    },
+    {
+      year: `2023`,
+      desc: `Полная верстка (~25 стр.) интернет-магазина по продаже лакокрасочных материалов + js для интерактива.`,
+      siteUrl: `https://stroy-hit.vercel.app`,
+      siteName: `stroy-hit.vercel.app`,
+    },
+    {
+      year: `2023`,
+      desc: `Сайт для фитнес онлайн марафона для похудения Несвятая by Daria.`,
+      siteUrl: `https://darfit.by`,
+      siteName: `darfit.by`,
+    },
+    {
+      year: `2023`,
+      desc: `Верстка по шаблону в figma для Сервиса ЖД поглащающие аппараты.`,
+      siteUrl: `https://rjd.vercel.app`,
+      siteName: `rjd.vercel.app`,
+    },
     {
       year: `2022`,
       desc: `Создание опроса на Gatsby (React) для сервиса онлайн-исследований A2:Research и hornhoo.`,
@@ -35,7 +83,7 @@ const dataWorks = {
     {
       year: `2022`,
       desc: `Клининг плюс – создание сайта для услуг профессиональной химчистки мягкой мебели в Гомеле.`,
-      siteUrl: `https://cleaning-plus.by`,
+      siteUrl: `https://cleaning-plus-aslapkov.vercel.app`,
       siteName: `cleaning-plus.by`,
     },
     {
@@ -47,7 +95,7 @@ const dataWorks = {
     {
       year: `2022`,
       desc: `Dev4u – разработка сайтов, мобильных приложений, дизайн и редизайн, SEO.`,
-      siteUrl: `https://dev4u.site`,
+      siteUrl: `https://dev4u.vercel.app/`,
       siteName: `dev4u.site`,
     },
     {
@@ -77,7 +125,7 @@ const dataWorks = {
     {
       year: `2020`,
       desc: `Компания занимается установкой натяжных потолков в Гомеле 10 лет.`,
-      siteUrl: `https://sofitto-by.vercel.app`,
+      siteUrl: `https://sofitto-by-aslapkovs-projects.vercel.app`,
       siteName: `sofitto.by`,
     },
     {
@@ -131,8 +179,8 @@ const dataWorks = {
     {
       year: `2019`,
       desc: `Новый современный бренд в Беларуси с эксклюзивной одеждой, обувью и сумками.`,
-      siteUrl: `https://ботти.бел`,
-      siteName: `ботти.бел`,
+      siteUrl: `https://botti.by`,
+      siteName: `botti.by`,
     },
     {
       year: `2018`,

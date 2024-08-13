@@ -88,6 +88,7 @@ module.exports = {
         webvisor: true,
         trackHash: true,
         afterBody: true,
+        defer: true,
       },
     },
   ],
