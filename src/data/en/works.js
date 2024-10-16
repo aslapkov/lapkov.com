@@ -10,7 +10,7 @@ const dataWorks = {
   works: [
     {
       year: `2024`,
-      desc: `«TAINA PERFUME BOUTIQUE» development on Next JS, Typescript, Tailwindcss, Wordpress API and WOO. Support and improvements.`,
+      desc: `«TAINA PERFUME BOUTIQUE» development on Next JS, Typescript, Tailwind CSS, Wordpress and Woocommerce API. Support and improvements.`,
       siteUrl: `https://taina.by`,
       siteName: `taina.by`,
     },

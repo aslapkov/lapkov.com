@@ -26,6 +26,10 @@ const dataSkills = {
       percent: 97,
     },
     {
+      label: `Tailwind CSS`,
+      percent: 94,
+    },
+    {
       label: `Redux`,
       percent: 93,
     },
