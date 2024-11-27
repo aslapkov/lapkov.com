@@ -112,9 +112,9 @@ const dataWorks = {
     },
     {
       year: `2021`,
-      desc: `Концепт быстрого интернет-магазина написанного на Gatsby js + Shopify + Prismic (JAMStack) и развернутого с помощью Gatsby Cloud.`,
-      siteUrl: `https://satiby.gatsbyjs.io`,
-      siteName: `satiby.gatsbyjs.io`,
+      desc: `Концепт быстрого интернет-магазина написанного на Gatsby js + Shopify + Prismic (JAMStack) и развернутого с помощью Vercel.`,
+      siteUrl: `https://sati.vercel.app`,
+      siteName: `sati.vercel.app`,
     },
     {
       year: `2021`,
