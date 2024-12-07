@@ -12,8 +12,8 @@ const IndexPage = ({ location }) => (
   <Layout location={location} defaultLang="en">
     <Seo
       location={location}
-      title="I'm a web developer, UI/UX designer and SEO specialist | A. Lapkov"
-      description="My name is Aleksandr Lapkov. I'm a front-end, web developer and UI/UX designer. I have been building modern and
+      title="I'm a web developer and SEO specialist | A. Lapkov"
+      description="My name is Aleksandr Lapkov. I'm a web developer (mostly frontend) and SEO specialist. I have been building modern and
         progressive websites for small companies, organizations and start-ups."
     />
     <Image />
