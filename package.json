@@ -4,9 +4,6 @@
   "description": "My small personal website built with Gatsby",
   "version": "1.3.1",
   "author": "A.S. Lapkov <a.s.lapkov@gmail.com>",
-  "engines": {
-    "node": "22.x"
-  },
   "dependencies": {
     "gatsby": "^5.9.0",
     "gatsby-plugin-google-analytics": "^5.9.0",
