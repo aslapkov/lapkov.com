@@ -24,13 +24,7 @@ const dataWorks = {
       year: `2023`,
       desc: `Quiz for real estate services in Minsk. Gatsby (React).`,
       siteUrl: `https://real-estate-quiz-aslapkov.vercel.app`,
-      siteName: `real-estate-quiz-aslapkov.vercel.app`,
-    },
-    {
-      year: `2023`,
-      desc: `Website for selling dietary supplements in Belarus. Samyun Wan (capsules).`,
-      siteUrl: `https://samyun-online.vercel.app`,
-      siteName: `samyun-online.vercel.app`,
+      siteName: `realty-sale.by`,
     },
     {
       year: `2023`,
@@ -49,6 +43,12 @@ const dataWorks = {
       desc: `Website for fitness online marathon for weight loss Nesvyataya by Daria.`,
       siteUrl: `https://darfit.by`,
       siteName: `darfit.by`,
+    },
+    {
+      year: `2023`,
+      desc: `Creation of a survey site on Next js and Tailwind for the research center "Position" and the e-mail newsletter service "Pochtaboy"..`,
+      siteUrl: `https://questionnaire-dun-xi.vercel.app`,
+      siteName: `questionnaire-dun-xi.vercel.app`,
     },
     {
       year: `2023`,
@@ -93,10 +93,10 @@ const dataWorks = {
       siteName: `benjamin-moore.app`,
     },
     {
-      year: `2022`,
-      desc: `Dev4u – development websites and mobile applications, design and redesign, SEO.`,
-      siteUrl: `https://dev4u.vercel.app`,
-      siteName: `dev4u.site`,
+      year: `2023`,
+      desc: `Website for selling dietary supplements in Belarus. Samyun Wan (capsules).`,
+      siteUrl: `https://samyun-online.vercel.app`,
+      siteName: `samyun-online.by`,
     },
     {
       year: `2022`,

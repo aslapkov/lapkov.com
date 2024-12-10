@@ -24,13 +24,7 @@ const dataWorks = {
       year: `2023`,
       desc: `Квиз для риэлторских услуг в Минске. Gatsby (React).`,
       siteUrl: `https://real-estate-quiz-aslapkov.vercel.app`,
-      siteName: `real-estate-quiz-aslapkov.vercel.app`,
-    },
-    {
-      year: `2023`,
-      desc: `Сайт для продажи бадов в Беларуси. Samyun Wan (капсулы).`,
-      siteUrl: `https://samyun-online.vercel.app`,
-      siteName: `samyun-online.vercel.app`,
+      siteName: `realty-sale.by`,
     },
     {
       year: `2023`,
@@ -49,6 +43,12 @@ const dataWorks = {
       desc: `Сайт для фитнес онлайн марафона для похудения Несвятая by Daria.`,
       siteUrl: `https://darfit.by`,
       siteName: `darfit.by`,
+    },
+    {
+      year: `2023`,
+      desc: `Создание сайта опроса на Next js и Tailwind для исследовательского центра «Позиция» и сервиса e-mail рассылок «Pochtaboy».`,
+      siteUrl: `https://questionnaire-dun-xi.vercel.app`,
+      siteName: `questionnaire-dun-xi.vercel.app`,
     },
     {
       year: `2023`,
@@ -94,9 +94,9 @@ const dataWorks = {
     },
     {
       year: `2022`,
-      desc: `Dev4u – разработка сайтов, мобильных приложений, дизайн и редизайн, SEO.`,
-      siteUrl: `https://dev4u.vercel.app`,
-      siteName: `dev4u.site`,
+      desc: `Сайт для продажи бадов в Беларуси. Samyun Wan (капсулы).`,
+      siteUrl: `https://samyun-online.vercel.app`,
+      siteName: `samyun-online.by`,
     },
     {
       year: `2022`,
